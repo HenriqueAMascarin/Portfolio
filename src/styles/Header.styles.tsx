@@ -108,7 +108,7 @@ export const NavHeader = styled.nav`
     transition: all .4s ease-in-out;
 
     &.active{
-        transform: translateY(calc(100% - 110px));
+        transform: translateY(calc(100% - clamp(2.5em, 15vw, 3em) - 57px));
     }
 
     ul{
@@ -122,9 +122,10 @@ export const NavHeader = styled.nav`
         position: relative;
 
         li{
-            font-size: 3em;
+            font-size: clamp(2.5em, 15vw, 3em);
             font-weight: bold;
             margin: 4px 0;
+           
              
             a{
                 text-decoration: none;

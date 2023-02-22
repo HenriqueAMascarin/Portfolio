@@ -28,7 +28,7 @@ export default function Tecnologies() {
                 <div>
                     {arrayTech.map((el, key) => {
                         return (
-                            <img src={el.img} alt={el.alt} key={key} />
+                            <img src={el.img} alt={el.alt} title={el.alt} key={key} />
                         )
                     })}
                 </div>

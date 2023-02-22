@@ -53,6 +53,6 @@ export const arrayCards = [
         { img: css, alt: "Css logo" },
         { img: html, alt: "Html logo" },
         {img: photoshop, alt: "Photoshop logo"}],
-        liveLink: "https://henriqueamascarin.vercel.app", github: "https://github.com/LuckTheGamers/Portfolio"
+        liveLink: "https://henriqueold.vercel.app", github: "https://github.com/LuckTheGamers/PortfolioOld"
     },
 ]

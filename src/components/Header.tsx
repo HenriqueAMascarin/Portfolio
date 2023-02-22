@@ -14,7 +14,7 @@ export default function Header() {
             <FixedDiv>
                 <BackgroundDiv />
                 <MarginCapsule>
-                    <LogoStyle href="#">H</LogoStyle>
+                    <LogoStyle href="#" title="Henrique Logo">H</LogoStyle>
 
                     <NavHeader>
                         <ul>
@@ -25,7 +25,7 @@ export default function Header() {
                         </ul>
                     </NavHeader>
 
-                    <HamburguerMenu onClick={() => hamburguerFunction()}>
+                    <HamburguerMenu title="Hamburguer Menu" onClick={() => hamburguerFunction()}>
                         <span></span>
                         <span></span>
                         <span></span>
