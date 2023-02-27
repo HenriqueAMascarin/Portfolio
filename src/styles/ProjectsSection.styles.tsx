@@ -51,7 +51,7 @@ export const CardsDiv = styled.div`
     padding: 15px;
     border-radius: 10px;
     font-weight: bold;
-    max-width: 430px;
+    max-width: 370px;
 
     h3{
         color: ${Variables.black};
@@ -63,10 +63,8 @@ export const CardsDiv = styled.div`
         font-size: clamp(1.4em, 8vw, 1.6em);
         margin: 5px 0 20px;
     }
-
     .CardsImg{
         width: 330px;
-        
         width: 100%;
         box-shadow: 0 0 8px black;
         border-radius: 10px;

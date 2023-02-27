@@ -15,9 +15,9 @@ export const TechSection = styled.section`
     ${MarginCapsule} div{
         display: grid;
         gap: 20px 20px;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 140px));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 120px));
         justify-content: center;
-        max-width: 540px;
+        max-width: 500px;
         margin: 0 auto;
 
         img{

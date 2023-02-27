@@ -65,5 +65,7 @@ export const WorkStyle = styled.section`
 
     h2{
         color: ${Variables.black};
+        margin: 0 auto;
+        max-width: 500px;
     }
 `;

@@ -7,10 +7,10 @@ import javascript from './assets/images/techIcons/javascript.svg';
 import css from './assets/images/techIcons/css.svg';
 import html from './assets/images/techIcons/html.svg';
 
-import GodOfWar from './assets/images/screenshots/GodOfWar.png';
-import Todo from './assets/images/screenshots/Todo.png';
-import Shortly from './assets/images/screenshots/Shortly.png';
-import PortfolioOld from './assets/images/screenshots/PortfolioOld.png';
+import GodOfWar from './assets/images/screenshots/GodOfWar.webp';
+import Todo from './assets/images/screenshots/Todo.webp';
+import Shortly from './assets/images/screenshots/Shortly.webp';
+import PortfolioOld from './assets/images/screenshots/PortfolioOld.webp';
 
 export const arrayCards = [
     {

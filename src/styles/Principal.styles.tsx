@@ -24,11 +24,16 @@ export const PrincipalDiv = styled.div`
         }
     }
 
-    svg{
+
+    a{
         margin: 84px 0 10px;
-        width: 50px;
-        animation: 1.4s ease-in-out infinite arrow;
+
+        svg{
+            width: 50px;
+            animation: 1.4s ease-in-out infinite arrow;
+        }
     }
+    
     
     p, h1{text-shadow: 0 3px 4px rgba(0,0,0, 0.5);}
     
