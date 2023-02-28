@@ -24,20 +24,37 @@ export const FooterStyled = styled.footer`
     }
 
     .MakeLink{
-        padding: 0 30px;
+
+        &::before{
+            content: "";
+            display: block;
+            position: relative;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 3px;
+            background-color: ${Variables.white};
+            max-width: 400px;
+            margin: 0 auto 20px;
+        }
+        
+        a{
+            max-width: 250px;
+            display: inline-block;
+            margin: 0 auto;
+        }
     }
 
     a path, a{transition: 0.2s ease-in-out;}
+    
 
     .socialLinks{
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 30px;
-
         
         a:hover path{
-            
             fill: ${Variables.red};
         }
     }

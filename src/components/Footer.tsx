@@ -22,7 +22,10 @@ export default function Footer() {
                     </a>
                 </div>
 
-                <a href="https://github.com/LuckTheGamers" className="MakeLink">Feito por Henrique de Albuquerque Mascarin</a>
+                <div className="MakeLink">
+                    <a href="https://github.com/LuckTheGamers">Feito por Henrique de Albuquerque Mascarin</a>
+                </div>
+
             </MarginCapsule >
         </FooterStyled>
     )
