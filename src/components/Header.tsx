@@ -3,8 +3,8 @@ import { MarginCapsule } from "../styles/GlobalStyle";
 
 export default function Header() {
     function hamburguerFunction() {
-        const menu = document.querySelector(".HamburguerMenu");
-        const nav = document.querySelector(".NavHeader");
+        const menu = document.querySelector(".hamburguerMenu");
+        const nav = document.querySelector(".navHeader");
         menu?.classList.toggle("active");
         nav?.classList.toggle("active");
     }

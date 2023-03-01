@@ -35,15 +35,21 @@ export const HeaderStyle = styled.header`
                 justify-content: center;
                 width: 58px;
                 height: 80%;
+                flex-shrink: 0;
                 border-radius: 100%;
                 background-color: ${Variables.red};
                 position: relative;
                 z-index: 1;
-
+                transition: all .4s ease-in-out;
                 color: ${Variables.white};
                 font-weight: bold;
                 font-size: 3.3em;
                 text-decoration: none;
+
+                &:hover{
+                    color: ${Variables.red};
+                    background-color: ${Variables.white};
+                }
             }
 
             .navHeader{
@@ -69,12 +75,12 @@ export const HeaderStyle = styled.header`
                     position: relative;
 
                     li{
-                        font-size: clamp(2.5em, 15vw, 3em);
                         font-weight: bold;
                         margin: 4px 0;
                     
                         
                         a{
+                            font-size: clamp(2.5em, 15vw, 3em);
                             text-decoration: none;
                             color: ${Variables.white};
                             display: block;
@@ -154,9 +160,10 @@ export const HeaderStyle = styled.header`
         }
     }
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px){
         .fixedDiv{
             ${MarginCapsule}{
+
                 .hamburguerMenu{
                     display: none;
                 }
@@ -170,11 +177,18 @@ export const HeaderStyle = styled.header`
                     ul{
                         display: flex;
                         padding: 0;
+                        justify-content: center;
                         
-                        
-                        li{
+                        li{ 
+                            margin: 0;
+
                             &:nth-child(1)::after, &:nth-child(2)::after, &:nth-child(3)::after{
                                 display: none;
+                            }
+
+                            a{
+                                font-size: clamp(2.9em, 4vw, 3em);
+                                padding: 0 20px;
                             }
                         }
                         

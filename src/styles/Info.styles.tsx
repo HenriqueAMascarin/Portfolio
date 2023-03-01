@@ -4,72 +4,98 @@ import { Variables } from "./Colors";
 export const Info = styled.section`
     background-color: ${Variables.black};
     text-align: center;
-`;
 
-export const InfoDiv = styled.div`
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: ${Variables.white};
-    padding: ${Variables.padding};
+    .infoDiv{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: ${Variables.white};
+        padding: ${Variables.padding};
 
-    img{
-        width: 210px;
-        height: 205.45px;
-        border-radius: 140px;
-    }
-
-    h2::after{
-        background-color: ${Variables.white};
-    }
-
-    p{
-        font-size: 1.9em;
-        margin-bottom: 40px;
-        max-width: 360px;
-    }
-
-    a{
-        color: ${Variables.black};
-        background-color: ${Variables.white};
-        font-size: 1.7em;
-        text-decoration: none;
-        border-radius: 10px;
-        padding: 5px;
-        font-weight: bold;
-        margin-top: 30px;
-        transition: 0.2s ease-in-out;
-    }
-    
-    .infoResume{
-        &:hover{
-            color: ${Variables.white};
-            background-color: ${Variables.red};
+        img{
+            width: 210px;
+            height: 199,25px;
+            border-radius: 100%;
         }
-    }
-`;
 
-export const InfoIcons = styled.div`
-    display: flex;
-    gap: 40px;
+        h2::after{
+            background-color: ${Variables.white};
+        }
 
-    a{
-        display: block;
-        background-color: transparent;
+        p{
+            font-size: clamp(1.6em, 7vw, 1.9em);
+            margin-bottom: 40px;
+            max-width: 360px;
+        }
 
-        &:hover svg path{
-            fill: ${Variables.red};
+        .infoAction{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        a{
+            color: ${Variables.black};
+            background-color: ${Variables.white};
+            font-size: 1.7em;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 5px;
+            font-weight: bold;
+            transition: 0.2s ease-in-out;
+        }
+
+        .infoIcons{
+            display: flex;
+            gap: 40px;
+
+            a{
+                display: block;
+                background-color: transparent;
+
+                &:hover svg path{
+                    fill: ${Variables.red};
+                }
+                
+                svg{
+                    width: 50px;
+                    height: 48px;
+                    fill: ${Variables.red};
+                    
+                    path{
+                        transition: 0.2s ease-in-out;
+                    }
+                }
+            }
         }
         
-        svg{
-            width: 50px;
-            height: 48px;
-            fill: ${Variables.red};
+        .infoResume{
+            &:hover{
+                color: ${Variables.white};
+                background-color: ${Variables.red};
+            }
+        }
+
+    }
+
+    @media screen and (min-width: 1024px){
+        .infoDiv{
+            flex-direction: row;
+            justify-content: center;
+            gap: 80px;
             
-            path{
-                transition: 0.2s ease-in-out;
+            img{
+                width: 330px;
+                height: 313.11px;
+                border-radius: 100px;
+            }
+
+            .infoAction{
+                flex-direction: row;
+                gap: 30px;
             }
         }
     }
-    
 `;

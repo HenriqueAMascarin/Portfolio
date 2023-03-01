@@ -45,7 +45,7 @@ export const GlobalStyle = createGlobalStyle`
         font-size: clamp(3.6em, 20vw, 8em);
     }
     h2{
-        font-size: clamp(2.6em, 15vw, 3.5em);
+        font-size: clamp(2.6em, 15vw, 4em);
 
         &::after{
             content: "";
@@ -57,6 +57,12 @@ export const GlobalStyle = createGlobalStyle`
             height: 6px;
             background-color: ${Variables.black};
             margin: 0 auto 20px;
+        }
+    }
+
+    @media screen and (min-width: 1024px){
+        h2{
+            font-size: 5em;
         }
     }
 
