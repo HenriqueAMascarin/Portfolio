@@ -1,5 +1,5 @@
 import { HeaderStyle} from "../styles/Header.styles";
-import { MarginCapsule } from "../styles/GlobalStyle";
+import { HorizontalPadding } from "../styles/GlobalStyle";
 
 export default function Header() {
     function hamburguerFunction() {
@@ -13,7 +13,7 @@ export default function Header() {
         <HeaderStyle>
             <div className="fixedDiv">
                 <div className="backgroundDiv"/>
-                <MarginCapsule>
+                <HorizontalPadding>
                     <a href="#" className="logoStyle" title="Henrique Logo">H</a>
 
                     <nav className="navHeader">
@@ -30,7 +30,7 @@ export default function Header() {
                         <span></span>
                         <span></span>
                     </button>
-                </MarginCapsule>
+                </HorizontalPadding>
             </div>
         </HeaderStyle>
     )

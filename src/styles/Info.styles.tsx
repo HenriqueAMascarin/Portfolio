@@ -10,7 +10,6 @@ export const Info = styled.section`
         align-items: center;
         flex-direction: column;
         color: ${Variables.white};
-        padding: ${Variables.padding};
 
         img{
             width: 210px;
@@ -80,7 +79,7 @@ export const Info = styled.section`
 
     }
 
-    @media screen and (min-width: 1024px){
+    @media screen and (min-width: ${Variables.mediaQueryWidth}){
         .infoDiv{
             flex-direction: row;
             justify-content: center;

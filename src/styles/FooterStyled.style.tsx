@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Variables } from "./Colors";
-import { MarginCapsule } from "./GlobalStyle";
+import { HorizontalPadding } from "./GlobalStyle";
 
 export const FooterStyled = styled.footer`
     background-color: ${Variables.black};
@@ -17,7 +17,7 @@ export const FooterStyled = styled.footer`
         }
     }
 
-    ${MarginCapsule}{
+    ${HorizontalPadding}{
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -26,16 +26,10 @@ export const FooterStyled = styled.footer`
     .MakeLink{
 
         &::before{
-            content: "";
-            display: block;
-            position: relative;
-            left: 0;
-            right: 0;
             width: 100%;
             height: 3px;
             background-color: ${Variables.white};
             max-width: 400px;
-            margin: 0 auto 20px;
         }
         
         a{

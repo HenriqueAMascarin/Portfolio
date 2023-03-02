@@ -1,18 +1,13 @@
 import styled from "styled-components"
 import { Variables } from "./Colors";
-import { MarginCapsule } from "./GlobalStyle";
+import { HorizontalPadding } from "./GlobalStyle";
 
 export const TechSection = styled.section`
     background-color: ${Variables.white};
     color: ${Variables.black};
     text-align: center;
-    padding: ${Variables.padding};
-
-    h2:after{
-        background-color: ${Variables.black};
-    }
-
-    ${MarginCapsule} div{
+    
+    ${HorizontalPadding} .techIcons{
         display: grid;
         gap: 20px 20px;
         grid-template-columns: repeat(auto-fit, minmax(100px, 120px));
@@ -24,6 +19,35 @@ export const TechSection = styled.section`
             width: 140px;
             justify-self: center;
             align-self: center;
+        }
+    }
+
+    @media screen and (min-width: ${Variables.mediaQueryWidth}){
+        ${HorizontalPadding}{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            h2{
+                max-width: 260px;
+                overflow-wrap: break-word;
+                position: relative;
+
+                &::after{
+                    position: absolute;
+                    top: 0;
+                    left: 280px;
+                    width: 6px;
+                    height: 100%;
+                    transform-origin: center;
+                    display: block;
+                }
+            }
+            
+            .techIcons{
+                margin: 0 0 0 80px;
+            }
         }
     }
 `;

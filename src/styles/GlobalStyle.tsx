@@ -46,29 +46,36 @@ export const GlobalStyle = createGlobalStyle`
     }
     h2{
         font-size: clamp(2.6em, 15vw, 4em);
-
-        &::after{
-            content: "";
-            display: block;
-            position: relative;
-            left: 0;
-            right: 0;
-            width: 138px;
-            height: 6px;
-            background-color: ${Variables.black};
-            margin: 0 auto 20px;
-        }
     }
 
-    @media screen and (min-width: 1024px){
+    h2::after, .MakeLink::before{
+        content: "";
+        display: block;
+        position: relative;
+        left: 0;
+        right: 0;
+        width: 138px;
+        height: 6px;
+        background-color: ${Variables.black};
+        margin: 0 auto 20px;
+    }
+
+    @media screen and (min-width: ${Variables.mediaQueryWidth}){
         h2{
             font-size: 5em;
+        }
+
+        h2::after, .MakeLink::before{
+            width: 200px;
         }
     }
 
 `;
 
-export const MarginCapsule = styled.div`
+export const HorizontalPadding = styled.div`
     padding: 0 10px;
-    display: block;
+`;
+
+export const VerticalPadding = styled.div`
+    padding: 70px 0;
 `;

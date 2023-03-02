@@ -1,10 +1,10 @@
 import { FooterStyled } from "../styles/FooterStyled.style"
-import { MarginCapsule } from "../styles/GlobalStyle"
+import { HorizontalPadding } from "../styles/GlobalStyle"
 
 export default function Footer() {
     return (
         <FooterStyled>
-            <MarginCapsule>
+            <HorizontalPadding>
                 <div className="socialLinks">
 
                     <a href="https://www.linkedin.com/in/henriqueamasc/">
@@ -26,7 +26,7 @@ export default function Footer() {
                     <a href="https://github.com/LuckTheGamers">Feito por Henrique de Albuquerque Mascarin</a>
                 </div>
 
-            </MarginCapsule >
+            </HorizontalPadding >
         </FooterStyled>
     )
 }

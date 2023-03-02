@@ -3,5 +3,5 @@ export const Variables = {
         black: "#212121",
         gray: "#3F403F",
         white: "#F2F2F2",
-        padding: "60px 0"
+        mediaQueryWidth: "1024px"
 }

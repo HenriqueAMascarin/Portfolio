@@ -3,7 +3,6 @@ import { Variables } from "./Colors";
 
 export const WorkStyle = styled.section`
     text-align: center;
-    padding: ${Variables.padding};
     background-color: ${Variables.white};
 
     form{

@@ -7,7 +7,7 @@ import figma from '../assets/images/techIcons/figma.svg';
 import photoshop from '../assets/images/techIcons/photoshop.svg';
 
 import { TechSection } from '../styles/TechSection.styles';
-import { MarginCapsule } from '../styles/GlobalStyle';
+import { HorizontalPadding, VerticalPadding } from '../styles/GlobalStyle';
 
 export default function Tecnologies() {
 
@@ -23,16 +23,19 @@ export default function Tecnologies() {
 
     return (
         <TechSection id="technologies">
-            <MarginCapsule>
-                <h2>Tecnologias</h2>
-                <div>
-                    {arrayTech.map((el, key) => {
-                        return (
-                            <img src={el.img} alt={el.alt} title={el.alt} key={key} />
-                        )
-                    })}
-                </div>
-            </MarginCapsule>
+            <VerticalPadding>
+                <HorizontalPadding>
+                    <h2>Tecnologias</h2>
+
+                    <div className='techIcons'>
+                        {arrayTech.map((el, key) => {
+                            return (
+                                <img src={el.img} alt={el.alt} title={el.alt} key={key} />
+                            )
+                        })}
+                    </div>
+                </HorizontalPadding>
+            </VerticalPadding>
         </TechSection>
 
     )

@@ -1,11 +1,11 @@
-import { MarginCapsule } from "../styles/GlobalStyle";
-import { SectionPrincipal, PrincipalDiv } from "../styles/Principal.styles";
+import { HorizontalPadding } from "../styles/GlobalStyle";
+import { SectionPrincipal } from "../styles/Principal.styles";
 
 export default function PrincipalSection() {
     return (
         <SectionPrincipal>
-            <MarginCapsule>
-                <PrincipalDiv>
+            <HorizontalPadding>
+                <div className="principalDiv">
                     <h1>Henrique <span>Mascarin</span></h1>
                     <p>desenvolvedor <span>front-end</span></p>
 
@@ -17,8 +17,8 @@ export default function PrincipalSection() {
                     </a>
 
 
-                </PrincipalDiv>
-            </MarginCapsule>
+                </div>
+            </HorizontalPadding>
         </SectionPrincipal>
     )
 }

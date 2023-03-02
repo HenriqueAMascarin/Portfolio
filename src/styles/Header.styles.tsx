@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { MarginCapsule } from "./GlobalStyle";
+import { HorizontalPadding } from "./GlobalStyle";
 import { Variables } from "./Colors";
 
 export const HeaderStyle = styled.header`
@@ -21,7 +21,7 @@ export const HeaderStyle = styled.header`
             background-color: ${Variables.black};
         }
 
-        ${MarginCapsule}{
+        ${HorizontalPadding}{
             height: 100%;
             width: 100%;
             display: flex;
@@ -160,9 +160,9 @@ export const HeaderStyle = styled.header`
         }
     }
 
-    @media screen and (min-width: 1024px){
+    @media screen and (min-width: ${Variables.mediaQueryWidth}){
         .fixedDiv{
-            ${MarginCapsule}{
+            ${HorizontalPadding}{
 
                 .hamburguerMenu{
                     display: none;

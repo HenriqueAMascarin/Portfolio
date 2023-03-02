@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import { Variables } from "./Colors";
-import { MarginCapsule } from "./GlobalStyle";
+import { HorizontalPadding } from "./GlobalStyle";
 
 export const Projects = styled.section`
     background-color: ${Variables.black};
-    padding: ${Variables.padding};
 
     h2{
         text-align: center;
@@ -26,7 +25,7 @@ export const Cards = styled.div`
     width: 100%;
 
 
-    ${MarginCapsule}{
+    ${HorizontalPadding}{
         position: relative;
         display: flex;
         justify-content: center;
