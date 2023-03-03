@@ -1,9 +1,16 @@
 import styled from "styled-components";
 import { Variables } from "./Colors";
+import { HorizontalPadding } from "./GlobalStyle";
 
 export const WorkStyle = styled.section`
     text-align: center;
     background-color: ${Variables.white};
+
+    h2{
+        color: ${Variables.black};
+        margin: 0 auto;
+        max-width: 500px;
+    }
 
     form{
         display: flex;
@@ -53,18 +60,44 @@ export const WorkStyle = styled.section`
             &::placeholder{
                 color: ${Variables.white};
             }
-
-            /* &[name="name"], &[name="email"]{
-                width: 45%;
-            } DESKTOP*/
         }
-
-        
     }
 
-    h2{
-        color: ${Variables.black};
-        margin: 0 auto;
-        max-width: 500px;
+    @media screen and (min-width: ${Variables.mediaQueryWidth}){
+        ${HorizontalPadding}{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            form{
+                margin: 0 0 0 100px;
+                display: flex;
+                flex-flow: row wrap;
+                max-width: 700px;
+                
+                input{
+                    &[name="name"], &[name="email"]{
+                        width: 48%;
+                    } 
+                }
+            }
+
+            h2{
+                position: relative;
+                margin: 0;
+                max-width: 360px;
+
+                &::after{
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    left: 400px;
+                    width: 6px;
+                    height: 200px;
+                    display: block;
+                }
+            }
+        }
     }
 `;

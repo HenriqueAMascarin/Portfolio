@@ -6,7 +6,7 @@ export const HeaderStyle = styled.header`
     width: 100%;
     height: 70px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 
     .fixedDiv{
         position: fixed;

@@ -78,4 +78,8 @@ export const HorizontalPadding = styled.div`
 
 export const VerticalPadding = styled.div`
     padding: 70px 0;
+
+    @media screen and (min-width: ${Variables.mediaQueryWidth}){
+        padding: 120px 0;
+    }
 `;

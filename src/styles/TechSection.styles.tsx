@@ -37,10 +37,11 @@ export const TechSection = styled.section`
                 &::after{
                     position: absolute;
                     top: 0;
+                    bottom: 0;
+                    margin: auto;
                     left: 280px;
                     width: 6px;
-                    height: 100%;
-                    transform-origin: center;
+                    height: 200px;
                     display: block;
                 }
             }
