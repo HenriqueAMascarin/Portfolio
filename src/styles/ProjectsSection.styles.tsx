@@ -60,7 +60,7 @@ export const Projects = styled.section`
                     
                     h3{
                         color: ${Variables.black};
-                        font-size: clamp(1.8em, 8vw, 2em);
+                        font-size: clamp(1.8em, 8vw, 2.1em);
                         margin-top: 25px;
                     }
                     p{
