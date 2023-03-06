@@ -77,10 +77,9 @@ export const HeaderStyle = styled.header`
                     li{
                         font-weight: bold;
                         margin: 4px 0;
-                    
                         
                         a{
-                            font-size: clamp(2.5em, 15vw, 3em);
+                            font-size: clamp(2.5em, 15vw, 2.6em);
                             text-decoration: none;
                             color: ${Variables.white};
                             display: block;
@@ -174,6 +173,10 @@ export const HeaderStyle = styled.header`
                     z-index: 1;
                     transform: none;
 
+                    &.active{
+                        transform: none;
+                    }
+
                     ul{
                         display: flex;
                         padding: 0;
@@ -187,7 +190,6 @@ export const HeaderStyle = styled.header`
                             }
 
                             a{
-                                font-size: clamp(2.9em, 4vw, 3em);
                                 padding: 0 20px;
                             }
                         }

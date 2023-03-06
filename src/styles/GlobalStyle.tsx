@@ -60,6 +60,18 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0 auto 20px;
     }
 
+    /* SCROLLBAR */
+    ::-webkit-scrollbar{
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: ${Variables.black};
+    }
+    ::-webkit-scrollbar-thumb {
+        background: ${Variables.red};
+        border-radius: 10px;
+    }
+
     @media screen and (min-width: ${Variables.mediaQueryWidth}){
         h2{
             font-size: 5em;
