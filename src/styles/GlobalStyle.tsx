@@ -11,12 +11,14 @@ export const GlobalStyle = createGlobalStyle`
         src: url(${fontLight});
         font-weight: 300;
         font-style: normal;
+        font-display: swap;
     }
     @font-face {
         font-family: inter;
         src: url(${fontBold});
         font-weight: bold;
         font-style: normal;
+        font-display: swap;
     }
 
     *, *::before, *::after{
