@@ -9,7 +9,7 @@ export default function InfoSection() {
             <VerticalPadding>
                 <HorizontalPadding>
                     <div className="infoDiv">
-                        <img src={photo} alt="Foto do Henrique" />
+                        <img width="538" height="510" src={photo} alt="Foto do Henrique" />
 
                         <div>
                             <h2>Sobre</h2>
