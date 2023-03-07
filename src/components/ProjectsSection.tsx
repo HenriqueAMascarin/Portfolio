@@ -14,7 +14,7 @@ export default function ProjectsSection() {
                         return (
                             <HorizontalPadding key={key}>
                                 <div className='cardsDiv'>
-                                    <img src={el.img} alt={el.alt} className="cardsImg" />
+                                    <img width="768" height="581" src={el.img} alt={el.alt} className="cardsImg"/>
                                     <div className="infoCard">
                                         <h3>{el.title}</h3>
                                         <p>{el.info}</p>

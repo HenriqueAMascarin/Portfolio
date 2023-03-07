@@ -49,9 +49,7 @@ export const Projects = styled.section`
                 max-width: 370px;
 
                 .cardsImg{
-                    width: 330px;
                     width: 100%;
-                    height: 330px;
                     height: auto;
                     box-shadow: 0 0 8px black;
                     border-radius: 10px;
