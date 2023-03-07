@@ -21,6 +21,7 @@ export const arrayCards = [
         technologies: [{ img: reactLogo, alt: "React logo" },
         { img: typeScript, alt: "TypeScript logo" },
         { img: sass, alt: "Sass logo" },
+        { img: html, alt: "Html logo" },
         { img: figma, alt: "Figma logo" }],
         liveLink: "https://godofwar-shop.vercel.app", github: "https://github.com/LuckTheGamers/God-Of-War"
     },
@@ -31,7 +32,8 @@ export const arrayCards = [
         info: "Projeto de lista de tarefas com troca de tema e criado junto como Frontend Mentor.",
         technologies: [{ img: reactLogo, alt: "React logo" },
         { img: javascript, alt: "Javascript logo" },
-        { img: css, alt: "Css logo" }],
+        { img: css, alt: "Css logo" },
+        { img: html, alt: "Html logo" }],
         liveLink: "https://todo-list-inky-beta.vercel.app", github: "https://github.com/LuckTheGamers/Todo-list"
     },
     {

@@ -162,6 +162,11 @@ export const HeaderStyle = styled.header`
     @media screen and (min-width: ${Variables.mediaQueryWidth}){
         .fixedDiv{
             ${HorizontalPadding}{
+                justify-content: center;
+
+                .logoStyle{
+                   
+                }
 
                 .hamburguerMenu{
                     display: none;
@@ -172,6 +177,7 @@ export const HeaderStyle = styled.header`
                     display: block;
                     z-index: 1;
                     transform: none;
+                    width: fit-content;
 
                     &.active{
                         transform: none;
@@ -191,6 +197,7 @@ export const HeaderStyle = styled.header`
 
                             a{
                                 padding: 0 20px;
+                                font-size: 1.8em;
                             }
                         }
                         
