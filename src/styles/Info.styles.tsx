@@ -13,7 +13,7 @@ export const Info = styled.section`
 
         img{
             width: 210px;
-            height: 199,25px;
+            height: 199.25px;
             border-radius: 100%;
         }
 
