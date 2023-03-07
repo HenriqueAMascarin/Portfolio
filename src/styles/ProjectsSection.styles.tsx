@@ -51,6 +51,8 @@ export const Projects = styled.section`
                 .cardsImg{
                     width: 330px;
                     width: 100%;
+                    height: 330px;
+                    height: auto;
                     box-shadow: 0 0 8px black;
                     border-radius: 10px;
                 }
@@ -76,6 +78,7 @@ export const Projects = styled.section`
                             
                         img{
                             width: 50px;
+                            height: 50px;
                         }
                     }
 

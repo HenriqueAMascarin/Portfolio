@@ -16,7 +16,8 @@ export const TechSection = styled.section`
         margin: 0 auto;
 
         img{
-            width: 140px;
+            width: 120px;
+            height: 120px;
             justify-self: center;
             align-self: center;
         }
