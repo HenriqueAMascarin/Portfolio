@@ -39,7 +39,7 @@ export const MainThanks = styled.main`
                 display: inline;
                 background-color: ${Variables.black};
                 font-size: clamp(1.8em, 9vw, 2em);
-                max-width: 300px;
+                max-width: 320px;
                 font-weight: bolder;
                 color: ${Variables.white};
             }
