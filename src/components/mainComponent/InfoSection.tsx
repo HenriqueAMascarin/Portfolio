@@ -1,7 +1,7 @@
-import photo from "../assets/images/photo.webp";
-import { HorizontalPadding, VerticalPadding } from "../styles/GlobalStyle";
-import { Info } from "../styles/Info.styles";
-import curriculum from "../assets/images/curriculum.pdf";
+import photo from "../../assets/images/photo.webp";
+import { HorizontalPadding, VerticalPadding } from "../../styles/GlobalStyle";
+import { Info } from "../../styles/mainStyles/Info.styles";
+import curriculum from "../../assets/images/curriculum.pdf";
 
 export default function InfoSection() {
     return (

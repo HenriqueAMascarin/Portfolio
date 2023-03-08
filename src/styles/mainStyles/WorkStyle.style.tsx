@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Variables } from "./Colors";
-import { HorizontalPadding } from "./GlobalStyle";
+import { Variables } from "../Colors";
+import { HorizontalPadding } from "../GlobalStyle";
 
 export const WorkStyle = styled.section`
     text-align: center;

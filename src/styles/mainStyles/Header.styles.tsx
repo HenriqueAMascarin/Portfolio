@@ -1,6 +1,29 @@
 import styled from "styled-components";
-import { HorizontalPadding } from "./GlobalStyle";
-import { Variables } from "./Colors";
+import { HorizontalPadding } from "../GlobalStyle";
+import { Variables } from "../Colors";
+
+export const LogoStyle = styled.a`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 80%;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background-color: ${Variables.red};
+    position: relative;
+    z-index: 1;
+    transition: all .4s ease-in-out;
+    color: ${Variables.white};
+    font-weight: bold;
+    font-size: 3.3em;
+    text-decoration: none;
+
+    &:hover{
+        color: ${Variables.red};
+        background-color: ${Variables.white};
+    }
+`;
 
 export const HeaderStyle = styled.header`
     width: 100%;
@@ -28,29 +51,6 @@ export const HeaderStyle = styled.header`
             align-items: center;
             max-width: 1024px;
             margin: 0 auto;
-
-            .logoStyle{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 58px;
-                height: 80%;
-                flex-shrink: 0;
-                border-radius: 100%;
-                background-color: ${Variables.red};
-                position: relative;
-                z-index: 1;
-                transition: all .4s ease-in-out;
-                color: ${Variables.white};
-                font-weight: bold;
-                font-size: 3.3em;
-                text-decoration: none;
-
-                &:hover{
-                    color: ${Variables.red};
-                    background-color: ${Variables.white};
-                }
-            }
 
             .navHeader{
                 position: absolute;
@@ -163,10 +163,6 @@ export const HeaderStyle = styled.header`
         .fixedDiv{
             ${HorizontalPadding}{
                 justify-content: center;
-
-                .logoStyle{
-                   
-                }
 
                 .hamburguerMenu{
                     display: none;

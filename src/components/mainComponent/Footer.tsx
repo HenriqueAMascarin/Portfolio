@@ -1,5 +1,5 @@
-import { FooterStyled } from "../styles/FooterStyled.style"
-import { HorizontalPadding } from "../styles/GlobalStyle"
+import { FooterStyled } from "../../styles/mainStyles/FooterStyled.style"
+import { HorizontalPadding } from "../../styles/GlobalStyle"
 
 export default function Footer() {
     return (

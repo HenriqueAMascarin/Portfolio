@@ -1,6 +1,6 @@
-import { arrayCards } from '../cardsData';
-import { Projects } from '../styles/ProjectsSection.styles';
-import { HorizontalPadding, VerticalPadding } from '../styles/GlobalStyle';
+import { arrayCards } from '../../cardsData';
+import { Projects } from '../../styles/mainStyles/ProjectsSection.styles';
+import { HorizontalPadding, VerticalPadding } from '../../styles/GlobalStyle';
 
 export default function ProjectsSection() {
 

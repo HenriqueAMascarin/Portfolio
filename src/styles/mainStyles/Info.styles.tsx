@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Variables } from "./Colors";
+import { Variables } from "../Colors";
 
 export const Info = styled.section`
     background-color: ${Variables.black};

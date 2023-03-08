@@ -1,5 +1,5 @@
-import { HeaderStyle} from "../styles/Header.styles";
-import { HorizontalPadding } from "../styles/GlobalStyle";
+import { HeaderStyle, LogoStyle} from "../../styles/mainStyles/Header.styles";
+import { HorizontalPadding } from "../../styles/GlobalStyle";
 
 export default function Header() {
     function hamburguerFunction() {
@@ -14,7 +14,7 @@ export default function Header() {
             <div className="fixedDiv">
                 <div className="backgroundDiv"/>
                 <HorizontalPadding>
-                    <a href="#" className="logoStyle" title="Henrique Logo">H</a>
+                    <LogoStyle href="#" title="Henrique Logo">H</LogoStyle>
 
                     <nav className="navHeader">
                         <ul>

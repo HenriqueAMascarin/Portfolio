@@ -1,24 +1,15 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import InfoSection from "./components/InfoSection";
-import PrincipalSection from "./components/PrincipalSection";
-import ProjectsSection from "./components/ProjectsSection";
-import Tecnologies from "./components/Tecnologies";
-import ContactSection from "./components/WorkSection";
+import Main from "./components/mainComponent/Main";
+import Thanks from "./components/thanksComponents/Thanks";
+import { Routes, Route} from "react-router-dom"
 
 function App() {
 
   return (
    <>
-    <Header/>
-    <main>
-      <PrincipalSection/>
-      <InfoSection/>
-      <Tecnologies/>
-      <ProjectsSection/>
-      <ContactSection/>
-    </main>
-    <Footer/>
+    <Routes>
+      <Route path="/" element={<Main/>} />
+      <Route path="/obrigado" element={<Thanks/>}/>
+    </Routes>
    </>
   )
 }

@@ -1,13 +1,13 @@
-import reactLogo from '../assets/images/techIcons/react.svg';
-import typeScript from '../assets/images/techIcons/typescript.svg';
-import sass from '../assets/images/techIcons/sass.svg';
-import styledComponents from '../assets/images/techIcons/styled-components.svg';
-import jest from '../assets/images/techIcons/jest.svg';
-import figma from '../assets/images/techIcons/figma.svg';
-import photoshop from '../assets/images/techIcons/photoshop.svg';
+import reactLogo from '../../assets/images/techIcons/react.svg';
+import typeScript from '../../assets/images/techIcons/typescript.svg';
+import sass from '../../assets/images/techIcons/sass.svg';
+import styledComponents from '../../assets/images/techIcons/styled-components.svg';
+import jest from '../../assets/images/techIcons/jest.svg';
+import figma from '../../assets/images/techIcons/figma.svg';
+import photoshop from '../../assets/images/techIcons/photoshop.svg';
 
-import { TechSection } from '../styles/TechSection.styles';
-import { HorizontalPadding, VerticalPadding } from '../styles/GlobalStyle';
+import { TechSection } from '../../styles/mainStyles/TechSection.styles';
+import { HorizontalPadding, VerticalPadding } from '../../styles/GlobalStyle';
 
 export default function Tecnologies() {
 

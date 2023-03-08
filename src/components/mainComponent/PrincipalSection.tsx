@@ -1,5 +1,5 @@
-import { HorizontalPadding } from "../styles/GlobalStyle";
-import { SectionPrincipal } from "../styles/Principal.styles";
+import { HorizontalPadding } from "../../styles/GlobalStyle";
+import { SectionPrincipal } from "../../styles/mainStyles/Principal.styles";
 
 export default function PrincipalSection() {
     return (
