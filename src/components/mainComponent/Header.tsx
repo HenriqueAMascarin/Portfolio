@@ -1,4 +1,4 @@
-import { HeaderStyle, LogoStyle} from "../../styles/mainStyles/Header.styles";
+import { BackgroundDiv, FixedDiv, HeaderStyle, LogoStyle} from "../../styles/mainStyles/Header.styles";
 import { HorizontalPadding } from "../../styles/GlobalStyle";
 
 export default function Header() {
@@ -11,10 +11,10 @@ export default function Header() {
 
     return (
         <HeaderStyle>
-            <div className="fixedDiv">
-                <div className="backgroundDiv"/>
+            <FixedDiv>
+                <BackgroundDiv/>
                 <HorizontalPadding>
-                    <LogoStyle href="#" title="Henrique Logo">H</LogoStyle>
+                    <LogoStyle href="#" aria-label="Henrique logo">H</LogoStyle>
 
                     <nav className="navHeader">
                         <ul>
@@ -31,7 +31,7 @@ export default function Header() {
                         <span></span>
                     </button>
                 </HorizontalPadding>
-            </div>
+            </FixedDiv>
         </HeaderStyle>
     )
 }

@@ -25,24 +25,27 @@ export const LogoStyle = styled.a`
     }
 `;
 
+export const FixedDiv = styled.div`
+    position: fixed;
+    width: 100%;
+    height: 70px;
+`;
+
+export const BackgroundDiv = styled.div`
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    background-color: ${Variables.black};
+`;
+
 export const HeaderStyle = styled.header`
     width: 100%;
     height: 70px;
     position: relative;
     z-index: 2;
 
-    .fixedDiv{
-        position: fixed;
-        width: 100%;
-        height: 70px;
-
-        .backgroundDiv{
-            width: 100%;
-            height: 70px;
-            position: absolute;
-            z-index: 1;
-            background-color: ${Variables.black};
-        }
+    ${FixedDiv}{
 
         ${HorizontalPadding}{
             height: 100%;
@@ -160,7 +163,7 @@ export const HeaderStyle = styled.header`
     }
 
     @media screen and (min-width: ${Variables.mediaQueryWidth}){
-        .fixedDiv{
+        ${FixedDiv}{
             ${HorizontalPadding}{
                 justify-content: center;
 
