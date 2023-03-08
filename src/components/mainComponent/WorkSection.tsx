@@ -15,7 +15,7 @@ export default function ContactSection() {
                         <textarea name="msg" cols={30} rows={10} placeholder="Mensagem" autoComplete="off" required={true}></textarea>
 
                         <input type="hidden" name="_captcha" value="false"></input>
-                        <input type="hidden" name="_next" value="https://yourdomain.co/obrigado"></input>
+                        <input type="hidden" name="_next" value="https://henriqueamascarin.vercel.app/obrigado"></input>
                         <button type="submit">Mandar</button>
                     </form>
                 </HorizontalPadding>
