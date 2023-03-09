@@ -1,5 +1,5 @@
 import { HorizontalPadding, VerticalPadding } from "../../styles/GlobalStyle"
-import { MainThanks } from "../../styles/thanksStyles/MainStyles"
+import { MainThanks } from "../../styles/thanksStyles/MainThanks"
 
 export default function ThanksMain(){
     return(

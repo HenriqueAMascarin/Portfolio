@@ -34,7 +34,7 @@ export const GlobalStyle = createGlobalStyle`
         outline-color: ${Variables.red};
         
     }
-    body{
+    body, html{
         min-height: 100vh;
     }
 

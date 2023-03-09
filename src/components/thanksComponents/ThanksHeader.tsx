@@ -1,6 +1,6 @@
 import { HorizontalPadding } from "../../styles/GlobalStyle";
-import { BackgroundDiv, FixedDiv, HeaderStyle, LogoStyle } from "../../styles/mainStyles/Header.styles";
-import { HeaderThanks } from "../../styles/thanksStyles/ThanksStyle";
+import { BackgroundDiv, FixedDiv, LogoStyle } from "../../styles/mainStyles/Header.styles";
+import { HeaderThanks } from "../../styles/thanksStyles/HeaderThanks";
 
 export default function ThanksHeader(){
     return(
