@@ -5,14 +5,26 @@ import figma from './assets/images/techIcons/figma.svg';
 import photoshop from './assets/images/techIcons/photoshop.svg';
 import javascript from './assets/images/techIcons/javascript.svg';
 import css from './assets/images/techIcons/css.svg';
+import styledLogo from './assets/images/techIcons/styled-components.svg';
 import html from './assets/images/techIcons/html.svg';
 
 import GodOfWar from './assets/images/screenshots/GodOfWar.webp';
 import Todo from './assets/images/screenshots/Todo.webp';
 import Shortly from './assets/images/screenshots/Shortly.webp';
-import PortfolioOld from './assets/images/screenshots/PortfolioOld.webp';
+import Fylo from './assets/images/screenshots/Fylo.webp';
 
 export const arrayCards = [
+    {
+        img: Fylo,
+        alt: "Imagem do projeto Fylo landing page",
+        title: "Fylo Landing page",
+        info: "Desafio de página de negócios da Frontend Mentor.",
+        technologies: [{ img: reactLogo, alt: "React logo" },
+        { img: typeScript, alt: "TypeScript logo" },
+        { img: styledLogo, alt: "Styled-components logo" },
+        { img: html, alt: "Html logo" },],
+        liveLink: "https://fylo-website-ashen.vercel.app", github: "https://github.com/LuckTheGamers/FyloWebsite"
+    },
     {
         img: GodOfWar,
         alt: "Imagem do projeto god of war e-commerce",
@@ -45,16 +57,5 @@ export const arrayCards = [
         { img: css, alt: "Css logo" },
         { img: html, alt: "Html logo" }],
         liveLink: "https://api-landing-page-blond.vercel.app", github: "https://github.com/LuckTheGamers/API-landing-page"
-    },
-    {
-        img: PortfolioOld,
-        alt: "Imagem do projeto portfólio antigo",
-        title: "Portfólio antigo",
-        info: "Antigo portfólio que conta um pouco sobre minha história com programação.",
-        technologies: [{ img: javascript, alt: "Javascript logo" },
-        { img: css, alt: "Css logo" },
-        { img: html, alt: "Html logo" },
-        {img: photoshop, alt: "Photoshop logo"}],
-        liveLink: "https://henriqueold.vercel.app", github: "https://github.com/LuckTheGamers/PortfolioOld"
     },
 ]
