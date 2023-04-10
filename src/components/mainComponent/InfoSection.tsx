@@ -14,7 +14,7 @@ export default function InfoSection() {
                         <div>
                             <h2>Sobre</h2>
 
-                            <p>Desenvolvedor front-end que busca sempre fazer projetos de qualidade e que tragam significado ao cliente.</p>
+                            <p>Desenvolvedor de games que migrou para o desenvolvimento front-end, e agora pretende fazer projetos de qualidade que tragam significado ao cliente.</p>
 
                             <div className="infoAction">
                                 <div className="infoIcons">

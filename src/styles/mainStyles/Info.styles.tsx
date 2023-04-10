@@ -24,7 +24,7 @@ export const Info = styled.section`
         p{
             font-size: clamp(1.6em, 7vw, 1.9em);
             margin-bottom: 40px;
-            max-width: 360px;
+            max-width: 400px;
         }
 
         .infoAction{
