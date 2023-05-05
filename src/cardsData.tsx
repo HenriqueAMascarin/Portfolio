@@ -17,7 +17,7 @@ export const arrayCards = [
     {
         img: Fylo,
         alt: "Imagem do projeto Fylo landing page",
-        title: "Fylo Landing page",
+        title: "Fylo Landing Page",
         info: "Desafio de página de negócios da Frontend Mentor.",
         technologies: [{ img: reactLogo, alt: "React logo" },
         { img: typeScript, alt: "TypeScript logo" },
@@ -28,7 +28,7 @@ export const arrayCards = [
     {
         img: GodOfWar,
         alt: "Imagem do projeto god of war e-commerce",
-        title: "God of war e-commerce",
+        title: "God Of War E-commerce",
         info: "Projeto de e-commerce com a temática do jogo God of War: Ragnarök, com design único.",
         technologies: [{ img: reactLogo, alt: "React logo" },
         { img: typeScript, alt: "TypeScript logo" },
@@ -40,7 +40,7 @@ export const arrayCards = [
     {
         img: Todo,
         alt: "Imagem do projeto todo list",
-        title: "Todo list",
+        title: "Todo List",
         info: "Projeto de lista de tarefas com troca de tema e criado junto como Frontend Mentor.",
         technologies: [{ img: reactLogo, alt: "React logo" },
         { img: javascript, alt: "Javascript logo" },
@@ -51,7 +51,7 @@ export const arrayCards = [
     {
         img: Shortly,
         alt: "Imagem do projeto API landing page",
-        title: "API landing page",
+        title: "API Landing Page",
         info: "Landing page que contém uso de API que encurta o link passado pelo usuário.",
         technologies: [{ img: javascript, alt: "Javascript logo" },
         { img: css, alt: "Css logo" },
