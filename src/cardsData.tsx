@@ -1,4 +1,4 @@
-import tailwindLogo from "./assets/images/techIcons/tailwindLogo.svg";
+import tailwindCSSLogo from "./assets/images/techIcons/tailwindCSSLogo.svg";
 import piniaLogo from "./assets/images/techIcons/piniaLogo.svg";
 import vueLogo from "./assets/images/techIcons/vueLogo.svg";
 import reactLogo from "./assets/images/techIcons/reactLogo.svg";
@@ -24,7 +24,7 @@ export const arrayCards = [
     technologies: [
       { img: vueLogo, alt: "Vue logo" },
       { img: piniaLogo, alt: "Pinia logo" },
-      { img: tailwindLogo, alt: "Tailwind Logo" },
+      { img: tailwindCSSLogo, alt: "TailwindCSS Logo" },
       { img: htmlLogo, alt: "Html logo" },
     ],
     liveLink: "https://e-books-web.vercel.app/#/",

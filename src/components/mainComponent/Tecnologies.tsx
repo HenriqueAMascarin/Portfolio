@@ -1,4 +1,4 @@
-import tailwindLogo from "../../assets/images/techIcons/tailwindLogo.svg";
+import tailwindCSSLogo from "../../assets/images/techIcons/tailwindCSSLogo.svg";
 import piniaLogo from "../../assets/images/techIcons/piniaLogo.svg";
 import vueLogo from "../../assets/images/techIcons/vueLogo.svg";
 import reduxLogo from "../../assets/images/techIcons/reduxLogo.svg";
@@ -19,7 +19,7 @@ import {
 
 export default function Tecnologies() {
   const arrayTech: { img: string; alt: string }[] = [
-    { img: tailwindLogo, alt: "Tailwind logo" },
+    { img: tailwindCSSLogo, alt: "TailwindCSS logo" },
     { img: piniaLogo, alt: "Pinia logo" },
     { img: vueLogo, alt: "Vue logo" },
     { img: reduxLogo, alt: "Redux logo" },
