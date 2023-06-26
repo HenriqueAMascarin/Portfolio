@@ -82,6 +82,7 @@ export const WorkStyle = styled.section`
             width: 48%;
           }
         }
+        
       }
 
       h2 {
