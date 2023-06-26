@@ -85,7 +85,6 @@ export const GlobalStyle = createGlobalStyle`
 export const HorizontalPadding = styled.div`
   padding: 0 10px;
   margin: 0 auto;
-  
 `;
 
 export const LinesFlex = styled.div`
@@ -98,7 +97,6 @@ export const LinesFlex = styled.div`
     flex-direction: row;
     gap: 110px;
   }
-
 `;
 
 export const VerticalPadding = styled.div`
@@ -107,5 +105,4 @@ export const VerticalPadding = styled.div`
   @media screen and (min-width: ${Variables.mediaQueryWidth}) {
     padding: 120px 0;
   }
-
 `;
