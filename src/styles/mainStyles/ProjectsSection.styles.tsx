@@ -38,11 +38,7 @@ export const Projects = styled.section`
         bottom: calc(0px - (var(--gap) / 2) - 4px);
         width: 100%;
         height: 6px;
-        background: linear-gradient(
-          to right,
-          ${Variables.white},
-          ${Variables.red}
-        );
+        background: linear-gradient(to right, ${Variables.white}, ${Variables.red});
       }
 
       .cardsDiv {
@@ -64,12 +60,12 @@ export const Projects = styled.section`
 
           h3 {
             color: ${Variables.black};
-            font-size: clamp(1.8em, 7vw, 2.1em);
+            font-size: clamp(1.8rem, 7vw, 2.1rem);
             margin-top: 25px;
           }
           p {
             color: ${Variables.gray};
-            font-size: clamp(1.4em, 7vw, 1.6em);
+            font-size: clamp(1.4rem, 7vw, 1.6rem);
             margin: 5px 0 20px;
           }
 
@@ -95,7 +91,7 @@ export const Projects = styled.section`
               color: ${Variables.white};
               padding: 5px 10px;
               background-color: ${Variables.black};
-              font-size: 1.6em;
+              font-size: 1.6rem;
               border-radius: 10px;
               transition: 0.2s ease -in -out;
 
@@ -123,7 +119,7 @@ export const Projects = styled.section`
     }
   }
 
-  @media screen and (min-width: ${Variables.mediaQueryWidth}) {
+  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     h2 {
       margin-bottom: 60px;
     }

@@ -19,7 +19,7 @@ export const MainThanks = styled.main`
       h1 {
         color: ${Variables.black};
         max-width: 600px;
-        font-size: clamp(3.6em, 20vw, 6em);
+        font-size: clamp(3.6rem, 20vw, 6rem);
 
         &::after {
           content: "";
@@ -38,7 +38,7 @@ export const MainThanks = styled.main`
       p {
         display: inline;
         background-color: ${Variables.black};
-        font-size: clamp(1.8em, 9vw, 2em);
+        font-size: clamp(1.8rem, 9vw, 2rem);
         max-width: 320px;
         font-weight: bolder;
         color: ${Variables.white};
@@ -47,7 +47,7 @@ export const MainThanks = styled.main`
       a {
         background-color: ${Variables.red};
         font-weight: bolder;
-        font-size: clamp(2.4em, 9vw, 2.5em);
+        font-size: clamp(2.4rem, 9vw, 2.5rem);
         color: ${Variables.white};
         padding: 0 15px;
         border-radius: 20px;

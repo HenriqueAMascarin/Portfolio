@@ -33,26 +33,31 @@ export const SectionPrincipal = styled.section`
       }
     }
 
-    p,
-    h1 {
-      text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
-    }
+    .titleDiv { 
 
-    p {
-      font-size: clamp(2.1em, 7vw, 2.8em);
-      color: ${Variables.black};
-
-      span {
-        color: ${Variables.red};
+      p,
+      h1 {
+        text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
       }
-    }
 
-    h1 {
-      color: ${Variables.red};
+      h1 {
+        color: ${Variables.red};
+        font-size: clamp(3.7rem, 20vw, 8.9rem);
 
-      span {
-        display: block;
+        span {
+          display: block;
+          color: ${Variables.black};
+        }
+      }
+
+      p {
+        font-size: clamp(1.7rem, 7vw, 3.2rem);
+        padding: 0 10px;
         color: ${Variables.black};
+
+        span {
+          color: ${Variables.red};
+        }
       }
     }
   }

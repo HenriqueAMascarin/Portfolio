@@ -1,19 +1,19 @@
-import tailwindCSSLogo from "./assets/images/techIcons/tailwindCSSLogo.svg";
-import piniaLogo from "./assets/images/techIcons/piniaLogo.svg";
-import vueLogo from "./assets/images/techIcons/vueLogo.svg";
-import reactLogo from "./assets/images/techIcons/reactLogo.svg";
-import typeScriptLogo from "./assets/images/techIcons/typescriptLogo.svg";
-import sassLogo from "./assets/images/techIcons/sassLogo.svg";
-import figmaLogo from "./assets/images/techIcons/figmaLogo.svg";
-import javascriptLogo from "./assets/images/techIcons/javascriptLogo.svg";
-import cssLogo from "./assets/images/techIcons/cssLogo.svg";
-import styledLogo from "./assets/images/techIcons/styledComponentsLogo.svg";
-import htmlLogo from "./assets/images/techIcons/htmlLogo.svg";
+import tailwindCSSLogo from "../../../assets/images/techIcons/tailwindCSSLogo.svg";
+import piniaLogo from "../../../assets/images/techIcons/piniaLogo.svg";
+import vueLogo from "../../../assets/images/techIcons/vueLogo.svg";
+import reactLogo from "../../../assets/images/techIcons/reactLogo.svg";
+import typeScriptLogo from "../../../assets/images/techIcons/typescriptLogo.svg";
+import sassLogo from "../../../assets/images/techIcons/sassLogo.svg";
+import figmaLogo from "../../../assets/images/techIcons/figmaLogo.svg";
+import javascriptLogo from "../../../assets/images/techIcons/javascriptLogo.svg";
+import cssLogo from "../../../assets/images/techIcons/cssLogo.svg";
+import styledLogo from "../../../assets/images/techIcons/styledComponentsLogo.svg";
+import htmlLogo from "../../../assets/images/techIcons/htmlLogo.svg";
 
-import GodOfWar from "./assets/images/screenshots/GodOfWar.webp";
-import Ebooks from "./assets/images/screenshots/Ebooks.webp";
-import Todo from "./assets/images/screenshots/Todo.webp";
-import Fylo from "./assets/images/screenshots/Fylo.webp";
+import GodOfWar from "../../../assets/images/screenshots/GodOfWar.webp";
+import Ebooks from "../../../assets/images/screenshots/Ebooks.webp";
+import Todo from "../../../assets/images/screenshots/Todo.webp";
+import Fylo from "../../../assets/images/screenshots/Fylo.webp";
 
 export const arrayCards = [
   {
@@ -28,7 +28,7 @@ export const arrayCards = [
       { img: htmlLogo, alt: "Html logo" },
     ],
     liveLink: "https://e-books-web.vercel.app/#/",
-    github: "https://github.com/LuckTheGamers/E-booksWeb",
+    github: "https://github.com/HenriqueAMascarin/E-booksWeb",
   },
   {
     img: Fylo,
@@ -42,7 +42,7 @@ export const arrayCards = [
       { img: htmlLogo, alt: "Html logo" },
     ],
     liveLink: "https://fylo-website-ashen.vercel.app",
-    github: "https://github.com/LuckTheGamers/FyloWebsite",
+    github: "https://github.com/HenriqueAMascarin/FyloWebsite",
   },
   {
     img: GodOfWar,
@@ -57,7 +57,7 @@ export const arrayCards = [
       { img: figmaLogo, alt: "Figma logo" },
     ],
     liveLink: "https://godofwar-shop.vercel.app",
-    github: "https://github.com/LuckTheGamers/God-Of-War",
+    github: "https://github.com/HenriqueAMascarin/God-Of-War",
   },
   {
     img: Todo,
@@ -71,6 +71,6 @@ export const arrayCards = [
       { img: htmlLogo, alt: "Html logo" },
     ],
     liveLink: "https://todo-list-inky-beta.vercel.app",
-    github: "https://github.com/LuckTheGamers/Todo-list",
+    github: "https://github.com/HenriqueAMascarin/Todo-list",
   },
 ];

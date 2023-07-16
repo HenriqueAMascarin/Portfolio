@@ -54,7 +54,7 @@ export const FooterStyled = styled.footer`
     }
   }
 
-  @media screen and (min-width: ${Variables.mediaQueryWidth}) {
+  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     padding: 40px 0;
 
     ${HorizontalPadding} {
@@ -68,7 +68,7 @@ export const FooterStyled = styled.footer`
 
       .MakeLink {
         max-width: 220px;
-        font-size: 1.2em;
+        font-size: 1.2rem;
         position: relative;
         display: flex;
         align-items: center;

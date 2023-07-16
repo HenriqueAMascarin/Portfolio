@@ -43,11 +43,8 @@ export const GlobalStyle = createGlobalStyle`
         max-width: 100%;
     }
 
-    h1{
-        font-size: clamp(3.6em, 20vw, 8em);
-    }
     h2{
-        font-size: clamp(2.6em, 7vw, 4.5em);
+        font-size: clamp(2.6rem, 7vw, 4rem);
     }
 
     h2::after, .MakeLink::before{
@@ -74,7 +71,7 @@ export const GlobalStyle = createGlobalStyle`
         border-radius: 10px;
     }
 
-    @media screen and (min-width: ${Variables.mediaQueryWidth}){
+    @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}){
         h2::after, .MakeLink::before{
             width: 200px;
         }
@@ -85,6 +82,8 @@ export const GlobalStyle = createGlobalStyle`
 export const HorizontalPadding = styled.div`
   padding: 0 10px;
   margin: 0 auto;
+  height: 100%;
+  width: 100%;
 `;
 
 export const LinesFlex = styled.div`
@@ -93,16 +92,22 @@ export const LinesFlex = styled.div`
   justify-content: center;
   flex-direction: column;
 
-  @media screen and (min-width: ${Variables.mediaQueryWidth}) {
+  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     flex-direction: row;
     gap: 110px;
   }
 `;
 
+export const MaxWidthCapsule = styled.div`
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+`;
+
 export const VerticalPadding = styled.div`
   padding: 70px 0;
 
-  @media screen and (min-width: ${Variables.mediaQueryWidth}) {
+  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     padding: 120px 0;
   }
 `;

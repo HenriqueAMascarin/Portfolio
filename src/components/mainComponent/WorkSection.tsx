@@ -9,8 +9,10 @@ export default function ContactSection() {
                     <h2>Vamos trabalhar juntos!</h2>
 
                     <form action="https://formsubmit.co/bdf322556cb66da0fbbb64e5553677b4" method="POST" name="contactForm">
-                        <input type="text" placeholder="Seu nome" name="name" autoComplete="off" required={true} />
-                        <input type="email" placeholder="Seu email" name="email" autoComplete="off" required={true} />
+                        <div className="formNameEmailDiv">
+                            <input type="text" placeholder="Seu nome" name="name" autoComplete="off" required={true} />
+                            <input type="email" placeholder="Seu email" name="email" autoComplete="off" required={true} />
+                        </div>
                         <input type="text" placeholder="Assunto" name="subject" autoComplete="off" required={true} />
                         <textarea name="msg" cols={30} rows={10} placeholder="Mensagem" autoComplete="off" required={true}></textarea>
 

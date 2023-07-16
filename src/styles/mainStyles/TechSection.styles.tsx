@@ -10,20 +10,17 @@ export const TechSection = styled.section`
   ${HorizontalPadding} ${LinesFlex} {
     .techIcons {
       display: grid;
-      gap: 20px 20px;
-      grid-template-columns: auto auto auto;
-      justify-content: center;
-      max-width: 500px;
+      gap: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
       filter: drop-shadow(${Variables.customDropShadow});
-
-      img {
-        justify-self: center;
-        align-self: center;
-      }
+      max-width: 550px;
+      width: 100%;
+      align-items: center;
+      justify-items: center;
     }
   }
 
-  @media screen and (min-width: ${Variables.mediaQueryWidth}) {
+  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     ${HorizontalPadding} {
       display: flex;
       flex-direction: row;
@@ -31,11 +28,8 @@ export const TechSection = styled.section`
       justify-content: center;
 
       ${LinesFlex} {
-        .techIcons {
-          margin-left: auto;
-        }
         h2 {
-          max-width: 230px;
+          max-width: 200px;
           overflow-wrap: break-word;
           position: relative;
 

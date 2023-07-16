@@ -22,7 +22,7 @@ export const Info = styled.section`
     }
 
     p {
-      font-size: clamp(1.6em, 7vw, 1.9em);
+      font-size: clamp(1.2rem, 3.5vw, 1.6rem);
       margin-bottom: 40px;
       max-width: 400px;
     }
@@ -38,7 +38,7 @@ export const Info = styled.section`
     a {
       color: ${Variables.black};
       background-color: ${Variables.white};
-      font-size: 1.7em;
+      font-size: 1.7rem;
       text-decoration: none;
       border-radius: 10px;
       padding: 5px;
@@ -78,7 +78,7 @@ export const Info = styled.section`
     }
   }
 
-  @media screen and (min-width: ${Variables.mediaQueryWidth}) {
+  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     .infoDiv {
       flex-direction: row;
       justify-content: center;

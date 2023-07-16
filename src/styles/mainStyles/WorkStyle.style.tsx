@@ -19,6 +19,12 @@ export const WorkStyle = styled.section`
     max-width: 400px;
     margin: 40px auto 0;
 
+    .formNameEmailDiv{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
     button {
       background-color: ${Variables.black};
       color: ${Variables.white};
@@ -56,7 +62,7 @@ export const WorkStyle = styled.section`
       border-radius: 10px;
       color: ${Variables.white};
       font-weight: bold;
-      font-size: 1.4em;
+      font-size: 1.4rem;
 
       &::placeholder {
         color: ${Variables.white};
@@ -64,7 +70,7 @@ export const WorkStyle = styled.section`
     }
   }
 
-  @media screen and (min-width: ${Variables.mediaQueryWidth}) {
+  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     ${HorizontalPadding} {
       display: flex;
       align-items: center;
@@ -73,22 +79,17 @@ export const WorkStyle = styled.section`
       form {
         margin: 0 0 0 100px;
         display: flex;
-        flex-flow: row wrap;
-        max-width: 700px;
+        max-width: 600px;
 
-        input {
-          &[name="name"],
-          &[name="email"] {
-            width: 48%;
-          }
+        .formNameEmailDiv {
+          flex-direction: row;
         }
-        
       }
 
       h2 {
         position: relative;
         margin: 0;
-        max-width: 360px;
+        max-width: 300px;
 
         &::after {
           position: absolute;
