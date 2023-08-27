@@ -11,6 +11,14 @@ export const Info = styled.section`
     flex-direction: column;
     color: ${Variables.white};
 
+    .textInfo{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
     img {
       width: 210px;
       height: 199.25px;
@@ -22,9 +30,7 @@ export const Info = styled.section`
     }
 
     p {
-      font-size: clamp(1.2rem, 3.5vw, 1.6rem);
-      margin-bottom: 40px;
-      max-width: 400px;
+      max-width: 500px;
     }
 
     .infoAction {
@@ -82,12 +88,16 @@ export const Info = styled.section`
     .infoDiv {
       flex-direction: row;
       justify-content: center;
+      align-items: start;
       gap: 80px;
+      position: relative;
 
       img {
         width: 330px;
         height: 313.11px;
         border-radius: 100px;
+        position: sticky;
+        top: calc(${Variables.headerHeight} + 10px) ;
       }
 
       .infoAction {

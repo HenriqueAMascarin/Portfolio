@@ -36,6 +36,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     body, html{
         min-height: 100vh;
+        scroll-behavior: smooth;
     }
 
     img, picture, svg, video{
@@ -44,7 +45,16 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h2{
-        font-size: clamp(2.6rem, 7vw, 4rem);
+        font-size: 3.3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    a{
+        font-size: 1.8rem;
     }
 
     h2::after, .MakeLink::before{
@@ -80,7 +90,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const HorizontalPadding = styled.div`
-  padding: 0 10px;
+  padding: 0 20px;
   margin: 0 auto;
   height: 100%;
   width: 100%;
@@ -94,7 +104,8 @@ export const LinesFlex = styled.div`
 
   @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     flex-direction: row;
-    gap: 110px;
+    justify-content: space-between;
+    margin: 0 auto;
   }
 `;
 
@@ -105,9 +116,5 @@ export const MaxWidthCapsule = styled.div`
 `;
 
 export const VerticalPadding = styled.div`
-  padding: 70px 0;
-
-  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
-    padding: 120px 0;
-  }
+  padding: 80px 0;
 `;

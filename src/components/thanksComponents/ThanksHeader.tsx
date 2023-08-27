@@ -7,7 +7,6 @@ export default function ThanksHeader() {
     <HeaderThanks>
       <FixedHeaderDiv>
         <HorizontalPadding>
-
           <MaxWidthCapsule>
             <div className="flexThanksHeader">
               <BackgroundHeader />
@@ -26,7 +25,6 @@ export default function ThanksHeader() {
               </LogoLink>
             </div>
           </MaxWidthCapsule>
-
         </HorizontalPadding>
       </FixedHeaderDiv>
     </HeaderThanks>

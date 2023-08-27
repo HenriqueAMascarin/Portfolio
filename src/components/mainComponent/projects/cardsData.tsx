@@ -20,7 +20,7 @@ export const arrayCards = [
     img: Ebooks,
     alt: "Imagem do projeto E-books",
     title: "E-books",
-    info: "Site de pesquisa de livros com uso de API da Google.",
+    info: "Site de pesquisa de livros com uso de API da Google, criado para um processo seletivo na área.",
     technologies: [
       { img: vueLogo, alt: "Vue logo" },
       { img: piniaLogo, alt: "Pinia logo" },
@@ -63,7 +63,7 @@ export const arrayCards = [
     img: Todo,
     alt: "Imagem do projeto todo list",
     title: "Todo List",
-    info: "Projeto de lista de tarefas com troca de tema e criado junto como Frontend Mentor.",
+    info: "Projeto de lista de tarefas com troca de tema feito como desafio da Frontend Mentor.",
     technologies: [
       { img: reactLogo, alt: "React logo" },
       { img: javascriptLogo, alt: "Javascript logo" },

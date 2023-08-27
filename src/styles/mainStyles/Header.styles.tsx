@@ -5,7 +5,7 @@ import { Variables } from "../CustomVariables";
 export const FixedHeaderDiv = styled.div`
   position: fixed;
   width: 100%;
-  height: 70px;
+  height: ${Variables.headerHeight};
 `;
 
 export const BackgroundHeader = styled.div`
@@ -41,7 +41,7 @@ export const HeaderStyle = styled.header`
   --zIndexTop: 1;
 
   width: 100%;
-  height: 70px;
+  height: ${Variables.headerHeight};
   position: relative;
   z-index: 2;
   background-color: ${Variables.black};
@@ -86,7 +86,6 @@ export const HeaderStyle = styled.header`
               margin: 4px 0;
 
               a {
-                font-size: clamp(2.5rem, 15vw, 2.6rem);
                 text-decoration: none;
                 color: ${Variables.white};
                 display: block;
@@ -208,7 +207,6 @@ export const HeaderStyle = styled.header`
 
                 a {
                   padding: 0 20px;
-                  font-size: 1.8rem;
                 }
               }
             }

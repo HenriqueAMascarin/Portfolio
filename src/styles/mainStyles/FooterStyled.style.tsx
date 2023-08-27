@@ -1,13 +1,12 @@
 import styled from "styled-components";
 import { Variables } from "../CustomVariables";
-import { HorizontalPadding } from "../GlobalStyle";
 
 export const FooterStyled = styled.footer`
   background-color: ${Variables.black};
   text-align: center;
   padding: 40px 0 10px;
 
-  ${HorizontalPadding} {
+  .flexFooter{
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -20,6 +19,10 @@ export const FooterStyled = styled.footer`
 
       a:hover path {
         fill: ${Variables.red};
+      }
+      a{
+        width: 48px;
+        height: 48px;
       }
     }
 
@@ -43,6 +46,7 @@ export const FooterStyled = styled.footer`
 
       a {
         max-width: 250px;
+        font-size: 1.1rem;
         display: inline-block;
         margin: 0 auto;
       }
@@ -57,7 +61,7 @@ export const FooterStyled = styled.footer`
   @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     padding: 40px 0;
 
-    ${HorizontalPadding} {
+    .flexFooter {
       flex-direction: row-reverse;
       align-items: center;
       justify-content: center;
@@ -68,7 +72,6 @@ export const FooterStyled = styled.footer`
 
       .MakeLink {
         max-width: 220px;
-        font-size: 1.2rem;
         position: relative;
         display: flex;
         align-items: center;
@@ -76,9 +79,9 @@ export const FooterStyled = styled.footer`
         &::before {
           position: relative;
           margin: auto 0;
-          left: calc(100% + 25px);
+          left: calc(100% + 30px);
           width: 4px;
-          height: 150px;
+          height: 100px;
         }
       }
     }

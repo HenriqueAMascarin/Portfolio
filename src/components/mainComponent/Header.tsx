@@ -16,7 +16,7 @@ export default function Header() {
           <MaxWidthCapsule>
             <div className="flexHeader">
               <BackgroundHeader className="zIndexTop" />
-              <LogoLink href="/" aria-label="Henrique logo" className="zIndexTop">
+              <LogoLink href="#" aria-label="Henrique logo" className="zIndexTop">
                 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clipPath="url(#clip0_213_8)">
                     <circle cx="30" cy="30" r="29" fill="#D53453" />

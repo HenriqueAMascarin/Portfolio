@@ -60,12 +60,10 @@ export const Projects = styled.section`
 
           h3 {
             color: ${Variables.black};
-            font-size: clamp(1.8rem, 7vw, 2.1rem);
             margin-top: 25px;
           }
           p {
             color: ${Variables.gray};
-            font-size: clamp(1.4rem, 7vw, 1.6rem);
             margin: 5px 0 20px;
           }
 
@@ -76,8 +74,8 @@ export const Projects = styled.section`
             filter: drop-shadow(${Variables.customDropShadow});
 
             img {
-              width: 50px;
-              height: 50px;
+              width: 44px;
+              height: 44px;
             }
           }
 
@@ -91,7 +89,7 @@ export const Projects = styled.section`
               color: ${Variables.white};
               padding: 5px 10px;
               background-color: ${Variables.black};
-              font-size: 1.6rem;
+              font-size: 1.4rem;
               border-radius: 10px;
               transition: 0.2s ease -in -out;
 
@@ -103,6 +101,7 @@ export const Projects = styled.section`
 
             a:has(svg) {
               margin-left: auto;
+              width: 48px;
 
               path {
                 fill: ${Variables.black};
@@ -125,17 +124,21 @@ export const Projects = styled.section`
     }
 
     .cards {
-      --gap: 100px;
+      --gap: 120px;
+      
       ${HorizontalPadding} {
         .cardsDiv {
-          max-width: 1000px;
           display: flex;
           flex-direction: row;
+          align-items: center;
           padding: 0;
+          max-width: 100%;
+          height: 370px;
           background-color: transparent;
 
           .cardsImg {
-            width: 540px;
+            width: 500px;
+            height: 100%;
             position: relative;
             z-index: 1;
           }
@@ -143,10 +146,9 @@ export const Projects = styled.section`
           .infoCard {
             display: flex;
             flex-direction: column;
-            padding: 15px 15px 15px 25px;
+            padding: 15px 15px 15px 15px;
             background-color: ${Variables.white};
             height: 96%;
-            margin: auto 0;
             border-radius: 0 10px 10px 0;
 
             h3 {

@@ -18,8 +18,8 @@ export const MainThanks = styled.main`
 
       h1 {
         color: ${Variables.black};
-        max-width: 600px;
-        font-size: clamp(3.6rem, 20vw, 6rem);
+        max-width: 400px;
+        font-size: 4.6rem;
 
         &::after {
           content: "";
@@ -38,8 +38,8 @@ export const MainThanks = styled.main`
       p {
         display: inline;
         background-color: ${Variables.black};
-        font-size: clamp(1.8rem, 9vw, 2rem);
-        max-width: 320px;
+        font-size: 1.7rem;
+        max-width: 300px;
         font-weight: bolder;
         color: ${Variables.white};
       }
@@ -47,7 +47,7 @@ export const MainThanks = styled.main`
       a {
         background-color: ${Variables.red};
         font-weight: bolder;
-        font-size: clamp(2.4rem, 9vw, 2.5rem);
+        font-size: 2rem;
         color: ${Variables.white};
         padding: 0 15px;
         border-radius: 20px;

@@ -42,7 +42,7 @@ export const SectionPrincipal = styled.section`
 
       h1 {
         color: ${Variables.red};
-        font-size: clamp(3.7rem, 20vw, 8.9rem);
+        font-size: clamp(3.7rem, 20vw, 8.6rem);
 
         span {
           display: block;
@@ -51,7 +51,7 @@ export const SectionPrincipal = styled.section`
       }
 
       p {
-        font-size: clamp(1.7rem, 7vw, 3.2rem);
+        font-size: clamp(1.7rem, 7vw, 3rem);
         padding: 0 10px;
         color: ${Variables.black};
 

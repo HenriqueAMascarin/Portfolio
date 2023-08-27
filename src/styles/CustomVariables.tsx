@@ -6,5 +6,6 @@ export const Variables = {
         mediaQueryWidth: {
                 desktop: "1000px",
         },
-        customDropShadow: "0 1px 1px rgba(0, 0, 0, 0.5)"
+        customDropShadow: "0 1px 1px rgba(0, 0, 0, 0.5)",
+        headerHeight: '70px',
 }
