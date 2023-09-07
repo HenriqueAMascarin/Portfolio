@@ -11,11 +11,12 @@ export const TechSection = styled.section`
     .techIcons {
       display: grid;
       gap: 20px;
-      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-      max-width: 450px;
+      grid-template-columns: repeat(auto-fill, 4.5rem);
+      max-width: calc(4.5rem * 7);
       width: 100%;
       align-items: center;
       justify-items: center;
+      justify-content: center;
 
       img{
         transition: all .5s ease-in-out;

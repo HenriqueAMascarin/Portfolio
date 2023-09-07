@@ -45,7 +45,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h2{
-        font-size: 3.3rem;
+        font-size: clamp(2.8rem, 14vw, 3.3rem);
     }
     h3{
         font-size: 2rem;
