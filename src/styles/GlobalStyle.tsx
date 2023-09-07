@@ -110,9 +110,9 @@ export const LinesFlex = styled.div`
 `;
 
 export const MaxWidthCapsule = styled.div`
-    max-width: 1000px;
-    height: 100%;
-    margin: 0 auto;
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
 `;
 
 export const VerticalPadding = styled.div`

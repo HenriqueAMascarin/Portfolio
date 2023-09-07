@@ -26,6 +26,7 @@ export const arrayCards = [
       { img: piniaLogo, alt: "Pinia logo" },
       { img: tailwindCSSLogo, alt: "TailwindCSS Logo" },
       { img: htmlLogo, alt: "Html logo" },
+      { img: figmaLogo, alt: "Figma logo" },
     ],
     liveLink: "https://e-books-web.vercel.app/#/",
     github: "https://github.com/HenriqueAMascarin/E-booksWeb",
@@ -34,7 +35,7 @@ export const arrayCards = [
     img: Fylo,
     alt: "Imagem do projeto Fylo landing page",
     title: "Fylo Landing Page",
-    info: "Desafio de página de negócios da Frontend Mentor.",
+    info: "Dado como desafio em sala de aula da Frontend Mentor, para terminar em pouco tempo e adicionado coisas além do que foi pedido.",
     technologies: [
       { img: reactLogo, alt: "React logo" },
       { img: typeScriptLogo, alt: "TypeScript logo" },

@@ -8,7 +8,6 @@ import typeScriptLogo from "../../../assets/images/techIcons/typescriptLogo.svg"
 import sassLogo from "../../../assets/images/techIcons/sassLogo.svg";
 import styledComponentsLogo from "../../../assets/images/techIcons/styledComponentsLogo.svg";
 import figmaLogo from "../../../assets/images/techIcons/figmaLogo.svg";
-import photoshopLogo from "../../../assets/images/techIcons/photoshopLogo.svg";
 
 export const arrayTech: { img: string; alt: string }[] = [
   { img: tailwindCSSLogo, alt: "TailwindCSS logo" },
@@ -21,5 +20,4 @@ export const arrayTech: { img: string; alt: string }[] = [
   { img: sassLogo, alt: "Sass logo" },
   { img: styledComponentsLogo, alt: "StyledComponents logo" },
   { img: figmaLogo, alt: "Figma logo" },
-  { img: photoshopLogo, alt: "Photoshop logo" },
 ];
