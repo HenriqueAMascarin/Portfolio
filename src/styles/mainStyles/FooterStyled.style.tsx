@@ -59,7 +59,7 @@ export const FooterStyled = styled.footer`
   }
 
   @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
-    padding: 40px 0;
+    padding: 20px 0;
 
     .flexFooter {
       flex-direction: row-reverse;
