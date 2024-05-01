@@ -8,16 +8,17 @@ import typeScriptLogo from "../../../assets/images/techIcons/typescriptLogo.svg"
 import sassLogo from "../../../assets/images/techIcons/sassLogo.svg";
 import styledComponentsLogo from "../../../assets/images/techIcons/styledComponentsLogo.svg";
 import figmaLogo from "../../../assets/images/techIcons/figmaLogo.svg";
+import expoLogo from "/src/assets/images/techIcons/expoLogo.svg";
 
 export const arrayTech: { img: string; alt: string }[] = [
-  { img: tailwindCSSLogo, alt: "TailwindCSS logo" },
-  { img: piniaLogo, alt: "Pinia logo" },
-  { img: vueLogo, alt: "Vue logo" },
-  { img: reduxLogo, alt: "Redux logo" },
+  { img: typeScriptLogo, alt: "TypeScript logo" },
+  { img: expoLogo, alt: "Expo logo" },
   { img: nativeLogo, alt: "React native logo" },
   { img: reactLogo, alt: "React logo" },
-  { img: typeScriptLogo, alt: "TypeScript logo" },
-  { img: sassLogo, alt: "Sass logo" },
-  { img: styledComponentsLogo, alt: "StyledComponents logo" },
+  { img: vueLogo, alt: "Vue logo" },
+  { img: reduxLogo, alt: "Redux logo" },
+  { img: piniaLogo, alt: "Pinia logo" },
   { img: figmaLogo, alt: "Figma logo" },
+  { img: tailwindCSSLogo, alt: "TailwindCSS logo" },
+  { img: styledComponentsLogo, alt: "StyledComponents logo" },
 ];

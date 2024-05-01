@@ -47,6 +47,7 @@ export const Projects = styled.section`
         border-radius: 10px;
         font-weight: bold;
         max-width: 370px;
+        scroll-margin-top: 100px;
 
         .cardsImg {
           width: 100%;
@@ -70,6 +71,7 @@ export const Projects = styled.section`
           .cardsTech {
             display: flex;
             gap: 20px;
+            flex-grow: 1;
             overflow-x: auto;
             filter: drop-shadow(${Variables.customDropShadow});
 

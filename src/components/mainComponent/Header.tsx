@@ -33,16 +33,16 @@ export default function Header() {
               <nav className="navHeader">
                 <ul>
                   <li>
-                    <a href="#info">Sobre</a>
+                    <a href="#sobre">Sobre</a>
                   </li>
                   <li>
-                    <a href="#technologies">Tecnologias</a>
+                    <a href="#tecnologias">Tecnologias</a>
                   </li>
                   <li>
-                    <a href="#projects">Projetos</a>
+                    <a href="#projetos">Projetos</a>
                   </li>
                   <li>
-                    <a href="#contact">Contato</a>
+                    <a href="#contato">Contato</a>
                   </li>
                 </ul>
               </nav>

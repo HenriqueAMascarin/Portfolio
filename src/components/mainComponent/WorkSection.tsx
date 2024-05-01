@@ -3,7 +3,7 @@ import { WorkStyle } from "../../styles/mainStyles/WorkStyle.style";
 
 export default function ContactSection() {
   return (
-    <WorkStyle id="contact">
+    <WorkStyle id="contato">
       <VerticalPadding>
         <HorizontalPadding>
           <MaxWidthCapsule>

@@ -1,22 +1,40 @@
-import tailwindCSSLogo from "../../../assets/images/techIcons/tailwindCSSLogo.svg";
-import piniaLogo from "../../../assets/images/techIcons/piniaLogo.svg";
-import vueLogo from "../../../assets/images/techIcons/vueLogo.svg";
-import reactLogo from "../../../assets/images/techIcons/reactLogo.svg";
-import typeScriptLogo from "../../../assets/images/techIcons/typescriptLogo.svg";
-import sassLogo from "../../../assets/images/techIcons/sassLogo.svg";
-import figmaLogo from "../../../assets/images/techIcons/figmaLogo.svg";
-import javascriptLogo from "../../../assets/images/techIcons/javascriptLogo.svg";
-import cssLogo from "../../../assets/images/techIcons/cssLogo.svg";
-import styledLogo from "../../../assets/images/techIcons/styledComponentsLogo.svg";
-import htmlLogo from "../../../assets/images/techIcons/htmlLogo.svg";
+import tailwindCSSLogo from "/src/assets/images/techIcons/tailwindCSSLogo.svg";
+import piniaLogo from "/src/assets/images/techIcons/piniaLogo.svg";
+import vueLogo from "/src/assets/images/techIcons/vueLogo.svg";
+import reactLogo from "/src/assets/images/techIcons/reactLogo.svg";
+import typeScriptLogo from "/src/assets/images/techIcons/typescriptLogo.svg";
+import sassLogo from "/src/assets/images/techIcons/sassLogo.svg";
+import figmaLogo from "/src/assets/images/techIcons/figmaLogo.svg";
+import styledLogo from "/src/assets/images/techIcons/styledComponentsLogo.svg";
+import htmlLogo from "/src/assets/images/techIcons/htmlLogo.svg";
+import reactNativeLogo from "/src/assets/images/techIcons/reactNativeLogo.svg";
+import reduxLogo from "/src/assets/images/techIcons/reduxLogo.svg";
+import expoLogo from "/src/assets/images/techIcons/expoLogo.svg";
 
-import GodOfWar from "../../../assets/images/screenshots/GodOfWar.webp";
-import Ebooks from "../../../assets/images/screenshots/Ebooks.webp";
-import Todo from "../../../assets/images/screenshots/Todo.webp";
-import Fylo from "../../../assets/images/screenshots/Fylo.webp";
+import GodOfWar from "/src/assets/images/screenshots/GodOfWar.webp";
+import Ebooks from "/src/assets/images/screenshots/Ebooks.webp";
+import Fylo from "/src/assets/images/screenshots/Fylo.webp";
+import MediaTimer from "/src/assets/images/screenshots/MediaTimer.jpg";
 
 export const arrayCards = [
   {
+    id: 'projetos/MediaTimer',
+    img: MediaTimer,
+    alt: "Imagem da logo Media Timer",
+    title: "Media Timer",
+    info: "Aplicativo de timer com API de músicas e diversas funcionalidades, com objetivo de solucionar um problema pessoal!",
+    technologies: [
+      { img: expoLogo, alt: "Expo logo" },
+      { img: reactNativeLogo, alt: "React Native logo" },
+      { img: typeScriptLogo, alt: "TypeScript logo" },
+      { img: reduxLogo, alt: "Redux logo" },
+      { img: figmaLogo, alt: "Figma logo" },
+    ],
+    downloadApk: "/src/assets/apks/MediaTimer.apk",
+    github: "https://github.com/HenriqueAMascarin/MediaTimer",
+  },
+  {
+    id: 'projetos/Ebooks',
     img: Ebooks,
     alt: "Imagem do projeto E-books",
     title: "E-books",
@@ -32,6 +50,7 @@ export const arrayCards = [
     github: "https://github.com/HenriqueAMascarin/E-booksWeb",
   },
   {
+    id: 'projetos/Fylo',
     img: Fylo,
     alt: "Imagem do projeto Fylo landing page",
     title: "Fylo Landing Page",
@@ -46,6 +65,7 @@ export const arrayCards = [
     github: "https://github.com/HenriqueAMascarin/FyloWebsite",
   },
   {
+    id: 'projetos/GodOfWar',
     img: GodOfWar,
     alt: "Imagem do projeto god of war e-commerce",
     title: "God Of War E-commerce",
@@ -59,19 +79,5 @@ export const arrayCards = [
     ],
     liveLink: "https://godofwar-shop.vercel.app",
     github: "https://github.com/HenriqueAMascarin/God-Of-War",
-  },
-  {
-    img: Todo,
-    alt: "Imagem do projeto todo list",
-    title: "Todo List",
-    info: "Projeto de lista de tarefas com troca de tema feito como desafio da Frontend Mentor.",
-    technologies: [
-      { img: reactLogo, alt: "React logo" },
-      { img: javascriptLogo, alt: "Javascript logo" },
-      { img: cssLogo, alt: "Css logo" },
-      { img: htmlLogo, alt: "Html logo" },
-    ],
-    liveLink: "https://todo-list-inky-beta.vercel.app",
-    github: "https://github.com/HenriqueAMascarin/Todo-list",
   },
 ];

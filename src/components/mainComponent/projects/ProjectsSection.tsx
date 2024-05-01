@@ -4,7 +4,7 @@ import { HorizontalPadding, MaxWidthCapsule, VerticalPadding } from "../../../st
 
 export default function ProjectsSection() {
   return (
-    <Projects id="projects">
+    <Projects id="projetos">
       <VerticalPadding>
         <h2>Projetos</h2>
 
@@ -13,10 +13,10 @@ export default function ProjectsSection() {
             return (
               <HorizontalPadding key={key}>
                 <MaxWidthCapsule>
-                  <div className="cardsDiv">
+                  <div className="cardsDiv" id={el.id}>
                     <img width="768" height="581" src={el.img} alt={el.alt} className="cardsImg" />
                     <div className="infoCard">
-                      <h3>{el.title}</h3>
+                      <h3 >{el.title}</h3>
                       <p>{el.info}</p>
 
                       <div className="cardsTech">
@@ -26,8 +26,8 @@ export default function ProjectsSection() {
                       </div>
 
                       <div className="cardsLinks">
-                        <a href={el.liveLink} target="_blank">
-                          Veja o site
+                        <a href={el.liveLink ?? el.downloadApk} target="_blank" download={el.downloadApk ? true : false}>
+                          {el.liveLink ? 'Veja o site' : 'Baixe o aplicativo'}
                         </a>
                         <a href={el.github} target="_blank">
                           <svg width="52" height="50" viewBox="0 0 52 50" fill="none" xmlns="http://www.w3.org/2000/svg">

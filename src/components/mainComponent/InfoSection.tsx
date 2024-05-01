@@ -5,7 +5,7 @@ import curriculum from "../../assets/images/curriculumHenrique.pdf";
 
 export default function InfoSection() {
   return (
-    <Info id="info">
+    <Info id="sobre">
       <VerticalPadding>
         <HorizontalPadding>
           <MaxWidthCapsule>
