@@ -84,7 +84,7 @@ export const Projects = styled.section`
           .cardsLinks {
             display: flex;
             align-items: center;
-            margin-top: 20px;
+            margin-top: 70px;
 
             a:not(:has(svg)) {
               text-decoration: none;
