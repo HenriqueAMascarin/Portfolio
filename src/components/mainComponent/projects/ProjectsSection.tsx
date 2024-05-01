@@ -26,7 +26,7 @@ export default function ProjectsSection() {
                       </div>
 
                       <div className="cardsLinks">
-                        <a href={el.liveLink ?? el.downloadApk} target="_blank">
+                        <a href={el.liveLink ?? el.downloadApk} target="_blank" download={el.downloadApk ? true : false}>
                           {el.liveLink ? 'Veja o site' : 'Baixe o aplicativo'}
                         </a>
                         <a href={el.github} target="_blank">

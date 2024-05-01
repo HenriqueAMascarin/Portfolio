@@ -30,7 +30,7 @@ export const arrayCards = [
       { img: reduxLogo, alt: "Redux logo" },
       { img: figmaLogo, alt: "Figma logo" },
     ],
-    downloadApk: "https://henriqueamascarin.vercel.app/src/assets/apks/MediaTimer.apk",
+    downloadApk: "/src/assets/apks/MediaTimer.apk",
     github: "https://github.com/HenriqueAMascarin/MediaTimer",
   },
   {
