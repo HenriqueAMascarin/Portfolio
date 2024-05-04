@@ -13,16 +13,16 @@ function App() {
 
 
   useEffect(() => {
-    const element = document.getElementById(locationId);
+    setTimeout(() => {
+      const element = document.getElementById(locationId);
 
-    arrayCards.forEach((el) => {
-      if (location.hash.includes(el.id) && element) {
-        setTimeout(() => {
-          scrollTo(0, window.scrollY + element.getBoundingClientRect().top - 13);
-        }, 100);
-      }
-    })
+      arrayCards.forEach((el) => {
+        if (location.hash.includes(el.id) && element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      });
 
+    }, 100);
   }, [])
 
   return (
