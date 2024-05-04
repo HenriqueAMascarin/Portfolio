@@ -9,14 +9,16 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
+    const locationId = location.hash.slice(location.hash.indexOf('#') + 1, location.hash.length);
+    const element = document.getElementById(locationId);
+
     arrayCards.forEach((el) => {
-      if (location.hash.includes(el.id)) {
-        const locationId = location.hash.slice(location.hash.indexOf('#') + 1, location.hash.length);
-        document.getElementById(locationId)?.scrollIntoView();
+      if (location.hash.includes(el.id) && element) {
+        element.scrollIntoView({ behavior: "smooth" });
       }
     })
-    
-  }, [])
+
+  }, [arrayCards])
 
   return (
     <>
