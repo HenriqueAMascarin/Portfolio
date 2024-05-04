@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Main from "./components/mainComponent/Main";
 import Thanks from "./components/thanksComponents/Thanks";
 import { Routes, Route, useLocation } from "react-router-dom"
@@ -8,17 +8,20 @@ function App() {
 
   const location = useLocation();
 
+  const locationId = location.hash.slice(location.hash.indexOf('#') + 1, location.hash.length);
+
+
+
   useEffect(() => {
-    const locationId = location.hash.slice(location.hash.indexOf('#') + 1, location.hash.length);
     const element = document.getElementById(locationId);
 
     arrayCards.forEach((el) => {
       if (location.hash.includes(el.id) && element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        scrollTo(0, window.scrollY + element.getBoundingClientRect().top - 13);
       }
     })
 
-  }, [arrayCards])
+  }, [])
 
   return (
     <>
