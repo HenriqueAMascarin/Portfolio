@@ -17,7 +17,9 @@ function App() {
 
     arrayCards.forEach((el) => {
       if (location.hash.includes(el.id) && element) {
-        scrollTo(0, window.scrollY + element.getBoundingClientRect().top - 13);
+        setTimeout(() => {
+          scrollTo(0, window.scrollY + element.getBoundingClientRect().top - 13);
+        }, 100);
       }
     })
 
