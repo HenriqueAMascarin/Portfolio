@@ -82,6 +82,11 @@ export const Projects = styled.section`
           }
 
           .cardsLinks {
+
+            a, path{
+              transition: all ease-in-out .2s;
+            }
+
             display: flex;
             align-items: center;
             margin-top: 70px;

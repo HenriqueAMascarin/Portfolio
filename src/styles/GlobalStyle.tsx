@@ -6,6 +6,10 @@ import { Variables } from "./CustomVariables";
 
 export const GlobalStyle = createGlobalStyle`
 
+    section{
+        scroll-margin-top: 68px;
+    }
+
     @font-face {
         font-family: inter;
         src: url(${fontLight});
@@ -101,12 +105,6 @@ export const LinesFlex = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
 `;
 
 export const MaxWidthCapsule = styled.div`
@@ -116,5 +114,5 @@ export const MaxWidthCapsule = styled.div`
 `;
 
 export const VerticalPadding = styled.div`
-  padding: 80px 0;
+  padding: 40px 0 80px 0;
 `;

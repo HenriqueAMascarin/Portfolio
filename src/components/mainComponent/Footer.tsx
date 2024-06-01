@@ -29,11 +29,13 @@ export default function Footer() {
               </a>
             </div>
 
-            <div className="MakeLink">
-              <a href="https://github.com/HenriqueAMascarin" target="_blank">
-                Feito por Henrique de Albuquerque Mascarin
-              </a>
-            </div>
+            <div className="lineFooter"></div>
+
+
+            <a href="https://github.com/HenriqueAMascarin" target="_blank" className="createBy">
+              Feito por Henrique de Albuquerque Mascarin
+            </a>
+
           </div>
         </MaxWidthCapsule>
       </HorizontalPadding>

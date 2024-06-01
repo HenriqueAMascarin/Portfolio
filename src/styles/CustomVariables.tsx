@@ -8,4 +8,5 @@ export const Variables = {
         },
         customDropShadow: "0 1px 1px rgba(0, 0, 0, 0.5)",
         headerHeight: '70px',
+        linkedinColor: '#0A66C2',
 }

@@ -16,7 +16,7 @@ export default function PrincipalSection() {
               </p>
             </div>
 
-            <a href="#info">
+            <a href="#sobre">
               <svg viewBox="0 0 39 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <title>Seta para ir na sessão abaixo</title>
                 <path

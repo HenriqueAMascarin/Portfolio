@@ -4,12 +4,21 @@ import { Variables } from "../CustomVariables";
 export const FooterStyled = styled.footer`
   background-color: ${Variables.black};
   text-align: center;
-  padding: 40px 0 10px;
+  padding: 40px 0 30px;
 
   .flexFooter{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
+
+    .lineFooter{
+      width: 100%;
+      height: 3px;
+      background-color: ${Variables.white};
+      max-width: 300px;
+    }
 
     .socialLinks {
       display: flex;
@@ -21,8 +30,8 @@ export const FooterStyled = styled.footer`
         fill: ${Variables.red};
       }
       a{
-        width: 48px;
-        height: 48px;
+        width: 42px;
+        height: 42px;
       }
     }
 
@@ -36,20 +45,11 @@ export const FooterStyled = styled.footer`
       }
     }
 
-    .MakeLink {
-      &::before {
-        width: 100%;
-        height: 3px;
-        background-color: ${Variables.white};
-        max-width: 400px;
-      }
-
-      a {
+    .createBy {
         max-width: 250px;
         font-size: 1.1rem;
         display: inline-block;
-        margin: 0 auto;
-      }
+
     }
 
     a path,
@@ -62,27 +62,28 @@ export const FooterStyled = styled.footer`
     padding: 20px 0;
 
     .flexFooter {
-      flex-direction: row-reverse;
-      align-items: center;
-      justify-content: center;
+      flex-direction: row;
+      position: relative;
+      gap: 24px;
 
-      .socialLinks {
-        margin-left: 40px;
+      .socialLinks{
+        width: 220px;
+        padding-left: 10px;
+        justify-content: start;
       }
 
-      .MakeLink {
-        max-width: 220px;
-        position: relative;
+     
+      .createBy {
+        width: 220px;
         display: flex;
         align-items: center;
+        order: -2;
+      }
 
-        &::before {
-          position: relative;
-          margin: auto 0;
-          left: calc(100% + 30px);
-          width: 4px;
-          height: 100px;
-        }
+      .lineFooter{
+        order: -1;
+        width: 3px;
+        height: 100px;
       }
     }
   }
