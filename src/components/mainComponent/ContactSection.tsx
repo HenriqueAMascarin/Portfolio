@@ -1,8 +1,10 @@
 import { HorizontalPadding, MaxWidthCapsule, VerticalPadding } from "../../styles/GlobalStyle";
 import { ContactStyle } from "../../styles/mainStyles/ContactStyle.style";
 import photo from "../../assets/images/photo.webp";
+import { Link } from "react-router-dom";
 
 export default function ContactSection() {
+
   return (
     <ContactStyle id="contato">
       <VerticalPadding>
@@ -20,7 +22,7 @@ export default function ContactSection() {
                   Caso tenha <span className="redText">interesse</span> no meu <span className="redText">trabalho</span> ou se gostaria de manter <span className="redText">contato</span>.
                 </p>
                 <p>Se sinta à vontade para se <span className="blueText">conectar</span> e enviar uma <span className="blueText">mensagem</span> pelo <span className="blueText">LinkedIn!</span></p>
-                <a href="https://www.linkedin.com/in/henriqueamasc/" target="_blank" rel="noopener noreferrer" className="btnLinkedin">
+                <Link to={'/obrigado'} className="btnLinkedin">
                   <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <title>Linkedin logo</title>
                     <path
@@ -28,7 +30,7 @@ export default function ContactSection() {
                       fill="#F2F2F2"
                     />
                   </svg>
-                  Clique aqui!</a>
+                  Clique aqui!</Link>
               </div>
             </div>
 

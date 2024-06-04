@@ -10,9 +10,10 @@ export const TechSection = styled.section`
   ${HorizontalPadding} ${LinesFlex} {
     .techIcons {
       display: grid;
-      gap: 30px;
-      grid-template-columns: repeat(auto-fill, 5rem);
-      max-width: calc(5rem * 7);
+      row-gap: 30px;
+      column-gap: 50px;
+      grid-template-columns: repeat(auto-fill, 70px);
+      max-width: calc(90px * 7);
       width: 100%;
       align-items: center;
       justify-items: center;
@@ -20,6 +21,8 @@ export const TechSection = styled.section`
 
       img{
         transition: all .5s ease-in-out;
+        height: 100px;
+        width: 120px;
         filter: drop-shadow(${Variables.customDropShadow});
       }
       img:hover{

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Main from "./components/mainComponent/Main";
 import Thanks from "./components/thanksComponents/Thanks";
 import { Routes, Route, useLocation } from "react-router-dom"
@@ -9,8 +9,6 @@ function App() {
   const location = useLocation();
 
   const locationId = location.hash.slice(location.hash.indexOf('#') + 1, location.hash.length);
-
-
 
   useEffect(() => {
     setTimeout(() => {
