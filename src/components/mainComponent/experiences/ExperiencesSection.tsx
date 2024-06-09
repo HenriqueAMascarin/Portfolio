@@ -16,22 +16,21 @@ export default function ExperiencesSection() {
                 <div className="lineExperience"> </div>
                 {experiencesArray.map((experience, keyExperience) => {
                   return (
-
-
-
                     <article key={keyExperience} className="experienceArticle">
 
                       <span className="lineCircleExperience"></span>
-                      <a href={experience.company.url} target="_blank" rel="noopener noreferrer">{`${experience.position} - ${experience.company.name}`}</a>
-                      <p className="timeCompanyText">{experience.timeCompany}</p>
-                      <p className="aboutText">{experience.about}</p>
+                      <div className="infoContainer">
+                        <a href={experience.company.url} target="_blank" rel="noopener noreferrer">{`${experience.position} - ${experience.company.name}`}</a>
+                        <p className="timeCompanyText">{experience.timeCompany}</p>
+                        <p className="aboutText">{experience.about}</p>
 
-                      <div className="techContainer">
-                        {experience.technologies.map((tech, keyTech) => {
-                          return (
-                            <img src={tech.img} width="60px" height="60px" alt={tech.alt} title={tech.alt} key={keyTech} />
-                          )
-                        })}
+                        <div className="techContainer">
+                          {experience.technologies.map((tech, keyTech) => {
+                            return (
+                              <img src={tech.img} width="60px" height="60px" alt={tech.alt} title={tech.alt} key={keyTech} />
+                            )
+                          })}
+                        </div>
                       </div>
 
                       <img src={experience.consideration.src} alt={experience.consideration.alt} className="considerationImg" />

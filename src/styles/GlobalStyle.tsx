@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 import fontLight from "../assets/fonts/Inter-Light.ttf";
+import fontRegular from "../assets/fonts/Inter-Regular.ttf";
 import fontBold from "../assets/fonts/Inter-Bold.ttf";
 import { Variables } from "./CustomVariables";
 
@@ -17,6 +18,15 @@ export const GlobalStyle = createGlobalStyle`
         font-style: normal;
         font-display: swap;
     }
+
+    @font-face {
+        font-family: inter;
+        src: url(${fontRegular});
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }   
+
     @font-face {
         font-family: inter;
         src: url(${fontBold});

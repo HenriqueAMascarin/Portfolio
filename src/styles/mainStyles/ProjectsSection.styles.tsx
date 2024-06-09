@@ -46,7 +46,7 @@ export const Projects = styled.section`
         padding: 15px;
         border-radius: 10px;
         font-weight: bold;
-        max-width: 370px;
+        max-width: 400px;
         scroll-margin-top: 100px;
 
         .cardsImg {

@@ -14,10 +14,12 @@ export const WorksStyle = styled.section`
       background-color: ${Variables.white};
     }
   }
+  
   .containerExperience{
     display: flex;
     flex-direction: row;
-    
+    margin: 0 auto;
+    max-width: 400px;
 
     .lineExperience{
       min-width: 3px;
@@ -28,20 +30,19 @@ export const WorksStyle = styled.section`
     }
   
     .experienceArticle{
+      display: flex;
+      flex-direction: column;
       margin-bottom: 40px;
       position: relative;
-
-      p{
-        font-weight: bold;
-      }
 
       .timeCompanyText{
         font-size: 1.32rem;
         margin: 5px 0 10px;
+        font-weight: bold;
       }
 
       .aboutText{
-      
+        font-weight: 400;
       }
 
       .lineCircleExperience{
@@ -57,21 +58,28 @@ export const WorksStyle = styled.section`
       a{
         color: ${Variables.red};
         font-weight: bold;
+        font-size: 1.5rem;
       }
       
       .techContainer{
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
+        margin-top: 25px;
 
         img{
-          width: 35px;
-          height: 35px;
+          width: 38px;
+          height: 38px;
+          transition: all .5s ease-in-out;
+
+          &:hover{
+            transform: scale(1.05);
+          }
         }
       }
 
       .considerationImg{
-        border-radius: 30px;
+        border-radius: 15px;
         border: 2.5px solid ${Variables.red};
         margin-top: 40px;
       }
@@ -84,5 +92,25 @@ export const WorksStyle = styled.section`
       margin-bottom: 60px;
     }
     
+    .containerExperience{
+      max-width: fit-content;
+
+      .experienceArticle{
+        margin-bottom: 90px;
+        flex-direction: row;
+
+        .infoContainer{
+          width: 400px;
+          margin-right: 40px;
+        }
+
+        .considerationImg{
+          width: 400px;
+          margin: auto 0;
+        
+        }
+      }
+    }
+   
   }
 `;
