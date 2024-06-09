@@ -36,9 +36,9 @@ export const WorksStyle = styled.section`
       position: relative;
 
       .timeCompanyText{
-        font-size: 1.32rem;
+        font-size: 1.31rem;
         margin: 5px 0 10px;
-        font-weight: bold;
+        font-weight: 600;
       }
 
       .aboutText{
@@ -55,11 +55,20 @@ export const WorksStyle = styled.section`
         border-radius: 100%;
       }
 
-      a{
-        color: ${Variables.red};
-        font-weight: bold;
-        font-size: 1.5rem;
-      }
+
+
+        a{
+          color: ${Variables.red};
+          font-weight: bold;
+          font-size: 1.5rem;
+          transition: all .15s ease-in-out;
+
+          &:hover{
+            color: #ff4268;
+          }
+        }
+
+      
       
       .techContainer{
         display: flex;
@@ -101,12 +110,12 @@ export const WorksStyle = styled.section`
 
         .infoContainer{
           width: 400px;
-          margin-right: 40px;
+          margin-right: 50px;
         }
 
         .considerationImg{
           width: 400px;
-          margin: auto 0;
+          margin-top: 30px;
         
         }
       }

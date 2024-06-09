@@ -13,7 +13,7 @@ export const TechSection = styled.section`
       row-gap: 30px;
       column-gap: 50px;
       grid-template-columns: repeat(auto-fill, 70px);
-      max-width: calc(90px * 7);
+      max-width: calc(90px * 8);
       width: 100%;
       align-items: center;
       justify-items: center;

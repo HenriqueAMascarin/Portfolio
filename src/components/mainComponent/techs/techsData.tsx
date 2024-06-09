@@ -9,12 +9,14 @@ import sassLogo from "../../../assets/images/techIcons/sassLogo.svg";
 import styledComponentsLogo from "../../../assets/images/techIcons/styledComponentsLogo.svg";
 import figmaLogo from "../../../assets/images/techIcons/figmaLogo.svg";
 import expoLogo from "/src/assets/images/techIcons/expoLogo.svg";
+import quasarLogo from "/src/assets/images/techIcons/quasarLogo.svg";
 
 export const arrayTech: { img: string; alt: string }[] = [
   { img: typeScriptLogo, alt: "TypeScript logo" },
   { img: expoLogo, alt: "Expo logo" },
   { img: nativeLogo, alt: "React native logo" },
   { img: reactLogo, alt: "React logo" },
+  { img: quasarLogo, alt: "Quasar Logo" },
   { img: vueLogo, alt: "Vue logo" },
   { img: reduxLogo, alt: "Redux logo" },
   { img: piniaLogo, alt: "Pinia logo" },
