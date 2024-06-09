@@ -55,7 +55,7 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 2rem;
     }
     p{
-        font-size: 1.3rem;
+        font-size: 1.22rem;
     }
     a{
         font-size: 1.8rem;
