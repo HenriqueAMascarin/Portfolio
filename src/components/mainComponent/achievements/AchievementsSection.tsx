@@ -1,5 +1,5 @@
-import { HorizontalPadding, VerticalPadding, MaxWidthCapsule } from "../../styles/GlobalStyle";
-import { AchievementsStyle } from "../../styles/mainStyles/AchievementsStyle.styles";
+import { HorizontalPadding, VerticalPadding, MaxWidthCapsule } from "../../../styles/GlobalStyle";
+import { AchievementsStyle } from "../../../styles/mainStyles/AchievementsStyle.styles";
 
 export default function AchievementsSection() {
   return (

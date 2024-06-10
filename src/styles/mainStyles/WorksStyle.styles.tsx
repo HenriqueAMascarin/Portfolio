@@ -110,7 +110,7 @@ export const WorksStyle = styled.section`
 
         .infoContainer{
           width: 400px;
-          margin-right: 50px;
+          margin-right: 70px;
         }
 
         .considerationImg{

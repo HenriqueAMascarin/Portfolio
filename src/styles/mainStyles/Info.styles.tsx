@@ -17,7 +17,7 @@ export const Info = styled.section`
       flex-direction: column;
       gap: 10px;
       margin-bottom: 30px;
-      font-weight: 400,
+      font-weight: 400,                                  
     }
 
     img {

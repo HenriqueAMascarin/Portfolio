@@ -22,7 +22,7 @@ export const arrayCards = [
     img: MediaTimer,
     alt: "Imagem da logo Media Timer",
     title: "Media Timer",
-    info: "Aplicativo de timer com API de músicas e diversas funcionalidades, com objetivo de solucionar um problema pessoal!",
+    info: "Aplicativo de timer com API de músicas e diversas funcionalidades, com objetivo de solucionar um problema pessoal.",
     technologies: [
       { img: expoLogo, alt: "Expo logo" },
       { img: reactNativeLogo, alt: "React Native logo" },
