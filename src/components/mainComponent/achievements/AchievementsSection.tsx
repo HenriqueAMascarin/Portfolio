@@ -7,12 +7,14 @@ export default function AchievementsSection() {
       <VerticalPadding>
 
         <HorizontalPadding>
-          <MaxWidthCapsule>
-            <div>
-              <h2>Conquistas</h2>
-            </div>
-          </MaxWidthCapsule>
+          <h2>Conquistas</h2>
         </HorizontalPadding>
+
+        <MaxWidthCapsule>
+          <div>
+            
+          </div>
+        </MaxWidthCapsule>
 
       </VerticalPadding>
     </AchievementsStyle>

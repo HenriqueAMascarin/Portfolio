@@ -23,4 +23,5 @@ export const arrayTech: { img: string; alt: string }[] = [
   { img: figmaLogo, alt: "Figma logo" },
   { img: tailwindCSSLogo, alt: "TailwindCSS logo" },
   { img: styledComponentsLogo, alt: "StyledComponents logo" },
+  { img: sassLogo, alt: "Sass logo" },
 ];
