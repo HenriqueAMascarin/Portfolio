@@ -1,5 +1,6 @@
 import { HorizontalPadding, VerticalPadding, MaxWidthCapsule } from "../../../styles/GlobalStyle";
 import { AchievementsStyle } from "../../../styles/mainStyles/AchievementsStyle.styles";
+import { achievementsData } from "./achievementsData";
 
 export default function AchievementsSection() {
   return (
@@ -12,7 +13,13 @@ export default function AchievementsSection() {
 
         <MaxWidthCapsule>
           <div>
-            
+            {achievementsData.map((achievement, keyItem) => {
+              return (
+                <article key={keyItem} className="articleAchievement">
+                  <img src={achievement.img.src} alt={achievement.img.alt}/>
+                </article>
+              )
+            })}
           </div>
         </MaxWidthCapsule>
 

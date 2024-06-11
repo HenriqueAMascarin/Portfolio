@@ -33,7 +33,7 @@ export default function ExperiencesSection() {
                         </div>
                       </div>
 
-                      <img src={experience.consideration.src} alt={experience.consideration.alt} className="considerationImg" />
+                      <img src={experience.consideration.src} alt={experience.consideration.alt} className="considerationImg" width="433px" height="233px"/>
 
                     </article>
 

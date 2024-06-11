@@ -13,6 +13,14 @@ export const AchievementsStyle = styled.section`
     }
   }
 
+
+  .articleAchievement{
+    img{
+      height: 200px;
+      width: 100%;
+      object-fit: ;
+    }
+  }
   
   @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     h2 {

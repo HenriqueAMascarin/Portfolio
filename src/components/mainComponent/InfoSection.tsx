@@ -17,16 +17,13 @@ export default function InfoSection() {
 
                 <div className="textInfo">
                   <p>
-                    Sou uma pessoa batalhadora, que tenho como objetivo melhorar todos os dias. Busco tanto aprender com os outros e auxiliar o possível. Não gosto de brigas e tento sempre ser
-                    amigável.
+                    Sou uma pessoa determinada, que tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível.
                   </p>
                   <p>
-                    Como sempre gostei de jogos eletrônicos, eu acabei virando desenvolvedor por um tempo, lá em 2018 e acabei ficando 8 meses indo atrás de aprender, só que acabei parando. Mas no fim
-                    me trouxe muitos benefícios em relação a design, entender mais sobre as coisas e um básico de programação junto a criatividade.
+                    Sempre gostei de jogos eletrônicos e acabei desenvolvendo projetos utilizando a Unity por um tempo, infelizmente acabei parando. Mas no fim, trouxe muitos conhecimentos em relação a design, lógica de programação e criatividade.
                   </p>
                   <p>
-                    Acabei voltando para a programação, mas como desenvolvedor front-end. Atrás de aprender sobre a área e me aprofundar mais, com cursos junto a muita prática, para assim criar as
-                    melhores soluções.
+                    Contudo, acabei voltando para a programação como desenvolvedor front-end. A fim de aprender sobre a área e me aprofundar ainda mais, para assim criar as melhores soluções com design agradável pensando na experiência do usuário.
                   </p>
                 </div>
 
