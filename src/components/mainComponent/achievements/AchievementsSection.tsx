@@ -12,11 +12,13 @@ export default function AchievementsSection() {
         </HorizontalPadding>
 
         <MaxWidthCapsule>
-          <div>
+          <div className="containerAchievements">
             {achievementsData.map((achievement, keyItem) => {
               return (
                 <article key={keyItem} className="articleAchievement">
-                  <img src={achievement.img.src} alt={achievement.img.alt}/>
+                  <div className="divImg">
+                    <img src={achievement.img.src} alt={achievement.img.alt} />
+                  </div>
                 </article>
               )
             })}

@@ -13,14 +13,30 @@ export const AchievementsStyle = styled.section`
     }
   }
 
+  .containerAchievements{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 340px);
 
-  .articleAchievement{
-    img{
-      height: 200px;
+    .articleAchievement{
       width: 100%;
-      object-fit: ;
+      height: 100%;
+
+    .divImg{
+      height: 210px;
+      width: 100%;
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    
     }
   }
+  
   
   @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     h2 {
