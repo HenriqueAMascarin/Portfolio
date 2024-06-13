@@ -7,6 +7,7 @@ export const AchievementsStyle = styled.section`
   h2 {
     text-align: center;
     color: ${Variables.black};
+    margin-bottom: 60px;
 
     &::after {
       background-color: ${Variables.black};
@@ -18,7 +19,7 @@ export const AchievementsStyle = styled.section`
     justify-content: center;
     align-items: center;
     width: 100%;
-    grid-template-columns: repeat(auto-fill, 340px);
+    grid-template-columns: repeat(auto-fit, minmax(0px, 320px));
 
     .articleAchievement{
       width: 100%;
@@ -27,6 +28,7 @@ export const AchievementsStyle = styled.section`
     .divImg{
       height: 210px;
       width: 100%;
+      outline: ${Variables.red} 2px solid;
 
       img{
         width: 100%;
@@ -35,13 +37,5 @@ export const AchievementsStyle = styled.section`
     }
     
     }
-  }
-  
-  
-  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
-    h2 {
-      margin-bottom: 60px;
-    }
-    
   }
 `;
