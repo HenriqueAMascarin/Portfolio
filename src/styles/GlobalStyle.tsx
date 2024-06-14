@@ -73,6 +73,9 @@ export const GlobalStyle = createGlobalStyle`
     h3{
         font-size: 2rem;
     }
+    h4{
+        font-size: 1.4rem;
+    }
     p{
         font-size: 1.22rem;
     }

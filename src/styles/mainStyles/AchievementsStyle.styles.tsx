@@ -27,16 +27,37 @@ export const AchievementsStyle = styled.section`
 
 export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
 
+  height: 100%;
+  position: relative;
+  background-color: ${Variables.black};
+  color: ${Variables.white};
 
-    .divImg{
-      height: 230px;
-      width: 100%;
-      display: block;
-      outline: ${Variables.red} 2px solid;
-      overflow: hidden;
-      background: url(${props => props.achievementBG}) center no-repeat;
-      background-size: cover;
+  .outlineArticle{ 
+    outline: ${Variables.red} 2px solid;
+    outline-offset: -2px;
+  }
+
+  .divImg{
+    height: 230px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background: url(${props => props.achievementBG}) center no-repeat;
+    background-size: cover;
+  }
+
+  .aboutDiv{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 15px 10px;
+    position: relative;
+    
+
+    p{
+      font-size: 1.1rem;
     }
-      
-  
-`
+  }  
+    
+`;

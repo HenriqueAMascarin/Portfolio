@@ -16,7 +16,12 @@ export default function AchievementsSection() {
             {achievementsData.map((achievement, keyItem) => {
               return (
                 <ArticleAchievement key={keyItem} achievementBG={achievement.img.src}>
-                  <div className="divImg" role="img" aria-label={achievement.img.alt}></div>
+                  <div className="divImg outlineArticle" role="img" aria-label={achievement.img.alt}></div>
+
+                  <div className="aboutDiv outlineArticle">
+                    <h4>{achievement.title}</h4>
+                    <p>{achievement.about}</p>
+                  </div>
                 </ArticleAchievement>
               )
             })}
