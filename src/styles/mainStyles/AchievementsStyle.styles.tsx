@@ -19,23 +19,24 @@ export const AchievementsStyle = styled.section`
     justify-content: center;
     align-items: center;
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(0px, 320px));
-
-    .articleAchievement{
-      width: 100%;
-      height: 100%;
-
-    .divImg{
-      height: 210px;
-      width: 100%;
-      outline: ${Variables.red} 2px solid;
-
-      img{
-        width: 100%;
-        height: 100%;
-      }
-    }
-    
-    }
+    max-width: 1200px; 
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 360px));
   }
 `;
+
+export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
+
+
+    .divImg{
+      height: 230px;
+      width: 100%;
+      display: block;
+      outline: ${Variables.red} 2px solid;
+      overflow: hidden;
+      background: url(${props => props.achievementBG}) center no-repeat;
+      background-size: cover;
+    }
+      
+  
+`

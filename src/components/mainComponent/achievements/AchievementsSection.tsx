@@ -1,5 +1,5 @@
 import { HorizontalPadding, VerticalPadding, MaxWidthCapsule } from "../../../styles/GlobalStyle";
-import { AchievementsStyle } from "../../../styles/mainStyles/AchievementsStyle.styles";
+import { AchievementsStyle, ArticleAchievement } from "../../../styles/mainStyles/AchievementsStyle.styles";
 import { achievementsData } from "./achievementsData";
 
 export default function AchievementsSection() {
@@ -11,19 +11,17 @@ export default function AchievementsSection() {
           <h2>Conquistas</h2>
         </HorizontalPadding>
 
-        <MaxWidthCapsule>
+ 
           <div className="containerAchievements">
             {achievementsData.map((achievement, keyItem) => {
               return (
-                <article key={keyItem} className="articleAchievement">
-                  <div className="divImg">
-                    <img src={achievement.img.src} alt={achievement.img.alt} />
-                  </div>
-                </article>
+                <ArticleAchievement key={keyItem} achievementBG={achievement.img.src}>
+                  <div className="divImg" role="img" aria-label={achievement.img.alt}></div>
+                </ArticleAchievement>
               )
             })}
           </div>
-        </MaxWidthCapsule>
+  
 
       </VerticalPadding>
     </AchievementsStyle>
