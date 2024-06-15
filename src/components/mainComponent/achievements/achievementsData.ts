@@ -7,6 +7,7 @@ import logicUdemyImg from "/src/assets/images/achievements/logicUdemy.jpg";
 
 export const achievementsData = [
   {
+    isOpen: false,
     img: {
       src: reactCoodeshImg,
       alt: "Imagem de certificado reactJS da empresa Coodesh",
@@ -17,6 +18,7 @@ export const achievementsData = [
     ],
   },
   {
+    isOpen: false,
     img: {
       src: frontEndImg,
       alt: "Imagem de certificado do curso front-end trilha RSTI do Senac",
@@ -27,6 +29,7 @@ export const achievementsData = [
     ],
   },
   {
+    isOpen: false,
     img: {
       src: techstarsImg,
       alt: "Imagem com o troféu de primeiro lugar do Smart Cities",
@@ -38,6 +41,7 @@ export const achievementsData = [
     ],
   },
   {
+    isOpen: false,
     img: {
       src: logicSenacImg,
       alt: "Imagem de certificado do curso lógica de programação trilha RSTI do Senac",
@@ -48,6 +52,7 @@ export const achievementsData = [
     ],
   },
   {
+    isOpen: false,
     img: {
       src: webDesignImg,
       alt: "Imagem de certificado do curso web design da Udemy",
@@ -58,6 +63,7 @@ export const achievementsData = [
     ],
   },
   {
+    isOpen: false,
     img: {
       src: logicUdemyImg,
       alt: "Imagem de certificado do curso algoritmos e lógica de programação da Udemy",

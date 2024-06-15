@@ -17,7 +17,7 @@ export const AchievementsStyle = styled.section`
   .containerAchievements{
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 100%;
     max-width: 1200px; 
     margin: 0 auto;
@@ -27,18 +27,21 @@ export const AchievementsStyle = styled.section`
 
 export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
 
-  height: 100%;
+  height: fit-content;
   position: relative;
-  background-color: ${Variables.black};
   color: ${Variables.white};
 
-  .outlineArticle{ 
-    outline: ${Variables.red} 2px solid;
-    outline-offset: -2px;
-  }
+  outline: ${Variables.red} 2px solid;
+  outline-offset: -1px;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  
 
   .divImg{
-    height: 230px;
+    min-height: 230px;
     width: 100%;
     display: block;
     overflow: hidden;
@@ -46,17 +49,30 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
     background-size: cover;
   }
 
-  .aboutDiv{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    padding: 15px 10px;
-    position: relative;
-    
+  .isOpenAbout.aboutDiv {
+    max-height: 100%;
+  }
 
-    p{
-      font-size: 1.1rem;
+  .aboutDiv{
+    flex-grow: 1;  
+    max-height: 0px;
+    transition: all .1s ease-in-out;
+    overflow: hidden;
+    background-color: ${Variables.black};
+
+
+    div{
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      flex-direction: column;
+      padding: 15px 10px;
+      position: relative;
+      min-height: 300px;
+
+      p{
+        font-size: 1.1rem;
+      }
     }
   }  
     
