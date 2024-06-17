@@ -34,10 +34,12 @@ export default function AchievementsSection() {
               <ArticleAchievement key={keyItem} achievementBG={achievement.img.src} >
                 <div className="divImg outlineAchievements" role="img" aria-label={achievement.img.alt} onClick={() => clickAchievement(achievement)}></div>
 
-                <div className={ achievement.isOpen ? 'isOpenAbout aboutDiv outlineAchievements' : 'aboutDiv'}>
-                  <div>
-                    <h4>{achievement.title}</h4>
-                    <p>{achievement.about}</p>
+                <div className={achievement.isOpen ? 'isOpenAbout containerAbout' : 'containerAbout'}>
+                  <div className={achievement.isOpen ? 'isOpenAbout aboutDiv outlineAchievements' : 'aboutDiv outlineAchievements'}>
+                    <div>
+                      <h4>{achievement.title}</h4>
+                      <p>{achievement.about}</p>
+                    </div>
                   </div>
                 </div>
               </ArticleAchievement>

@@ -21,8 +21,8 @@ export const AchievementsStyle = styled.section`
 
   .containerAchievements{
     position: relative;
-    width: 100%;
-    max-width: 1200px; 
+    max-width: 1080px; 
+    width: fit-content;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +40,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
 
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
   
 
@@ -54,31 +54,45 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
     background-size: cover;
   }
 
-  .isOpenAbout.aboutDiv {
+  .isOpenAbout {
     max-height: 100%;
-    min-height: 230px;
   }
 
-  .aboutDiv{
+  .containerAbout{
     flex-grow: 1;  
     max-height: 0px;
-    min-width: 1080px;
+    
     transition: all .1s ease-in-out;
-    overflow: hidden;
-    background-color: ${Variables.black};
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 
-    div{
+    .aboutDiv{
       display: flex;
       justify-content: start;
       width: 100%;
+      max-height: 0;
       align-items: start;
       flex-direction: column;
-      padding: 15px 10px;
-      min-height: 300px;
+      overflow-y: hidden;
+  
+      position: absolute;
+      left: 0;
 
-      p{
-        font-size: 1.1rem;
+      
+      background-color: ${Variables.black};
+      height: 300px;
+
+
+      div{
+        padding: 15px 10px;
+
+        p{
+          font-size: 1.1rem;
+        }
       }
+     
     }
   }  
     
