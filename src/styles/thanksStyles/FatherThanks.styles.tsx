@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { HorizontalPadding, VerticalPadding } from "../GlobalStyle";
 import { MainThanks } from "./MainThanks";
 
 export const FatherThanks = styled.div`

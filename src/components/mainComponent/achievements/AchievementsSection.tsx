@@ -35,7 +35,7 @@ export default function AchievementsSection() {
                 <div className="divImg outlineAchievements" role="img" aria-label={achievement.img.alt} onClick={() => clickAchievement(achievement)}></div>
 
                 <div className={achievement.isOpen ? 'isOpenAbout containerAbout' : 'containerAbout'}>
-                  <div className={achievement.isOpen ? 'isOpenAbout aboutDiv outlineAchievements' : 'aboutDiv outlineAchievements'}>
+                  <div className={achievement.isOpen ? 'isOpenAbout aboutDiv outlineAchievements' : 'aboutDiv'}>
                     <div>
                       <h4>{achievement.title}</h4>
                       <p>{achievement.about}</p>
