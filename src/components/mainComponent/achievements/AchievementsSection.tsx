@@ -36,9 +36,10 @@ export default function AchievementsSection() {
 
                 <div className={achievement.isOpen ? 'isOpenAbout containerAbout' : 'containerAbout'}>
                   <div className={achievement.isOpen ? 'isOpenAbout aboutDiv outlineAchievements' : 'aboutDiv'}>
-                    <div>
-                      <h4>{achievement.title}</h4>
-                      <p>{achievement.about}</p>
+                    <div className="infoFlex">
+                      <img src={achievement.img.src} alt={achievement.img.alt} width={'295px'} height={'195px'}/>
+                      <div><h4>{achievement.title}</h4>
+                        <p>{achievement.about}</p></div>
                     </div>
                   </div>
                 </div>

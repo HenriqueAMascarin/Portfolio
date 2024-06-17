@@ -49,14 +49,20 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
       width: 100%;
       max-height: 0px;
 
-
-      div{
+      .infoFlex{
+        display: flex;
         padding: 15px 10px;
+        height: 100%;
+
+        img{
+          display: none;
+        }
 
         p{
           font-size: 1.1rem;
         }
       }
+
      
     }
   }  
@@ -95,7 +101,7 @@ export const AchievementsStyle = styled.section`
   @media screen and (min-width: 730px){
     .containerAchievements{
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(0px, 360px));
+      grid-template-columns: repeat(2, minmax(0px, 360px));
       grid-template-rows: auto;
     }
     
@@ -106,9 +112,19 @@ export const AchievementsStyle = styled.section`
         .aboutDiv{
           position: absolute !important;
           left: 0 !important;
+
+          .infoFlex img{
+            display: inline-block;
+          }
         }
 
       }
+    }
+  }
+
+  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}){
+    .containerAchievements{
+      grid-template-columns: repeat(3, minmax(0px, 360px));
     }
   }
 `;
