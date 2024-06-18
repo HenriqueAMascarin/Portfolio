@@ -31,13 +31,13 @@ export default function AchievementsSection() {
         <div className="containerAchievements">
           {achievements.map((achievement, keyItem) => {
             return (
-              <ArticleAchievement key={keyItem} achievementBG={achievement.img.src} >
+              <ArticleAchievement key={keyItem} achievementBG={achievement.img.src} className={achievement.isOpen ? 'isOpenAbout' : ''}>
                 <div className="divImg outlineAchievements" role="img" aria-label={achievement.img.alt} onClick={() => clickAchievement(achievement)}></div>
 
-                <div className={achievement.isOpen ? 'isOpenAbout containerAbout' : 'containerAbout'}>
-                  <div className={achievement.isOpen ? 'isOpenAbout aboutDiv outlineAchievements' : 'aboutDiv'}>
+                <div className="containerAbout">
+                  <div className="aboutDiv">
                     <div className="infoFlex">
-                      <div aria-label={achievement.img.alt} className="infoImage outlineAchievements"/>
+                      <div aria-label={achievement.img.alt} className="infoImage outlineAchievements" />
                       <div><h4>{achievement.title}</h4>
                         <p>{achievement.about}</p></div>
                     </div>

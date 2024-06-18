@@ -12,6 +12,13 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
   align-items: start;
   flex-direction: column;
   
+  &.isOpenAbout .divImg{
+    background-image: rgba(255, 255, 255, 0.5), url(${props => props.achievementBG}) !important;
+  }
+
+  &.isOpenAbout .containerAbout, &.isOpenAbout .aboutDiv {
+    max-height: 300px !important;
+  }
 
   .divImg{
     min-height: 230px;
@@ -21,10 +28,6 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
 
     background: url(${props => props.achievementBG}) center no-repeat;
     background-size: cover;
-  }
-
-  .isOpenAbout {
-    max-height: 300px !important;
   }
 
   .containerAbout{
