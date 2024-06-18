@@ -15,10 +15,10 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
 
   .divImg{
     min-height: 230px;
-    min-width: 360px;
-    width: 100%;
+    max-width: 360px;
+    min-width: 100%;
     display: block;
-    overflow: hidden;
+
     background: url(${props => props.achievementBG}) center no-repeat;
     background-size: cover;
   }
@@ -30,6 +30,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
   .containerAbout{
     flex-grow: 1;  
     max-height: 0px;
+    width: 100%;
     height: 300px;
     
     transition: all .1s ease-in-out;
@@ -51,11 +52,16 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
 
       .infoFlex{
         display: flex;
-        padding: 15px 10px;
+        padding: 30px 20px;
+        gap: 30px;
         height: 100%;
 
-        img{
+        .infoImage{
           display: none;
+          background: url(${props => props.achievementBG}) center no-repeat;
+          background-size: cover;
+          min-height: 100%;
+          min-width: 360px;
         }
 
         p{
@@ -103,6 +109,7 @@ export const AchievementsStyle = styled.section`
       display: grid;
       grid-template-columns: repeat(2, minmax(0px, 360px));
       grid-template-rows: auto;
+      width: fit-content;
     }
     
     ${ArticleAchievement} {
@@ -113,8 +120,11 @@ export const AchievementsStyle = styled.section`
           position: absolute !important;
           left: 0 !important;
 
-          .infoFlex img{
+          .infoFlex .infoImage{
             display: inline-block;
+            height: 100%;
+            width: fit-content;
+            border-radius: 14px;
           }
         }
 
