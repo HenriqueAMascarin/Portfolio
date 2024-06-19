@@ -60,6 +60,7 @@ export const GlobalStyle = createGlobalStyle`
     body, html{
         min-height: 100vh;
         scroll-behavior: smooth;
+        position: relative;
     }
 
     img, picture, svg, video{

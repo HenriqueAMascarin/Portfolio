@@ -1,11 +1,13 @@
 import { useState } from "react";
-import { HorizontalPadding, VerticalPadding, MaxWidthCapsule } from "../../../styles/GlobalStyle";
+import { HorizontalPadding, VerticalPadding } from "../../../styles/GlobalStyle";
 import { AchievementsStyle, ArticleAchievement } from "../../../styles/mainStyles/AchievementsStyle.styles";
 import { achievementsData } from "./achievementsData";
 
 export default function AchievementsSection() {
 
   const [achievements, changeAchievements] = useState(achievementsData);
+  const [selectedInfoModal, changeSelectedInfoModal] = useState<null | typeof achievementsData[0]>(null);
+
 
   function clickAchievement(selected: typeof achievementsData[0]) {
     const newAchievements = [...achievements];
@@ -21,6 +23,17 @@ export default function AchievementsSection() {
 
   return (
     <AchievementsStyle id="conquistas">
+
+      {selectedInfoModal != null &&
+        <div className="infoModal">
+          <div>
+            <img src="/src/assets/images/cancel.svg" alt="CancelSvg" className="cancelIcon" width="48px" height="48px" onClick={() => changeSelectedInfoModal(null)}/>
+            <img src={selectedInfoModal?.img?.src} alt={selectedInfoModal?.img?.alt} className="imageInfo" ></img>
+          </div>
+
+        </div>
+      }
+
       <VerticalPadding>
 
         <HorizontalPadding>
@@ -35,9 +48,9 @@ export default function AchievementsSection() {
                 <div className="divImg outlineAchievements" role="img" aria-label={achievement.img.alt} onClick={() => clickAchievement(achievement)}></div>
 
                 <div className="containerAbout">
-                  <div className="aboutDiv">
+                  <div className={achievement.isOpen ? 'aboutDiv outlineAchievements' : 'aboutDiv'}>
                     <div className="infoFlex">
-                      <div aria-label={achievement.img.alt} className="infoImage outlineAchievements" />
+                      <div aria-label={achievement.img.alt} className="infoImage outlineAchievements" onClick={() => changeSelectedInfoModal(achievement)} />
                       <div><h4>{achievement.title}</h4>
                         <p>{achievement.about}</p></div>
                     </div>

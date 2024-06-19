@@ -13,7 +13,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
   flex-direction: column;
   
   &.isOpenAbout .divImg{
-    background-image: rgba(255, 255, 255, 0.5), url(${props => props.achievementBG}) !important;
+    background-image: linear-gradient(rgba(213, 52, 84, 0.334), rgba(213, 52, 84, 0.334)), url(${props => props.achievementBG}) !important;
   }
 
   &.isOpenAbout .containerAbout, &.isOpenAbout .aboutDiv {
@@ -28,6 +28,8 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
 
     background: url(${props => props.achievementBG}) center no-repeat;
     background-size: cover;
+    transition: all 3s ease-in-out;
+    cursor: pointer;
   }
 
   .containerAbout{
@@ -64,7 +66,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
           background: url(${props => props.achievementBG}) center no-repeat;
           background-size: cover;
           min-height: 100%;
-          min-width: 360px;
+          min-width: 300px;
         }
 
         p{
@@ -107,6 +109,45 @@ export const AchievementsStyle = styled.section`
     align-items: start;
   }
 
+  .infoModal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.552);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+    div{
+      position: relative;
+      border-radius: 10px;
+      overflow-x: hidden;
+
+      outline: ${Variables.red} 3px solid;
+      outline-offset: -1px;
+
+      .cancelIcon{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+      }
+
+      .imageInfo{
+        max-width: 1000px;
+        max-height: 600px;
+        width: 100%;
+      }
+    }
+  }
+
   @media screen and (min-width: 730px){
     .containerAchievements{
       display: grid;
@@ -126,8 +167,9 @@ export const AchievementsStyle = styled.section`
           .infoFlex .infoImage{
             display: inline-block;
             height: 100%;
-            width: fit-content;
             border-radius: 14px;
+            cursor: pointer;
+
           }
         }
 
@@ -138,6 +180,14 @@ export const AchievementsStyle = styled.section`
   @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}){
     .containerAchievements{
       grid-template-columns: repeat(3, minmax(0px, 360px));
+
+      .containerAbout{
+      
+        .aboutDiv .infoFlex .infoImage{
+          min-width: 360px;
+
+        }
+      }
     }
   }
 `;
