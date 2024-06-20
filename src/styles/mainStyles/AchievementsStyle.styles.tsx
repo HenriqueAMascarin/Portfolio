@@ -17,7 +17,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
   }
 
   &.isOpenAbout .containerAbout, &.isOpenAbout .aboutDiv {
-    max-height: 300px !important;
+    max-height: fit-content !important;
   }
 
   .divImg{
@@ -36,7 +36,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
     flex-grow: 1;  
     max-height: 0px;
     width: 100%;
-    height: 300px;
+    height: 100%;
     
     transition: all .1s ease-in-out;
     display: flex;
@@ -51,22 +51,26 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
       overflow-y: hidden;
       background-color: ${Variables.black};
       transition: all .1s ease-in-out;
-      height: 300px;
+      height: fit-content;
       width: 100%;
       max-height: 0px;
 
       .infoFlex{
         display: flex;
+        flex-direction: column;
         padding: 30px 20px;
         gap: 30px;
         height: 100%;
 
         .infoImage{
-          display: none;
           background: url(${props => props.achievementBG}) center no-repeat;
           background-size: cover;
-          min-height: 100%;
+          min-height: 200px;
           min-width: 300px;
+          display: inline-block;
+          height: 100%;
+          border-radius: 14px;
+          cursor: pointer;
         }
 
         p{
@@ -138,6 +142,8 @@ export const AchievementsStyle = styled.section`
         top: 5px;
         right: 5px;
         cursor: pointer;
+        filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.373));
+        
       }
 
       .imageInfo{
@@ -157,19 +163,25 @@ export const AchievementsStyle = styled.section`
     }
     
     ${ArticleAchievement} {
+
+      &.isOpenAbout .containerAbout, &.isOpenAbout .aboutDiv {
+        max-height: 300px !important;
+      }
+  
       .containerAbout{
-      background-color: red;
+        height: 300px;
         
         .aboutDiv{
+          height: 300px;
           position: absolute !important;
           left: 0 !important;
 
-          .infoFlex .infoImage{
-            display: inline-block;
-            height: 100%;
-            border-radius: 14px;
-            cursor: pointer;
+          .infoFlex{
+            flex-direction: row;
 
+            .infoImage{
+              min-height: 100%;
+            }
           }
         }
 
