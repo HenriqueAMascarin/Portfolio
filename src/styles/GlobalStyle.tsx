@@ -63,6 +63,10 @@ export const GlobalStyle = createGlobalStyle`
         position: relative;
     }
 
+    body:has(.modal){
+        overflow: hidden;
+    }
+
     img, picture, svg, video{
         display: block;
         max-width: 100%;

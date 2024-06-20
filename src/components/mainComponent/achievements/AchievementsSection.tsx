@@ -25,12 +25,11 @@ export default function AchievementsSection() {
     <AchievementsStyle id="conquistas">
 
       {selectedInfoModal != null &&
-        <div className="infoModal">
-          <div>
-            <img src="/src/assets/images/cancel.svg" alt="CancelSvg" className="cancelIcon" width="48px" height="48px" onClick={() => changeSelectedInfoModal(null)} />
+        <div className="modal">
+          <div className="containerInfoModal">
+            <div className="cancelIconDiv"><img src="/src/assets/images/cancel.svg" alt="CancelSvg" className="cancelIcon" width="48px" height="48px" onClick={() => changeSelectedInfoModal(null)} /></div>
             <img src={selectedInfoModal?.img?.src} alt={selectedInfoModal?.img?.alt} className="imageInfo" ></img>
           </div>
-
         </div>
       }
 

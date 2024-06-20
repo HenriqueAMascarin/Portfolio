@@ -113,7 +113,7 @@ export const AchievementsStyle = styled.section`
     align-items: start;
   }
 
-  .infoModal{
+  .modal{
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.552);
@@ -127,29 +127,46 @@ export const AchievementsStyle = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 5px;
     
-    div{
+    .containerInfoModal{
       position: relative;
       border-radius: 10px;
-      overflow-x: hidden;
+      overflow: auto;
+      width: fit-content;
+      max-height: 600px;
+      height: 100%;
+      display: flex;
+      justify-content: start;
+
+      &::-webkit-scrollbar-track, &::-webkit-scrollbar-corner{
+        border-radius: 10px;
+      }
 
       outline: ${Variables.red} 3px solid;
       outline-offset: -1px;
 
-      .cancelIcon{
+      .cancelIconDiv{
         position: absolute;
-        top: 5px;
-        right: 5px;
-        cursor: pointer;
-        filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.373));
-        
+        right: 0px;
+        width: 48px;
+        height: 48px;
+
+        .cancelIcon{
+          width: 48px;
+          height: 48px;
+          right: 0;
+          top: 10px;
+          cursor: pointer;
+          filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.373));
+        }
       }
 
       .imageInfo{
         max-width: 1000px;
+        min-width: fit-content;
+        min-height: 500px;
         max-height: 600px;
-        width: 100%;
       }
     }
   }
