@@ -129,13 +129,29 @@ export const AchievementsStyle = styled.section`
     align-items: center;
     padding: 5px;
     
-    .containerInfoModal{
+    .containerModal{
+      position: relative;
+      max-height: 500px;
+      max-width: 100%;
+      height: 100%;
+
+      .cancelIcon{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 48px;
+        height: 48px;
+        z-index: 1;
+        cursor: pointer;
+      }
+
+      .containerImageModal{
       position: relative;
       border-radius: 10px;
       overflow: auto;
-      width: fit-content;
-      max-height: 600px;
+      width: 100%;
       height: 100%;
+      max-height: 100%;
       display: flex;
       justify-content: start;
 
@@ -146,28 +162,13 @@ export const AchievementsStyle = styled.section`
       outline: ${Variables.red} 3px solid;
       outline-offset: -1px;
 
-      .cancelIconDiv{
-        position: absolute;
-        right: 0px;
-        width: 48px;
-        height: 48px;
-
-        .cancelIcon{
-          width: 48px;
-          height: 48px;
-          right: 0;
-          top: 10px;
-          cursor: pointer;
-          filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.373));
-        }
-      }
-
       .imageInfo{
         max-width: 1000px;
         min-width: fit-content;
-        min-height: 500px;
-        max-height: 600px;
+        height: 500px;
+        max-height: 500px;
       }
+    }
     }
   }
 
