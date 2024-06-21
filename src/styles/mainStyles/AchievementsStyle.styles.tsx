@@ -73,8 +73,26 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
           cursor: pointer;
         }
 
-        p{
-          font-size: 1.1rem;
+        .textAbout{
+          display: flex;
+          flex-direction: column;
+
+          p{
+            font-size: 1.1rem;
+          }
+
+          a{
+            text-decoration: none;
+            color: ${Variables.black};
+            font-size: 1.2rem;
+            background-color: ${Variables.white};
+            font-weight: bold;
+
+            margin-top: auto;
+            width: fit-content;
+            padding: 2px 10px;
+            border-radius: 10px;
+          }
         }
       }
 

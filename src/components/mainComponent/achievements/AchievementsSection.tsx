@@ -56,6 +56,8 @@ export default function AchievementsSection() {
                       <div className="textAbout">
                         <h4>{achievement.title}</h4>
                         <p>{achievement.about}</p>
+
+                        <a href={achievement.moreInfoLink} target="_blank">Mais informações</a>
                       </div>
                     </div>
                   </div>
