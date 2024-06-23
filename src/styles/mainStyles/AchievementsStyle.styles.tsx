@@ -16,6 +16,10 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
     background-image: linear-gradient(rgba(213, 52, 84, 0.334), rgba(213, 52, 84, 0.334)), url(${props => props.achievementBG}) !important;
   }
 
+  &:not(.isOpenAbout) .aboutDiv.outlineAchievements {
+    opacity: 0;
+  }
+
   &.isOpenAbout .containerAbout, &.isOpenAbout .aboutDiv {
     max-height: fit-content !important;
   }
@@ -76,6 +80,11 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
         .textAbout{
           display: flex;
           flex-direction: column;
+          gap: 50px;
+
+          h4{
+            margin-bottom: 10px;
+          }
 
           p{
             font-size: 1.1rem;
@@ -92,6 +101,13 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
             width: fit-content;
             padding: 2px 10px;
             border-radius: 10px;
+
+            transition: all ease-in-out .2s;
+
+            &:hover{
+              color: ${Variables.white};
+              background-color: ${Variables.red};
+            }
           }
         }
       }
@@ -208,7 +224,7 @@ export const AchievementsStyle = styled.section`
         height: 300px;
         
         .aboutDiv{
-          height: 300px;
+          height: 100%;
           position: absolute !important;
           left: 0 !important;
 
@@ -229,12 +245,8 @@ export const AchievementsStyle = styled.section`
     .containerAchievements{
       grid-template-columns: repeat(3, minmax(0px, 360px));
 
-      .containerAbout{
-      
-        .aboutDiv .infoFlex .infoImage{
-          min-width: 360px;
-
-        }
+      .containerAbout .aboutDiv .infoFlex .infoImage{
+        min-width: 360px;
       }
     }
   }

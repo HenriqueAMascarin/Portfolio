@@ -96,7 +96,7 @@ export const Projects = styled.section`
               color: ${Variables.white};
               padding: 5px 10px;
               background-color: ${Variables.black};
-              font-size: 1.4rem;
+              font-size: 1.2rem;
               border-radius: 10px;
               transition: 0.2s ease -in -out;
 

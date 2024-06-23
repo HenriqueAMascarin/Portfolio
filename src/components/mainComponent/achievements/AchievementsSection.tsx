@@ -1,24 +1,32 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { HorizontalPadding, VerticalPadding } from "../../../styles/GlobalStyle";
 import { AchievementsStyle, ArticleAchievement } from "../../../styles/mainStyles/AchievementsStyle.styles";
 import { achievementsData } from "./achievementsData";
 
 export default function AchievementsSection() {
 
-  const [achievements, changeAchievements] = useState(achievementsData);
+  const achievementsContainerRef = useRef<null | HTMLDivElement>(null);
   const [selectedInfoModal, changeSelectedInfoModal] = useState<null | typeof achievementsData[0]>(null);
 
 
-  function clickAchievement(selected: typeof achievementsData[0]) {
-    const newAchievements = [...achievements];
+  function clickAchievement(selected: number) {
+    if (achievementsContainerRef.current) {
+      const childrens = achievementsContainerRef.current.children;
+      const className = 'isOpenAbout';
 
-    const achievementsId = newAchievements.findIndex((achievement) => achievement == selected);
+      for (let index = 0; index < childrens.length; index++) {
+        if (index != selected) {
+          setTimeout(() => {
+            childrens[index].classList.remove(className);
+          }, 50);
+        }
+      }
 
-    newAchievements.filter((achievement) => achievement != selected).forEach((achievement) => achievement.isOpen = false);
-
-    newAchievements[achievementsId].isOpen = !newAchievements[achievementsId].isOpen;
-
-    return changeAchievements([...newAchievements]);
+      setTimeout(() => {
+        childrens[selected].classList.toggle(className);
+        childrens[selected].scrollIntoView();
+      }, 180);
+    }
   }
 
   return (
@@ -43,19 +51,26 @@ export default function AchievementsSection() {
         </HorizontalPadding>
 
 
-        <div className="containerAchievements">
-          {achievements.map((achievement, keyItem) => {
+        <div className="containerAchievements" ref={achievementsContainerRef}>
+          {achievementsData.map((achievement, keyItem) => {
             return (
-              <ArticleAchievement key={keyItem} achievementBG={achievement.img.src} className={achievement.isOpen ? 'isOpenAbout' : ''}>
-                <div className="divImg outlineAchievements" role="img" aria-label={achievement.img.alt} onClick={() => clickAchievement(achievement)}></div>
+              <ArticleAchievement key={keyItem} achievementBG={achievement.img.src}>
+                <div className="divImg outlineAchievements" role="img" aria-label={achievement.img.alt} onClick={() => clickAchievement(keyItem)}></div>
 
                 <div className="containerAbout">
-                  <div className={achievement.isOpen ? 'aboutDiv outlineAchievements' : 'aboutDiv'}>
+                  <div className="aboutDiv outlineAchievements">
                     <div className="infoFlex">
                       <div aria-label={achievement.img.alt} className="infoImage outlineAchievements" onClick={() => changeSelectedInfoModal(achievement)} />
                       <div className="textAbout">
-                        <h4>{achievement.title}</h4>
-                        <p>{achievement.about}</p>
+                        <div>
+                          <h4>{achievement.title}</h4>
+
+                          {achievement.about.map((infoText, keyText) => {
+                            return (
+                              <p key={keyText}>{infoText}</p>
+                            )
+                          })}
+                        </div>
 
                         <a href={achievement.moreInfoLink} target="_blank">Mais informações</a>
                       </div>
