@@ -16,14 +16,6 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
     background-image: linear-gradient(rgba(213, 52, 84, 0.334), rgba(213, 52, 84, 0.334)), url(${props => props.achievementBG}) !important;
   }
 
-  &:not(.isOpenAbout) .aboutDiv.outlineAchievements {
-    opacity: 0;
-  }
-
-  &.isOpenAbout .containerAbout, &.isOpenAbout .aboutDiv {
-    max-height: fit-content !important;
-  }
-
   .divImg{
     min-height: 230px;
     max-width: 360px;
@@ -36,13 +28,25 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
     cursor: pointer;
   }
 
+  .containerHeight{
+    display: grid !important;
+    grid-template-rows: 0fr;
+    overflow-y: hidden;
+    transition: all .3s ease-in-out;
+  }
+
+  &.isOpenAbout .containerHeight {
+    grid-template-rows: 1fr;
+  }
+
+  &:not(.isOpenAbout) .aboutDiv{
+    opacity: 0;
+  }
+
   .containerAbout{
     flex-grow: 1;  
-    max-height: 0px;
     width: 100%;
-    height: 100%;
     
-    transition: all .1s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -52,12 +56,10 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
       justify-content: start;
       align-items: start;
       flex-direction: column;
-      overflow-y: hidden;
       background-color: ${Variables.black};
-      transition: all .1s ease-in-out;
-      height: fit-content;
+
+      height: 100%;
       width: 100%;
-      max-height: 0px;
 
       .infoFlex{
         display: flex;
@@ -180,29 +182,29 @@ export const AchievementsStyle = styled.section`
       }
 
       .containerImageModal{
-      position: relative;
-      border-radius: 10px;
-      overflow: auto;
-      width: 100%;
-      height: 100%;
-      max-height: 100%;
-      display: flex;
-      justify-content: start;
-
-      &::-webkit-scrollbar-track, &::-webkit-scrollbar-corner{
+        position: relative;
         border-radius: 10px;
-      }
+        overflow: auto;
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: start;
 
-      outline: ${Variables.red} 3px solid;
-      outline-offset: -1px;
+        &::-webkit-scrollbar-track, &::-webkit-scrollbar-corner{
+          border-radius: 10px;
+        }
 
-      .imageInfo{
-        max-width: 1000px;
-        min-width: fit-content;
-        height: 500px;
-        max-height: 500px;
+        outline: ${Variables.red} 3px solid;
+        outline-offset: -1px;
+
+        .imageInfo{
+          max-width: 1000px;
+          min-width: fit-content;
+          height: 500px;
+          max-height: 500px;
+        }
       }
-    }
     }
   }
 
@@ -216,23 +218,33 @@ export const AchievementsStyle = styled.section`
     
     ${ArticleAchievement} {
 
-      &.isOpenAbout .containerAbout, &.isOpenAbout .aboutDiv {
-        max-height: 300px !important;
+      .containerHeight {
+        max-height: 0px;
+        display: flex;
+      }
+
+      &.isOpenAbout .containerHeight {
+        max-height: 330px !important;
       }
   
       .containerAbout{
-        height: 300px;
+        height: 330px;
         
         .aboutDiv{
-          height: 100%;
           position: absolute !important;
           left: 0 !important;
 
           .infoFlex{
             flex-direction: row;
 
+            .textAbout{
+              gap: 20px;
+            }
+
             .infoImage{
               min-height: 100%;
+              max-height: 100%;
+              height: 270px;
             }
           }
         }

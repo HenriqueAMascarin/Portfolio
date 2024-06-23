@@ -57,8 +57,8 @@ export default function AchievementsSection() {
               <ArticleAchievement key={keyItem} achievementBG={achievement.img.src}>
                 <div className="divImg outlineAchievements" role="img" aria-label={achievement.img.alt} onClick={() => clickAchievement(keyItem)}></div>
 
-                <div className="containerAbout">
-                  <div className="aboutDiv outlineAchievements">
+                <div className="containerAbout containerHeight">
+                  <div className="aboutDiv outlineAchievements containerHeight">
                     <div className="infoFlex">
                       <div aria-label={achievement.img.alt} className="infoImage outlineAchievements" onClick={() => changeSelectedInfoModal(achievement)} />
                       <div className="textAbout">

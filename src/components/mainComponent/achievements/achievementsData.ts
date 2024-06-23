@@ -39,7 +39,7 @@ export const achievementsData = [
     },
     title: "Startup Weekend Smart Cities - Santo Ângelo/RS, novembro de 2022",
     about: [
-      "Evento cujo objetivo era criar um projeto, validar ele e vender para a mesa de jurados. Acabei atuando no design do aplicativo “O Campo”, que no fim fomos vencedores dessa edição e como resultado aprendi muito com minha equipe nessa experiência.",
+      "Evento cujo objetivo era criar um projeto, validar e vender para a mesa de jurados. Acabei atuando no design do aplicativo “O Campo”, que no fim fomos vencedores dessa edição e como resultado aprendi muito com minha equipe nessa experiência.",
     ],
     moreInfoLink:
       "https://www.figma.com/design/YQg40R1PQaU2QsBeTgxcVn/Untitled?node-id=0-1&t=4ZzmcLsdVcHrbF2f-1",
