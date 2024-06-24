@@ -11,7 +11,9 @@ export default function AchievementsSection() {
 
   function clickAchievement(selected: number) {
     if (achievementsContainerRef.current) {
+
       const childrens = achievementsContainerRef.current.children;
+
       const className = 'isOpenAbout';
 
       for (let index = 0; index < childrens.length; index++) {
@@ -23,8 +25,21 @@ export default function AchievementsSection() {
       }
 
       setTimeout(() => {
+
+
         childrens[selected].classList.toggle(className);
-        childrens[selected].scrollIntoView();
+
+        const hasClass = childrens[selected].classList.contains(className);
+
+        if (hasClass) {
+          // PICKS THE ABOUT DIV
+          const aboutDiv = childrens[selected].querySelector('.aboutDiv');
+
+          if (aboutDiv) {
+            aboutDiv.scrollIntoView({ behavior: "smooth", block: "center", inline: 'center' });
+          }
+        }
+
       }, 180);
     }
   }
