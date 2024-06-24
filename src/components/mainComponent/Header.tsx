@@ -42,6 +42,12 @@ export default function Header() {
                     <a href="#projetos">Projetos</a>
                   </li>
                   <li>
+                    <a href="#conquistas">Conquistas</a>
+                  </li>
+                  <li>
+                    <a href="#experiencias">Experiências</a>
+                  </li>
+                  <li>
                     <a href="#contato">Contato</a>
                   </li>
                 </ul>

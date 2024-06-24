@@ -64,12 +64,12 @@ export const HeaderStyle = styled.header`
           left: 0;
           width: 100%;
           height: fit-content;
-          transform: translateY(-64.3%);
+          transform: translateY(-60%);
           transition: all 0.4s ease-in-out;
           background-color: ${Variables.black};
 
           &.active {
-            transform: translateY(64.3%);
+            transform: translateY(60%);
           }
 
           ul {
@@ -90,16 +90,16 @@ export const HeaderStyle = styled.header`
                 color: ${Variables.white};
                 display: block;
                 width: 100%;
+                padding: 10px 0;
                 transition: all 0.2s ease-in-out;
+                font-size: 1.5rem;
 
                 &:hover {
                   color: ${Variables.red};
                 }
               }
 
-              &:nth-child(1)::after,
-              &:nth-child(2)::after,
-              &:nth-child(3)::after {
+              &:not(:last-child)::after{
                 content: "";
                 display: block;
                 position: absolute;
@@ -152,7 +152,7 @@ export const HeaderStyle = styled.header`
               }
               &:nth-child(2) {
                 transform-origin: top;
-                transform: rotate(-45deg);
+                transform: rotate(-46deg);
               }
               &:nth-child(3) {
                 transform-origin: bottom right;
@@ -178,6 +178,7 @@ export const HeaderStyle = styled.header`
 
           ${LogoLink} {
             z-index: calc(var(--zIndexTop) + 1);
+            margin-right: 20px;
           }
 
           .navHeader{
@@ -199,14 +200,12 @@ export const HeaderStyle = styled.header`
               li {
                 margin: 0;
 
-                &:nth-child(1)::after,
-                &:nth-child(2)::after,
-                &:nth-child(3)::after {
+                &:not(:last-child)::after {
                   display: none;
                 }
 
                 a {
-                  padding: 0 20px;
+                  padding: 0 10px;
                 }
               }
             }

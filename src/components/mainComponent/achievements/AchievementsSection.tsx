@@ -26,7 +26,6 @@ export default function AchievementsSection() {
 
       setTimeout(() => {
 
-
         childrens[selected].classList.toggle(className);
 
         const hasClass = childrens[selected].classList.contains(className);
