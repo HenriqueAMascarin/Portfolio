@@ -31,7 +31,6 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
   .containerHeight{
     display: grid !important;
     grid-template-rows: 0fr;
-    overflow-y: hidden;
     transition: all .3s ease-in-out;
   }
 
@@ -40,13 +39,13 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
   }
 
   &:not(.isOpenAbout) .aboutDiv{
-    opacity: 0;
+    opacity: 0 !important;
+    outline: 2px transparent solid !important;
   }
 
   .containerAbout{
     flex-grow: 1;  
     width: 100%;
-    
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -57,6 +56,8 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
       align-items: start;
       flex-direction: column;
       background-color: ${Variables.black};
+
+      overflow-y: hidden;
 
       height: 100%;
       width: 100%;
@@ -69,10 +70,11 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
         height: 100%;
 
         .infoImage{
-          background: url(${props => props.achievementBG}) center no-repeat;
+          background: url(${props => props.achievementBG}) left center no-repeat;
           background-size: cover;
           min-height: 200px;
-          min-width: 300px;
+          max-width: 300px;
+          width: 100%;
           display: inline-block;
           height: 100%;
           border-radius: 14px;
@@ -83,6 +85,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
           display: flex;
           flex-direction: column;
           gap: 50px;
+          width: fit-content;
 
           h4{
             margin-bottom: 10px;
