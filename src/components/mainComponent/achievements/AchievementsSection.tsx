@@ -31,12 +31,9 @@ export default function AchievementsSection() {
         const hasClass = childrens[selected].classList.contains(className);
 
         if (hasClass) {
-          // PICKS THE ABOUT DIV
-          const aboutDiv = childrens[selected].querySelector('.aboutDiv');
-
-          if (aboutDiv) {
-            aboutDiv.scrollIntoView({ behavior: "smooth", block: "center", inline: 'center' });
-          }
+          setTimeout(() => {
+            childrens[selected].scrollIntoView({ behavior: "smooth" });
+          }, 140);
         }
 
       }, 180);

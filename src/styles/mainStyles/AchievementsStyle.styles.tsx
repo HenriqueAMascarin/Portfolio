@@ -3,6 +3,8 @@ import { Variables } from "../CustomVariables";
 
 export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
 
+  scroll-margin-top: -120px;
+
   height: fit-content;
   max-width: 360px;
   color: ${Variables.white};
@@ -67,13 +69,12 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
         flex-direction: column;
         padding: 30px 20px;
         gap: 30px;
-        height: 100%;
+        height: 100%;    
 
         .infoImage{
           background: url(${props => props.achievementBG}) left center no-repeat;
           background-size: cover;
           min-height: 200px;
-          max-width: 300px;
           width: 100%;
           display: inline-block;
           height: 100%;
@@ -220,6 +221,7 @@ export const AchievementsStyle = styled.section`
     }
     
     ${ArticleAchievement} {
+      scroll-margin-top: 0px;
 
       .containerHeight {
         max-height: 0px;
@@ -247,6 +249,7 @@ export const AchievementsStyle = styled.section`
             .infoImage{
               min-height: 100%;
               max-height: 100%;
+              max-width: 360px;
               height: 270px;
             }
           }

@@ -45,7 +45,7 @@ export const Info = styled.section`
     a {
       color: ${Variables.black};
       background-color: ${Variables.white};
-      font-size: 1.7rem;
+      font-size: 1.4rem;
       text-decoration: none;
       border-radius: 10px;
       padding: 5px;
@@ -78,9 +78,31 @@ export const Info = styled.section`
     }
 
     .infoResume {
+      display: inline-flex;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      padding: 8px 14px;
+
+      svg{
+        display: inline-block;
+
+
+        path{
+          transition: 0.2s ease-in-out;
+        }
+      }
+      
+
       &:hover {
         color: ${Variables.white};
         background-color: ${Variables.red};
+
+        path{
+         fill: ${Variables.white};
+        }
       }
     }
   }
