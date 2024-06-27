@@ -31,6 +31,7 @@ export const arrayCards = [
       { img: figmaLogo, alt: "Figma logo" },
     ],
     downloadApk: "/apks/MediaTimer.apk",
+    figma: "https://www.figma.com/design/XTRDCbSVe8lHtwkXK1Z5T7/Media-Timer?t=2WIleknFjgiShuOE-1",
     github: "https://github.com/HenriqueAMascarin/MediaTimer",
   },
   {
@@ -46,7 +47,8 @@ export const arrayCards = [
       { img: htmlLogo, alt: "Html logo" },
       { img: figmaLogo, alt: "Figma logo" },
     ],
-    liveLink: "https://e-books-web.vercel.app/#/",
+    liveLink: "https://e-books-web.vercel.app",
+    figma: "https://www.figma.com/design/GrGuOJvXLsZbMAGJY7DkIS/e-books?t=2WIleknFjgiShuOE-1",
     github: "https://github.com/HenriqueAMascarin/E-booksWeb",
   },
   {
@@ -78,6 +80,7 @@ export const arrayCards = [
       { img: figmaLogo, alt: "Figma logo" },
     ],
     liveLink: "https://godofwar-shop.vercel.app",
+    figma: "https://www.figma.com/design/fFnrpY4zrUWgRxo06TTjs1/god-of-war?t=2WIleknFjgiShuOE-1",
     github: "https://github.com/HenriqueAMascarin/God-Of-War",
   },
 ];

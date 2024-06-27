@@ -9,27 +9,45 @@ export default function ProjectsSection() {
         <h2>Projetos</h2>
 
         <div className="cards">
-          {arrayCards.map((el, key) => {
+          {arrayCards.map((project, key) => {
             return (
               <HorizontalPadding key={key}>
                 <MaxWidthCapsule>
-                  <div className="cardsDiv" id={el.id}>
-                    <img width="768" height="581" src={el.img} alt={el.alt} className="cardsImg" />
+                  <div className="cardsDiv" id={project.id}>
+                    <img width="768" height="581" src={project.img} alt={project.alt} className="cardsImg" />
                     <div className="infoCard">
-                      <h3 >{el.title}</h3>
-                      <p>{el.info}</p>
+                      <h3 >{project.title}</h3>
+                      <p>{project.info}</p>
 
                       <div className="cardsTech">
-                        {el.technologies.map((icon, key) => (
+                        {project.technologies.map((icon, key) => (
                           <img src={icon.img} alt={icon.alt} key={key} title={icon.alt}></img>
                         ))}
                       </div>
 
                       <div className="cardsLinks">
-                        <a href={el.liveLink ?? el.downloadApk} target="_blank" download={el.downloadApk ? true : false}>
-                          {el.liveLink ? 'Veja o site' : 'Baixe o aplicativo'}
+                        <a href={project.liveLink ?? project.downloadApk} target="_blank" download={project.downloadApk ? true : false}>
+                          {project.liveLink ? 'Veja o site' : 'Baixe o aplicativo'}
                         </a>
-                        <a href={el.github} target="_blank">
+                        {project.figma &&
+                          <a href={project.figma} target="_blank" className="figmaIcon">
+                            <svg width="30" height="44" viewBox="0 0 30 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_984_14)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 22C15 17.996 18.246 14.75 22.25 14.75C26.254 14.75 29.5 17.996 29.5 22C29.5 26.004 26.254 29.25 22.25 29.25C18.246 29.25 15 26.004 15 22Z" fill="#1ABCFE" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 36.5C0.5 32.496 3.74593 29.25 7.75 29.25H15V36.5C15 40.504 11.754 43.75 7.75 43.75C3.74593 43.75 0.5 40.504 0.5 36.5Z" fill="#0ACF83" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0.25V14.75H22.25C26.254 14.75 29.5 11.504 29.5 7.5C29.5 3.49593 26.254 0.25 22.25 0.25H15Z" fill="#FF7262" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 7.5C0.5 11.504 3.74593 14.75 7.75 14.75H15V0.25H7.75C3.74593 0.25 0.5 3.49593 0.5 7.5Z" fill="#F24E1E" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 22C0.5 26.004 3.74593 29.25 7.75 29.25H15V14.75H7.75C3.74593 14.75 0.5 17.996 0.5 22Z" fill="#A259FF" />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_984_14">
+                                  <rect width="30" height="44" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+
+                          </a>}
+                        <a href={project.github} target="_blank" className="githubIcon">
                           <svg width="52" height="50" viewBox="0 0 52 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <title>Github do projeto</title>
                             <path

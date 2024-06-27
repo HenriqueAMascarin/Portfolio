@@ -14,35 +14,72 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
   align-items: start;
   flex-direction: column;
   
-  &.isOpenAbout .divImg{
-    background-image: linear-gradient(rgba(213, 52, 84, 0.334), rgba(213, 52, 84, 0.334)), url(${props => props.achievementBG}) !important;
+  &.isOpenAbout {
+
+    .containerHeight {
+      grid-template-rows: 1fr;
+    }
+
+    .containerDivImg .svgsIconExpand path {
+      fill: ${Variables.black};
+    }
+
+    .divImg::after{
+      background-color: rgba(213, 52, 84, 0.286);
+    }
+  }
+
+  &:not(.isOpenAbout) .aboutDiv{
+    opacity: 0 !important;
+    outline: 2px transparent solid !important;
   }
 
   .divImg{
+    background: url(${props => props.achievementBG}) center no-repeat;
+    background-size: cover;
+
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      transition: all .2s ease-in-out;
+
+    }
+  }
+
+  .containerDivImg, .divImg{
     min-height: 230px;
     max-width: 360px;
     min-width: 100%;
     display: block;
+  }
 
-    background: url(${props => props.achievementBG}) center no-repeat;
-    background-size: cover;
-    transition: all 3s ease-in-out;
+  .containerDivImg{
+    position: relative;
     cursor: pointer;
+  }
+
+  .svgsIconExpand{
+    position: absolute;
+    z-index: 1;
+    right: 8px;
+    bottom: 8px;
+    filter: drop-shadow(0 0 1px black);
+
+    path{
+      transition: all .2s ease-in-out;
+    }
   }
 
   .containerHeight{
     display: grid !important;
     grid-template-rows: 0fr;
     transition: all .3s ease-in-out;
-  }
-
-  &.isOpenAbout .containerHeight {
-    grid-template-rows: 1fr;
-  }
-
-  &:not(.isOpenAbout) .aboutDiv{
-    opacity: 0 !important;
-    outline: 2px transparent solid !important;
   }
 
   .containerAbout{
@@ -71,17 +108,22 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
         gap: 30px;
         height: 100%;    
 
-        .infoImage{
-          background: url(${props => props.achievementBG}) left center no-repeat;
-          background-size: cover;
-          min-height: 200px;
-          width: 100%;
-          display: inline-block;
-          height: 100%;
-          border-radius: 14px;
-          cursor: pointer;
-        }
 
+        .infoDivImage{
+          position: relative;
+          cursor: pointer;
+
+          .infoImage{
+            background: url(${props => props.achievementBG}) left center no-repeat;
+            background-size: cover;
+            min-height: 200px;
+            width: 100%;
+            display: inline-block;
+            height: 100%;
+            border-radius: 14px;
+          }
+        }
+        
         .textAbout{
           display: flex;
           flex-direction: column;
@@ -246,7 +288,7 @@ export const AchievementsStyle = styled.section`
               gap: 20px;
             }
 
-            .infoImage{
+            .infoDivImage .infoImage{
               min-height: 100%;
               max-height: 100%;
               max-width: 360px;
@@ -263,7 +305,7 @@ export const AchievementsStyle = styled.section`
     .containerAchievements{
       grid-template-columns: repeat(3, minmax(0px, 360px));
 
-      .containerAbout .aboutDiv .infoFlex .infoImage{
+      .containerAbout .aboutDiv .infoFlex .infoDivImage .infoImage{
         min-width: 360px;
       }
     }

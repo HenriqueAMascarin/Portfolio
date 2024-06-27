@@ -89,6 +89,7 @@ export const Projects = styled.section`
 
             display: flex;
             align-items: center;
+            gap: 20px;
             margin-top: 70px;
 
             a:not(:has(svg)) {
@@ -106,12 +107,22 @@ export const Projects = styled.section`
               }
             }
 
-            a:has(svg) {
+            a:nth-of-type(2){
               margin-left: auto;
-              width: 48px;
+            }
+
+            .figmaIcon, .githubIcon{
 
               path {
                 fill: ${Variables.black};
+                transition: 0.2s ease -in -out;
+              }
+
+              svg{
+                height: 50px;
+              }
+
+              path {
                 transition: 0.2s ease -in -out;
               }
 
