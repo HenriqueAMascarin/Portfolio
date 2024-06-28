@@ -112,6 +112,30 @@ export const GlobalStyle = createGlobalStyle`
         border-radius: 10px;
     }
 
+    .fixedUpButton{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 100;
+        background-color: ${Variables.red};
+        cursor: pointer;
+        padding: 15px 8px;
+        border-radius: 20px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.806);   
+        opacity: 0;
+        transition: .2s all ease-in-out;
+        pointer-events: none;
+
+        img{
+            height: 20px;
+        }
+
+        &.fixedUpShow{
+            opacity: 100;
+            pointer-events: all;
+        }
+    }
+
     @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}){
         h2::after, .MakeLink::before{
             width: 200px;
