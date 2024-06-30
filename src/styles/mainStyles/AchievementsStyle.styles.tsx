@@ -273,7 +273,7 @@ export const AchievementsStyle = styled.section`
       &.isOpenAbout .containerHeight {
         max-height: 330px !important;
       }
-  
+
       .containerAbout{
         height: 330px;
         
@@ -292,6 +292,7 @@ export const AchievementsStyle = styled.section`
               min-height: 100%;
               max-height: 100%;
               max-width: 360px;
+              min-width: 320px;
               height: 270px;
             }
           }
