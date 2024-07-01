@@ -25,6 +25,9 @@ export default function InfoSection() {
                   <p>
                     Contudo, acabei voltando para a programação como desenvolvedor front-end. A fim de aprender sobre a área e me aprofundar ainda mais, para assim criar as melhores soluções com design agradável pensando na experiência do usuário.
                   </p>
+                  <p>
+                    Por fim, estou concentrando meus estudos na área de desenvolvimento mobile com React Native, visando aprimorar minhas habilidades e buscar minha próxima experiência profissional nessa tecnologia.
+                  </p>
                 </div>
 
                 <div className="infoAction">

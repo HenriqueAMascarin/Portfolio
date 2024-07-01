@@ -32,20 +32,13 @@ export default function ProjectsSection() {
                         {project.figma &&
                           <a href={project.figma} target="_blank" className="figmaIcon">
                             <svg width="30" height="44" viewBox="0 0 30 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clipPath="url(#clip0_984_14)">
-                                <path fillRule="evenodd" clipRule="evenodd" d="M15 22C15 17.996 18.246 14.75 22.25 14.75C26.254 14.75 29.5 17.996 29.5 22C29.5 26.004 26.254 29.25 22.25 29.25C18.246 29.25 15 26.004 15 22Z" fill="#1ABCFE" />
-                                <path fillRule="evenodd" clipRule="evenodd" d="M0.5 36.5C0.5 32.496 3.74593 29.25 7.75 29.25H15V36.5C15 40.504 11.754 43.75 7.75 43.75C3.74593 43.75 0.5 40.504 0.5 36.5Z" fill="#0ACF83" />
-                                <path fillRule="evenodd" clipRule="evenodd" d="M15 0.25V14.75H22.25C26.254 14.75 29.5 11.504 29.5 7.5C29.5 3.49593 26.254 0.25 22.25 0.25H15Z" fill="#FF7262" />
-                                <path fillRule="evenodd" clipRule="evenodd" d="M0.5 7.5C0.5 11.504 3.74593 14.75 7.75 14.75H15V0.25H7.75C3.74593 0.25 0.5 3.49593 0.5 7.5Z" fill="#F24E1E" />
-                                <path fillRule="evenodd" clipRule="evenodd" d="M0.5 22C0.5 26.004 3.74593 29.25 7.75 29.25H15V14.75H7.75C3.74593 14.75 0.5 17.996 0.5 22Z" fill="#A259FF" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_984_14">
-                                  <rect width="30" height="44" fill="white" />
-                                </clipPath>
-                              </defs>
+                              <title>Figma do projeto</title>
+                              <path fillRule="evenodd" clipRule="evenodd" d="M14 23C14 18.996 17.246 15.75 21.25 15.75C25.254 15.75 28.5 18.996 28.5 23C28.5 27.004 25.254 30.25 21.25 30.25C17.246 30.25 14 27.004 14 23Z" fill="#212121" />
+                              <path fillRule="evenodd" clipRule="evenodd" d="M0.5 36.5C0.5 32.496 3.74593 29.25 7.75 29.25H15V36.5C15 40.504 11.754 43.75 7.75 43.75C3.74593 43.75 0.5 40.504 0.5 36.5Z" fill="#212121" />
+                              <path fillRule="evenodd" clipRule="evenodd" d="M14 2.25V16.75H21.25C25.254 16.75 28.5 13.504 28.5 9.5C28.5 5.49593 25.254 2.25 21.25 2.25H14Z" fill="#212121" />
+                              <path fillRule="evenodd" clipRule="evenodd" d="M0.5 9.5C0.5 13.504 3.74593 16.75 7.75 16.75H15V2.25H7.75C3.74593 2.25 0.5 5.49593 0.5 9.5Z" fill="#212121" />
+                              <path fillRule="evenodd" clipRule="evenodd" d="M0.5 23C0.5 27.004 3.74593 30.25 7.75 30.25H15V15.75H7.75C3.74593 15.75 0.5 18.996 0.5 23Z" fill="#212121" />
                             </svg>
-
                           </a>}
                         <a href={project.github} target="_blank" className="githubIcon">
                           <svg width="52" height="50" viewBox="0 0 52 50" fill="none" xmlns="http://www.w3.org/2000/svg">

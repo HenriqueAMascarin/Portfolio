@@ -35,8 +35,8 @@ export default function Main() {
         <AchievementsSection />
         <WorksSection />
         <ContactSection />
-        <div className={`fixedUpButton${showScrollBtn ? ' fixedUpShow' :  ''}`} onClick={() => scrollToTop()}>
-          <img src="src/assets/images/arrowUpMini.svg" alt="Seta para cima" />
+        <div className={`fixedUpButton${showScrollBtn ? ' fixedUpShow' : ''}`} onClick={() => scrollToTop()}>
+          <img src="src/assets/images/arrowUpMini.svg" alt="Seta para cima" width="31px" height="20px" />
         </div>
       </main>
       <Footer />
