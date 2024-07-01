@@ -1,5 +1,5 @@
 import reactCoodeshImg from "/src/assets/images/achievements/reactCoodesh.jpg";
-import frontEndImg from "/src/assets/images/achievements/frontEndSenac.jpg";
+import frontEndImg from "/src/assets/images/achievements/frontendSenac.jpg";
 import techstarsImg from "/src/assets/images/achievements/techstars.webp";
 import logicSenacImg from "/src/assets/images/achievements/logicSenac.jpg";
 import webDesignImg from "/src/assets/images/achievements/webDesignUdemy.jpg";
