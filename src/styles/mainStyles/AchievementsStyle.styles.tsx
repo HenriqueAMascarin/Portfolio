@@ -130,8 +130,9 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
           gap: 50px;
           width: fit-content;
 
-          h4{
+          h3{
             margin-bottom: 10px;
+            font-size: 1.4rem;
           }
 
           p{

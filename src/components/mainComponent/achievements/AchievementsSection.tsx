@@ -79,12 +79,12 @@ export default function AchievementsSection() {
                   <div className="aboutDiv outlineAchievements containerHeight">
                     <div className="infoFlex">
                       <div className="infoDivImage">
-                        <div aria-label={achievement.img.alt} className="infoImage outlineAchievements" onClick={() => changeSelectedInfoModal(achievement)} />
+                        <div aria-label={achievement.img.alt} role="img" className="infoImage outlineAchievements" onClick={() => changeSelectedInfoModal(achievement)} />
                         <img src="src/assets/images/clickZoomOut.svg" alt="Dedo clicável que expande a imagem" className="svgsIconExpand"/>
                       </div>
                       <div className="textAbout">
                         <div>
-                          <h4>{achievement.title}</h4>
+                          <h3>{achievement.title}</h3>
 
                           {achievement.about.map((infoText, keyText) => {
                             return (
@@ -93,7 +93,7 @@ export default function AchievementsSection() {
                           })}
                         </div>
 
-                        <a href={achievement.moreInfoLink} target="_blank">Mais informações</a>
+                        <a href={achievement.moreInfoLink} target="_blank">Mais detalhes</a>
                       </div>
                     </div>
                   </div>

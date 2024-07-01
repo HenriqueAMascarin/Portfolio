@@ -91,6 +91,7 @@ export const WorksStyle = styled.section`
         border-radius: 15px;
         border: 2.5px solid ${Variables.red};
         margin-top: 40px;
+        height: auto;
       }
     }
   }
