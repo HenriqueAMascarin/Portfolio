@@ -46,7 +46,7 @@ export default function AchievementsSection() {
       {selectedInfoModal != null &&
         <div className="modal">
           <div className="containerModal">
-            <img src="/src/assets/images/cancel.svg" alt="CancelSvg" className="cancelIcon" width="48px" height="48px" onClick={() => changeSelectedInfoModal(null)} />
+            <img src="/images/cancel.svg" alt="CancelSvg" className="cancelIcon" width="48px" height="48px" onClick={() => changeSelectedInfoModal(null)} />
             <div className="containerImageModal">
               <img src={selectedInfoModal?.img?.src} alt={selectedInfoModal?.img?.alt} className="imageInfo" ></img>
             </div>
@@ -80,7 +80,7 @@ export default function AchievementsSection() {
                     <div className="infoFlex">
                       <div className="infoDivImage">
                         <div aria-label={achievement.img.alt} role="img" className="infoImage outlineAchievements" onClick={() => changeSelectedInfoModal(achievement)} />
-                        <img src="/src/assets/images/clickZoomOut.svg" alt="Dedo clicável que expande a imagem" className="svgsIconExpand"/>
+                        <img src="/images/clickZoomOut.svg" alt="Dedo clicável que expande a imagem" className="svgsIconExpand"/>
                       </div>
                       <div className="textAbout">
                         <div>

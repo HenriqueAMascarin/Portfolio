@@ -1,9 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
-import fontLight from "../assets/fonts/Inter-Light.ttf";
-import fontRegular from "../assets/fonts/Inter-Regular.ttf";
-import fontSemiBold from "../assets/fonts/Inter-SemiBold.ttf";
-import fontBold from "../assets/fonts/Inter-Bold.ttf";
+import fontLight from "/fonts/Inter-Light.ttf";
+import fontRegular from "/fonts/Inter-Regular.ttf";
+import fontSemiBold from "/fonts/Inter-SemiBold.ttf";
+import fontBold from "/fonts/Inter-Bold.ttf";
 import { Variables } from "./CustomVariables";
 
 export const GlobalStyle = createGlobalStyle`

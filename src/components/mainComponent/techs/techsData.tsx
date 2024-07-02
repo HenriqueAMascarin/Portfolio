@@ -1,15 +1,15 @@
-import tailwindCSSLogo from "../../../assets/images/techIcons/tailwindCSSLogo.svg";
-import piniaLogo from "../../../assets/images/techIcons/piniaLogo.svg";
-import vueLogo from "../../../assets/images/techIcons/vueLogo.svg";
-import reduxLogo from "../../../assets/images/techIcons/reduxLogo.svg";
-import nativeLogo from "../../../assets/images/techIcons/reactNativeLogo.svg";
-import reactLogo from "../../../assets/images/techIcons/reactLogo.svg";
-import typeScriptLogo from "../../../assets/images/techIcons/typescriptLogo.svg";
-import sassLogo from "../../../assets/images/techIcons/sassLogo.svg";
-import styledComponentsLogo from "../../../assets/images/techIcons/styledComponentsLogo.svg";
-import figmaLogo from "../../../assets/images/techIcons/figmaLogo.svg";
-import expoLogo from "/src/assets/images/techIcons/expoLogo.svg";
-import quasarLogo from "/src/assets/images/techIcons/quasarLogo.svg";
+import tailwindCSSLogo from "/images/techIcons/tailwindCSSLogo.svg";
+import piniaLogo from "/images/techIcons/piniaLogo.svg";
+import vueLogo from "/images/techIcons/vueLogo.svg";
+import reduxLogo from "/images/techIcons/reduxLogo.svg";
+import nativeLogo from "/images/techIcons/reactNativeLogo.svg";
+import reactLogo from "/images/techIcons/reactLogo.svg";
+import typeScriptLogo from "/images/techIcons/typescriptLogo.svg";
+import sassLogo from "/images/techIcons/sassLogo.svg";
+import styledComponentsLogo from "/images/techIcons/styledComponentsLogo.svg";
+import figmaLogo from "/images/techIcons/figmaLogo.svg";
+import expoLogo from "/images/techIcons/expoLogo.svg";
+import quasarLogo from "/images/techIcons/quasarLogo.svg";
 
 export const arrayTech: { img: string; alt: string }[] = [
   { img: typeScriptLogo, alt: "TypeScript logo" },

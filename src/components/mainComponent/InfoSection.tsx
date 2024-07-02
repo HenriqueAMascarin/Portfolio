@@ -1,7 +1,7 @@
-import photo from "../../assets/images/photo.webp";
+import photo from "/images/photo.webp";
 import { HorizontalPadding, MaxWidthCapsule, VerticalPadding } from "../../styles/GlobalStyle";
 import { Info } from "../../styles/mainStyles/Info.styles";
-import curriculum from "../../assets/images/curriculumHenrique.pdf";
+import curriculum from "/images/curriculumHenrique.pdf";
 
 export default function InfoSection() {
   return (

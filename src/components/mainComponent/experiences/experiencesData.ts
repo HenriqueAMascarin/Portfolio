@@ -1,8 +1,8 @@
-import tailwindCSSLogo from "/src/assets/images/techIcons/tailwindCSSLogo.svg";
-import piniaLogo from "/src/assets/images/techIcons/piniaLogo.svg";
-import quasarLogo from "/src/assets/images/techIcons/quasarLogo.svg";
-import vueLogo from "/src/assets/images/techIcons/vueLogo.svg";
-import sgbrImg from "/src/assets/images/considerations/sgbr.jpg";
+import tailwindCSSLogo from "/images/techIcons/tailwindCSSLogo.svg";
+import piniaLogo from "/images/techIcons/piniaLogo.svg";
+import quasarLogo from "/images/techIcons/quasarLogo.svg";
+import vueLogo from "/images/techIcons/vueLogo.svg";
+import sgbrImg from "/images/considerations/sgbr.jpg";
 
 export const experiencesArray = [
   {

@@ -1,6 +1,6 @@
 import { HorizontalPadding, MaxWidthCapsule, VerticalPadding } from "../../styles/GlobalStyle";
 import { ContactStyle } from "../../styles/mainStyles/ContactStyle.style";
-import photo from "../../assets/images/photo.webp";
+import photo from "/images/photo.webp";
 import { Link } from "react-router-dom";
 
 export default function ContactSection() {
