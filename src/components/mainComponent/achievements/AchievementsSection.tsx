@@ -78,8 +78,8 @@ export default function AchievementsSection() {
                 <div className="containerAbout containerHeight">
                   <div className="aboutDiv outlineAchievements containerHeight">
                     <div className="infoFlex">
-                      <div className="infoDivImage">
-                        <div aria-label={achievement.img.alt} role="img" className="infoImage outlineAchievements" onClick={() => changeSelectedInfoModal(achievement)} />
+                      <div className="infoDivImage" onClick={() => changeSelectedInfoModal(achievement)}>
+                        <div aria-label={achievement.img.alt} role="img" className="infoImage outlineAchievements" />
                         <img src="/images/clickZoomOut.svg" alt="Dedo clicável que expande a imagem" className="svgsIconExpand"/>
                       </div>
                       <div className="textAbout">
