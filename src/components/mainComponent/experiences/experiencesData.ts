@@ -17,6 +17,6 @@ export const experiencesArray = [
       { img: piniaLogo, alt: "Pinia logo" },
       { img: tailwindCSSLogo, alt: "TailwindCSS Logo" },
     ],
-    consideration: {src: sgbrImg, alt: 'Imagem do personagem Link do jogo the legend of zelda, junto a seu escudo com logo da SGBr'},
+    consideration: {src: sgbrImg, alt: 'Imagem do personagem Link do jogo The Legend of Zelda, junto a seu escudo com logo da SGBr'},
   },
 ];
