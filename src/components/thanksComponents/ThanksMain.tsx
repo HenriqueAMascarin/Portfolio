@@ -11,7 +11,7 @@ export default function ThanksMain() {
               <div className="contentsMain">
                 <h1>Muito obrigado!</h1>
                 <p>Lhe responderei quanto antes.</p>
-                <a href="/">Voltar</a>
+                <a href="/" className="goBack">Voltar</a>
               </div>
             </MaxWidthCapsule>
           </HorizontalPadding>

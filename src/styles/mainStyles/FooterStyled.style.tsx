@@ -5,6 +5,7 @@ export const FooterStyled = styled.footer`
   background-color: ${Variables.black};
   text-align: center;
   padding: 40px 0 30px;
+  margin-top: auto;
 
   .flexFooter{
     display: flex;
@@ -29,7 +30,7 @@ export const FooterStyled = styled.footer`
       a:hover path {
         fill: ${Variables.red};
       }
-      a{
+      svg{
         width: 42px;
         height: 42px;
       }

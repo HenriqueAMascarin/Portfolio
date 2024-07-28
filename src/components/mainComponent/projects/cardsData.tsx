@@ -31,6 +31,7 @@ export const arrayCards = [
     downloadApk: "/apks/MediaTimer.apk",
     figma: "https://www.figma.com/design/XTRDCbSVe8lHtwkXK1Z5T7/Media-Timer?t=2WIleknFjgiShuOE-1",
     github: "https://github.com/HenriqueAMascarin/MediaTimer",
+    policy: '/politica-privacidade/media-timer'
   },
   {
     id: 'projetos/Ebooks',
