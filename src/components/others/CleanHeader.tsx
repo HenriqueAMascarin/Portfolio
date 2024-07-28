@@ -1,10 +1,10 @@
 import { HorizontalPadding, MaxWidthCapsule } from "../../styles/GlobalStyle";
 import { FixedHeaderDiv, LogoLink, BackgroundHeader } from "../../styles/mainStyles/Header.styles";
-import { HeaderThanks } from "../../styles/thanksStyles/HeaderThanks";
+import { CleanHeaderStyle } from "../../styles/others/CleanHeaderStyle";
 
-export default function ThanksHeader() {
+export default function CleanHeader() {
   return (
-    <HeaderThanks>
+    <CleanHeaderStyle>
       <FixedHeaderDiv>
         <HorizontalPadding>
           <MaxWidthCapsule>
@@ -28,6 +28,6 @@ export default function ThanksHeader() {
           </MaxWidthCapsule>
         </HorizontalPadding>
       </FixedHeaderDiv>
-    </HeaderThanks>
+    </CleanHeaderStyle>
   );
 }

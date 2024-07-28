@@ -5,7 +5,6 @@ import reactLogo from "/src/assets/images/techIcons/reactLogo.svg";
 import typeScriptLogo from "/src/assets/images/techIcons/typescriptLogo.svg";
 import sassLogo from "/src/assets/images/techIcons/sassLogo.svg";
 import figmaLogo from "/src/assets/images/techIcons/figmaLogo.svg";
-import styledLogo from "/src/assets/images/techIcons/styledComponentsLogo.svg";
 import htmlLogo from "/src/assets/images/techIcons/htmlLogo.svg";
 import reactNativeLogo from "/src/assets/images/techIcons/reactNativeLogo.svg";
 import reduxLogo from "/src/assets/images/techIcons/reduxLogo.svg";
@@ -13,7 +12,6 @@ import expoLogo from "/src/assets/images/techIcons/expoLogo.svg";
 
 import GodOfWar from "/src/assets/images/screenshots/GodOfWar.webp";
 import Ebooks from "/src/assets/images/screenshots/Ebooks.webp";
-import Fylo from "/src/assets/images/screenshots/Fylo.webp";
 import MediaTimer from "/src/assets/images/screenshots/MediaTimer.jpg";
 
 export const arrayCards = [
@@ -50,21 +48,6 @@ export const arrayCards = [
     liveLink: "https://e-books-web.vercel.app",
     figma: "https://www.figma.com/design/GrGuOJvXLsZbMAGJY7DkIS/e-books?t=2WIleknFjgiShuOE-1",
     github: "https://github.com/HenriqueAMascarin/E-booksWeb",
-  },
-  {
-    id: 'projetos/Fylo',
-    img: Fylo,
-    alt: "Imagem do projeto Fylo landing page",
-    title: "Fylo Landing Page",
-    info: "Dado como desafio em sala de aula da Frontend Mentor, para terminar em pouco tempo e adicionado coisas além do que foi pedido.",
-    technologies: [
-      { img: reactLogo, alt: "React logo" },
-      { img: typeScriptLogo, alt: "TypeScript logo" },
-      { img: styledLogo, alt: "Styled-components logo" },
-      { img: htmlLogo, alt: "Html logo" },
-    ],
-    liveLink: "https://fylo-website-ashen.vercel.app",
-    github: "https://github.com/HenriqueAMascarin/FyloWebsite",
   },
   {
     id: 'projetos/GodOfWar',
