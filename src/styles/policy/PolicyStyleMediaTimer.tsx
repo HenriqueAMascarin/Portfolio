@@ -21,25 +21,32 @@ export const PolicyStyleMediaTimer = styled.section`
     width: 100%;
     
 
-    p, a {
-      word-break: break-all;
+    a, p {
       text-align: justify;
+    }
+
+    a, .policyTableBody > div > div:nth-child(1) p{
+      word-break: break-all;
     }
    
     .policyTitleDiv{
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
       margin-bottom: 15px;
+      gap: 10px 20px;
+      align-items: center;
+      justify-content: start;
 
       img{
         border-radius: 40px;
-        align-self: center;
         width: 184px;
-        margin-bottom: 24px;
       }
 
-      a{
-        color: ${Variables.mediaTimer};
+      div{
+        a{
+          color: ${Variables.mediaTimer};
+          font-size: 1.3rem;
+        }
       }
     }
 
@@ -67,10 +74,61 @@ export const PolicyStyleMediaTimer = styled.section`
       margin-bottom: 20px;
       border-radius: 20px;
 
-      .policyTableHeader > p, .policyTableBody > div, .policyTableBody > div > p{
+      p{
+        width: fit-content;
+      }
+
+      .policyTableBody > div:nth-child(even){
+        background-color: ${Variables.gray};
+      }
+
+      .policyTableHeader div:nth-child(odd) p, .policyTableBody > div > div:nth-child(1) p{
+        background-color: ${Variables.red};
+        border-radius: 10px;
+        padding: 2px 8px;
+      }
+
+      .policyTableHeader > div, .policyTableBody > div > div{
         outline: 1px solid ${Variables.white};
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .policyTableBody > div, .policyTableBody > div > div, .policyTableHeader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .policyTableBody > div > div, .policyTableHeader > div {
+        padding: 30px;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+  }
+
+  @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}){
+
+    .policyTableBody{
+      & > div {
+        flex-direction: row !important;
       }
     }
-  
+
+    .policyTableHeader, .policyTableBody{
+      display: grid !important;
+    }
+
+    .policyTableHeader{
+      grid-template-columns: repeat(2, 1fr) !important;
+      grid-template-rows: repeat(1, 100px) !important;
+    }
   }
 `;

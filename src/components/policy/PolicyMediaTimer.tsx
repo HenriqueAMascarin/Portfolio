@@ -18,9 +18,11 @@ export default function PolicyMediaTimer() {
                                 <div className="policyTitleDiv">
                                     <img src="/src/assets/images/mediaTimerIcon.svg" alt="Ícone Media Timer" />
 
-                                    <h3>Política de Privacidade</h3>
+                                    <div>
+                                        <h3>Política de Privacidade</h3>
 
-                                    <a href="">Media Timer</a>
+                                        <a href="/#projetos/MediaTimer">Media Timer</a>
+                                    </div>
                                 </div>
 
                                 <div className="policyWelcome">
@@ -39,17 +41,16 @@ export default function PolicyMediaTimer() {
 
                                 <div className="policyTable">
                                     <div className="policyTableHeader">
-                                        <p>Permissão</p>
+                                        <div><p>Permissão</p></div>
 
-                                        <p>Porque é necessária</p>
+                                        <div><p>Porque é necessária</p></div>
                                     </div>
 
                                     <div className="policyTableBody">
                                         <div>
-                                            <p>android.permission.INTERNET</p>
+                                            <div><p>android.permission.INTERNET</p></div>
 
-                                            <p>Utilizada para mostrar o anúncio de baixo na tela principal.
-                                            </p>
+                                            <div><p>Utilizada para mostrar o anúncio de baixo na tela principal.</p></div>
                                         </div>
 
                                         <div>
@@ -58,28 +59,27 @@ export default function PolicyMediaTimer() {
                                                 <p>android.permission.WRITE_EXTERNAL_STORAGE</p>
                                             </div>
 
-                                            <p>Utilizado para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.</p>
+                                            <div><p>Utilizado para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.</p></div>
 
                                         </div>
 
 
                                         <div>
-                                            <p>android.permission.SYSTEM_ALERT_WINDOW</p>
+                                            <div><p>android.permission.SYSTEM_ALERT_WINDOW</p></div>
 
-                                            <p>Utilizado para mostrar as notificações do aplicativo, quando está executando o temporizador.</p>
+                                            <div><p>Utilizado para mostrar as notificações do aplicativo, quando está executando o temporizador.</p></div>
                                         </div>
 
                                         <div>
-                                            <p>android.permission.DOWNLOAD_WITHOUT_NOTIFICATION</p>
+                                            <div><p>android.permission.DOWNLOAD_WITHOUT_NOTIFICATION</p></div>
 
-                                            <p>Utilizado para encontrar o local do arquivo selecionado na aba de histórico.</p>
-
+                                            <div><p>Utilizado para encontrar o local do arquivo selecionado na aba de histórico.</p></div>
                                         </div>
 
                                         <div>
-                                            <p>android.permission.MODIFY_AUDIO_SETTINGS</p>
+                                            <div><p>android.permission.MODIFY_AUDIO_SETTINGS</p></div>
 
-                                            <p>Utilizado com a tecnologia EXPO AV, para configurar os áudios usados no aplicativo.</p>
+                                            <div><p>Utilizado com a tecnologia EXPO AV, para configurar os áudios usados no aplicativo.</p></div>
                                         </div>
                                     </div>
 
