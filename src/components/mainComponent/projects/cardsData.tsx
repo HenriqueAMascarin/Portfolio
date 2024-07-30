@@ -1,18 +1,18 @@
-import tailwindCSSLogo from "/src/assets/images/techIcons/tailwindCSSLogo.svg";
-import piniaLogo from "/src/assets/images/techIcons/piniaLogo.svg";
-import vueLogo from "/src/assets/images/techIcons/vueLogo.svg";
-import reactLogo from "/src/assets/images/techIcons/reactLogo.svg";
-import typeScriptLogo from "/src/assets/images/techIcons/typescriptLogo.svg";
-import sassLogo from "/src/assets/images/techIcons/sassLogo.svg";
-import figmaLogo from "/src/assets/images/techIcons/figmaLogo.svg";
-import htmlLogo from "/src/assets/images/techIcons/htmlLogo.svg";
-import reactNativeLogo from "/src/assets/images/techIcons/reactNativeLogo.svg";
-import reduxLogo from "/src/assets/images/techIcons/reduxLogo.svg";
-import expoLogo from "/src/assets/images/techIcons/expoLogo.svg";
+import tailwindCSSLogo from "/images/techIcons/tailwindCSSLogo.svg";
+import piniaLogo from "/images/techIcons/piniaLogo.svg";
+import vueLogo from "/images/techIcons/vueLogo.svg";
+import reactLogo from "/images/techIcons/reactLogo.svg";
+import typeScriptLogo from "/images/techIcons/typescriptLogo.svg";
+import sassLogo from "/images/techIcons/sassLogo.svg";
+import figmaLogo from "/images/techIcons/figmaLogo.svg";
+import htmlLogo from "/images/techIcons/htmlLogo.svg";
+import reactNativeLogo from "/images/techIcons/reactNativeLogo.svg";
+import reduxLogo from "/images/techIcons/reduxLogo.svg";
+import expoLogo from "/images/techIcons/expoLogo.svg";
 
-import GodOfWar from "/src/assets/images/screenshots/GodOfWar.webp";
-import Ebooks from "/src/assets/images/screenshots/Ebooks.webp";
-import MediaTimer from "/src/assets/images/screenshots/MediaTimer.jpg";
+import GodOfWar from "/images/screenshots/GodOfWar.webp";
+import Ebooks from "/images/screenshots/Ebooks.webp";
+import MediaTimer from "/images/screenshots/MediaTimer.jpg";
 
 export const arrayCards = [
   {
