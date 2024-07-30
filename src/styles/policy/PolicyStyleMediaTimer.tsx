@@ -13,16 +13,23 @@ export const PolicyStyleMediaTimer = styled.section`
     background-color: ${Variables.black};
     color: ${Variables.white};
     border-radius: 20px;
-    padding: 35px 20px;
+    padding: 35px 20px 55px 20px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     width: 100%;
-    
 
     a, p {
       text-align: justify;
+    }
+
+    a{
+      transition: all .3s ease-in-out;
+    }
+
+    a:hover{
+      color: #f16682 !important;
     }
 
     a, .policyTableBody > div > div:nth-child(1) p{
@@ -71,15 +78,30 @@ export const PolicyStyleMediaTimer = styled.section`
     .policyTable{
       display: flex;
       flex-direction: column;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       border-radius: 20px;
+      overflow: hidden;
+      border: 2px solid ${Variables.white};
+
+
+      .policyTableHeader, .policyTableBody > div:not(:last-child){
+        border-bottom: 2px solid ${Variables.white};
+      }
+
+      .policyTableHeader div:not(:last-child), .policyTableBody > div > div:not(:last-child){
+        border-bottom: 2px solid ${Variables.white};
+      }
 
       p{
         width: fit-content;
       }
 
-      .policyTableBody > div:nth-child(even){
+      .policyTableBody > div:nth-child(even) > div{
         background-color: ${Variables.gray};
+      }
+
+      .policyTableBody > div:nth-child(odd) > div, .policyTableHeader div{
+        background-color: ${Variables.black};
       }
 
       .policyTableHeader div:nth-child(odd) p, .policyTableBody > div > div:nth-child(1) p{
@@ -89,18 +111,21 @@ export const PolicyStyleMediaTimer = styled.section`
       }
 
       .policyTableHeader > div, .policyTableBody > div > div{
-        outline: 1px solid ${Variables.white};
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
       }
 
-      .policyTableBody > div, .policyTableBody > div > div, .policyTableHeader {
+      .policyTableBody > div, .policyTableBody > div > div {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+      }
+
+      .policyTableHeader, .policyTableBody{
+        display: grid !important;
       }
 
       .policyTableBody > div > div, .policyTableHeader > div {
@@ -122,13 +147,14 @@ export const PolicyStyleMediaTimer = styled.section`
       }
     }
 
-    .policyTableHeader, .policyTableBody{
-      display: grid !important;
-    }
-
     .policyTableHeader{
       grid-template-columns: repeat(2, 1fr) !important;
       grid-template-rows: repeat(1, 100px) !important;
+    }
+
+    .policyTableHeader div:not(:last-child), .policyTableBody > div > div:not(:last-child){
+      border-right: 2px solid ${Variables.white} !important;
+      border-bottom: 0 !important;
     }
   }
 `;
