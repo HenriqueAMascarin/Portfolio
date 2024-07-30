@@ -43,25 +43,6 @@ export const MainThanks = styled.main`
         font-weight: bolder;
         color: ${Variables.white};
       }
-
-      a {
-        background-color: ${Variables.red};
-        font-weight: bolder;
-        font-size: 2rem;
-        color: ${Variables.white};
-        padding: 0 15px;
-        border-radius: 20px;
-        text-decoration: none;
-        margin-top: 20px;
-        transition: all 0.4s ease-in-out;
-        outline: 2px solid transparent;
-
-        &:hover {
-          background-color: ${Variables.white};
-          color: ${Variables.red};
-          outline: 2px solid ${Variables.red};
-        }
-      }
     }
   }
 `;

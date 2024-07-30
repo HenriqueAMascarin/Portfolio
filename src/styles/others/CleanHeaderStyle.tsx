@@ -1,9 +1,9 @@
-import styled from "styled-components";
 import { HorizontalPadding } from "../GlobalStyle";
-import { Variables } from "../CustomVariables";
 import { LogoLink } from "../mainStyles/Header.styles";
+import styled from "styled-components";
+import { Variables } from "../CustomVariables";
 
-export const HeaderThanks = styled.header`
+export const CleanHeaderStyle = styled.header`
   width: 100%;
   height: 70px;
   position: relative;

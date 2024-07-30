@@ -15,7 +15,7 @@ export const Projects = styled.section`
   }
 
   .cards {
-    --gap: 50px;
+    --gap: 100px;
 
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@ export const Projects = styled.section`
 
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 15px;
             margin-top: 70px;
 
             a:not(:has(svg)) {
@@ -111,7 +111,7 @@ export const Projects = styled.section`
               margin-left: auto;
             }
 
-            .figmaIcon, .githubIcon{
+            .figmaIcon, .githubIcon, .policyIcon{
 
               path {
                 fill: ${Variables.black};
@@ -119,7 +119,7 @@ export const Projects = styled.section`
               }
 
               svg{
-                height: 50px;
+                height: 40px;
               }
 
               path {

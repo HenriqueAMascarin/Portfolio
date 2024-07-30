@@ -3,6 +3,7 @@ import Main from "./components/mainComponent/Main";
 import Thanks from "./components/thanksComponents/Thanks";
 import { Routes, Route, useLocation } from "react-router-dom"
 import { arrayCards } from "./components/mainComponent/projects/cardsData";
+import PolicyMediaTimer from "./components/policy/PolicyMediaTimer";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/obrigado" element={<Thanks />} />
+        <Route path="/politica-privacidade/media-timer" element={<PolicyMediaTimer />} />
       </Routes>
     </>
   )

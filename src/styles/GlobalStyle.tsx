@@ -57,10 +57,16 @@ export const GlobalStyle = createGlobalStyle`
         outline-color: ${Variables.red};
         
     }
-    body, html{
+    body, html, #root{
         min-height: 100vh;
         scroll-behavior: smooth;
         position: relative;
+        background-color: ${Variables.white};
+    }
+
+    #root{
+        display: flex;
+        flex-direction: column;
     }
 
     body:has(.modal){
@@ -73,14 +79,18 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h2{
-        font-size: clamp(2.8rem, 14vw, 3.3rem);
+        font-size: 2.8rem;
     }
     h3{
         font-size: 2rem;
     }
 
+    h4{
+        font-size: 1.7rem;
+    }
+
     p{
-        font-size: 1.22rem;
+        font-size: 1.2rem;
     }
     a{
         font-size: 1.8rem;
@@ -108,6 +118,26 @@ export const GlobalStyle = createGlobalStyle`
     ::-webkit-scrollbar-thumb {
         background: ${Variables.red};
         border-radius: 10px;
+    }
+
+    .goBack{
+        background-color: ${Variables.red};
+        font-weight: bolder;
+        font-size: 2rem;
+        color: ${Variables.white};
+        padding: 0 15px;
+        border-radius: 20px;
+        text-decoration: none;
+        margin-top: 20px;
+        transition: all 0.4s ease-in-out;
+        outline: 2px solid transparent;
+
+        &:hover {
+          background-color: ${Variables.white};
+          color: ${Variables.red};
+          outline: 2px solid ${Variables.red};
+        }
+      
     }
 
     .fixedUpButton{

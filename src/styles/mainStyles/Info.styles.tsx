@@ -88,7 +88,7 @@ export const Info = styled.section`
 
       svg{
         display: inline-block;
-
+        height: 28px;
 
         path{
           transition: 0.2s ease-in-out;

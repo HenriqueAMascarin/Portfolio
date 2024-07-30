@@ -1,20 +1,18 @@
-import tailwindCSSLogo from "/images/techIcons/tailwindCSSLogo.svg";
-import piniaLogo from "/images/techIcons/piniaLogo.svg";
-import vueLogo from "/images/techIcons/vueLogo.svg";
-import reactLogo from "/images/techIcons/reactLogo.svg";
-import typeScriptLogo from "/images/techIcons/typescriptLogo.svg";
-import sassLogo from "/images/techIcons/sassLogo.svg";
-import figmaLogo from "/images/techIcons/figmaLogo.svg";
-import styledLogo from "/images/techIcons/styledComponentsLogo.svg";
-import htmlLogo from "/images/techIcons/htmlLogo.svg";
-import reactNativeLogo from "/images/techIcons/reactNativeLogo.svg";
-import reduxLogo from "/images/techIcons/reduxLogo.svg";
-import expoLogo from "/images/techIcons/expoLogo.svg";
+import tailwindCSSLogo from "/src/assets/images/techIcons/tailwindCSSLogo.svg";
+import piniaLogo from "/src/assets/images/techIcons/piniaLogo.svg";
+import vueLogo from "/src/assets/images/techIcons/vueLogo.svg";
+import reactLogo from "/src/assets/images/techIcons/reactLogo.svg";
+import typeScriptLogo from "/src/assets/images/techIcons/typescriptLogo.svg";
+import sassLogo from "/src/assets/images/techIcons/sassLogo.svg";
+import figmaLogo from "/src/assets/images/techIcons/figmaLogo.svg";
+import htmlLogo from "/src/assets/images/techIcons/htmlLogo.svg";
+import reactNativeLogo from "/src/assets/images/techIcons/reactNativeLogo.svg";
+import reduxLogo from "/src/assets/images/techIcons/reduxLogo.svg";
+import expoLogo from "/src/assets/images/techIcons/expoLogo.svg";
 
-import GodOfWar from "/images/screenshots/GodOfWar.webp";
-import Ebooks from "/images/screenshots/Ebooks.webp";
-import Fylo from "/images/screenshots/Fylo.webp";
-import MediaTimer from "/images/screenshots/MediaTimer.jpg";
+import GodOfWar from "/src/assets/images/screenshots/GodOfWar.webp";
+import Ebooks from "/src/assets/images/screenshots/Ebooks.webp";
+import MediaTimer from "/src/assets/images/screenshots/MediaTimer.jpg";
 
 export const arrayCards = [
   {
@@ -33,6 +31,7 @@ export const arrayCards = [
     downloadApk: "/apks/MediaTimer.apk",
     figma: "https://www.figma.com/design/XTRDCbSVe8lHtwkXK1Z5T7/Media-Timer?t=2WIleknFjgiShuOE-1",
     github: "https://github.com/HenriqueAMascarin/MediaTimer",
+    policy: '/politica-privacidade/media-timer'
   },
   {
     id: 'projetos/Ebooks',
@@ -50,21 +49,6 @@ export const arrayCards = [
     liveLink: "https://e-books-web.vercel.app",
     figma: "https://www.figma.com/design/GrGuOJvXLsZbMAGJY7DkIS/e-books?t=2WIleknFjgiShuOE-1",
     github: "https://github.com/HenriqueAMascarin/E-booksWeb",
-  },
-  {
-    id: 'projetos/Fylo',
-    img: Fylo,
-    alt: "Imagem do projeto Fylo landing page",
-    title: "Fylo Landing Page",
-    info: "Dado como desafio em sala de aula da Frontend Mentor, para terminar em pouco tempo e adicionado coisas além do que foi pedido.",
-    technologies: [
-      { img: reactLogo, alt: "React logo" },
-      { img: typeScriptLogo, alt: "TypeScript logo" },
-      { img: styledLogo, alt: "Styled-components logo" },
-      { img: htmlLogo, alt: "Html logo" },
-    ],
-    liveLink: "https://fylo-website-ashen.vercel.app",
-    github: "https://github.com/HenriqueAMascarin/FyloWebsite",
   },
   {
     id: 'projetos/GodOfWar',
