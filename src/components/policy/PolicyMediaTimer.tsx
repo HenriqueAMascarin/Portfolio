@@ -48,9 +48,12 @@ export default function PolicyMediaTimer() {
 
                                     <div className="policyTableBody">
                                         <div>
-                                            <div><p>android.permission.INTERNET</p></div>
+                                            <div>
+                                                <p>android.permission.INTERNET</p>
+                                                <p>com.google.android.gms.permission.AD_ID</p>
+                                            </div>
 
-                                            <div><p>Utilizada para mostrar o anúncio de baixo na tela principal.</p></div>
+                                            <div><p>Utilizados para mostrar o anúncio de baixo na tela principal.</p></div>
                                         </div>
 
                                         <div>
@@ -59,7 +62,7 @@ export default function PolicyMediaTimer() {
                                                 <p>android.permission.WRITE_EXTERNAL_STORAGE</p>
                                             </div>
 
-                                            <div><p>Utilizado para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.</p></div>
+                                            <div><p>Utilizados para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.</p></div>
 
                                         </div>
 
