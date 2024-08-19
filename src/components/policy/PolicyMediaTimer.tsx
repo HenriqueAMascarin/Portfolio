@@ -60,6 +60,7 @@ export default function PolicyMediaTimer() {
                                             <div>
                                                 <p>android.permission.READ_EXTERNAL_STORAGE</p>
                                                 <p>android.permission.WRITE_EXTERNAL_STORAGE</p>
+                                                <p>android.permission.READ_MEDIA_AUDIO</p>
                                             </div>
 
                                             <div><p>Utilizados para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.</p></div>
