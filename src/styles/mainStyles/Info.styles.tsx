@@ -32,6 +32,7 @@ export const Info = styled.section`
 
     p {
       max-width: 500px;
+      text-align: justify;
     }
 
     .infoAction {
@@ -55,7 +56,7 @@ export const Info = styled.section`
 
     .infoIcons {
       display: flex;
-      gap: 40px;
+      gap: 30px;
 
       a {
         display: block;
@@ -114,6 +115,12 @@ export const Info = styled.section`
       align-items: start;
       gap: 80px;
       position: relative;
+      text-align: start;
+
+      h2:after{
+        margin-left: 0;
+        width: 140px;
+      }
 
       img {
         width: 330px;
@@ -125,7 +132,9 @@ export const Info = styled.section`
 
       .infoAction {
         flex-direction: row;
-        gap: 30px;
+        justify-content: start;
+        gap: 30px; 
+        
       }
     }
   }

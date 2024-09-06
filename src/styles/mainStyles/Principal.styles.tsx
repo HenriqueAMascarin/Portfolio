@@ -35,7 +35,7 @@ export const SectionPrincipal = styled.section`
 
     .titleDiv { 
 
-      p,
+      .titleJob,
       h1 {
         text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
       }
@@ -44,13 +44,13 @@ export const SectionPrincipal = styled.section`
         color: ${Variables.red};
         font-size: clamp(3.7rem, 20vw, 8.6rem);
 
-        span {
+        > span {
           display: block;
           color: ${Variables.black};
         }
       }
 
-      p {
+      .titleJob {
         font-size: clamp(1.7rem, 7vw, 3rem);
         padding: 0 10px;
         color: ${Variables.black};

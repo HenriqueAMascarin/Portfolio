@@ -15,6 +15,7 @@ export const ContactStyle = styled.section`
       width: 180px;
       height: auto;
       border-radius: 60%;
+      filter: drop-shadow(${Variables.customDropShadow});
     }
 
     .containerContact{
@@ -28,6 +29,7 @@ export const ContactStyle = styled.section`
       p{
         color: ${Variables.black};
         font-weight: bold;
+        max-width: 400px;
       }
 
       .redText{
@@ -36,10 +38,7 @@ export const ContactStyle = styled.section`
 
       .blueText{
         color: ${Variables.linkedinColor};
-      }
-
-      p{
-        max-width: 400px;
+        font-size: inherit;
       }
 
       path, a {
@@ -53,7 +52,6 @@ export const ContactStyle = styled.section`
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 18px;
         border-radius: 12px;
         font-size: 20px;
         font-weight: bold;
@@ -68,11 +66,8 @@ export const ContactStyle = styled.section`
         
 
         svg{
-          height: 30px;
-          
+          height: 24px;
         }
-
-        
 
         &:hover{
           background-color: white;
@@ -98,6 +93,5 @@ export const ContactStyle = styled.section`
       }
     }
       
-  
   }
 `;

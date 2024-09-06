@@ -89,7 +89,6 @@ export const WorksStyle = styled.section`
 
       .considerationImg{
         border-radius: 15px;
-        border: 2.5px solid ${Variables.red};
         margin-top: 40px;
         height: auto;
       }
@@ -115,7 +114,8 @@ export const WorksStyle = styled.section`
         }
 
         .considerationImg{
-          width: 400px;
+          width: 360px;
+          height: fit-content;
           margin-top: 30px;
         
         }

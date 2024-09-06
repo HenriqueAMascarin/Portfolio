@@ -1,5 +1,6 @@
 import { BackgroundHeader, FixedHeaderDiv, HeaderStyle, LogoLink } from "../../styles/mainStyles/Header.styles";
 import { HorizontalPadding, MaxWidthCapsule } from "../../styles/GlobalStyle";
+import { SyntheticEvent } from "react";
 
 export default function Header() {
   function hamburguerFunction() {
@@ -12,7 +13,14 @@ export default function Header() {
     nav?.classList.toggle("active");
 
     menu?.setAttribute('aria-expanded', menu?.classList.contains('active').toString());
+  }
 
+  function onSection(element: SyntheticEvent){
+    const target = element.target as HTMLElement;
+    
+    if(target.nodeName == 'A'){
+      hamburguerFunction();
+    }
   }
 
   return (
@@ -37,7 +45,7 @@ export default function Header() {
                 </svg>
               </LogoLink>
 
-              <nav className="navHeader" id="navHeaderId">
+              <nav className="navHeader" id="navHeaderId" onClick={(element) => onSection(element)}>
                 <ul>
                   <li>
                     <a href="#sobre">Sobre</a>

@@ -2,7 +2,7 @@ import tailwindCSSLogo from "/images/techIcons/tailwindCSSLogo.svg";
 import piniaLogo from "/images/techIcons/piniaLogo.svg";
 import quasarLogo from "/images/techIcons/quasarLogo.svg";
 import vueLogo from "/images/techIcons/vueLogo.svg";
-import sgbrImg from "/images/considerations/sgbr.jpg";
+import sgbrImg from "/images/considerations/sgbr.png";
 
 export const experiencesArray = [
   {
@@ -17,6 +17,6 @@ export const experiencesArray = [
       { img: piniaLogo, alt: "Pinia logo" },
       { img: tailwindCSSLogo, alt: "TailwindCSS Logo" },
     ],
-    consideration: {src: sgbrImg, alt: 'Imagem do personagem Link do jogo The Legend of Zelda, junto a seu escudo com logo da SGBr'},
+    consideration: {src: sgbrImg, alt: 'Logo da empresa SGBR'},
   },
 ];

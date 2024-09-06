@@ -10,10 +10,11 @@ export default function PrincipalSection() {
             <div className="titleDiv">
               <h1>
                 Henrique<span>Mascarin</span>
+                <span className="titleJob">
+                  desenvolvedor <span>front-end</span>
+                </span>
               </h1>
-              <p>
-                desenvolvedor <span>front-end</span>
-              </p>
+
             </div>
 
             <a href="#sobre">

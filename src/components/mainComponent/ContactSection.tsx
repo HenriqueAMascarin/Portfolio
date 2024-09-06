@@ -17,11 +17,8 @@ export default function ContactSection() {
               <img width="538" height="510" src={photo} alt="Foto do Henrique" />
 
               <div className="contactInfo">
-                <p><span className="redText">Obrigado</span> por <span className="redText">visitar</span> meu <span className="redText">portfólio!</span></p>
-                <p>
-                  Caso tenha <span className="redText">interesse</span> no meu <span className="redText">trabalho</span> ou se gostaria de manter <span className="redText">contato</span>.
-                </p>
-                <p>Se sinta à vontade para se <span className="blueText">conectar</span> e enviar uma <span className="blueText">mensagem</span> pelo <span className="blueText">LinkedIn!</span></p>
+                <p><span>Obrigado</span> por <span>visitar</span> meu <span>portfólio!</span></p>
+                <p>Se sinta à vontade para se <span>conectar</span> e enviar uma <span>mensagem</span> pelo <Link to="/obrigado" className="blueText" target="_blank">LinkedIn!</Link></p>
                 <Link to={'/obrigado'} className="btnLinkedin">
                   <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <title>Linkedin logo</title>
@@ -30,7 +27,7 @@ export default function ContactSection() {
                       fill="#F2F2F2"
                     />
                   </svg>
-                  Clique aqui!</Link>
+                  Linkedin</Link>
               </div>
             </div>
 

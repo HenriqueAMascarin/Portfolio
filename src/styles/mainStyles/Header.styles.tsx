@@ -92,7 +92,7 @@ export const HeaderStyle = styled.header`
                 width: 100%;
                 padding: 10px 0;
                 transition: all 0.2s ease-in-out;
-                font-size: 1.5rem;
+                font-size: 1.31rem;
 
                 &:hover {
                   color: ${Variables.red};
@@ -178,7 +178,7 @@ export const HeaderStyle = styled.header`
 
           ${LogoLink} {
             z-index: calc(var(--zIndexTop) + 1);
-            margin-right: 20px;
+            margin-right: 40px;
           }
 
           .navHeader{
@@ -205,7 +205,7 @@ export const HeaderStyle = styled.header`
                 }
 
                 a {
-                  padding: 0 10px;
+                  padding: 0 20px;
                 }
               }
             }
