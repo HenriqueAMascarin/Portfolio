@@ -1,5 +1,8 @@
 # app-ads.txt
 # 1.0
 
+# Owner domain
+OWNERDOMAIN=https://henriqueamascarin.vercel.app
+
 # Authorized
 google.com, pub-9467939863315972, DIRECT, f08c47fec0942fa0
