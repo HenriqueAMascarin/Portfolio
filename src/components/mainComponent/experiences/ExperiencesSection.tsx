@@ -20,7 +20,7 @@ export default function ExperiencesSection() {
 
                       <span className="lineCircleExperience"></span>
                       <div className="infoContainer">
-                        <a href={experience.company.url} target="_blank" rel="noopener noreferrer">{`${experience.position} - ${experience.company.name}`}</a>
+                        <h3><a href={experience.company.url} target="_blank" rel="noopener noreferrer">{`${experience.position} - ${experience.company.name}`}</a></h3>
                         <p className="timeCompanyText">{experience.timeCompany}</p>
                         <p className="aboutText">{experience.about}</p>
 
