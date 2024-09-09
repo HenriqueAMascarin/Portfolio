@@ -10,6 +10,7 @@ export const Info = styled.section`
     align-items: center;
     flex-direction: column;
     color: ${Variables.white};
+    text-align: start;
 
     .textInfo{
       display: flex;
@@ -28,6 +29,8 @@ export const Info = styled.section`
 
     h2::after {
       background-color: ${Variables.white};
+      margin-left: 0;
+      width: 140px;
     }
 
     p {
@@ -115,12 +118,6 @@ export const Info = styled.section`
       align-items: start;
       gap: 80px;
       position: relative;
-      text-align: start;
-
-      h2:after{
-        margin-left: 0;
-        width: 140px;
-      }
 
       img {
         width: 330px;
