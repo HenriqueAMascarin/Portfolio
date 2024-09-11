@@ -63,6 +63,7 @@ export const Projects = styled.section`
             color: ${Variables.black};
             margin-top: 25px;
           }
+
           p {
             color: ${Variables.gray};
             margin: 5px 0 20px;
@@ -76,8 +77,8 @@ export const Projects = styled.section`
             filter: drop-shadow(${Variables.customDropShadow});
 
             img {
-              width: 44px;
-              height: 44px;
+              width: 34px;
+              height: 34px;
             }
           }
 
@@ -164,13 +165,13 @@ export const Projects = styled.section`
           .infoCard {
             display: flex;
             flex-direction: column;
-            padding: 15px 15px 15px 15px;
+            padding: 22px 28px 22px 28px;
             background-color: ${Variables.white};
             height: 96%;
             border-radius: 0 10px 10px 0;
 
-            h3 {
-              margin-top: 10px;
+            h3{
+              margin: 0;
             }
 
             .cardsLinks {

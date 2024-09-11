@@ -25,6 +25,7 @@ export const Info = styled.section`
       width: 210px;
       height: 199.25px;
       border-radius: 100%;
+      margin-bottom: 14px;  
     }
 
     h2::after {
@@ -41,7 +42,7 @@ export const Info = styled.section`
     .infoAction {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: start;
       flex-direction: column;
       gap: 30px;
     }
@@ -111,6 +112,13 @@ export const Info = styled.section`
     }
   }
 
+  @media screen and (min-width: 410px) {
+    .infoDiv .infoAction {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
   @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     .infoDiv {
       flex-direction: row;
@@ -123,15 +131,9 @@ export const Info = styled.section`
         width: 330px;
         height: 313.11px;
         border-radius: 100px;
+        margin: 0;
         position: sticky;
         top: calc(${Variables.headerHeight} + 10px) ;
-      }
-
-      .infoAction {
-        flex-direction: row;
-        justify-content: start;
-        gap: 30px; 
-        
       }
     }
   }
