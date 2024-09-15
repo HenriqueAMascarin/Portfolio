@@ -7,18 +7,56 @@ import Tecnologies from "./techs/Tecnologies";
 import ContactSection from "./ContactSection";
 import WorksSection from "./experiences/ExperiencesSection";
 import AchievementsSection from "./achievements/AchievementsSection";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Main() {
   let [showScrollBtn, changeShowScrollBtn] = useState(false);
+  let headerLinks = useRef<NodeListOf<Element> | null>(null);
+  let sections = useRef<NodeListOf<Element> | null>(null);
 
-  window.addEventListener("scroll", () => {
-    if (!showScrollBtn && window.scrollY >= 1000) {
+  const scrollPosSections = useRef<{ scrollPosYTop: number, scrollPosYBottom: number, id: string }[]>([]);
+
+  function scrollActiveSection() {
+
+    const scrollY = window.scrollY;
+
+    // buttonScrollTop
+    if (showScrollBtn == false && scrollY >= 1000) {
       changeShowScrollBtn(true);
-    } else if (showScrollBtn && window.scrollY < 1000) {
+    } else if (showScrollBtn && scrollY < 1000) {
       changeShowScrollBtn(false);
     }
-  });
+
+    scrollPosSections.current?.forEach((section) => {
+      if (scrollY >= section.scrollPosYTop && scrollY <= section.scrollPosYBottom) {
+        headerLinks.current?.forEach((link) => {
+
+          if (link.getAttribute('href') == section.id) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        })
+      }
+    })
+
+  }
+
+  useEffect(() => {
+    headerLinks.current = document.querySelectorAll('.linksScroll');
+
+    sections.current = document.querySelectorAll('.principalSections');
+
+    sections.current?.forEach((section) => {
+      if (section instanceof HTMLElement) {
+        scrollPosSections.current.push({ scrollPosYTop: section.offsetTop - 300, scrollPosYBottom: section.offsetTop + section.offsetHeight, id: `#${section.id}` })
+      }
+    });
+
+    scrollActiveSection();
+  }, [])
+
+  window.addEventListener("scroll", scrollActiveSection);
 
   function scrollToTop() {
     window.scrollTo(0, 0);

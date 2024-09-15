@@ -1,11 +1,11 @@
 import photo from "/images/photo.webp";
 import { HorizontalPadding, MaxWidthCapsule, VerticalPadding } from "../../styles/GlobalStyle";
 import { Info } from "../../styles/mainStyles/Info.styles";
-import curriculum from "/images/curriculumHenrique.pdf";
+import curriculum from "/images/HenriqueMobile.pdf";
 
 export default function InfoSection() {
   return (
-    <Info id="sobre">
+    <Info id="sobre" className="principalSections">
       <VerticalPadding>
         <HorizontalPadding>
           <MaxWidthCapsule>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function ContactSection() {
 
   return (
-    <ContactStyle id="contato">
+    <ContactStyle id="contato" className="principalSections">
       <VerticalPadding>
         <HorizontalPadding>
           <MaxWidthCapsule>
@@ -18,7 +18,7 @@ export default function ContactSection() {
 
               <div className="contactInfo">
                 <p><span>Obrigado</span> por <span>visitar</span> meu <span>portfólio!</span></p>
-                <p>Se sinta à vontade para se <span>conectar</span> e enviar uma <span>mensagem</span> pelo <Link to="/obrigado" className="blueText" target="_blank">LinkedIn!</Link></p>
+                <p>Se sinta à vontade para se <span>conectar</span> e enviar uma <span>mensagem</span> pelo <Link to="/obrigado" className="blueText" target="_blank">LinkedIn</Link>.</p>
                 <Link to={'/obrigado'} className="btnLinkedin">
                   <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <title>Linkedin logo</title>

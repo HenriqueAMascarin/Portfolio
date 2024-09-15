@@ -3,28 +3,38 @@ import { SectionPrincipal } from "../../styles/mainStyles/Principal.styles";
 
 export default function PrincipalSection() {
   return (
-    <SectionPrincipal>
+    <SectionPrincipal className="principalSections">
       <HorizontalPadding>
         <MaxWidthCapsule>
           <div className="principalDiv">
-            <div className="titleDiv">
-              <h1>
-                Henrique<span>Mascarin</span>
-                <span className="titleJob">
-                  desenvolvedor <span>front-end</span>
-                </span>
-              </h1>
-
-            </div>
+            <h1>
+              Henrique<span>Mascarin</span>
+              <span className="titleJob">
+                Desenvolvedor <span>Mobile</span>
+              </span>
+            </h1>
 
             <a href="#sobre">
-              <svg viewBox="0 0 39 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="82" height="53" viewBox="0 0 82 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <title>Seta para ir na sessão abaixo</title>
-                <path
-                  d="M17.9844 23.0401L0.627819 5.6834C-0.209273 4.84631 -0.209273 3.48917 0.627819 2.65216L2.65218 0.627799C3.48785 -0.207865 4.84222 -0.209473 5.67985 0.624226L19.5 14.3797L33.3202 0.624226C34.1578 -0.209473 35.5122 -0.207865 36.3478 0.627799L38.3722 2.65216C39.2093 3.48926 39.2093 4.8464 38.3722 5.6834L21.0157 23.0401C20.1786 23.8771 18.8215 23.8771 17.9844 23.0401Z"
-                  fill="#D53453"
-                />
+                <g filter="url(#filter0_d_213_27)">
+                  <path d="M38.1242 47.8064L5.19125 14.8059C3.60292 13.2144 3.60292 10.634 5.19125 9.0426L9.03235 5.19364C10.618 3.60478 13.1878 3.60173 14.7771 5.18685L41.0001 31.3403L67.2229 5.18685C68.8122 3.60173 71.382 3.60478 72.9677 5.19364L76.8088 9.0426C78.3971 10.6342 78.3971 13.2145 76.8088 14.8059L43.876 47.8064C42.2876 49.3979 39.7125 49.3979 38.1242 47.8064Z" fill="#D53453" />
+                  <path d="M37.4164 48.5128L37.4164 48.5129C39.3954 50.4957 42.6047 50.4957 44.5837 48.5129L44.5838 48.5128L77.5165 15.5124C77.5166 15.5124 77.5166 15.5123 77.5166 15.5123C79.4945 13.5305 79.4944 10.3181 77.5166 8.33622L73.6755 4.48726C71.6998 2.50757 68.497 2.50375 66.5167 4.47881L41.0001 29.928L15.4833 4.47881L14.7771 5.18685L15.4833 4.47881C13.503 2.50375 10.3002 2.50757 8.32452 4.48726L4.48346 8.33618C4.48344 8.33619 4.48343 8.33621 4.48342 8.33622C2.50549 10.318 2.50556 13.5304 4.48342 15.5123L37.4164 48.5128Z" stroke="white" strokeWidth="2" />
+                </g>
+                <defs>
+                  <filter id="filter0_d_213_27" x="0" y="0" width="82" height="53" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_213_27" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_213_27" result="shape" />
+                  </filter>
+                </defs>
               </svg>
+
             </a>
           </div>
         </MaxWidthCapsule>

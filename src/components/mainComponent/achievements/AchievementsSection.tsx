@@ -44,7 +44,7 @@ export default function AchievementsSection() {
   }
 
   return (
-    <AchievementsStyle id="conquistas">
+    <AchievementsStyle id="conquistas" className="principalSections">
 
       {selectedInfoModal != null &&
         <div className="modal">

@@ -27,7 +27,7 @@ export const LogoLink = styled.a`
     transition: all 0.4s ease-in-out;
   }
 
-  &:hover {
+  &:hover, &.active {
     circle {
       fill: ${Variables.white};
     }
@@ -94,7 +94,7 @@ export const HeaderStyle = styled.header`
                 transition: all 0.2s ease-in-out;
                 font-size: 1.31rem;
 
-                &:hover {
+                &:hover, &.active {
                   color: ${Variables.red};
                 }
               }

@@ -12,7 +12,7 @@ import expoLogo from "/images/techIcons/expoLogo.svg";
 
 import GodOfWar from "/images/screenshots/GodOfWar.webp";
 import Ebooks from "/images/screenshots/Ebooks.webp";
-import MediaTimer from "/images/screenshots/MediaTimer.jpg";
+import MediaTimer from "/images/screenshots/MediaTimer.webp";
 
 export const arrayCards = [
   {

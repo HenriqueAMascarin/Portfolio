@@ -4,7 +4,7 @@ import { HorizontalPadding, LinesFlex, VerticalPadding, MaxWidthCapsule } from "
 
 export default function Tecnologies() {
   return (
-    <TechSection id="tecnologias">
+    <TechSection id="tecnologias" className="principalSections">
       <VerticalPadding>
         <HorizontalPadding>
           <MaxWidthCapsule>

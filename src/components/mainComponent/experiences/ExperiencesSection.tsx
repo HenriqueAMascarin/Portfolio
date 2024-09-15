@@ -4,7 +4,7 @@ import { experiencesArray } from "./experiencesData";
 
 export default function ExperiencesSection() {
   return (
-    <WorksStyle id="experiencias">
+    <WorksStyle id="experiencias" className="principalSections">
       <VerticalPadding>
 
         <HorizontalPadding>

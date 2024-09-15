@@ -33,11 +33,12 @@ export const SectionPrincipal = styled.section`
       }
     }
 
-    .titleDiv { 
+
 
       .titleJob,
       h1 {
-        text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+        text-shadow: 0px 1.5px 0px #FFFFFF, 0px -1.5px 0px #FFFFFF, 1.5px 0px 0px #FFFFFF, -1.5px 0px 0px #FFFFFF,
+        0px -1.5px 2px rgba(0, 0, 0, 0.5), 0px 1.5px 2px rgba(0, 0, 0, 0.5), -1.5px 0px 2px rgba(0, 0, 0, 0.5), 1.5px 0px 2px rgba(0, 0, 0, 0.5);
       }
 
       h1 {
@@ -59,6 +60,6 @@ export const SectionPrincipal = styled.section`
           color: ${Variables.red};
         }
       }
-    }
+    
   }
 `;

@@ -147,15 +147,15 @@ export const GlobalStyle = createGlobalStyle`
         z-index: 100;
         background-color: ${Variables.red};
         cursor: pointer;
-        padding: 15px 8px;
-        border-radius: 20px;
+        padding: 14px 5px;
+        border-radius: 16px;
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.806);   
         opacity: 0;
         transition: .2s all ease-in-out;
         pointer-events: none;
 
         img{
-            height: 20px;
+            height: 14px;
         }
 
         &.fixedUpShow{

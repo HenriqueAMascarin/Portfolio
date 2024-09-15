@@ -30,7 +30,7 @@ export default function Header() {
           <MaxWidthCapsule>
             <div className="flexHeader">
               <BackgroundHeader className="zIndexTop" />
-              <LogoLink href="#" className="zIndexTop">
+              <LogoLink href="#" className="zIndexTop linksScroll">
                 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <title>Henrique logo</title>
                   <g clipPath="url(#clip0_213_8)">
@@ -48,22 +48,22 @@ export default function Header() {
               <nav className="navHeader" id="navHeaderId" onClick={(element) => onSection(element)}>
                 <ul>
                   <li>
-                    <a href="#sobre">Sobre</a>
+                    <a href="#sobre" className="linksScroll">Sobre</a>
                   </li>
                   <li>
-                    <a href="#tecnologias">Tecnologias</a>
+                    <a href="#tecnologias" className="linksScroll">Tecnologias</a>
                   </li>
                   <li>
-                    <a href="#projetos">Projetos</a>
+                    <a href="#projetos" className="linksScroll">Projetos</a>
                   </li>
                   <li>
-                    <a href="#conquistas">Conquistas</a>
+                    <a href="#conquistas" className="linksScroll">Conquistas</a>
                   </li>
                   <li>
-                    <a href="#experiencias">Experiências</a>
+                    <a href="#experiencias" className="linksScroll">Experiências</a>
                   </li>
                   <li>
-                    <a href="#contato">Contato</a>
+                    <a href="#contato" className="linksScroll">Contato</a>
                   </li>
                 </ul>
               </nav>

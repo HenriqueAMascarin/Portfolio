@@ -4,7 +4,7 @@ import { HorizontalPadding, MaxWidthCapsule, VerticalPadding } from "../../../st
 
 export default function ProjectsSection() {
   return (
-    <Projects id="projetos">
+    <Projects id="projetos" className="principalSections">
       <VerticalPadding>
         <h2>Projetos</h2>
 

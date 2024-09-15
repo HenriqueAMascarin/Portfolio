@@ -120,7 +120,7 @@ export const Projects = styled.section`
               }
 
               svg{
-                height: 40px;
+                height: 38px;
               }
 
               path {
