@@ -1,6 +1,22 @@
-import { arrayTech } from "./techsData";
 import { TechSection } from "../../../styles/mainStyles/TechSection.styles";
 import { HorizontalPadding, LinesFlex, VerticalPadding, MaxWidthCapsule } from "../../../styles/GlobalStyle";
+import React from "react";
+import { ExpoSvg, FigmaSvg, NativeSvg, PiniaSvg, QuasarSvg, ReactSvg, ReduxSvg, SassSvg, StyledComponentsSvg, TailwindSvg, TypeScriptSvg, VueSvg } from "./techsSvgs";
+
+export const arrayTech:  React.FC[] = [
+  TypeScriptSvg,
+  ExpoSvg,
+  NativeSvg,
+  ReactSvg,
+  QuasarSvg,
+  VueSvg,
+  ReduxSvg,
+  PiniaSvg,
+  FigmaSvg,
+  TailwindSvg,
+  StyledComponentsSvg,
+  SassSvg,
+];
 
 export default function Tecnologies() {
   return (
@@ -12,8 +28,8 @@ export default function Tecnologies() {
               <h2>Tecnologias</h2>
 
               <div className="techIcons">
-                {arrayTech.map((el, key) => {
-                  return <img src={el.img} width="120px" height="120px" alt={el.alt} title={el.alt} key={key} />;
+                {arrayTech.map((Svg, keyItem) => {
+                  return <Svg key={keyItem}/>;
                 })}
               </div>
             </LinesFlex>

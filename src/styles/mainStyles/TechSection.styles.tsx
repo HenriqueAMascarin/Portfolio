@@ -11,9 +11,9 @@ export const TechSection = styled.section`
     .techIcons {
       display: grid;
       row-gap: 30px;
-      column-gap: 50px;
-      grid-template-columns: repeat(auto-fill, 70px);
-      max-width: calc(90px * 8);
+      column-gap: 70px;
+      grid-template-columns: repeat(auto-fill, 80px);
+      max-width: calc(120px * 8);
       width: 100%;
       align-items: center;
       justify-items: center;
