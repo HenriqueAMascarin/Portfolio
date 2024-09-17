@@ -40,8 +40,12 @@ export const WorksStyle = styled.section`
       margin-bottom: 80px;
       position: relative;
 
-      a span{
-        display: block;
+      h3, a{
+        display: inline-block;
+     
+        span{
+          display: block;
+        }
       }
 
       .timeCompanyText{
@@ -90,6 +94,7 @@ export const WorksStyle = styled.section`
             width: 30px;
             height: 30px;
           }
+
           p{
             font-size: .54rem;
           }
