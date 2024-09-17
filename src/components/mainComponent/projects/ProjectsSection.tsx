@@ -16,12 +16,12 @@ export default function ProjectsSection() {
                   <div className="cardsDiv" id={project.id}>
                     <img width="768" height="581" src={project.img} alt={project.alt} className="cardsImg" />
                     <div className="infoCard">
-                      <h3 >{project.title}</h3>
+                      <h3>{project.title}</h3>
                       <p>{project.info}</p>
 
                       <div className="cardsTech">
-                        {project.technologies.map((icon, key) => (
-                          <img src={icon.img} alt={icon.alt} key={key} title={icon.alt}></img>
+                        {project.technologies.map((Icon, keyIcon) => (
+                          <Icon key={keyIcon}/>
                         ))}
                       </div>
 

@@ -1,12 +1,12 @@
 import { TechSection } from "../../../styles/mainStyles/TechSection.styles";
 import { HorizontalPadding, LinesFlex, VerticalPadding, MaxWidthCapsule } from "../../../styles/GlobalStyle";
 import React from "react";
-import { ExpoSvg, FigmaSvg, NativeSvg, PiniaSvg, QuasarSvg, ReactSvg, ReduxSvg, SassSvg, StyledComponentsSvg, TailwindSvg, TypeScriptSvg, VueSvg } from "./techsSvgs";
+import { ExpoSvg, FigmaSvg, ReactNativeSvg, PiniaSvg, QuasarSvg, ReactSvg, ReduxSvg, SassSvg, StyledComponentsSvg, TailwindSvg, TypeScriptSvg, VueSvg } from "./techsSvgs";
 
 export const arrayTech:  React.FC[] = [
   TypeScriptSvg,
   ExpoSvg,
-  NativeSvg,
+  ReactNativeSvg,
   ReactSvg,
   QuasarSvg,
   VueSvg,

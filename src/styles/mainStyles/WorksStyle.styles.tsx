@@ -3,7 +3,7 @@ import { Variables } from "../CustomVariables";
 
 export const WorksStyle = styled.section`
   background-color: ${Variables.black};
-  color: ${Variables.white};
+  color: ${Variables.white}; 
 
 
   h2 {
@@ -76,13 +76,19 @@ export const WorksStyle = styled.section`
         gap: 15px;
         margin-top: 25px;
 
-        img{
-          width: 38px;
-          height: 38px;
-          transition: all .5s ease-in-out;
+        div{
+          width: 40px;
 
-          &:hover{
-            transform: scale(1.05);
+          img{
+            width: 38px;
+            height: 38px;
+          }
+          p{
+            font-size: .64rem;
+          }
+
+          img, p {
+            filter: drop-shadow(0 1px 0px rgba(0, 0, 0, 0.5)) drop-shadow(0px 1.4px 0px rgba(0, 0, 0, 0.5)) drop-shadow(0px 1px 0px rgb(255, 255, 255));
           }
         }
       }

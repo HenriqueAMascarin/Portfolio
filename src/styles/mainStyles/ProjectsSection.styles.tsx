@@ -64,21 +64,27 @@ export const Projects = styled.section`
             margin-top: 25px;
           }
 
-          p {
+          > p {
             color: ${Variables.gray};
             margin: 5px 0 20px;
           }
 
           .cardsTech {
             display: flex;
-            gap: 20px;
+            gap: 25px;
             flex-grow: 1;
             overflow-x: auto;
-            filter: drop-shadow(${Variables.customDropShadow});
 
-            img {
-              width: 34px;
-              height: 34px;
+            div{
+              width: 30px;
+
+              img{
+                max-height: 30px;
+              }
+
+              p{
+                font-size: 0.55rem;
+              }
             }
           }
 
@@ -100,7 +106,7 @@ export const Projects = styled.section`
               background-color: ${Variables.black};
               font-size: 1.2rem;
               border-radius: 10px;
-              transition: 0.2s ease -in -out;
+              transition: 0.2s ease-in-out;
 
               &:hover {
                 color: ${Variables.white};

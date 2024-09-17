@@ -12,6 +12,7 @@ export const TechSection = styled.section`
       display: grid;
       row-gap: 30px;
       column-gap: 70px;
+      margin-top: 10px;
       grid-template-columns: repeat(auto-fill, 80px);
       max-width: calc(120px * 8);
       width: 100%;
@@ -19,14 +20,9 @@ export const TechSection = styled.section`
       justify-items: center;
       justify-content: center;
 
-      img{
-        transition: all .5s ease-in-out;
-        height: 100px;
-        width: 120px;
-        filter: drop-shadow(${Variables.customDropShadow});
-      }
-      img:hover{
-        transform: scale(1.05);
+      img{  
+        height: 80px;
+        width: 100px;
       }
     }
   }

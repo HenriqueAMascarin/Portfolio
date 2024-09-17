@@ -25,9 +25,9 @@ export default function ExperiencesSection() {
                         <p className="aboutText">{experience.about}</p>
 
                         <div className="techContainer">
-                          {experience.technologies.map((tech, keyTech) => {
+                          {experience.technologies.map((Tech, keyTech) => {
                             return (
-                              <img src={tech.img} width="60px" height="60px" alt={tech.alt} title={tech.alt} key={keyTech} />
+                              <Tech key={keyTech}/>
                             )
                           })}
                         </div>

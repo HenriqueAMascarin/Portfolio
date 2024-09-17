@@ -164,6 +164,32 @@ export const GlobalStyle = createGlobalStyle`
         }
     }
 
+    .svgComponents{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        img, p{
+            filter: drop-shadow(0px 1px 0px #ffffff) drop-shadow(0px 1.4px 0px #ffffff) drop-shadow(0 1px 0px rgba(0, 0, 0, 0.5));
+        }
+
+        p{
+            font-size: 1rem;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        img {
+            transition: all ease-in-out .4s;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+
     @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}){
         h2::after, .MakeLink::before{
             width: 200px;
