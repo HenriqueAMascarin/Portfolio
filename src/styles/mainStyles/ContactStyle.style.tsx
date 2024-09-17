@@ -15,7 +15,7 @@ export const ContactStyle = styled.section`
       width: 180px;
       height: auto;
       border-radius: 60%;
-      filter: drop-shadow(${Variables.customDropShadow});
+      filter: drop-shadow(${Variables.dropShadowImgs});
     }
 
     .containerContact{

@@ -26,6 +26,7 @@ export const Info = styled.section`
       height: 199.25px;
       border-radius: 100%;
       margin-bottom: 14px;  
+      filter: drop-shadow(${Variables.dropShadowImgs});
     }
 
     h2::after {

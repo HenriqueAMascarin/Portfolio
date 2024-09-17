@@ -1,9 +1,24 @@
-import sgbrImg from "/images/considerations/sgbr.png";
-import { PiniaSvg, QuasarSvg, TailwindSvg, VueSvg } from "../techs/techsSvgs";
+import SGBrImg from "/images/logoExperiencies/SGBr.webp";
+import HenriqueMascarinImg from "/images/logoExperiencies/HenriqueMascarin.webp";
+import { ExpoSvg, FigmaSvg, PiniaSvg, QuasarSvg, ReactNativeSvg, TailwindSvg, TypeScriptSvg, VueSvg } from "../techs/techsSvgs";
 
 export const experiencesArray = [
   {
-    position: "Front-end Júnior",
+    position: "CEO e Desenvolvedor Mobile",
+    company: { name: "Henrique Mascarin", url: "https://play.google.com/store/apps/dev?id=8770400649408057901" },
+    timeCompany: "Agosto 2024 - presente",
+    about:
+      "Própria empresa na Google Play aonde possuo aplicativos para o cotidiano das pessoas. Atualmente desenvolvendo e dando manutenção no aplicativo Media Timer.",
+    technologies: [
+      ReactNativeSvg,
+      ExpoSvg,
+      TypeScriptSvg,
+      FigmaSvg,
+    ],
+    logo: {src: HenriqueMascarinImg, alt: 'Logo da empresa Henrique Mascarin'},
+  },
+  {
+    position: "Desenvolvedor Front-end",
     company: { name: "SGBr Sistemas", url: "https://sgbr.com.br/" },
     timeCompany: "Julho 2023 - presente",
     about:
@@ -14,6 +29,6 @@ export const experiencesArray = [
       PiniaSvg,
       TailwindSvg,
     ],
-    consideration: {src: sgbrImg, alt: 'Logo da empresa SGBR'},
+    logo: {src: SGBrImg, alt: 'Logo da empresa SGBR'},
   },
 ];

@@ -14,13 +14,14 @@ export default function ExperiencesSection() {
               <div className="containerExperience">
 
                 <div className="lineExperience"> </div>
+                <div className="articlesContainer">
                 {experiencesArray.map((experience, keyExperience) => {
                   return (
                     <article key={keyExperience} className="experienceArticle">
 
                       <span className="lineCircleExperience"></span>
                       <div className="infoContainer">
-                        <h3><a href={experience.company.url} target="_blank" rel="noopener noreferrer">{`${experience.position} - ${experience.company.name}`}</a></h3>
+                        <h3><a href={experience.company.url} target="_blank" rel="noopener noreferrer"><span>{experience.position}</span> <span>{experience.company.name}</span></a></h3>
                         <p className="timeCompanyText">{experience.timeCompany}</p>
                         <p className="aboutText">{experience.about}</p>
 
@@ -33,12 +34,13 @@ export default function ExperiencesSection() {
                         </div>
                       </div>
 
-                      <img src={experience.consideration.src} alt={experience.consideration.alt} className="considerationImg" width="433px" height="233px"/>
+                      <img src={experience.logo.src} alt={experience.logo.alt} className="logoImg" width="433px" height="233px"/>
 
                     </article>
 
                   )
                 })}
+                </div>
 
               </div>
             </div>
