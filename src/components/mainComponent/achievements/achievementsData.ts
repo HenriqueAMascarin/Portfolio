@@ -77,7 +77,7 @@ export const achievementsData = [
     },
     title: "Curso Algoritmos e Lógica de Programação Udemy",
     about: [
-      "Nesse curso, foram apresentados exercícios e explicações sobre programação. No fim, foram fundamentais para meu desenvolvimento.",
+      "Nesse curso, foram apresentados exercícios e explicações sobre a lógica de programação. No fim, foram fundamentais para meu desenvolvimento.",
     ],
     moreInfoLink:
       "https://www.udemy.com/certificate/UC-24e04025-8e35-4d88-8fa1-bcc0194dbe05/",
