@@ -20,13 +20,13 @@ export default function InfoSection() {
                     Sou uma pessoa determinada, que tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível.
                   </p>
                   <p>
-                    Sempre gostei de jogos eletrônicos e acabei desenvolvendo projetos utilizando a Unity por um tempo, infelizmente acabei parando. Mas no fim, trouxe muitos conhecimentos em relação a design, lógica de programação e criatividade.
+                    Sempre gostei de jogos eletrônicos e acabei desenvolvendo projetos utilizando a Unity por um tempo. Que no fim, trouxe muitos conhecimentos em relação a design, lógica de programação e criatividade.
                   </p>
                   <p>
-                    Contudo, acabei voltando para a programação como desenvolvedor front-end. A fim de aprender sobre a área e me aprofundar ainda mais, para assim criar as melhores soluções com design agradável pensando na experiência do usuário.
+                    Contudo, acabei voltando para a programação como desenvolvedor Front-end. A fim de aprender sobre a área e me aprofundar ainda mais, para assim criar as melhores soluções com design agradável pensando na experiência do usuário.
                   </p>
                   <p>
-                    Por fim, estou concentrando meus estudos na área de desenvolvimento mobile com React Native, visando aprimorar minhas habilidades e buscar minha próxima experiência profissional nessa tecnologia.
+                    Atualmente, estou concentrando meu conhecimento na área de desenvolvimento Mobile com React Native. Visando aprimorar minhas habilidades e buscar novas oportunidades profissionais nessa tecnologia.
                   </p>
                 </div>
 
