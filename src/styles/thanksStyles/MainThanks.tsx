@@ -35,13 +35,31 @@ export const MainThanks = styled.main`
         }
       }
 
-      p {
+       p:nth-of-type(1) {
         display: inline;
         background-color: ${Variables.black};
         font-size: 1.7rem;
         max-width: 300px;
         font-weight: bolder;
         color: ${Variables.white};
+      }
+
+      p:nth-of-type(2) {
+        display: inline;
+        margin-top: 10px;
+        font-size: 1rem;
+
+        a{
+          color: ${Variables.red};
+          font-size: inherit;
+          font-weight: 600;
+
+          transition: .3s all ease-in-out;
+
+          &:hover{
+            color: #ff839c;
+          }
+        }
       }
     }
   }
