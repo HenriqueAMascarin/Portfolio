@@ -4,7 +4,7 @@ import { ExpoSvg, FigmaSvg, PiniaSvg, QuasarSvg, ReactNativeSvg, TailwindSvg, Ty
 
 export const experiencesArray = [
   {
-    position: "CEO e Desenvolvedor Mobile",
+    position: "Desenvolvedor Mobile",
     company: { name: "Henrique Mascarin", url: "https://play.google.com/store/apps/dev?id=8770400649408057901" },
     timeCompany: "Agosto 2024 - presente",
     about:
