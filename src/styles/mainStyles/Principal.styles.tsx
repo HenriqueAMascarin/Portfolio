@@ -33,9 +33,9 @@ export const SectionPrincipal = styled.section`
       }
     }
 
-    .titleDiv { 
 
-      p,
+
+      .titleJob,
       h1 {
         text-shadow: 0px 1.5px 0px #FFFFFF, 0px -1.5px 0px #FFFFFF, 1.5px 0px 0px #FFFFFF, -1.5px 0px 0px #FFFFFF,
         0px -1.5px 3px rgba(0, 0, 0, 0.4), 0px 3.5px 3px rgba(0, 0, 0, 0.4), -1.5px 0px 3px rgba(0, 0, 0, 0.4), 1.5px 0px 3px rgba(0, 0, 0, 0.4);
@@ -45,13 +45,13 @@ export const SectionPrincipal = styled.section`
         color: ${Variables.red};
         font-size: clamp(3.7rem, 20vw, 8.6rem);
 
-        span {
+        > span {
           display: block;
           color: ${Variables.black};
         }
       }
 
-      p {
+      .titleJob {
         font-size: clamp(1.7rem, 7vw, 3rem);
         padding: 0 10px;
         color: ${Variables.black};
@@ -60,6 +60,6 @@ export const SectionPrincipal = styled.section`
           color: ${Variables.red};
         }
       }
-    }
+    
   }
 `;

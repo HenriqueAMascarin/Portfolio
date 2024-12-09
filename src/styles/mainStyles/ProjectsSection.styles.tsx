@@ -63,21 +63,28 @@ export const Projects = styled.section`
             color: ${Variables.black};
             margin-top: 25px;
           }
-          p {
+
+          > p {
             color: ${Variables.gray};
             margin: 5px 0 20px;
           }
 
           .cardsTech {
             display: flex;
-            gap: 20px;
+            gap: 25px;
             flex-grow: 1;
             overflow-x: auto;
-            filter: drop-shadow(${Variables.customDropShadow});
 
-            img {
-              width: 44px;
-              height: 44px;
+            div{
+              width: 30px;
+
+              img{
+                max-height: 30px;
+              }
+
+              p{
+                font-size: 0.55rem;
+              }
             }
           }
 
@@ -99,7 +106,7 @@ export const Projects = styled.section`
               background-color: ${Variables.black};
               font-size: 1.2rem;
               border-radius: 10px;
-              transition: 0.2s ease -in -out;
+              transition: 0.2s ease-in-out;
 
               &:hover {
                 color: ${Variables.white};
@@ -119,7 +126,7 @@ export const Projects = styled.section`
               }
 
               svg{
-                height: 40px;
+                height: 38px;
               }
 
               path {
@@ -164,13 +171,13 @@ export const Projects = styled.section`
           .infoCard {
             display: flex;
             flex-direction: column;
-            padding: 15px 15px 15px 15px;
+            padding: 22px 28px 22px 28px;
             background-color: ${Variables.white};
             height: 96%;
             border-radius: 0 10px 10px 0;
 
-            h3 {
-              margin-top: 10px;
+            h3{
+              margin: 0;
             }
 
             .cardsLinks {

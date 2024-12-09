@@ -1,9 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
-import fontLight from "../assets/fonts/Inter-Light.ttf";
-import fontRegular from "../assets/fonts/Inter-Regular.ttf";
-import fontSemiBold from "../assets/fonts/Inter-SemiBold.ttf";
-import fontBold from "../assets/fonts/Inter-Bold.ttf";
+import fontLight from "/fonts/Inter-Light.ttf";
+import fontRegular from "/fonts/Inter-Regular.ttf";
+import fontSemiBold from "/fonts/Inter-SemiBold.ttf";
+import fontBold from "/fonts/Inter-Bold.ttf";
 import { Variables } from "./CustomVariables";
 
 export const GlobalStyle = createGlobalStyle`
@@ -147,20 +147,46 @@ export const GlobalStyle = createGlobalStyle`
         z-index: 100;
         background-color: ${Variables.red};
         cursor: pointer;
-        padding: 15px 8px;
-        border-radius: 20px;
+        padding: 14px 5px;
+        border-radius: 16px;
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.806);   
         opacity: 0;
         transition: .2s all ease-in-out;
         pointer-events: none;
 
         img{
-            height: 20px;
+            height: 14px;
         }
 
         &.fixedUpShow{
             opacity: 100;
             pointer-events: all;
+        }
+    }
+
+    .svgComponents{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        img, p{
+            filter: drop-shadow(0px 1px 0px #ffffff) drop-shadow(0px 1.4px 0px #ffffff) drop-shadow(0 1px 0px rgba(0, 0, 0, 0.5));
+        }
+
+        p{
+            font-size: 1rem;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        img {
+            transition: all ease-in-out .4s;
+
+            &:hover{
+                transform: scale(1.05);
+            }
         }
     }
 

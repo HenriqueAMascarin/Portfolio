@@ -10,6 +10,7 @@ export const Info = styled.section`
     align-items: center;
     flex-direction: column;
     color: ${Variables.white};
+    text-align: start;
 
     .textInfo{
       display: flex;
@@ -24,20 +25,25 @@ export const Info = styled.section`
       width: 210px;
       height: 199.25px;
       border-radius: 100%;
+      margin-bottom: 14px;  
+      filter: drop-shadow(${Variables.dropShadowImgs});
     }
 
     h2::after {
       background-color: ${Variables.white};
+      margin-left: 0;
+      width: 140px;
     }
 
     p {
       max-width: 500px;
+      text-align: justify;
     }
 
     .infoAction {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: start;
       flex-direction: column;
       gap: 30px;
     }
@@ -55,7 +61,7 @@ export const Info = styled.section`
 
     .infoIcons {
       display: flex;
-      gap: 40px;
+      gap: 30px;
 
       a {
         display: block;
@@ -107,6 +113,13 @@ export const Info = styled.section`
     }
   }
 
+  @media screen and (min-width: 410px) {
+    .infoDiv .infoAction {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
   @media screen and (min-width: ${Variables.mediaQueryWidth.desktop}) {
     .infoDiv {
       flex-direction: row;
@@ -119,13 +132,9 @@ export const Info = styled.section`
         width: 330px;
         height: 313.11px;
         border-radius: 100px;
+        margin: 0;
         position: sticky;
         top: calc(${Variables.headerHeight} + 10px) ;
-      }
-
-      .infoAction {
-        flex-direction: row;
-        gap: 30px;
       }
     }
   }

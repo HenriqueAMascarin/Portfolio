@@ -1,22 +1,34 @@
-import tailwindCSSLogo from "/src/assets/images/techIcons/tailwindCSSLogo.svg";
-import piniaLogo from "/src/assets/images/techIcons/piniaLogo.svg";
-import quasarLogo from "/src/assets/images/techIcons/quasarLogo.svg";
-import vueLogo from "/src/assets/images/techIcons/vueLogo.svg";
-import sgbrImg from "/src/assets/images/considerations/sgbr.jpg";
+import SGBrImg from "/images/logoExperiencies/SGBr.webp";
+import HenriqueMascarinImg from "/images/logoExperiencies/HenriqueMascarin.webp";
+import { ExpoSvg, FigmaSvg, PiniaSvg, QuasarSvg, ReactNativeSvg, TailwindSvg, TypeScriptSvg, VueSvg } from "../techs/techsSvgs";
 
 export const experiencesArray = [
   {
-    position: "Front-end Júnior",
+    position: "Desenvolvedor Mobile",
+    company: { name: "Henrique Mascarin", url: "https://play.google.com/store/apps/dev?id=8770400649408057901" },
+    timeCompany: "Agosto 2024 - presente",
+    about:
+      "Própria empresa na Google Play aonde possuo aplicativos para o cotidiano das pessoas. Atualmente desenvolvendo e dando manutenção no aplicativo Media Timer.",
+    technologies: [
+      ReactNativeSvg,
+      ExpoSvg,
+      TypeScriptSvg,
+      FigmaSvg,
+    ],
+    logo: {src: HenriqueMascarinImg, alt: 'Logo da empresa Henrique Mascarin'},
+  },
+  {
+    position: "Desenvolvedor Front-end",
     company: { name: "SGBr Sistemas", url: "https://sgbr.com.br/" },
     timeCompany: "Julho 2023 - presente",
     about:
       "Desenvolvimento de sites focados em soluções de gerenciamento empresarial. Minhas principais tarefas incluem o desenvolvimento, manutenção de sistemas e landing pages.",
     technologies: [
-      { img: quasarLogo, alt: "Quasar Logo" },
-      { img: vueLogo, alt: "Vue logo" },
-      { img: piniaLogo, alt: "Pinia logo" },
-      { img: tailwindCSSLogo, alt: "TailwindCSS Logo" },
+      QuasarSvg,
+      VueSvg,
+      PiniaSvg,
+      TailwindSvg,
     ],
-    consideration: {src: sgbrImg, alt: 'Imagem do personagem Link do jogo the legend of zelda, junto a seu escudo com logo da SGBr'},
+    logo: {src: SGBrImg, alt: 'Logo da empresa SGBR'},
   },
 ];

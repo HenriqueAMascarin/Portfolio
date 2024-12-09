@@ -31,6 +31,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
 
   &:not(.isOpenAbout) .aboutDiv{
     opacity: 0 !important;
+    display: none;
     outline: 2px transparent solid !important;
   }
 

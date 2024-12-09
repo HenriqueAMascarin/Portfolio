@@ -20,6 +20,7 @@ export default function AchievementsSection() {
         if (index != selected) {
           setTimeout(() => {
             childrens[index].classList.remove(className);
+            childrens[index]?.setAttribute('aria-expanded', 'false');
           }, 50);
         }
       }
@@ -29,6 +30,8 @@ export default function AchievementsSection() {
         childrens[selected].classList.toggle(className);
 
         const hasClass = childrens[selected].classList.contains(className);
+
+        childrens[selected]?.setAttribute('aria-expanded', childrens[selected].classList.contains(className).toString());
 
         if (hasClass) {
           setTimeout(() => {
@@ -41,12 +44,12 @@ export default function AchievementsSection() {
   }
 
   return (
-    <AchievementsStyle id="conquistas">
+    <AchievementsStyle id="conquistas" className="principalSections">
 
       {selectedInfoModal != null &&
         <div className="modal">
           <div className="containerModal">
-            <img src="/src/assets/images/cancel.svg" alt="CancelSvg" className="cancelIcon" width="48px" height="48px" onClick={() => changeSelectedInfoModal(null)} />
+            <img src="/images/cancel.svg" alt="Botão de fechar o modal" className="cancelIcon" width="48px" height="48px" onClick={() => changeSelectedInfoModal(null)} />
             <div className="containerImageModal">
               <img src={selectedInfoModal?.img?.src} alt={selectedInfoModal?.img?.alt} className="imageInfo" ></img>
             </div>
@@ -65,8 +68,8 @@ export default function AchievementsSection() {
         <div className="containerAchievements" ref={achievementsContainerRef}>
           {achievementsData.map((achievement, keyItem) => {
             return (
-              <ArticleAchievement key={keyItem} achievementBG={achievement.img.src}>
-                <div onClick={() => clickAchievement(keyItem)} className="containerDivImg">
+              <ArticleAchievement key={keyItem} achievementBG={achievement.img.src} aria-expanded="false" aria-controls={`info-${keyItem}`}>
+                <div onClick={() => clickAchievement(keyItem)} className="containerDivImg" aria-label="Clique para expandir ou fechar, o cartão abaixo">
                   <div className="divImg outlineAchievements" role="img" aria-label={achievement.img.alt}></div>
                   <svg width="33" height="35" viewBox="0 0 33 35" fill="none" xmlns="http://www.w3.org/2000/svg" className="svgsIconExpand">
                     <title>Dedo clicável que expande o sobre da conquista</title>
@@ -76,11 +79,11 @@ export default function AchievementsSection() {
                 </div>
 
                 <div className="containerAbout containerHeight">
-                  <div className="aboutDiv outlineAchievements containerHeight">
+                  <div className="aboutDiv outlineAchievements containerHeight" id={`info-${keyItem}`}>
                     <div className="infoFlex">
-                      <div className="infoDivImage">
-                        <div aria-label={achievement.img.alt} role="img" className="infoImage outlineAchievements" onClick={() => changeSelectedInfoModal(achievement)} />
-                        <img src="src/assets/images/clickZoomOut.svg" alt="Dedo clicável que expande a imagem" className="svgsIconExpand"/>
+                      <div className="infoDivImage" onClick={() => changeSelectedInfoModal(achievement)} aria-label="Clique para abrir a imagem em tela cheia">
+                        <div aria-label={achievement.img.alt} role="img" className="infoImage outlineAchievements" />
+                        <img src="/images/clickZoomOut.svg" alt="Dedo clicável que expande a imagem" className="svgsIconExpand" />
                       </div>
                       <div className="textAbout">
                         <div>

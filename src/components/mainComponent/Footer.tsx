@@ -29,7 +29,7 @@ export default function Footer() {
             <div className="lineFooter"></div>
 
 
-            <a href="https://github.com/HenriqueAMascarin" target="_blank" className="createBy">
+            <a href="https://www.linkedin.com/in/henriqueamasc/" target="_blank" className="createBy">
               Feito por Henrique de Albuquerque Mascarin
             </a>
 

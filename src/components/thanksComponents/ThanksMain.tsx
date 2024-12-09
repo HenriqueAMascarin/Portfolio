@@ -11,6 +11,7 @@ export default function ThanksMain() {
               <div className="contentsMain">
                 <h1>Muito obrigado!</h1>
                 <p>Lhe responderei quanto antes.</p>
+                <p>Caso não seja redirecionado <a href="https://www.linkedin.com/in/henriqueamasc/" target="_blank">clique aqui!</a></p>
                 <a href="/" className="goBack">Voltar</a>
               </div>
             </MaxWidthCapsule>

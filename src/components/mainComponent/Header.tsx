@@ -1,12 +1,26 @@
 import { BackgroundHeader, FixedHeaderDiv, HeaderStyle, LogoLink } from "../../styles/mainStyles/Header.styles";
 import { HorizontalPadding, MaxWidthCapsule } from "../../styles/GlobalStyle";
+import { SyntheticEvent } from "react";
 
 export default function Header() {
   function hamburguerFunction() {
     const menu = document.querySelector(".hamburguerMenu");
+
     const nav = document.querySelector(".navHeader");
+
     menu?.classList.toggle("active");
+
     nav?.classList.toggle("active");
+
+    menu?.setAttribute('aria-expanded', menu?.classList.contains('active').toString());
+  }
+
+  function onSection(element: SyntheticEvent){
+    const target = element.target as HTMLElement;
+    
+    if(target.nodeName == 'A'){
+      hamburguerFunction();
+    }
   }
 
   return (
@@ -16,9 +30,9 @@ export default function Header() {
           <MaxWidthCapsule>
             <div className="flexHeader">
               <BackgroundHeader className="zIndexTop" />
-              <LogoLink href="#" className="zIndexTop">
+              <LogoLink href="#" className="zIndexTop linksScroll">
                 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <title>Henrique logo</title>
+                  <title>Henrique logo</title>
                   <g clipPath="url(#clip0_213_8)">
                     <circle cx="30" cy="30" r="29" fill="#D53453" />
                     <path d="M14.1605 49V12.6364H21.8487V27.6399H37.456V12.6364H45.1264V49H37.456V33.9787H21.8487V49H14.1605Z" fill="#F2F2F2" />
@@ -31,30 +45,30 @@ export default function Header() {
                 </svg>
               </LogoLink>
 
-              <nav className="navHeader">
+              <nav className="navHeader" id="navHeaderId" onClick={(element) => onSection(element)}>
                 <ul>
                   <li>
-                    <a href="#sobre">Sobre</a>
+                    <a href="#sobre" className="linksScroll">Sobre</a>
                   </li>
                   <li>
-                    <a href="#tecnologias">Tecnologias</a>
+                    <a href="#tecnologias" className="linksScroll">Tecnologias</a>
                   </li>
                   <li>
-                    <a href="#projetos">Projetos</a>
+                    <a href="#projetos" className="linksScroll">Projetos</a>
                   </li>
                   <li>
-                    <a href="#conquistas">Conquistas</a>
+                    <a href="#conquistas" className="linksScroll">Conquistas</a>
                   </li>
                   <li>
-                    <a href="#experiencias">Experiências</a>
+                    <a href="#experiencias" className="linksScroll">Experiências</a>
                   </li>
                   <li>
-                    <a href="#contato">Contato</a>
+                    <a href="#contato" className="linksScroll">Contato</a>
                   </li>
                 </ul>
               </nav>
 
-              <button className="hamburguerMenu zIndexTop" title="Hamburguer Menu" onClick={() => hamburguerFunction()}>
+              <button className="hamburguerMenu zIndexTop" title="Hamburguer Menu" onClick={() => hamburguerFunction()} aria-expanded="false" aria-label="Botão que expande a navBar no celular">
                 <span></span>
                 <span></span>
                 <span></span>

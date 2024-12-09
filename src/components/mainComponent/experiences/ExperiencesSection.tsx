@@ -4,7 +4,7 @@ import { experiencesArray } from "./experiencesData";
 
 export default function ExperiencesSection() {
   return (
-    <WorksStyle id="experiencias">
+    <WorksStyle id="experiencias" className="principalSections">
       <VerticalPadding>
 
         <HorizontalPadding>
@@ -14,31 +14,33 @@ export default function ExperiencesSection() {
               <div className="containerExperience">
 
                 <div className="lineExperience"> </div>
+                <div className="articlesContainer">
                 {experiencesArray.map((experience, keyExperience) => {
                   return (
                     <article key={keyExperience} className="experienceArticle">
 
                       <span className="lineCircleExperience"></span>
                       <div className="infoContainer">
-                        <a href={experience.company.url} target="_blank" rel="noopener noreferrer">{`${experience.position} - ${experience.company.name}`}</a>
+                        <h3><a href={experience.company.url} target="_blank" rel="noopener noreferrer"><span>{experience.position}</span> <span>{experience.company.name}</span></a></h3>
                         <p className="timeCompanyText">{experience.timeCompany}</p>
                         <p className="aboutText">{experience.about}</p>
 
                         <div className="techContainer">
-                          {experience.technologies.map((tech, keyTech) => {
+                          {experience.technologies.map((Tech, keyTech) => {
                             return (
-                              <img src={tech.img} width="60px" height="60px" alt={tech.alt} title={tech.alt} key={keyTech} />
+                              <Tech key={keyTech}/>
                             )
                           })}
                         </div>
                       </div>
 
-                      <img src={experience.consideration.src} alt={experience.consideration.alt} className="considerationImg" width="433px" height="233px"/>
+                      <img src={experience.logo.src} alt={experience.logo.alt} className="logoImg" width="433px" height="233px"/>
 
                     </article>
 
                   )
                 })}
+                </div>
 
               </div>
             </div>

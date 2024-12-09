@@ -16,7 +16,7 @@ export default function PolicyMediaTimer() {
                         <PolicyStyleMediaTimer>
                             <div className="policyCard">
                                 <div className="policyTitleDiv">
-                                    <img src="/src/assets/images/mediaTimerIcon.svg" alt="Ícone Media Timer" />
+                                    <img src="/images/mediaTimerIcon.svg" alt="Ícone Media Timer" />
 
                                     <div>
                                         <h3>Política de Privacidade</h3>
@@ -48,18 +48,22 @@ export default function PolicyMediaTimer() {
 
                                     <div className="policyTableBody">
                                         <div>
-                                            <div><p>android.permission.INTERNET</p></div>
+                                            <div>
+                                                <p>android.permission.INTERNET</p>
+                                                <p>com.google.android.gms.permission.AD_ID</p>
+                                            </div>
 
-                                            <div><p>Utilizada para mostrar o anúncio de baixo na tela principal.</p></div>
+                                            <div><p>Utilizados para mostrar o anúncio de baixo na tela principal.</p></div>
                                         </div>
 
                                         <div>
                                             <div>
                                                 <p>android.permission.READ_EXTERNAL_STORAGE</p>
                                                 <p>android.permission.WRITE_EXTERNAL_STORAGE</p>
+                                                <p>android.permission.READ_MEDIA_AUDIO</p>
                                             </div>
 
-                                            <div><p>Utilizado para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.</p></div>
+                                            <div><p>Utilizados para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.</p></div>
 
                                         </div>
 
