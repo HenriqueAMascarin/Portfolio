@@ -1,0 +1,42 @@
+{
+  "translation": {
+    "mainPage": {
+      "header": {
+        "Info": "Sobre",
+        "Technologies": "Tecnologias",
+        "Projects": "Projetos",
+        "Achievements": "Conquistas",
+        "Experiences": "Experiências",
+        "Contact": "Contato"
+      },
+      "nameSection": {
+        "title": ["Henrique", "Mascarin", "Desenvolvedor", "Mobile"],
+        "arrowDown": "Seta para ir na seção abaixo"
+      },
+      "infoSection": {
+        "altPhoto": "Foto de Henrique",
+        "title": "Sobre",
+        "paragraphs": [
+          "Sou uma pessoa determinada, que tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível.",
+          "Desenvolvedor a mais de 2 anos. Como desenvolvedor Mobile tenho experiência em React Native, TypeScript e Expo. No Front-end utilizo React, Vue e TypeScript.",
+          "Atuando em projetos com centenas de clientes como o sistema SG Master Web, e desenvolvendo minha própria empresa na Google Play do zero até a publicação do aplicativo Media Timer.",
+          "Nesses projetos visei dar um toque de design de interface tendo objetivo em ser agradável e chamativo, pensando na experiência do usuário.",
+          "Atualmente, estou dedicando meu tempo na área de desenvolvimento Mobile com React Native. Visando aprimorar minhas habilidades e buscar novas oportunidades profissionais."
+        ],
+        "curriculum": "Currículo"
+      },
+      "technologiesSection": {
+        "title": "Tecnologias"
+      },
+      "projectsSection": {
+        "title": "Projetos",
+        "policy": "Política de privacidade",
+        "projects": {
+          "MediaTimer": {
+            "info": "Aplicativo de temporizador com possibilidade de ouvir sons de seu dispositivo e diversas funcionalidades, com objetivo de solucionar um problema pessoal."
+          }
+        }
+      }
+    }
+  }
+}
