@@ -2,8 +2,8 @@ import Footer from "./Footer";
 import Header from "./Header";
 import InfoSection from "./InfoSection";
 import PrincipalSection from "./PrincipalSection";
-import ProjectsSection from "./projects/ProjectsSection";
-import Tecnologies from "./techs/Tecnologies";
+import ProjectsSection from "./ProjectsSection";
+import Technologies from "./techs/Technologies";
 import ContactSection from "./ContactSection";
 import WorksSection from "./experiences/ExperiencesSection";
 import AchievementsSection from "./achievements/AchievementsSection";
@@ -30,7 +30,7 @@ export default function Main() {
       <main>
         <PrincipalSection />
         <InfoSection />
-        <Tecnologies />
+        <Technologies />
         <ProjectsSection />
         <AchievementsSection />
         <WorksSection />

@@ -37,7 +37,8 @@ export const SectionPrincipal = styled.section`
 
       p,
       h1 {
-        text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+        text-shadow: 0px 1.5px 0px #FFFFFF, 0px -1.5px 0px #FFFFFF, 1.5px 0px 0px #FFFFFF, -1.5px 0px 0px #FFFFFF,
+        0px -1.5px 3px rgba(0, 0, 0, 0.4), 0px 3.5px 3px rgba(0, 0, 0, 0.4), -1.5px 0px 3px rgba(0, 0, 0, 0.4), 1.5px 0px 3px rgba(0, 0, 0, 0.4);
       }
 
       h1 {

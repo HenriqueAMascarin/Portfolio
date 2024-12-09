@@ -17,17 +17,21 @@ export default function InfoSection() {
 
                 <div className="textInfo">
                   <p>
-                    Sou uma pessoa determinada, que tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível.
+                    Sou uma pessoa determinada, que tenho como objetivo melhorar constantemente. 
+                    Não gosto de brigas e tento sempre ser amigável. 
+                    Procuro, assim, aprender com os outros e auxiliar o possível.
                   </p>
                   <p>
-                    Sempre gostei de jogos eletrônicos e acabei desenvolvendo projetos utilizando a Unity por um tempo, infelizmente acabei parando. Mas no fim, trouxe muitos conhecimentos em relação a design, lógica de programação e criatividade.
+                    Desenvolvedor a mais de 2 anos. Como desenvolvedor Mobile tenho experiência em
+                    React Native, TypeScript e Expo. No Front-end utilizo React, Vue e TypeScript.
                   </p>
-                  <p>
-                    Contudo, acabei voltando para a programação como desenvolvedor front-end. A fim de aprender sobre a área e me aprofundar ainda mais, para assim criar as melhores soluções com design agradável pensando na experiência do usuário.
-                  </p>
-                  <p>
-                    Por fim, estou concentrando meus estudos na área de desenvolvimento mobile com React Native, visando aprimorar minhas habilidades e buscar minha próxima experiência profissional nessa tecnologia.
-                  </p>
+                  <p>Atuando
+                    em projetos com centenas de clientes como o sistema SG Master Web, e desenvolvendo
+                    minha própria empresa na Google Play do zero até a publicação do aplicativo Media Timer.</p>
+                  <p>Nesses projetos visei dar um toque de design de interface tendo objetivo em ser agradável
+                    e chamativo, pensando na experiência do usuário.</p>
+                  <p>Atualmente, estou dedicando meu tempo na área de desenvolvimento Mobile com React Native. 
+                    Visando aprimorar minhas habilidades e buscar novas oportunidades profissionais.</p>
                 </div>
 
                 <div className="infoAction">
@@ -56,7 +60,7 @@ export default function InfoSection() {
                     <svg width="34" height="42" viewBox="0 0 34 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8.5 31.6C8.5 32.7046 9.39543 33.6 10.5 33.6H23.5C24.6046 33.6 25.5 32.7046 25.5 31.6V31.4C25.5 30.2954 24.6046 29.4 23.5 29.4H10.5C9.39543 29.4 8.5 30.2954 8.5 31.4V31.6ZM8.5 23.2C8.5 24.3046 9.39543 25.2 10.5 25.2H23.5C24.6046 25.2 25.5 24.3046 25.5 23.2V23C25.5 21.8954 24.6046 21 23.5 21H10.5C9.39543 21 8.5 21.8954 8.5 23V23.2ZM4.25 42C3.08125 42 2.08073 41.5887 1.24844 40.7663C0.416146 39.9438 0 38.955 0 37.8V4.2C0 3.045 0.416146 2.05625 1.24844 1.23375C2.08073 0.41125 3.08125 0 4.25 0H20.4285C20.9548 0 21.4599 0.207478 21.8343 0.577443L33.4058 12.0128C33.786 12.3885 34 12.9008 34 13.4354V37.8C34 38.955 33.5839 39.9438 32.7516 40.7663C31.9193 41.5887 30.9188 42 29.75 42H4.25ZM19.125 13.7C19.125 14.2523 19.5727 14.7 20.125 14.7H27.3154C28.2092 14.7 28.6541 13.617 28.0183 12.9887L20.8279 5.88287C20.1963 5.25865 19.125 5.7061 19.125 6.59415V13.7Z" fill="#212121" />
                     </svg>
-                    Resumo
+                    Curriculum
                   </a>
                 </div>
               </div>
