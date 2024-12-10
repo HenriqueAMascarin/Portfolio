@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Main from "./components/mainComponent/Main";
 import Thanks from "./components/thanksComponents/Thanks";
 import { Routes, Route, useLocation } from "react-router-dom"
-import { arrayCards } from "./components/mainComponent/projects/cardsData";
+import { arrayCards } from "./components/mainComponent/ProjectsSection";
 import PolicyMediaTimer from "./components/policy/PolicyMediaTimer";
 
 function App() {

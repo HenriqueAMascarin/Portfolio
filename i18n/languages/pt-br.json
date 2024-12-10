@@ -33,7 +33,31 @@
         "policy": "Política de privacidade",
         "projects": {
           "MediaTimer": {
-            "info": "Aplicativo de temporizador com possibilidade de ouvir sons de seu dispositivo e diversas funcionalidades, com objetivo de solucionar um problema pessoal."
+            "title": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
+            "challengesList": [
+              "Publicação na Google Play",
+              "Licença para o projeto junto a termos de privacidade",
+              "Poder escolher sons do celular, sons no aplicativo e historio de sons do celular",
+              "Minha marca na Google Play, Linkedln e publicar sobre o projeto no Linkedln da empresa",
+              "Aplicativo em Inglês/US e Português/BR (depende do idioma do seu dispositivo) com i18next",
+              "Temas escuro e branco por Context do React",
+              "Pelo codigo nativo, não permiti celulares (exemplo xiaomi) trocarem as cores dos temas por outras",
+              "Estados globais pelo Redux",
+              "Funciona em segundo plano",
+              "Permissões do dispositivo",
+              "Testar acessibilidade",
+              "Logica do temporizador foi complexa de fazer",
+              "Notificação mostrando status do aplicativo",
+              "Atualizei versão do SDK do Expo para mais nova",
+              "Pode desabilitar o som do alarme",
+              "Design desenvolvido no Figma",
+              "Anuncio do AdMoB"
+            ]
+          },
+          "E-books": {
+            "title": "Site de pesquisa de livros, foi um teste para o processo seletivo na área que acabei sendo contratado",
+            "info": "Desenvolvi o projeto em 1 semana e alguns dias, também tive que aprender as tecnologias: Vue, Pinia e Tailwind. Tive desafios como: tratamento de dados na pesquisa da API no caso de erro ou sucesso, design no Figma, favoritos por localStorage.",
+            "listInfo": ["Pode escolher sons do celular e sons no aplicativo"]
           }
         }
       }
