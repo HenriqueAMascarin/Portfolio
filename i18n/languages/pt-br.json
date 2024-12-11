@@ -32,9 +32,18 @@
         "title": "Projetos",
         "policy": "Política de privacidade",
         "projects": {
+          "StarTShirts": {
+            "name": "Star T-Shirts",
+            "title": "",
+            "challengesList": [
+              "Design unico no Figma"
+            ]
+          },
           "MediaTimer": {
+            "name": "Media Timer",
             "title": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
             "challengesList": [
+              "Projeto com mais de 1 ano de desenvolvimento",
               "Publicação na Google Play",
               "Licença para o projeto junto a termos de privacidade",
               "Poder escolher sons do celular, sons no aplicativo e historio de sons do celular",
@@ -47,17 +56,48 @@
               "Permissões do dispositivo",
               "Testar acessibilidade",
               "Logica do temporizador foi complexa de fazer",
-              "Notificação mostrando status do aplicativo",
+              "Notificação mostrando status do aplicativo e icone personalizado para tal (importado pelo Android Studio)",
               "Atualizei versão do SDK do Expo para mais nova",
               "Pode desabilitar o som do alarme",
               "Design desenvolvido no Figma",
               "Anuncio do AdMoB"
             ]
           },
-          "E-books": {
-            "title": "Site de pesquisa de livros, foi um teste para o processo seletivo na área que acabei sendo contratado",
-            "info": "Desenvolvi o projeto em 1 semana e alguns dias, também tive que aprender as tecnologias: Vue, Pinia e Tailwind. Tive desafios como: tratamento de dados na pesquisa da API no caso de erro ou sucesso, design no Figma, favoritos por localStorage.",
-            "listInfo": ["Pode escolher sons do celular e sons no aplicativo"]
+          "Ebooks": {
+            "name": "E-books",
+            "title": "Site de pesquisa de livros, foi um teste para o processo seletivo que acabei sendo contratado",
+            "challengesList": [
+              "Desenvolvi o projeto em 1 semana e alguns dias",
+              "Tive que aprender as tecnologias: Vue, Pinia e Tailwind nessa semana",
+              "Utilizado Pinia para o estado global",
+              "Tratamento de dados na pesquisa da API no caso de erro ou sucesso",
+              "Design unico no Figma",
+              "Favoritos por localStorage",
+              "Cada livro pode ser favoritado ou removido, pelo botão no cartao tanto na aba de favorito ou na principal",
+              "Imagens dos cards podem sem clicados e assim mostra a imagem maior",
+              "Site responsivo, podendo ser usado no celular e computador",
+              "Tratamento de textos no design dos cartoes dos livros"
+            ]
+          },
+          "GodOfWar": {
+            "name": "God Of War E-commerce",
+            "title": "Projeto fictício de e-commerce com a temática do jogo God of War: Ragnarök.",
+            "challengesList": [
+              "Design unico no Figma",
+              "Carrousel de items sem biblioteca, criado na mão e responsivo",
+              "Site responsivo, podendo ser usado no celular e computador",
+              "Carrinho e produtos por localStorage",
+              "Tela ficticia de carrinho com os produtos que você escolheu",
+              "Cabeçalho se esconde quando rola pra baixo e quando rola a cima se expande",
+              "Utilizado Context do React para o estado global"
+            ]
+          },
+          "Portfolio": {
+            "name": "Portfólio",
+            "title": "",
+            "challengesList": [
+              "Design unico no Figma"
+            ]
           }
         }
       }
