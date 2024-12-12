@@ -8,7 +8,6 @@ export default function AchievementsSection() {
   const achievementsContainerRef = useRef<null | HTMLDivElement>(null);
   const [selectedInfoModal, changeSelectedInfoModal] = useState<null | typeof achievementsData[0]>(null);
 
-
   function clickAchievement(selected: number) {
     if (achievementsContainerRef.current) {
 

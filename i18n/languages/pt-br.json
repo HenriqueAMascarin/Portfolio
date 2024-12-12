@@ -130,9 +130,34 @@
         "fingerToZoom": "Dedo clicável que abre a imagem em tela cheia",
         "moreDetails": "Mais detalhes",
         "achievements": {
-          
+          "RSTIFrontEnd": {
+            "title": "Trilha Front-end RSTI",
+            "about": "Curso presencial do Senac que ajudou a aperfeiçoar os conceitos de design, semântica de HTML e estilização CSS.",
+            "imageAlt": "Imagem de certificado da trilha front-end RSTI do Senac."
+          },
+          "startupWeekend": {
+            "title": "Startup Weekend Smart Cities - Santo Ângelo/RS (2022)",
+            "about": "Atuei como designer do aplicativo “O Campo”, vencedor dessa edição.",
+            "imageAlt": "Imagem com o troféu de primeiro lugar do Smart Cities."
+          },
+          "RSTIProgrammingLogic":{
+            "title": "Trilha Lógica de Programação RSTI",
+            "about": "Curso presencial realizado no Senac, que enfrentei desafios no papel e computador. Como resultado, aperfeiçoaram minha lógica com a programação.",
+            "imageAlt": "Imagem de certificado da trilha lógica de programação RSTI do Senac"
+          },
+          "UdemyWebDesign": {
+            "title": "Curso Web Design",
+            "about": "Tive como aprendizado o desenvolvimento de sites utilizando HTML, CSS e JavaScript. Com um toque especial de semântica, acessibilidade e lógica de programação.",
+            "imageAlt": "Imagem de certificado do curso web design da Udemy"
+          },
+          "UdemyProgrammingLogic": {
+            "title": "Curso Algoritmos e Lógica de Programação Udemy",
+            "about":  "Nesse curso, foram apresentados exercícios e explicações sobre a lógica de programação. No fim, foram fundamentais para meu desenvolvimento.",
+            "imageAlt": "Imagem de certificado do curso algoritmos e lógica de programação da Udemy"
+          }
         }
       }
+
     }
   }
 }

@@ -12,9 +12,8 @@ export const achievementsData = [
       alt: "Imagem de certificado do curso front-end trilha RSTI do Senac",
     },
     title: "Curso Front-end RSTI",
-    about: [
+    about:
       "Curso presencial do Senac que ajudou a aperfeiçoar os conceitos de design, semântica de HTML e estilização CSS.",
-    ],
     moreInfoLink: "https://www.senacrs.com.br/hotsite/programarsti/index.php",
   },
   {
@@ -24,9 +23,8 @@ export const achievementsData = [
       alt: "Imagem com o troféu de primeiro lugar do Smart Cities",
     },
     title: "Startup Weekend Smart Cities - Santo Ângelo/RS (2022)",
-    about: [
+    about:
       "Atuei como designer do aplicativo “O Campo”, vencedor dessa edição.",
-    ],
     moreInfoLink:
       "https://www.figma.com/design/YQg40R1PQaU2QsBeTgxcVn/Untitled?node-id=0-1&t=4ZzmcLsdVcHrbF2f-1",
   },
@@ -37,9 +35,8 @@ export const achievementsData = [
       alt: "Imagem de certificado do curso lógica de programação trilha RSTI do Senac",
     },
     title: "Curso Lógica de Programação RSTI",
-    about: [
+    about:
       "Curso presencial realizado no Senac, que enfrentei desafios no papel e computador. Como resultado, aperfeiçoaram minha lógica com a programação.",
-    ],
     moreInfoLink: "https://www.senacrs.com.br/hotsite/programarsti/index.php",
   },
   {
@@ -49,9 +46,8 @@ export const achievementsData = [
       alt: "Imagem de certificado do curso web design da Udemy",
     },
     title: "Curso Web Design Udemy",
-    about: [
+    about:
       "Tive como aprendizado o desenvolvimento de sites utilizando HTML, CSS e JavaScript. Com um toque especial de semântica, acessibilidade e lógica de programação.",
-    ],
     moreInfoLink:
       "https://www.udemy.com/certificate/UC-16be765b-025e-479c-92e5-1449d7629545/",
   },
@@ -62,9 +58,8 @@ export const achievementsData = [
       alt: "Imagem de certificado do curso algoritmos e lógica de programação da Udemy",
     },
     title: "Curso Algoritmos e Lógica de Programação Udemy",
-    about: [
+    about:
       "Nesse curso, foram apresentados exercícios e explicações sobre a lógica de programação. No fim, foram fundamentais para meu desenvolvimento.",
-    ],
     moreInfoLink:
       "https://www.udemy.com/certificate/UC-24e04025-8e35-4d88-8fa1-bcc0194dbe05/",
   },
