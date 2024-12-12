@@ -1,4 +1,3 @@
-import reactCoodeshImg from "/images/achievements/reactCoodesh.jpg";
 import frontEndImg from "/images/achievements/frontendSenac.jpg";
 import techstarsImg from "/images/achievements/techstars.webp";
 import logicSenacImg from "/images/achievements/logicSenac.jpg";
@@ -6,19 +5,6 @@ import webDesignImg from "/images/achievements/webDesignUdemy.jpg";
 import logicUdemyImg from "/images/achievements/logicUdemy.jpg";
 
 export const achievementsData = [
-  {
-    isOpen: false,
-    img: {
-      src: reactCoodeshImg,
-      alt: "Imagem de certificado React.js da empresa Coodesh",
-    },
-    title: "Certificado React.js",
-    about: [
-      "Teste da Coodesh, constituída por diversas perguntas sobre o uso da tecnologia. Assim, comprovando o conhecimento em React.js.",
-    ],
-    moreInfoLink:
-      "https://coodesh.com/share/certificate/fa796da0-c726-11ed-9234-cbd25d023b86",
-  },
   {
     isOpen: false,
     img: {
