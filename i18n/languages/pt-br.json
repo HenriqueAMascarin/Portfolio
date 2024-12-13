@@ -53,10 +53,10 @@
             "title": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
             "challengesList": [
               "Projeto com mais de 1 ano de desenvolvimento",
-              "Publicação na Google Play",
+              "Publicação na Google Play em produção",
               "Licença para o projeto junto a termos de privacidade",
               "Poder escolher sons do celular, sons no aplicativo e historio de sons do celular",
-              "Minha marca na Google Play, Linkedln e publicar sobre o projeto no Linkedln da empresa",
+              "Marketing sobre o projeto no Linkedln da empresa",
               "Aplicativo em Inglês/US e Português/BR (depende do idioma do seu dispositivo) com i18next",
               "Temas escuro e branco por Context do React",
               "Pelo codigo nativo, não permiti celulares (exemplo xiaomi) trocarem as cores dos temas por outras",
@@ -140,7 +140,7 @@
             "about": "Atuei como designer do aplicativo “O Campo”, vencedor dessa edição.",
             "imageAlt": "Imagem com o troféu de primeiro lugar do Smart Cities."
           },
-          "RSTIProgrammingLogic":{
+          "RSTIProgrammingLogic": {
             "title": "Trilha Lógica de Programação RSTI",
             "about": "Curso presencial realizado no Senac, que enfrentei desafios no papel e computador. Como resultado, aperfeiçoaram minha lógica com a programação.",
             "imageAlt": "Imagem de certificado da trilha lógica de programação RSTI do Senac"
@@ -152,12 +152,41 @@
           },
           "UdemyProgrammingLogic": {
             "title": "Curso Algoritmos e Lógica de Programação Udemy",
-            "about":  "Nesse curso, foram apresentados exercícios e explicações sobre a lógica de programação. No fim, foram fundamentais para meu desenvolvimento.",
+            "about": "Nesse curso, foram apresentados exercícios e explicações sobre a lógica de programação. No fim, foram fundamentais para meu desenvolvimento.",
             "imageAlt": "Imagem de certificado do curso algoritmos e lógica de programação da Udemy"
           }
         }
+      },
+      "experiencesSection": {
+        "HenriqueMascarin": {
+          "position": "Fundador e Desenvolvedor Mobile",
+          "timeCompany": "Agosto/2024 - Presente",
+          "about": "Minha empresa na Google Play, aonde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
+          "challengesList": [
+            "Contruir minha marca na Google Play, Linkedln e cuidar do marketing sobre os projetos no Linkedln da empresa",
+            "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play",
+            "Aprender sobre AdMob, para colocar anuncios nos aplicativos",
+            "Licensas de projetos",
+            "Cuidar de politica de privacidade e outras questões da Google em relação aos projetos"
+          ]
+        },
+        "SGBrSistemas": {
+          "position": "Desenvolvedor Front-end",
+          "timeCompany": "Julho/2023 - Presente",
+          "about": "Empresa aonde trabalho no time de Front-end, que criamos o novo sistema SG Master Web para empresas",
+          "challengesList": [
+            "Criação e manutenção da Landing Page do sistema Web",
+            "Desenvolvimento e manutenção do novo sistema SG Master Web",
+            "Implementação das novas permissões ao usuario. Aonde tive que desenvolver uma pagina de formulario para perfis e outra para usuarios, também mudei todas as permissoes do sistema para as novas",
+            "Trabalho conjunto com o time de Back-end, repassando erros e mudanças que eram precisas no front-end",
+            "Implementação dos novos filtros V2 do Back-end para selects (do modelo antigo e modelo novo) no front-end",
+            "Refatoração de paginas do modelo antigo para o modelo novo",
+            "Criação de componentes",
+            "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, para deixar menores e com design diferente do padrão do framework"
+            
+          ]
+        }
       }
-
     }
   }
 }
