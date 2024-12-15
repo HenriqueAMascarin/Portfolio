@@ -56,7 +56,7 @@
               "Publicação na Google Play em produção",
               "Licença para o projeto junto a termos de privacidade",
               "Poder escolher sons do celular, sons no aplicativo e historio de sons do celular",
-              "Marketing sobre o projeto no Linkedln da empresa",
+              "Marketing sobre o projeto no LinkedIn da empresa",
               "Aplicativo em Inglês/US e Português/BR (depende do idioma do seu dispositivo) com i18next",
               "Temas escuro e branco por Context do React",
               "Pelo codigo nativo, não permiti celulares (exemplo xiaomi) trocarem as cores dos temas por outras",
@@ -102,7 +102,7 @@
               "Pagina de politica de privacidade de aplicativos",
               "Textos do site que foram pensados para contar sobre a minha expêriencia",
               "Site em Inglês/US e Português/BR (depende do idioma do seu dispositivo) com i18next",
-              "Após clicar no icone do Linkedln na seção de contato, leva para a tela de obrigado que redireciona para o Linkedln"
+              "Após clicar no icone do LinkedIn na seção de contato, leva para a tela de obrigado que redireciona para o LinkedIn"
             ]
           },
           "GodOfWar": {
@@ -163,7 +163,7 @@
           "timeCompany": "Agosto/2024 - Presente",
           "about": "Minha empresa na Google Play, aonde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
           "challengesList": [
-            "Contruir minha marca na Google Play, Linkedln e cuidar do marketing sobre os projetos no Linkedln da empresa",
+            "Contruir minha marca na Google Play, LinkedIn e cuidar do marketing sobre os projetos no LinkedIn da empresa",
             "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play",
             "Aprender sobre AdMob, para colocar anuncios nos aplicativos",
             "Licensas de projetos",
@@ -188,7 +188,7 @@
         }
       },
       "contactSection":{
-
+        "title": "Contato"
       }
     }
   }
