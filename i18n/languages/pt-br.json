@@ -177,15 +177,18 @@
           "challengesList": [
             "Criação e manutenção da Landing Page do sistema Web",
             "Desenvolvimento e manutenção do novo sistema SG Master Web",
-            "Implementação das novas permissões ao usuario. Aonde tive que desenvolver uma pagina de formulario para perfis e outra para usuarios, também mudei todas as permissoes do sistema para as novas",
-            "Trabalho conjunto com o time de Back-end, repassando erros e mudanças que eram precisas no front-end",
-            "Implementação dos novos filtros V2 do Back-end para selects (do modelo antigo e modelo novo) no front-end",
+            "Implementação das novas permissões ao usuario. Aonde tive que desenvolver duas paginas de formulario sendo para perfis e usuarios. Também, Troquei todas as permissoes do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao desfazer alterações (que é um botão que aparece na barra de ações que volta os valores do formulario ao estado inicial, seja edição ou cadastro)",
+            "Trabalho conjunto com o time de Back-end, repassando erros e mudanças que são precisas no front-end",
+            "Implementação dos novos filtros V2 do Back-end para selects do modelo antigo e modelo novo no front-end",
             "Refatoração de paginas do modelo antigo para o modelo novo",
-            "Criação de componentes",
-            "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, para deixar menores e com design diferente do padrão do framework"
-            
+            "Criação de componentes e arquivos de utilidades reutilizaveis",
+            "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, para deixar o design diferente do padrão do framework. Para ser feito essas mudanças tive que usar bastante o inspecionar do DevTools",
+            "Implementação de margens e envio de e-mail de documentos/notas fiscais, junto ao time de Back-end. Também, em cada modulo e nas configurações do envio de e-mail, pode se alterar a mensagem do rodapé em um editor WYSIWYG"
           ]
         }
+      },
+      "contactSection":{
+
       }
     }
   }
