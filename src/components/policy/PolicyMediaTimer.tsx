@@ -16,7 +16,7 @@ export default function PolicyMediaTimer() {
                         <PolicyStyleMediaTimer>
                             <div className="policyCard">
                                 <div className="policyTitleDiv">
-                                    <img src="/images/mediaTimerIcon.svg" alt="Ícone Media Timer" />
+                                    <img src="/images/mediaTimerIcon.svg" alt="Logo Media Timer" />
 
                                     <div>
                                         <h3>Política de Privacidade</h3>

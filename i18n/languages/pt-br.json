@@ -1,6 +1,7 @@
 {
   "translation": {
-    "geral": {
+    "general": {
+      "goBack": "Voltar",
       "header": {
         "info": "Sobre",
         "technologies": "Tecnologias",
@@ -190,21 +191,44 @@
           ]
         }
       },
-      "contactSection":{
+      "contactSection": {
         "title": "Contato",
         "altPhoto": "Foto do Henrique",
-        "contactTexts": ["Obrigado por visitar meu portfólio!", "Se sinta à vontade para se conectar e enviar uma mensagem pelo"]
+        "contactTexts": [
+          "Obrigado por visitar meu portfólio!",
+          "Se sinta à vontade para se conectar e enviar uma mensagem pelo"
+        ]
       }
     },
     "thanksPage": {
       "title": "Muito obrigado!",
       "replyText": "Lhe responderei quanto antes.",
       "caseOfRedirect": "Caso não seja redirecionado",
-      "clickHere": "clique aqui!",
-      "goBack": "Voltar"
+      "clickHere": "clique aqui!"
     },
     "policyMediaTimer": {
-
+      "title": "Política de Privacidade",
+      "welcome": {
+        "title": "Bem vindo ao Media Timer, aplicativo para android!",
+        "subtitle": "Esse é um aplicativo temporizador desenvolvido por Henrique de Albuquerque Mascarin e visa resolver um problema pessoal."
+      },
+      "dataCollected": {
+        "title": "Dados coletados pelo aplicativo",
+        "declaration": "Nenhum dado é coletado. Tudo fornecido como dados de arquivos, histórico de áudios e configurações de tema são todos mantidos no aplicativo.",
+        "permissionsParagraph": "A lista de permissões listadas a baixo são encontradas aqui no"
+      },
+      "permissionsList": {
+        "permission": "Permissão",
+        "reasons": {
+          "whatReason": "Porque é necessária",
+          "adReason": "Utilizados para mostrar o anúncio de baixo na tela principal.",
+          "storageReason": "Utilizados para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.",
+          "notificationsReason": "Utilizado para mostrar as notificações do aplicativo, quando está executando o temporizador.",
+          "historyArchiveReason": "Utilizado para encontrar o local do arquivo selecionado na aba de histórico.",
+          "configureAudioReason": "Utilizado com a tecnologia EXPO AV, para configurar os áudios usados no aplicativo."
+        },
+        "contact": "Caso tenha visto alguma permissão que não esteja listada aqui ou sobre qualquer dúvida de segurança, se sinta livre em mandar uma mensagem ao e-mail:"
+      }
     }
   }
 }
