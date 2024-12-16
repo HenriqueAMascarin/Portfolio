@@ -68,7 +68,7 @@ export default function Header() {
                 </ul>
               </nav>
 
-              <button className="hamburguerMenu zIndexTop" title="Hamburguer Menu" onClick={() => hamburguerFunction()} aria-expanded="false" aria-label="Botão que expande a navBar no celular">
+              <button className="hamburguerMenu zIndexTop" title="Hamburguer Menu" onClick={() => hamburguerFunction()} aria-expanded="false" aria-label="Botão que expande a barra de navegação no celular">
                 <span></span>
                 <span></span>
                 <span></span>

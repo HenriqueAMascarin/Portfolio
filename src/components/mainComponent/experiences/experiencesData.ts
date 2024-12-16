@@ -15,7 +15,7 @@ export const experiencesArray = [
       TypeScriptSvg,
       FigmaSvg,
     ],
-    logo: {src: HenriqueMascarinImg, alt: 'Logo da empresa Henrique Mascarin'},
+    logo: HenriqueMascarinImg,
   },
   {
     position: "Desenvolvedor Front-end",
@@ -29,6 +29,6 @@ export const experiencesArray = [
       PiniaSvg,
       TailwindSvg,
     ],
-    logo: {src: SGBrImg, alt: 'Logo da empresa SGBR'},
+    logo: SGBrImg,
   },
 ];

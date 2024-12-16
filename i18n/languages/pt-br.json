@@ -1,20 +1,23 @@
 {
   "translation": {
-    "mainPage": {
+    "geral": {
       "header": {
         "info": "Sobre",
         "technologies": "Tecnologias",
         "projects": "Projetos",
         "achievements": "Conquistas",
         "experiences": "Experiências",
-        "contact": "Contato"
-      },
+        "contact": "Contato",
+        "hamburguerAlt": "Botão que expande a barra de navegação"
+      }
+    },
+    "mainPage": {
       "nameSection": {
         "title": ["Henrique", "Mascarin", "Desenvolvedor", "Mobile"],
         "arrowDown": "Seta para ir na seção abaixo"
       },
       "infoSection": {
-        "altPhoto": "Foto de Henrique",
+        "altPhoto": "Foto do Henrique",
         "title": "Sobre",
         "paragraphs": [
           "Sou uma pessoa determinada, que tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível.",
@@ -188,8 +191,20 @@
         }
       },
       "contactSection":{
-        "title": "Contato"
+        "title": "Contato",
+        "altPhoto": "Foto do Henrique",
+        "contactTexts": ["Obrigado por visitar meu portfólio!", "Se sinta à vontade para se conectar e enviar uma mensagem pelo"]
       }
+    },
+    "thanksPage": {
+      "title": "Muito obrigado!",
+      "replyText": "Lhe responderei quanto antes.",
+      "caseOfRedirect": "Caso não seja redirecionado",
+      "clickHere": "clique aqui!",
+      "goBack": "Voltar"
+    },
+    "policyMediaTimer": {
+
     }
   }
 }

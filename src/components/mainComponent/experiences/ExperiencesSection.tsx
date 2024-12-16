@@ -34,7 +34,7 @@ export default function ExperiencesSection() {
                         </div>
                       </div>
 
-                      <img src={experience.logo.src} alt={experience.logo.alt} className="logoImg" width="433px" height="233px"/>
+                      <img src={experience.logo} alt={`Logo ${experience.company.name}`} className="logoImg" width="433px" height="233px"/>
 
                     </article>
 
