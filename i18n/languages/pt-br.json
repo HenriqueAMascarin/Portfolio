@@ -35,20 +35,20 @@
       "projectsSection": {
         "title": "Projetos",
         "policy": "Política de privacidade",
-        "completed": "Concluido",
+        "completed": "Concluído",
         "inProgress": "Em andamento",
         "projects": {
           "StarTShirts": {
             "name": "Star T-Shirts",
             "title": "Aplicativo fictício de e-commerce, somente de camisetas.",
             "challengesList": [
-              "Design unico no Figma",
+              "Design único no Figma",
               "Primeiro projeto sem Expo, somente React Native CLI",
               "Módulo nativo para mostrar a Splash Screen, escrito com Kotlin",
               "React Navigation para rotas",
               "Estrutura do projeto foi pensada como se fosse um produto real",
               "Telas de formulário com React Hook Form, com suas validações do Zod",
-              "Componentização de elementos que são muito utilizados",
+              "Componentização de elementos muito utilizados",
               "Alertas geráveis por meio de estado global, para indicar certo estado"
             ]
           },
@@ -58,66 +58,66 @@
             "challengesList": [
               "Projeto com mais de 1 ano de desenvolvimento",
               "Publicação na Google Play em produção",
-              "Licença para o projeto junto a termos de privacidade",
-              "Poder escolher sons do celular, sons no aplicativo e historio de sons do celular",
+              "Licença para o projeto e termos de privacidade",
+              "Poder escolher sons do celular, sons no aplicativo e histórico de sons do celular",
               "Marketing sobre o projeto no LinkedIn da empresa",
-              "Aplicativo em Inglês/US e Português/BR (depende do idioma do seu dispositivo) com i18next",
-              "Temas escuro e branco por Context do React",
-              "Pelo codigo nativo, não permiti celulares (exemplo xiaomi) trocarem as cores dos temas por outras",
+              "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next",
+              "Tema escuro e branco, criei um Context do React para gerenciar esse estado",
+              "Pelo código nativo, não permiti celulares (exemplo Xiaomi) trocarem as cores dos temas por outras",
               "Estados globais pelo Redux",
               "Funciona em segundo plano",
               "Permissões do dispositivo",
-              "Testar acessibilidade",
-              "Logica do temporizador foi complexa de fazer",
-              "Notificação mostrando status do aplicativo e icone personalizado para tal (importado pelo Android Studio)",
-              "Atualizei versão do SDK do Expo para mais nova",
-              "Pode desabilitar o som do alarme",
-              "Design desenvolvido no Figma",
-              "Anuncio do AdMoB",
-              "Dados como o tema escolhido ou se é pra alertar no fim do timer, salvos no cache do aplicativo"
+              "Testei acessibilidade e fiz com que não seja possível mudar o tamanho dos textos",
+              "A lógica do temporizador foi complexa de fazer, já que criei sem biblioteca",
+              "Notificação mostrando a situação do aplicativo e ícone personalizado para tal (importado pelo Android Studio)",
+              "Atualizei a versão do SDK do Expo para mais nova",
+              "Design único no Figma",
+              "Anúncio do AdMob",
+              "Dados como o tema escolhido ou se é para alertar no fim do timer são salvos no cache do aplicativo (localStorage)"
             ]
           },
           "Ebooks": {
             "name": "E-books",
-            "title": "Site de pesquisa de livros, foi um teste para o processo seletivo que acabei sendo contratado",
+            "title": "Site de pesquisa de livros, que foi para o teste do processo seletivo que acabei sendo contratado na SGBr® Sistemas.",
             "challengesList": [
               "Desenvolvi o projeto em 1 semana e alguns dias",
-              "Tive que aprender as tecnologias: Vue, Pinia e Tailwind nessa semana",
+              "Tive que aprender as tecnologias: Vue, Pinia e Tailwind nesse mesmo tempo",
               "Utilizado Pinia para o estado global",
-              "Tratamento de dados na pesquisa da API no caso de erro ou sucesso",
-              "Testar acessibilidade",
-              "Design unico no Figma",
+              "Tratamento de dados e validações quando for pesquisar o livro no caso de erro ou sucesso",
+              "Utilizei a API do Google para a pesquisa dos livros",
+              "Testei acessibilidade",
+              "Design único no Figma",
               "Favoritos por localStorage",
-              "Cada livro pode ser favoritado ou removido, pelo botão no cartao tanto na aba de favorito ou na principal",
-              "Imagens dos cards podem sem clicados e assim mostra a imagem maior",
+              "Cada livro pode ser favoritado ou removido pelo botão no cartão, tanto na aba de favorito e página principal",
+              "Imagens dos cartões podem ser clicadas e assim mostrando ela em tamanho maior",
               "Site responsivo, podendo ser usado no celular e computador",
-              "Tratamento de textos no design dos cartoes dos livros"
+              "Tratamento de textos dos cartões dos livros"
             ]
           },
           "Portfolio": {
             "name": "Portfólio",
-            "title": "Landing Page desenvolvida com o objetivo de contar sobre minha expêriencia.",
+            "title": "Landing Page a qual é a vitrine sobre minha carreira.",
             "challengesList": [
-              "Design unico no Figma e diferentes designs para as seções do projeto",
+              "Design único no Figma",
               "Site responsivo, podendo ser usado no celular e computador",
-              "Testar acessibilidade",
-              "Links do cabecalho são indicados por uma troca de cor de acordo com a seção que você está situado",
-              "Funcionalidade da seção de conquistas, aonde você clica em uma conquista e abre de jeito diferente no computador ou celular, também podendo dar zoom na imagem da conquista e ver mais detalhes",
-              "Pagina de politica de privacidade de aplicativos",
-              "Textos do site que foram pensados para contar sobre a minha expêriencia",
-              "Site em Inglês/US e Português/BR (depende do idioma do seu dispositivo) com i18next",
-              "Após clicar no icone do LinkedIn na seção de contato, leva para a tela de obrigado que redireciona para o LinkedIn"
+              "Testei acessibilidade",
+              "Links do cabeçalho são indicados por uma troca de cor conforme a seção em que você está situado",
+              "Funcionalidade da seção de conquistas, onde você clica em uma conquista e abre de jeito diferente no computador ou no celular, também podendo ver a imagem da conquista em tamanho maior e o botão de mais detalhes",
+              "Página da política de privacidade do Media Timer",
+              "Textos do site pensados para contar sobre a minha experiência e trazer uma segurança ao cliente ou recrutador",
+              "Site em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next",
+              "Após clicar no ícone do LinkedIn na seção de contato, leva para a tela de obrigado que redireciona para o LinkedIn"
             ]
           },
           "GodOfWar": {
             "name": "God Of War E-commerce",
             "title": "Projeto fictício de e-commerce com a temática do jogo God of War: Ragnarök.",
             "challengesList": [
-              "Design unico no Figma",
+              "Design único no Figma",
               "Carrousel de items sem biblioteca, criado na mão e responsivo",
               "Site responsivo, podendo ser usado no celular e computador",
               "Carrinho e produtos por localStorage",
-              "Testar acessibilidade",
+              "Testei acessibilidade",
               "Tela ficticia de carrinho com os produtos que você escolheu",
               "Cabeçalho se esconde quando rola pra baixo e quando rola a cima se expande",
               "Utilizado Context do React para o estado global"

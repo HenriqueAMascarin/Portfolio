@@ -19,7 +19,7 @@ export const experiencesArray = [
   },
   {
     position: "Desenvolvedor Front-end",
-    company: { name: "SGBr Sistemas", url: "https://sgbr.com.br/" },
+    company: { name: "SGBr® Sistemas", url: "https://sgbr.com.br/" },
     timeCompany: "Julho 2023 - presente",
     about:
       "Desenvolvimento de sites focados em soluções de gerenciamento empresarial. Minhas principais tarefas incluem o desenvolvimento, manutenção de sistemas e landing pages.",
