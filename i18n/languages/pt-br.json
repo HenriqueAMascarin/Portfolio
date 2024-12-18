@@ -2,6 +2,7 @@
   "translation": {
     "general": {
       "goBack": "Voltar",
+      "altPhoto": "Foto do Henrique",
       "header": {
         "info": "Sobre",
         "technologies": "Tecnologias",
@@ -18,7 +19,6 @@
         "arrowDown": "Seta para ir na seção abaixo"
       },
       "infoSection": {
-        "altPhoto": "Foto do Henrique",
         "title": "Sobre",
         "paragraphs": [
           "Sou uma pessoa determinada, que tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível.",
@@ -114,12 +114,12 @@
             "title": "Projeto fictício de e-commerce com a temática do jogo God of War: Ragnarök.",
             "challengesList": [
               "Design único no Figma",
-              "Carrousel de items sem biblioteca, criado na mão e responsivo",
+              "Carrossel de itens sem biblioteca, desenvolvido do zero e responsivo.",
               "Site responsivo, podendo ser usado no celular e computador",
               "Carrinho e produtos por localStorage",
               "Testei acessibilidade",
-              "Tela ficticia de carrinho com os produtos que você escolheu",
-              "Cabeçalho se esconde quando rola pra baixo e quando rola a cima se expande",
+              "Tela fictícia de carrinho com os produtos que você escolheu",
+              "Cabeçalho se esconde rolando para baixo e rolando para cima se expande",
               "Utilizado Context do React para o estado global"
             ]
           }
@@ -165,35 +165,35 @@
         "HenriqueMascarin": {
           "position": "Fundador e Desenvolvedor Mobile",
           "timeCompany": "Agosto/2024 - Presente",
-          "about": "Minha empresa na Google Play, aonde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
+          "about": "Minha empresa na Google Play, onde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
           "challengesList": [
-            "Contruir minha marca na Google Play, LinkedIn e cuidar do marketing sobre os projetos no LinkedIn da empresa",
+            "Construir minha marca na Google Play e cuidar do marketing sobre os aplicativos no LinkedIn da empresa",
             "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play",
-            "Aprender sobre AdMob, para colocar anuncios nos aplicativos",
-            "Licensas de projetos",
-            "Cuidar de politica de privacidade e outras questões da Google em relação aos projetos"
+            "Aprender sobre AdMob, para colocar anúncios nos aplicativos",
+            "Licenças de projetos, para não haver cópias",
+            "Cuidar da política de privacidade e outras questões da Google em relação aos projetos"
           ]
         },
         "SGBrSistemas": {
           "position": "Desenvolvedor Front-end",
           "timeCompany": "Julho/2023 - Presente",
-          "about": "Empresa aonde trabalho no time de Front-end, que criamos o novo sistema SG Master Web para empresas",
+          "about": "Empresa onde trabalho no time de Front-end e que criamos o novo sistema SG Master Web para empresas",
           "challengesList": [
             "Criação e manutenção da Landing Page do sistema Web",
             "Desenvolvimento e manutenção do novo sistema SG Master Web",
-            "Implementação das novas permissões ao usuario. Aonde tive que desenvolver duas paginas de formulario sendo para perfis e usuarios. Também, Troquei todas as permissoes do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao desfazer alterações (que é um botão que aparece na barra de ações que volta os valores do formulario ao estado inicial, seja edição ou cadastro)",
-            "Trabalho conjunto com o time de Back-end, repassando erros e mudanças que são precisas no front-end",
-            "Implementação dos novos filtros V2 do Back-end para selects do modelo antigo e modelo novo no front-end",
-            "Refatoração de paginas do modelo antigo para o modelo novo",
-            "Criação de componentes e arquivos de utilidades reutilizaveis",
-            "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, para deixar o design diferente do padrão do framework. Para ser feito essas mudanças tive que usar bastante o inspecionar do DevTools",
-            "Implementação de margens e envio de e-mail de documentos/notas fiscais, junto ao time de Back-end. Também, em cada modulo e nas configurações do envio de e-mail, pode se alterar a mensagem do rodapé em um editor WYSIWYG"
+            "Correção de páginas com desfazer alterações (sendo ele, um botão que aparece na barra de ações que volta os valores do formulário ao estado inicial, seja edição ou cadastro)",
+            "Implementação das novas permissões ao usuário. Onde tive que desenvolver duas páginas de formulário, sendo para perfis e usuários. Também troquei todas as permissões do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao desfazer alterações",
+            "Trabalho conjunto com o time de Back-end, repassando erros e mudanças precisas no Front-end",
+            "Implementação dos novos filtros V2 do Back-end para selects do modelo antigo e modelo novo no Front-end",
+            "Refatoração de páginas do modelo antigo para o modelo novo",
+            "Desenvolvimento de componentes e arquivos de utilidades reutilizáveis",
+            "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools",
+            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de Back-end. Também, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
           ]
         }
       },
       "contactSection": {
         "title": "Contato",
-        "altPhoto": "Foto do Henrique",
         "contactTexts": [
           "Obrigado por visitar meu portfólio!",
           "Se sinta à vontade para se conectar e enviar uma mensagem pelo"
