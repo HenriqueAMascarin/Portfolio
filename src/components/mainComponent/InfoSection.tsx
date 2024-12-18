@@ -17,21 +17,12 @@ export default function InfoSection() {
 
                 <div className="textInfo">
                   <p>
-                    Sou uma pessoa determinada, que tenho como objetivo melhorar constantemente. 
-                    Não gosto de brigas e tento sempre ser amigável. 
-                    Procuro, assim, aprender com os outros e auxiliar o possível.
+                    Desenvolvedor há mais de 2 anos. Como Mobile, me dediquei a desenvolver minha própria empresa na Google Play do zero até a publicação do aplicativo Media Timer e agora busco construir projetos para ter mais experiência, como o novo aplicativo em desenvolvimento Star T-Shirts. Assim, visando entrar no mercado de desenvolvimento de aplicativos utilizando React Native.
                   </p>
                   <p>
-                    Desenvolvedor a mais de 2 anos. Como desenvolvedor Mobile tenho experiência em
-                    React Native, TypeScript e Expo. No Front-end utilizo React, Vue e TypeScript.
+                    No Front-end, trabalho atualmente em um projeto com centenas de clientes, o sistema SG Master Web, onde eu e minha equipe de Front-end desenvolvemos o projeto do zero, enfrentando diversos desafios. Também possuo projetos pessoais, onde sempre busquei me desafiar para aprender algo novo.
                   </p>
-                  <p>Atuando
-                    em projetos com centenas de clientes como o sistema SG Master Web, e desenvolvendo
-                    minha própria empresa na Google Play do zero até a publicação do aplicativo Media Timer.</p>
-                  <p>Nesses projetos visei dar um toque de design de interface tendo objetivo em ser agradável
-                    e chamativo, pensando na experiência do usuário.</p>
-                  <p>Atualmente, estou dedicando meu tempo na área de desenvolvimento Mobile com React Native. 
-                    Visando aprimorar minhas habilidades e buscar novas oportunidades profissionais.</p>
+                  <p>Por fim, sou uma pessoa determinada, que tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível.</p>
                 </div>
 
                 <div className="infoAction">

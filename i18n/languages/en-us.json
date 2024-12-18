@@ -1,5 +1,232 @@
 {
   "translation": {
-   
+    "general": {
+      "goBack": "Go back",
+      "altPhoto": "Henrique's photo",
+      "header": {
+        "about": "About",
+        "technologies": "Technologies",
+        "projects": "Projects",
+        "achievements": "Achievements",
+        "experiences": "Experiences",
+        "contact": "Contact",
+        "hamburguerAlt": "Button that expands the navigation bar"
+      }
+    },
+    "mainPage": {
+      "nameSection": {
+        "title": ["Henrique", "Mascarin", "Developer", "Mobile"],
+        "arrowDown": "Arrow to go to the section below"
+      },
+      "infoSection": {
+        "title": "About",
+        "paragraphs": [
+          "Developer for over 2 years. As a mobile developer, I dedicated myself to developing my own company on Google Play from scratch, until the publication of the Media Timer. Now, I am looking to build other projects to gain more experience, such as the new application under development Star T-Shirts. With the objective to get an opportunity in the application market using React Native.",
+          "Como desenvolvedor front-end, trabalho atualmente em um projeto com centenas de clientes, o sistema SG Master Web, onde eu e minha equipe de front-end desenvolvemos o projeto do zero, enfrentando diversos desafios. Também possuo projetos pessoais, onde sempre busquei me desafiar para aprender algo novo.",
+          "Por fim, sou uma pessoa determinada e tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível."
+        ],
+        "curriculum": "Curriculum"
+      },
+      "technologiesSection": {
+        "title": "Tecnologias"
+      },
+      "projectsSection": {
+        "title": "Projetos",
+        "policy": "Política de privacidade",
+        "completed": "Concluído",
+        "inProgress": "Em andamento",
+        "projects": {
+          "StarTShirts": {
+            "name": "Star T-Shirts",
+            "title": "Aplicativo fictício de e-commerce, somente de camisetas.",
+            "challengesList": [
+              "Design único no Figma",
+              "Primeiro projeto sem Expo, somente React Native CLI",
+              "Módulo nativo para mostrar a Splash Screen, escrito com Kotlin",
+              "React Navigation para rotas",
+              "Estrutura do projeto foi pensada como se fosse um produto real",
+              "Telas de formulário com React Hook Form, com suas validações do Zod",
+              "Componentização de elementos muito utilizados",
+              "Alertas geráveis por meio de estado global, para indicar certo estado"
+            ]
+          },
+          "MediaTimer": {
+            "name": "Media Timer",
+            "title": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
+            "challengesList": [
+              "Projeto com mais de 1 ano de desenvolvimento",
+              "Publicação na Google Play em produção",
+              "Licença para o projeto e termos de privacidade",
+              "Poder escolher sons do celular, sons no aplicativo e histórico de sons do celular",
+              "Marketing sobre o projeto no LinkedIn da empresa",
+              "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next",
+              "Tema escuro e branco, criei um Context do React para gerenciar esse estado",
+              "Pelo código nativo, não permiti celulares (exemplo Xiaomi) trocarem as cores dos temas por outras",
+              "Estados globais pelo Redux",
+              "Funciona em segundo plano",
+              "Permissões do dispositivo",
+              "Testei acessibilidade e fiz com que não seja possível mudar o tamanho dos textos",
+              "A lógica do temporizador foi complexa de fazer, já que criei sem biblioteca",
+              "Notificação mostrando a situação do aplicativo e ícone personalizado para tal (importado pelo Android Studio)",
+              "Atualizei a versão do SDK do Expo para mais nova",
+              "Design único no Figma",
+              "Anúncio do AdMob",
+              "Dados como o tema escolhido ou se é para alertar no fim do timer são salvos no cache do aplicativo (localStorage)"
+            ]
+          },
+          "Ebooks": {
+            "name": "E-books",
+            "title": "Site de pesquisa de livros, que foi para o teste do processo seletivo que acabei sendo contratado na SGBr® Sistemas.",
+            "challengesList": [
+              "Desenvolvi o projeto em 1 semana e alguns dias",
+              "Tive que aprender as tecnologias: Vue, Pinia e Tailwind nesse mesmo tempo",
+              "Utilizado Pinia para o estado global",
+              "Tratamento de dados e validações quando for pesquisar o livro no caso de erro ou sucesso",
+              "Utilizei a API do Google para a pesquisa dos livros",
+              "Testei acessibilidade",
+              "Design único no Figma",
+              "Favoritos por localStorage",
+              "Cada livro pode ser favoritado ou removido pelo botão no cartão, tanto na aba de favorito e página principal",
+              "Imagens dos cartões podem ser clicadas e assim mostrando ela em tamanho maior",
+              "Site responsivo, podendo ser usado no celular e computador",
+              "Tratamento de textos dos cartões dos livros"
+            ]
+          },
+          "Portfolio": {
+            "name": "Portfólio",
+            "title": "Landing Page a qual é a vitrine sobre minha carreira.",
+            "challengesList": [
+              "Design único no Figma",
+              "Site responsivo, podendo ser usado no celular e computador",
+              "Testei acessibilidade",
+              "Links do cabeçalho são indicados por uma troca de cor conforme a seção em que você está situado",
+              "Funcionalidade da seção de conquistas, onde você clica em uma conquista e abre de jeito diferente no computador ou no celular, também podendo ver a imagem da conquista em tamanho maior e o botão de mais detalhes",
+              "Página da política de privacidade do Media Timer",
+              "Textos do site pensados para contar sobre a minha experiência e trazer uma segurança ao cliente ou recrutador",
+              "Site em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next",
+              "Após clicar no ícone do LinkedIn na seção de contato, leva para a tela de obrigado que redireciona para o LinkedIn"
+            ]
+          },
+          "GodOfWar": {
+            "name": "God Of War E-commerce",
+            "title": "Projeto fictício de e-commerce com a temática do jogo God of War: Ragnarök.",
+            "challengesList": [
+              "Design único no Figma",
+              "Carrossel de itens sem biblioteca, desenvolvido do zero e responsivo.",
+              "Site responsivo, podendo ser usado no celular e computador",
+              "Carrinho e produtos por localStorage",
+              "Testei acessibilidade",
+              "Tela fictícia de carrinho com os produtos que você escolheu",
+              "Cabeçalho se esconde rolando para baixo e rolando para cima se expande",
+              "Utilizado Context do React para o estado global"
+            ]
+          }
+        }
+      },
+      "achievementsSection": {
+        "title": "Conquistas",
+        "buttonToCloseAlt": "Botão de fechar o modal",
+        "cardExpandClickAria": "Clique para expandir ou fechar o cartão abaixo",
+        "fingerToExpand": "Dedo clicável que expande o sobre da conquista",
+        "clickToZoomAria": "Clique para abrir a imagem em tela cheia",
+        "fingerToZoom": "Dedo clicável que abre a imagem em tela cheia",
+        "moreDetails": "Mais detalhes",
+        "achievements": {
+          "RSTIFrontEnd": {
+            "title": "Trilha Front-end RSTI",
+            "about": "Curso presencial do Senac que ajudou a aperfeiçoar os conceitos de design, semântica de HTML e estilização CSS.",
+            "imageAlt": "Imagem de certificado da trilha front-end RSTI do Senac."
+          },
+          "startupWeekend": {
+            "title": "Startup Weekend Smart Cities - Santo Ângelo/RS (2022)",
+            "about": "Atuei como designer do aplicativo “O Campo”, vencedor dessa edição.",
+            "imageAlt": "Imagem com o troféu de primeiro lugar do Smart Cities."
+          },
+          "RSTIProgrammingLogic": {
+            "title": "Trilha Lógica de Programação RSTI",
+            "about": "Curso presencial realizado no Senac, que enfrentei desafios no papel e computador. Como resultado, aperfeiçoaram minha lógica com a programação.",
+            "imageAlt": "Imagem de certificado da trilha lógica de programação RSTI do Senac"
+          },
+          "UdemyWebDesign": {
+            "title": "Curso Web Design",
+            "about": "Tive como aprendizado o desenvolvimento de sites utilizando HTML, CSS e JavaScript. Com um toque especial de semântica, acessibilidade e lógica de programação.",
+            "imageAlt": "Imagem de certificado do curso web design da Udemy"
+          },
+          "UdemyProgrammingLogic": {
+            "title": "Curso Algoritmos e Lógica de Programação Udemy",
+            "about": "Nesse curso, foram apresentados exercícios e explicações sobre a lógica de programação. No fim, foram fundamentais para meu desenvolvimento.",
+            "imageAlt": "Imagem de certificado do curso algoritmos e lógica de programação da Udemy"
+          }
+        }
+      },
+      "experiencesSection": {
+        "HenriqueMascarin": {
+          "position": "Fundador e Desenvolvedor Mobile",
+          "timeCompany": "Agosto/2024 - Presente",
+          "about": "Minha empresa na Google Play, onde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
+          "challengesList": [
+            "Construir minha marca na Google Play e cuidar do marketing sobre os aplicativos no LinkedIn da empresa",
+            "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play",
+            "Aprender sobre AdMob, para colocar anúncios nos aplicativos",
+            "Licenças de projetos, para não haver cópias",
+            "Cuidar da política de privacidade e outras questões da Google em relação aos projetos"
+          ]
+        },
+        "SGBrSistemas": {
+          "position": "Desenvolvedor Front-end",
+          "timeCompany": "Julho/2023 - Presente",
+          "about": "Empresa onde trabalho no time de front-end e que criamos o novo sistema SG Master Web para empresas",
+          "challengesList": [
+            "Criação e manutenção da Landing Page do sistema Web",
+            "Desenvolvimento e manutenção do novo sistema SG Master Web",
+            "Correção de páginas com desfazer alterações (sendo ele, um botão que aparece na barra de ações que volta os valores do formulário ao estado inicial, seja edição ou cadastro)",
+            "Implementação das novas permissões ao usuário. Onde tive que desenvolver duas páginas de formulário, sendo para perfis e usuários. Também troquei todas as permissões do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao desfazer alterações",
+            "Trabalho conjunto com o time de Back-end, repassando erros e mudanças precisas no front-end",
+            "Implementação dos novos filtros V2 do Back-end para selects do modelo antigo e modelo novo no front-end",
+            "Refatoração de páginas do modelo antigo para o modelo novo",
+            "Desenvolvimento de componentes e arquivos de utilidades reutilizáveis",
+            "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools",
+            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de Back-end. Também, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
+          ]
+        }
+      },
+      "contactSection": {
+        "title": "Contato",
+        "contactTexts": [
+          "Obrigado por visitar meu portfólio!",
+          "Se sinta à vontade para se conectar e enviar uma mensagem pelo"
+        ]
+      }
+    },
+    "thanksPage": {
+      "title": "Muito obrigado!",
+      "replyText": "Lhe responderei quanto antes.",
+      "caseOfRedirect": "Caso não seja redirecionado",
+      "clickHere": "clique aqui!"
+    },
+    "policyMediaTimer": {
+      "title": "Política de Privacidade",
+      "welcome": {
+        "title": "Bem vindo ao Media Timer, aplicativo para android!",
+        "subtitle": "Esse é um aplicativo temporizador desenvolvido por Henrique de Albuquerque Mascarin e visa resolver um problema pessoal."
+      },
+      "dataCollected": {
+        "title": "Dados coletados pelo aplicativo",
+        "declaration": "Nenhum dado é coletado. Tudo fornecido como dados de arquivos, histórico de áudios e configurações de tema são todos mantidos no aplicativo.",
+        "permissionsParagraph": "A lista de permissões listadas a baixo são encontradas aqui no"
+      },
+      "permissionsList": {
+        "permission": "Permissão",
+        "reasons": {
+          "whatReason": "Porque é necessária",
+          "adReason": "Utilizados para mostrar o anúncio de baixo na tela principal.",
+          "storageReason": "Utilizados para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.",
+          "notificationsReason": "Utilizado para mostrar as notificações do aplicativo, quando está executando o temporizador.",
+          "historyArchiveReason": "Utilizado para encontrar o local do arquivo selecionado na aba de histórico.",
+          "configureAudioReason": "Utilizado com a tecnologia EXPO AV, para configurar os áudios usados no aplicativo."
+        },
+        "contact": "Caso tenha visto alguma permissão que não esteja listada aqui ou sobre qualquer dúvida de segurança, se sinta livre em mandar uma mensagem ao e-mail:"
+      }
+    }
   }
 }
