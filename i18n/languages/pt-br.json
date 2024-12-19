@@ -47,7 +47,7 @@
               "Estrutura do projeto foi pensada como se fosse um produto real",
               "Telas de formulário com React Hook Form, com suas validações do Zod",
               "Componentização de elementos muito utilizados",
-              "Alertas geráveis por meio de estado global, para indicar certo estado"
+              "Alertas situacionais desenvolvidos do zero, gerados por meio de estado global"
             ]
           },
           "MediaTimer": {
@@ -57,7 +57,7 @@
               "Projeto com mais de 1 ano de desenvolvimento",
               "Publicação na Google Play em produção",
               "Licença para o projeto e termos de privacidade",
-              "Poder escolher sons do celular, sons no aplicativo e histórico de sons do celular",
+              "Poder escolher sons do celular ou do aplicativo e histórico de sons do celular",
               "Marketing sobre o projeto no LinkedIn da empresa",
               "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next",
               "Tema escuro e branco, criei um Context do React para gerenciar esse estado",

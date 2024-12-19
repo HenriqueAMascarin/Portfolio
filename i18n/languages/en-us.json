@@ -46,19 +46,19 @@
               "React Navigation for Routes",
               "The project structure has created as it was a real product",
               "Form screens with React Hook Form, and has Zod validations",
-              "Componentização de elementos muito utilizados",
-              "Alertas geráveis por meio de estado global, para indicar certo estado"
+              "Componentization of most used elements",
+              "Situational alerts developed from scratch, generated through global state"
             ]
           },
           "MediaTimer": {
             "name": "Media Timer",
-            "title": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
+            "title": "Timer application, with the objective to solve a personal problem.",
             "challengesList": [
-              "Projeto com mais de 1 ano de desenvolvimento",
-              "Publicação na Google Play em produção",
-              "Licença para o projeto e termos de privacidade",
-              "Poder escolher sons do celular, sons no aplicativo e histórico de sons do celular",
-              "Marketing sobre o projeto no LinkedIn da empresa",
+              "Project with more than 1 year of development",
+              "Publishing to Google Play in production",
+              "Project License and Privacy Terms",
+              "Ability to choose sounds from your phone or app and history of sounds from your phone",
+              "Marketing about the project in the company's LinkedIn",
               "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next",
               "Tema escuro e branco, criei um Context do React para gerenciar esse estado",
               "Pelo código nativo, não permiti celulares (exemplo Xiaomi) trocarem as cores dos temas por outras",
