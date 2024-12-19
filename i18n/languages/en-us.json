@@ -22,30 +22,30 @@
         "title": "About",
         "paragraphs": [
           "Developer for over 2 years. As a mobile developer, I dedicated myself to developing my own company on Google Play from scratch, until the publication of the Media Timer. Now, I am looking to build other projects to gain more experience, such as the new application under development Star T-Shirts. With the objective to get an opportunity in the application market using React Native.",
-          "Como desenvolvedor front-end, trabalho atualmente em um projeto com centenas de clientes, o sistema SG Master Web, onde eu e minha equipe de front-end desenvolvemos o projeto do zero, enfrentando diversos desafios. Também possuo projetos pessoais, onde sempre busquei me desafiar para aprender algo novo.",
-          "Por fim, sou uma pessoa determinada e tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível."
+          "As a front-end developer, I currently work on a project with hundreds of clients, the SG Master Web system, where me and my front-end team developed the project from scratch, facing several challenges. I also have personal projects, where I always seek to challenge myself to learn something new.",
+          "Lastly, I am a determined person, that have the objective to constantly improve. I don't like fights, trying always to be peaceful. I also, try to learn from others and help as much as possible."
         ],
         "curriculum": "Curriculum"
       },
       "technologiesSection": {
-        "title": "Tecnologias"
+        "title": "Technologies"
       },
       "projectsSection": {
-        "title": "Projetos",
-        "policy": "Política de privacidade",
-        "completed": "Concluído",
-        "inProgress": "Em andamento",
+        "title": "Projects",
+        "policy": "Privacy policy",
+        "completed": "Completed",
+        "inProgress": "In progress",
         "projects": {
           "StarTShirts": {
             "name": "Star T-Shirts",
-            "title": "Aplicativo fictício de e-commerce, somente de camisetas.",
+            "title": "Fictitious e-commerce application, only for t-shirts.",
             "challengesList": [
-              "Design único no Figma",
-              "Primeiro projeto sem Expo, somente React Native CLI",
-              "Módulo nativo para mostrar a Splash Screen, escrito com Kotlin",
-              "React Navigation para rotas",
-              "Estrutura do projeto foi pensada como se fosse um produto real",
-              "Telas de formulário com React Hook Form, com suas validações do Zod",
+              "Unique design in Figma",
+              "First project without Expo, only React Native CLI",
+              "Native module to display the Splash Screen, written with Kotlin",
+              "React Navigation for Routes",
+              "The project structure has created as it was a real product",
+              "Form screens with React Hook Form, and has Zod validations",
               "Componentização de elementos muito utilizados",
               "Alertas geráveis por meio de estado global, para indicar certo estado"
             ]
@@ -69,7 +69,7 @@
               "A lógica do temporizador foi complexa de fazer, já que criei sem biblioteca",
               "Notificação mostrando a situação do aplicativo e ícone personalizado para tal (importado pelo Android Studio)",
               "Atualizei a versão do SDK do Expo para mais nova",
-              "Design único no Figma",
+              "Unique design in Figma",
               "Anúncio do AdMob",
               "Dados como o tema escolhido ou se é para alertar no fim do timer são salvos no cache do aplicativo (localStorage)"
             ]
@@ -84,7 +84,7 @@
               "Tratamento de dados e validações quando for pesquisar o livro no caso de erro ou sucesso",
               "Utilizei a API do Google para a pesquisa dos livros",
               "Testei acessibilidade",
-              "Design único no Figma",
+              "Unique design in Figma",
               "Favoritos por localStorage",
               "Cada livro pode ser favoritado ou removido pelo botão no cartão, tanto na aba de favorito e página principal",
               "Imagens dos cartões podem ser clicadas e assim mostrando ela em tamanho maior",
@@ -96,7 +96,7 @@
             "name": "Portfólio",
             "title": "Landing Page a qual é a vitrine sobre minha carreira.",
             "challengesList": [
-              "Design único no Figma",
+              "Unique design in Figma",
               "Site responsivo, podendo ser usado no celular e computador",
               "Testei acessibilidade",
               "Links do cabeçalho são indicados por uma troca de cor conforme a seção em que você está situado",
@@ -111,7 +111,7 @@
             "name": "God Of War E-commerce",
             "title": "Projeto fictício de e-commerce com a temática do jogo God of War: Ragnarök.",
             "challengesList": [
-              "Design único no Figma",
+              "Unique design in Figma",
               "Carrossel de itens sem biblioteca, desenvolvido do zero e responsivo.",
               "Site responsivo, podendo ser usado no celular e computador",
               "Carrinho e produtos por localStorage",
