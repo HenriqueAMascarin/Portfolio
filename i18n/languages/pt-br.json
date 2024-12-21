@@ -65,13 +65,13 @@
               "Estados globais pelo Redux",
               "Funciona em segundo plano",
               "Permissões do dispositivo",
-              "Testei acessibilidade e fiz com que não seja possível mudar o tamanho dos textos",
-              "A lógica do temporizador foi complexa de fazer, já que criei sem biblioteca",
+              "Testei a acessibilidade e fiz com que não seja possível mudar o tamanho dos textos pelo celular do usuário",
+              "A lógica do temporizador foi complexa de desenvolver, já que criei sem biblioteca",
               "Notificação mostrando a situação do aplicativo e ícone personalizado para tal (importado pelo Android Studio)",
               "Atualizei a versão do SDK do Expo para mais nova",
               "Design único no Figma",
-              "Anúncio do AdMob",
-              "Dados como o tema escolhido ou se é para alertar no fim do timer são salvos no cache do aplicativo (localStorage)"
+              "Publicidade do AdMob",
+              "O tema escolhido, se pode alertar no final do cronômetro e o histórico de sons, são salvos no cache do aplicativo (local storage)"
             ]
           },
           "Ebooks": {
@@ -85,10 +85,10 @@
               "Utilizei a API do Google para a pesquisa dos livros",
               "Testei acessibilidade",
               "Design único no Figma",
-              "Favoritos por localStorage",
-              "Cada livro pode ser favoritado ou removido pelo botão no cartão, tanto na aba de favorito e página principal",
+              "Favoritos por local storage",
+              "Cada livro pode ser favorito ou removido pelo botão no cartão, tanto na aba de favorito e página principal",
               "Imagens dos cartões podem ser clicadas e assim mostrando ela em tamanho maior",
-              "Site responsivo, podendo ser usado no celular e computador",
+              "Site responsivo, pode ser usado em dispositivos móveis e computadores",
               "Tratamento de textos dos cartões dos livros"
             ]
           },
@@ -97,7 +97,7 @@
             "title": "Landing Page a qual é a vitrine sobre minha carreira.",
             "challengesList": [
               "Design único no Figma",
-              "Site responsivo, podendo ser usado no celular e computador",
+              "Site responsivo, pode ser usado em dispositivos móveis e computadores",
               "Testei acessibilidade",
               "Links do cabeçalho são indicados por uma troca de cor conforme a seção em que você está situado",
               "Funcionalidade da seção de conquistas, onde você clica em uma conquista e abre de jeito diferente no computador ou no celular, também podendo ver a imagem da conquista em tamanho maior e o botão de mais detalhes",
@@ -113,8 +113,8 @@
             "challengesList": [
               "Design único no Figma",
               "Carrossel de itens sem biblioteca, desenvolvido do zero e responsivo.",
-              "Site responsivo, podendo ser usado no celular e computador",
-              "Carrinho e produtos por localStorage",
+              "Site responsivo, pode ser usado em dispositivos móveis e computadores",
+              "Carrinho e produtos por local storage",
               "Testei acessibilidade",
               "Tela fictícia de carrinho com os produtos que você escolheu",
               "Cabeçalho se esconde rolando para baixo e rolando para cima se expande",
