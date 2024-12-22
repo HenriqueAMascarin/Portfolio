@@ -99,12 +99,12 @@
               "Design único no Figma",
               "Site responsivo, pode ser usado em dispositivos móveis e computadores",
               "Testei acessibilidade",
-              "Links do cabeçalho são indicados por uma troca de cor conforme a seção em que você está situado",
-              "Funcionalidade da seção de conquistas, onde você clica em uma conquista e abre de jeito diferente no computador ou no celular, também podendo ver a imagem da conquista em tamanho maior e o botão de mais detalhes",
-              "Página da política de privacidade do Media Timer",
-              "Textos do site pensados para contar sobre a minha experiência e trazer uma segurança ao cliente ou recrutador",
+              "Links do cabeçalho são indicados por uma troca de cor, conforme a seção em que você está situado",
+              "Funcionalidade da seção de conquistas, onde você clica em uma conquista e abre de um jeito no computador e outro no celular, também podendo ver a imagem da conquista em tamanho maior e o botão de mais detalhes",
+              "Página da política de privacidade sobre o aplicativo Media Timer",
+              "Todos os textos são pensados para contar sobre a minha experiência e trazer uma segurança ao cliente ou recrutador",
               "Site em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next",
-              "Após clicar no ícone do LinkedIn na seção de contato, leva para a tela de obrigado que redireciona para o LinkedIn"
+              "Após clicar no botão do LinkedIn na seção de contato, acaba levando para a tela de “obrigado” que redireciona para o LinkedIn"
             ]
           },
           "GodOfWar": {

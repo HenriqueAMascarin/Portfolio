@@ -99,12 +99,12 @@
               "Unique design in Figma",
               "Responsive website, can be used on mobile and computer",
               "Accessibility test",
-              "Links do cabeçalho são indicados por uma troca de cor conforme a seção em que você está situado",
-              "Funcionalidade da seção de conquistas, onde você clica em uma conquista e abre de jeito diferente no computador ou no celular, também podendo ver a imagem da conquista em tamanho maior e o botão de mais detalhes",
-              "Página da política de privacidade do Media Timer",
-              "Textos do site pensados para contar sobre a minha experiência e trazer uma segurança ao cliente ou recrutador",
-              "Site em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next",
-              "Após clicar no ícone do LinkedIn na seção de contato, leva para a tela de obrigado que redireciona para o LinkedIn"
+              "Header links are indicated by a color change, depending on the section you are",
+              "Achievements section functionality, where you click on an achievement, and it opens one way on computer and another on mobile, also allowing you to see the image of the achievement in a larger size and the more details button",
+              "Privacy policy page about the Media Timer app",
+              "All texts are designed to tell about my experience and provide security to the client or recruiter.",
+              "Website in English/US and Portuguese/BR (depends on your device language) with i18next",
+              "After clicking on the LinkedIn button in the contact section, it ends up taking you to the “Thank You” screen that redirects to LinkedIn"
             ]
           },
           "GodOfWar": {
