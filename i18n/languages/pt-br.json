@@ -112,13 +112,13 @@
             "title": "Projeto fictício de e-commerce com a temática do jogo God of War: Ragnarök.",
             "challengesList": [
               "Design único no Figma",
-              "Carrossel de itens sem biblioteca, desenvolvido do zero e responsivo.",
+              "Carrossel de itens sem biblioteca, desenvolvido do zero e responsivo",
               "Site responsivo, pode ser usado em dispositivos móveis e computadores",
               "Carrinho e produtos por local storage",
               "Testei acessibilidade",
               "Tela fictícia de carrinho com os produtos que você escolheu",
               "Cabeçalho se esconde rolando para baixo e rolando para cima se expande",
-              "Utilizado Context do React para o estado global"
+              "Usando Context do React para o estado global"
             ]
           }
         }
@@ -127,7 +127,7 @@
         "title": "Conquistas",
         "buttonToCloseAlt": "Botão de fechar o modal",
         "cardExpandClickAria": "Clique para expandir ou fechar o cartão abaixo",
-        "fingerToExpand": "Dedo clicável que expande o sobre da conquista",
+        "fingerToExpand": "Dedo clicável que expande o “sobre” da conquista",
         "clickToZoomAria": "Clique para abrir a imagem em tela cheia",
         "fingerToZoom": "Dedo clicável que abre a imagem em tela cheia",
         "moreDetails": "Mais detalhes",
