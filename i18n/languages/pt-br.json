@@ -135,7 +135,7 @@
           "RSTIFrontEnd": {
             "title": "Trilha Front-end RSTI",
             "about": "Curso presencial do Senac que ajudou a aperfeiçoar os conceitos de design, semântica de HTML e estilização CSS.",
-            "imageAlt": "Imagem de certificado da trilha front-end RSTI do Senac."
+            "imageAlt": "Imagem do certificado da trilha front-end RSTI do Senac."
           },
           "startupWeekend": {
             "title": "Startup Weekend Smart Cities - Santo Ângelo/RS (2022)",
@@ -144,30 +144,30 @@
           },
           "RSTIProgrammingLogic": {
             "title": "Trilha Lógica de Programação RSTI",
-            "about": "Curso presencial realizado no Senac, que enfrentei desafios no papel e computador. Como resultado, aperfeiçoaram minha lógica com a programação.",
-            "imageAlt": "Imagem de certificado da trilha lógica de programação RSTI do Senac"
+            "about": "Curso presencial realizado no Senac, em que enfrentei desafios no papel e no computador. Como resultado, aperfeiçoei minha lógica com a programação.",
+            "imageAlt": "Imagem do certificado da trilha lógica de programação RSTI do Senac"
           },
           "UdemyWebDesign": {
             "title": "Curso Web Design",
-            "about": "Tive como aprendizado o desenvolvimento de sites utilizando HTML, CSS e JavaScript. Com um toque especial de semântica, acessibilidade e lógica de programação.",
-            "imageAlt": "Imagem de certificado do curso web design da Udemy"
+            "about": "Aprendi a desenvolver sites utilizando HTML, CSS e JavaScript. Com um toque especial de semântica, acessibilidade e lógica de programação.",
+            "imageAlt": "Imagem do certificado do curso de Web Design da Udemy"
           },
           "UdemyProgrammingLogic": {
             "title": "Curso Algoritmos e Lógica de Programação Udemy",
             "about": "Nesse curso, foram apresentados exercícios e explicações sobre a lógica de programação. No fim, foram fundamentais para meu desenvolvimento.",
-            "imageAlt": "Imagem de certificado do curso algoritmos e lógica de programação da Udemy"
+            "imageAlt": "Imagem do certificado do curso algoritmos e lógica de programação da Udemy"
           }
         }
       },
       "experiencesSection": {
         "HenriqueMascarin": {
           "position": "Fundador e Desenvolvedor Mobile",
-          "timeCompany": "Agosto/2024 - Presente",
+          "timeCompany": "Agosto/2024 - Dezembro/2024",
           "about": "Minha empresa na Google Play, onde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
           "challengesList": [
             "Construir minha marca na Google Play e cuidar do marketing sobre os aplicativos no LinkedIn da empresa",
             "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play",
-            "Aprender sobre AdMob, para colocar anúncios nos aplicativos",
+            "Tive que aprender sobre AdMob, para colocar anúncios nos aplicativos",
             "Licenças de projetos, para não haver cópias",
             "Cuidar da política de privacidade e outras questões da Google em relação aos projetos"
           ]
@@ -175,7 +175,7 @@
         "SGBrSistemas": {
           "position": "Desenvolvedor Front-end",
           "timeCompany": "Julho/2023 - Presente",
-          "about": "Empresa onde trabalho no time de Front-end e que criamos o novo sistema SG Master Web para empresas",
+          "about": "Empresa onde trabalho no time de Front-end e que criamos o novo sistema SG Master Web.",
           "challengesList": [
             "Criação e manutenção da Landing Page do sistema Web",
             "Desenvolvimento e manutenção do novo sistema SG Master Web",

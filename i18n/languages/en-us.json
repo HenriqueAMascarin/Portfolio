@@ -133,51 +133,51 @@
         "moreDetails": "More details",
         "achievements": {
           "RSTIFrontEnd": {
-            "title": "Trilha Front-end RSTI",
-            "about": "Curso presencial do Senac que ajudou a aperfeiçoar os conceitos de design, semântica de HTML e estilização CSS.",
-            "imageAlt": "Imagem de certificado da trilha front-end RSTI do Senac."
+            "title": "RSTI Frontend Trail",
+            "about": "Senac's in-person course that helped to improve design concepts, HTML semantics and CSS styling.",
+            "imageAlt": "Image of the Senac RSTI front-end trail certificate."
           },
           "startupWeekend": {
             "title": "Startup Weekend Smart Cities - Santo Ângelo/RS (2022)",
-            "about": "Atuei como designer do aplicativo “O Campo”, vencedor dessa edição.",
-            "imageAlt": "Imagem com o troféu de primeiro lugar do Smart Cities."
+            "about": "I worked as a designer for the “O Campo” app, winner of this edition.",
+            "imageAlt": "Image with the Smart Cities first place trophy."
           },
           "RSTIProgrammingLogic": {
-            "title": "Trilha Lógica de Programação RSTI",
-            "about": "Curso presencial realizado no Senac, que enfrentei desafios no papel e computador. Como resultado, aperfeiçoaram minha lógica com a programação.",
-            "imageAlt": "Imagem de certificado da trilha lógica de programação RSTI do Senac"
+            "title": "RSTI Programming Logic Trail",
+            "about": "In-person course held at Senac, where I faced challenges on paper and on the computer. As a result, I improved my logic with programming.",
+            "imageAlt": "Image of the Senac RSTI programming logic trail certificate."
           },
           "UdemyWebDesign": {
-            "title": "Curso Web Design",
-            "about": "Tive como aprendizado o desenvolvimento de sites utilizando HTML, CSS e JavaScript. Com um toque especial de semântica, acessibilidade e lógica de programação.",
-            "imageAlt": "Imagem de certificado do curso web design da Udemy"
+            "title": "Web Design Course",
+            "about": "I learned how to develop websites using HTML, CSS, and JavaScript. With a special touch of semantics, accessibility and programming logic.",
+            "imageAlt": "Image of the Udemy Web Design course certificate"
           },
           "UdemyProgrammingLogic": {
-            "title": "Curso Algoritmos e Lógica de Programação Udemy",
-            "about": "Nesse curso, foram apresentados exercícios e explicações sobre a lógica de programação. No fim, foram fundamentais para meu desenvolvimento.",
-            "imageAlt": "Imagem de certificado do curso algoritmos e lógica de programação da Udemy"
+            "title": "Algorithms and Programming Logic Course Udemy",
+            "about": "In this course, has presented exercises and explanations about the programming logic. In the end, that was fundamental for my development",
+            "imageAlt": "Image of the Udemy Algorithms and Programming Logic course certificate"
           }
         }
       },
       "experiencesSection": {
         "HenriqueMascarin": {
-          "position": "Fundador e Desenvolvedor Mobile",
-          "timeCompany": "Agosto/2024 - Presente",
-          "about": "Minha empresa na Google Play, onde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
+          "position": "Founder and Mobile Developer",
+          "timeCompany": "August/2024 - December/2024",
+          "about": "My company at Google Play, where I am responsible for the application development process and issues regarding my brand.",
           "challengesList": [
-            "Construir minha marca na Google Play e cuidar do marketing sobre os aplicativos no LinkedIn da empresa",
-            "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play",
-            "Aprender sobre AdMob, para colocar anúncios nos aplicativos",
-            "Licenças de projetos, para não haver cópias",
-            "Cuidar da política de privacidade e outras questões da Google em relação aos projetos"
+            "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn ",
+            "Develop from scratch, publish and maintain in production the Media Timer app on Google Play",
+            "I had to learn about AdMob, to place advertisement in apps",
+            "Project licenses, to avoid copies",
+            "Handle privacy policy and other Google issues related to the projects"
           ]
         },
         "SGBrSistemas": {
-          "position": "Desenvolvedor Front-end",
-          "timeCompany": "Julho/2023 - Presente",
-          "about": "Empresa onde trabalho no time de front-end e que criamos o novo sistema SG Master Web para empresas",
+          "position": "Front-end Developer",
+          "timeCompany": "July/2023 - Present",
+          "about": "Company where I work in the Front-end team, that we have created the new SG Master Web system.",
           "challengesList": [
-            "Criação e manutenção da Landing Page do sistema Web",
+            "Creation and maintenance of the Web system Landing Page",
             "Desenvolvimento e manutenção do novo sistema SG Master Web",
             "Correção de páginas com desfazer alterações (sendo ele, um botão que aparece na barra de ações que volta os valores do formulário ao estado inicial, seja edição ou cadastro)",
             "Implementação das novas permissões ao usuário. Onde tive que desenvolver duas páginas de formulário, sendo para perfis e usuários. Também troquei todas as permissões do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao desfazer alterações",
@@ -191,21 +191,21 @@
         }
       },
       "contactSection": {
-        "title": "Contato",
+        "title": "Contact",
         "contactTexts": [
-          "Obrigado por visitar meu portfólio!",
-          "Se sinta à vontade para se conectar e enviar uma mensagem pelo"
+          "Thank you for visiting my portfolio!",
+          "Be free to connect and send a message via"
         ]
       }
     },
     "thanksPage": {
-      "title": "Muito obrigado!",
-      "replyText": "Lhe responderei quanto antes.",
-      "caseOfRedirect": "Caso não seja redirecionado",
-      "clickHere": "clique aqui!"
+      "title": "Many thanks!",
+      "replyText": "I will answer you as soon as possible.",
+      "caseOfRedirect": "If you are not redirected",
+      "clickHere": "click here!"
     },
     "policyMediaTimer": {
-      "title": "Política de Privacidade",
+      "title": "Privacy Policy",
       "welcome": {
         "title": "Bem vindo ao Media Timer, aplicativo para android!",
         "subtitle": "Esse é um aplicativo temporizador desenvolvido por Henrique de Albuquerque Mascarin e visa resolver um problema pessoal."
@@ -216,9 +216,9 @@
         "permissionsParagraph": "A lista de permissões listadas a baixo são encontradas aqui no"
       },
       "permissionsList": {
-        "permission": "Permissão",
+        "permission": "Permission",
         "reasons": {
-          "whatReason": "Porque é necessária",
+          "whatReason": "Why is it necessary",
           "adReason": "Utilizados para mostrar o anúncio de baixo na tela principal.",
           "storageReason": "Utilizados para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.",
           "notificationsReason": "Utilizado para mostrar as notificações do aplicativo, quando está executando o temporizador.",
