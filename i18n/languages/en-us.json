@@ -178,15 +178,15 @@
           "about": "Company where I work in the Front-end team, that we have created the new SG Master Web system.",
           "challengesList": [
             "Creation and maintenance of the Web system Landing Page",
-            "Desenvolvimento e manutenção do novo sistema SG Master Web",
-            "Correção de páginas com desfazer alterações (sendo ele, um botão que aparece na barra de ações que volta os valores do formulário ao estado inicial, seja edição ou cadastro)",
-            "Implementação das novas permissões ao usuário. Onde tive que desenvolver duas páginas de formulário, sendo para perfis e usuários. Também troquei todas as permissões do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao desfazer alterações",
-            "Trabalho conjunto com o time de Back-end, repassando erros e mudanças precisas no front-end",
-            "Implementação dos novos filtros V2 do Back-end para selects do modelo antigo e modelo novo no front-end",
+            "Development and maintenance of the new SG Master Web system",
+            "Correction of pages with the undo changes button (this is a button that appears in the action bar that returns the form values ​​to their initial state, whether editing or registration)",
+            "Implementation of the new users permissions. Where I had to develop two form pages, one for profiles and other for users. I also changed all system permissions to the new ones, created and maintained the permissions component, and developed to work with the undo changes button.",
+            "Working together with the back-end team, passing on errors and necessary changes of the project",
+            "Implementação dos novos filtros V2 do back-end para selects do modelo antigo e modelo novo no front-end",
             "Refatoração de páginas do modelo antigo para o modelo novo",
             "Desenvolvimento de componentes e arquivos de utilidades reutilizáveis",
             "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools",
-            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de Back-end. Também, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
+            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de back-end. Também, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
           ]
         }
       },

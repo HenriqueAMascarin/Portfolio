@@ -175,18 +175,18 @@
         "SGBrSistemas": {
           "position": "Desenvolvedor Front-end",
           "timeCompany": "Julho/2023 - Presente",
-          "about": "Empresa onde trabalho no time de Front-end e que criamos o novo sistema SG Master Web.",
+          "about": "Empresa onde trabalho no time de front-end e que criamos o novo sistema SG Master Web.",
           "challengesList": [
             "Criação e manutenção da Landing Page do sistema Web",
             "Desenvolvimento e manutenção do novo sistema SG Master Web",
-            "Correção de páginas com desfazer alterações (sendo ele, um botão que aparece na barra de ações que volta os valores do formulário ao estado inicial, seja edição ou cadastro)",
-            "Implementação das novas permissões ao usuário. Onde tive que desenvolver duas páginas de formulário, sendo para perfis e usuários. Também troquei todas as permissões do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao desfazer alterações",
-            "Trabalho conjunto com o time de Back-end, repassando erros e mudanças precisas no Front-end",
-            "Implementação dos novos filtros V2 do Back-end para selects do modelo antigo e modelo novo no Front-end",
+            "Correção de páginas com o botão de desfazer alterações (sendo ele, um botão que aparece na barra de ações que volta os valores do formulário ao estado inicial, seja edição ou cadastro)",
+            "Implementação das novas permissões do usuário. Onde tive que desenvolver duas páginas de formulário, sendo para perfis e outra para usuários. Também troquei todas as permissões do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao botão de desfazer alterações",
+            "Trabalho conjunto com o time de back-end, repassando erros e mudanças necessárias do projeto",
+            "Implementação dos novos filtros V2 do back-end para selects do modelo antigo e modelo novo no front-end",
             "Refatoração de páginas do modelo antigo para o modelo novo",
             "Desenvolvimento de componentes e arquivos de utilidades reutilizáveis",
             "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools",
-            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de Back-end. Também, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
+            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de back-end. Também, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
           ]
         }
       },
