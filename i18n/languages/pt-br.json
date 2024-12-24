@@ -94,7 +94,7 @@
           },
           "Portfolio": {
             "name": "Portfólio",
-            "title": "Landing Page a qual é a vitrine sobre minha carreira.",
+            "title": "Minha página pessoal, onde é a vitrine sobre minha carreira, foi desenvolvida e ainda recebe atualizações para transmitir segurança para quem quer me contratar.",
             "challengesList": [
               "Design único no Figma",
               "Site responsivo, pode ser usado em dispositivos móveis e computadores",
@@ -186,7 +186,7 @@
             "Refatoração de páginas do modelo antigo para o modelo novo",
             "Desenvolvimento de componentes e arquivos de utilidades reutilizáveis",
             "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools",
-            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de back-end. Também, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
+            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de back-end. Além disso, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
           ]
         }
       },
@@ -207,13 +207,13 @@
     "policyMediaTimer": {
       "title": "Política de Privacidade",
       "welcome": {
-        "title": "Bem vindo ao Media Timer, aplicativo para android!",
+        "title": "Bem vindo ao Media Timer, um aplicativo para android!",
         "subtitle": "Esse é um aplicativo temporizador desenvolvido por Henrique de Albuquerque Mascarin e visa resolver um problema pessoal."
       },
       "dataCollected": {
         "title": "Dados coletados pelo aplicativo",
         "declaration": "Nenhum dado é coletado. Tudo fornecido como dados de arquivos, histórico de áudios e configurações de tema são todos mantidos no aplicativo.",
-        "permissionsParagraph": "A lista de permissões listadas a baixo são encontradas aqui no"
+        "permissionsParagraph": "A lista de permissões listadas abaixo são encontradas aqui no"
       },
       "permissionsList": {
         "permission": "Permissão",

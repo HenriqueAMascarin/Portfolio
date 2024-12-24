@@ -93,8 +93,8 @@
             ]
           },
           "Portfolio": {
-            "name": "Portfólio",
-            "title": "Landing Page a qual é a vitrine sobre minha carreira.",
+            "name": "Portfolio",
+            "title": "My personal page, which is the showcase of my career, was developed and still receives updates to provide security for those who want to hire me.",
             "challengesList": [
               "Unique design in Figma",
               "Responsive website, can be used on mobile and computer",
@@ -180,13 +180,13 @@
             "Creation and maintenance of the Web system Landing Page",
             "Development and maintenance of the new SG Master Web system",
             "Correction of pages with the undo changes button (this is a button that appears in the action bar that returns the form values ​​to their initial state, whether editing or registration)",
-            "Implementation of the new users permissions. Where I had to develop two form pages, one for profiles and other for users. I also changed all system permissions to the new ones, created and maintained the permissions component, and developed to work with the undo changes button.",
+            "Implementation of the new users permissions. Where I had to develop two form pages, one for profiles and other for users. I also changed all system permissions to the new ones, created and maintained the permissions component, and developed to work with the undo changes button",
             "Working together with the back-end team, passing on errors and necessary changes of the project",
-            "Implementação dos novos filtros V2 do back-end para selects do modelo antigo e modelo novo no front-end",
-            "Refatoração de páginas do modelo antigo para o modelo novo",
-            "Desenvolvimento de componentes e arquivos de utilidades reutilizáveis",
-            "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools",
-            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de back-end. Também, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
+            "Implementation of new back-end V2 filters for selects of the old model and new model on the front-end",
+            "Refactoring pages from the old template to the new template",
+            "Development of components and reusable utility files",
+            "Customization of selects, inputs and other Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot",
+            "Implementation of margins and sending of tax documents by email, together with the back-end team. Furthermore, in each module and in the email sending settings, you can change the footer message sent in the email in a WYSIWYG editor"
           ]
         }
       },
@@ -207,13 +207,13 @@
     "policyMediaTimer": {
       "title": "Privacy Policy",
       "welcome": {
-        "title": "Bem vindo ao Media Timer, aplicativo para android!",
-        "subtitle": "Esse é um aplicativo temporizador desenvolvido por Henrique de Albuquerque Mascarin e visa resolver um problema pessoal."
+        "title": "Welcome to Media Timer, an app for android!",
+        "subtitle": "This is a timer app developed by Henrique de Albuquerque Mascarin and has the objective to solve a personal problem."
       },
       "dataCollected": {
-        "title": "Dados coletados pelo aplicativo",
-        "declaration": "Nenhum dado é coletado. Tudo fornecido como dados de arquivos, histórico de áudios e configurações de tema são todos mantidos no aplicativo.",
-        "permissionsParagraph": "A lista de permissões listadas a baixo são encontradas aqui no"
+        "title": "Data collected by the App",
+        "declaration": "No data is collected. Everything provided like file data, audio history, and theme settings are all kept inside the app.",
+        "permissionsParagraph": "The list of permissions listed below are found here on the"
       },
       "permissionsList": {
         "permission": "Permission",
