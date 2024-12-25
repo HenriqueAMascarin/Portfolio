@@ -3,6 +3,10 @@
     "general": {
       "goBack": "Voltar",
       "altPhoto": "Foto do Henrique",
+      "flags": {
+        "brazilFlagAlt": "Imagem da bandeira do Brasil",
+        "UnitedStatesFlagAlt": "Imagem da bandeira dos Estados Unidos"
+      },
       "header": {
         "about": "Sobre",
         "technologies": "Tecnologias",

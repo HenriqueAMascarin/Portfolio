@@ -1,6 +1,8 @@
 import { BackgroundHeader, FixedHeaderDiv, HeaderStyle, LogoLink } from "../../styles/mainStyles/Header.styles";
 import { HorizontalPadding, MaxWidthCapsule } from "../../styles/GlobalStyle";
 import { SyntheticEvent } from "react";
+import translateI18n from "../../utils/translateI18n";
+import LanguageChanger from "../../i18n/components/changer/LanguageChanger";
 
 export default function Header() {
   function hamburguerFunction() {
@@ -15,10 +17,10 @@ export default function Header() {
     menu?.setAttribute('aria-expanded', menu?.classList.contains('active').toString());
   }
 
-  function onSection(element: SyntheticEvent){
+  function onSection(element: SyntheticEvent) {
     const target = element.target as HTMLElement;
-    
-    if(target.nodeName == 'A'){
+
+    if (target.nodeName == 'A') {
       hamburguerFunction();
     }
   }
@@ -30,6 +32,7 @@ export default function Header() {
           <MaxWidthCapsule>
             <div className="flexHeader">
               <BackgroundHeader className="zIndexTop" />
+
               <LogoLink href="#" className="zIndexTop linksScroll">
                 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <title>Henrique logo</title>
@@ -43,12 +46,17 @@ export default function Header() {
                     </clipPath>
                   </defs>
                 </svg>
+
               </LogoLink>
+              <LanguageChanger />
+
+
+
 
               <nav className="navHeader" id="navHeaderId" onClick={(element) => onSection(element)}>
                 <ul>
                   <li>
-                    <a href="#sobre" className="linksScroll">Sobre</a>
+                    <a href="#sobre" className="linksScroll">{translateI18n("general.header.about")}</a>
                   </li>
                   <li>
                     <a href="#tecnologias" className="linksScroll">Tecnologias</a>

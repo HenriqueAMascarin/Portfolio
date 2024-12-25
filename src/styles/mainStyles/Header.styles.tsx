@@ -50,6 +50,7 @@ export const HeaderStyle = styled.header`
 
     ${HorizontalPadding} {
       .flexHeader {
+        position: relative;
         height: 100%;
         width: 100%;
         display: flex;

@@ -3,6 +3,10 @@
     "general": {
       "goBack": "Go back",
       "altPhoto": "Henrique's photo",
+      "flags": {
+        "brazilFlagAlt": "Image of the Brazil flag",
+        "UnitedStatesFlagAlt": "Image of the United States flag"
+      },
       "header": {
         "about": "About",
         "technologies": "Technologies",
