@@ -3,6 +3,8 @@
     "general": {
       "goBack": "Go back",
       "altPhoto": "Henrique's photo",
+      "themeChangerBtnAria": "Button to change the portfolio language.",
+      "arrowToBeginning": "Arrow to return to the beginning",
       "flags": {
         "brazilFlagAlt": "Image of the Brazil flag",
         "UnitedStatesFlagAlt": "Image of the United States flag"
@@ -19,16 +21,14 @@
     },
     "mainPage": {
       "nameSection": {
-        "title": ["Henrique", "Mascarin", "Developer", "Mobile"],
+        "mobileDeveloper": "Mobile Developer",
         "arrowDown": "Arrow to go to the section below"
       },
-      "infoSection": {
+      "aboutSection": {
         "title": "About",
-        "paragraphs": [
-          "Developer for over 2 years. As a mobile developer, I dedicated myself to developing my own company on Google Play from scratch, until the publication of the Media Timer. Now, I am looking to build other projects to gain more experience, such as the new application under development Star T-Shirts. With the objective to get an opportunity in the application market using React Native.",
-          "As a front-end developer, I currently work on a project with hundreds of clients, the SG Master Web system, where me and my front-end team developed the project from scratch, facing several challenges. I also have personal projects, where I always seek to challenge myself to learn something new.",
-          "Lastly, I am a determined person, that have the objective to constantly improve. I don't like fights, trying always to be peaceful. I also, try to learn from others and help as much as possible."
-        ],
+        "mobileParagraph": "Developer for over 2 years. As a mobile developer, I dedicated myself to developing my own company on Google Play from scratch, until the publication of the Media Timer. Now, I am looking to build other projects to gain more experience, such as the new application under development Star T-Shirts. With the objective to get an opportunity in the application market using React Native.",
+        "frontEndParagraph": "As a front-end developer, I currently work on a project with hundreds of clients, the SG Master Web system, where me and my front-end team developed the project from scratch, facing several challenges. I also have personal projects, where I always seek to challenge myself to learn something new.",
+        "aboutMeParagraph": "Lastly, I am a determined person, that have the objective to constantly improve. I don't like fights, trying always to be peaceful. I also, try to learn from others and help as much as possible.",
         "curriculum": "Curriculum"
       },
       "technologiesSection": {
@@ -39,10 +39,11 @@
         "policy": "Privacy policy",
         "completed": "Completed",
         "inProgress": "In progress",
+        "challenges": "Challenges",
         "projects": {
           "StarTShirts": {
             "name": "Star T-Shirts",
-            "title": "Fictitious e-commerce application, only for t-shirts.",
+            "about": "Fictitious e-commerce application, only for t-shirts.",
             "challengesList": [
               "Unique design in Figma",
               "First project without Expo, only React Native CLI",
@@ -56,31 +57,31 @@
           },
           "MediaTimer": {
             "name": "Media Timer",
-            "title": "Timer application, with the objective to solve a personal problem.",
-            "challengesList": [
-              "Project with more than 1 year of development",
-              "Publishing to Google Play in production",
-              "Project License and Privacy Terms",
-              "Ability to choose sounds from your phone or app and history of sounds from your phone",
-              "Marketing about the project in the company's LinkedIn",
-              "App in English/US and Portuguese/BR (depends on your device language) with i18next",
-              "Dark and white theme, I created a React Context to manage this state",
-              "By native code, I have not allowed cell phones (for example Xiaomi) to change the theme colors for others.",
-              "Global States by Redux",
-              "Works in the background",
-              "Device permissions",
-              "I tested accessibility and made to not being possible to change the size of texts by the user's cell phone",
-              "The timer logic was complex to develop, since I created it without a library",
-              "Notification showing the status of the application and a custom icon for it (imported by Android Studio)",
-              "I have updated the Expo SDK version to a newer one",
-              "Unique design in Figma",
-              "AdMob Advertising",
-              "The chosen theme, if the app she can alert at the end of the timer and the history of sounds, are saved in the application cache (local storage)"
-            ]
+            "about": "Timer application, with the objective to solve a personal problem.",
+            "challengesList": {
+              "development": "Project with more than 1 year of development",
+              "publishing": "Publishing to Google Play in production",
+              "licenseAndTerms": "Project License and Privacy Terms",
+              "sounds": "Ability to choose sounds from your phone or app and history of sounds from your phone",
+              "marketing": "Marketing about the project in the company's LinkedIn",
+              "languages": "App in English/US and Portuguese/BR (depends on your device language) with i18next",
+              "themes": "Dark and white theme, I created a React Context to manage this state",
+              "notAllowedThemeChanges": "By native code, I have not allowed cell phones (for example Xiaomi) to change the theme colors for others.",
+              "globalState": "Global States by Redux",
+              "background": "Works in the background",
+              "permissions": "Device permissions",
+              "accessibility": "I tested accessibility and made to not being possible to change the size of texts by the user's cell phone",
+              "timerLogic": "The timer logic was complex to develop, since I created it without a library",
+              "notification": "Notification showing the status of the application and a custom icon for it (imported by Android Studio)",
+              "expoVersion": "I have updated the Expo SDK version to a newer one",
+              "designFigma": "Unique design in Figma",
+              "adMob": "AdMob Advertising",
+              "localStorage": "The chosen theme, if the app she can alert at the end of the timer and the history of sounds, are saved in the application cache (local storage)"
+            }
           },
           "Ebooks": {
             "name": "E-books",
-            "title": "Book research website, which was used for the selection process test that made me to being hired at SGBr® Sistemas.",
+            "about": "Book research website, which was used for the selection process test that made me to being hired at SGBr® Sistemas.",
             "challengesList": [
               "I developed the project in 1 week and a few days",
               "Had to learn the technologies: Vue, Pinia and Tailwind in the same time",
@@ -98,7 +99,7 @@
           },
           "Portfolio": {
             "name": "Portfolio",
-            "title": "My personal page, which is the showcase of my career, was developed and still receives updates to provide security for those who want to hire me.",
+            "about": "My personal page, which is the showcase of my career, was developed and still receives updates to provide security for those who want to hire me.",
             "challengesList": [
               "Unique design in Figma",
               "Responsive website, can be used on mobile and computer",
@@ -113,7 +114,7 @@
           },
           "GodOfWar": {
             "name": "God Of War E-commerce",
-            "title": "Fictional e-commerce project themed around the game God of War: Ragnarök.",
+            "about": "Fictional e-commerce project themed around the game God of War: Ragnarök.",
             "challengesList": [
               "Unique design in Figma",
               "Carousel of items without a library, developed from scratch and responsive",

@@ -8,6 +8,7 @@ import ContactSection from "./ContactSection";
 import WorksSection from "./experiences/ExperiencesSection";
 import AchievementsSection from "./achievements/AchievementsSection";
 import { useEffect, useRef, useState } from "react";
+import translateI18n from "../../utils/translateI18n";
 
 export default function Main() {
   let [showScrollBtn, changeShowScrollBtn] = useState(false);
@@ -74,7 +75,7 @@ export default function Main() {
         <WorksSection />
         <ContactSection />
         <div className={`fixedUpButton${showScrollBtn ? ' fixedUpShow' : ''}`} onClick={() => scrollToTop()}>
-          <img src="/images/arrowUpMini.svg" alt="Seta para voltar ao início" width="31px" height="20px" />
+          <img src="/images/arrowUpMini.svg" alt={translateI18n("general.arrowToBeginning")} width="31px" height="20px" />
         </div>
       </main>
       <Footer />

@@ -50,7 +50,6 @@ export const HeaderStyle = styled.header`
 
     ${HorizontalPadding} {
       .flexHeader {
-        position: relative;
         height: 100%;
         width: 100%;
         display: flex;
@@ -115,6 +114,16 @@ export const HeaderStyle = styled.header`
             }
           }
         }
+        
+        .leftMenu{
+            z-index: calc(var(--zIndexTop) + 1);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-right: 60px;
+            gap: 15px;
+          }
 
         .hamburguerMenu {
           display: flex;
@@ -177,11 +186,6 @@ export const HeaderStyle = styled.header`
             display: none;
           }
 
-          ${LogoLink} {
-            z-index: calc(var(--zIndexTop) + 1);
-            margin-right: 40px;
-          }
-
           .navHeader{
             position: relative;
             display: block;
@@ -197,6 +201,7 @@ export const HeaderStyle = styled.header`
               display: flex;
               padding: 0;
               justify-content: center;
+       
 
               li {
                 margin: 0;

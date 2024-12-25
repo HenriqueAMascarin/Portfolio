@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Variables } from "../CustomVariables";
 
-export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
+export const ArticleAchievement = styled.article<{ achievement_bg?: string }>`
 
   scroll-margin-top: -120px;
 
@@ -36,7 +36,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
   }
 
   .divImg{
-    background: url(${props => props.achievementBG}) center no-repeat;
+    background: url(${props => props.achievement_bg}) center no-repeat;
     background-size: cover;
 
     &:after{
@@ -115,7 +115,7 @@ export const ArticleAchievement = styled.article<{ achievementBG?: string }>`
           cursor: pointer;
 
           .infoImage{
-            background: url(${props => props.achievementBG}) left center no-repeat;
+            background: url(${props => props.achievement_bg}) left center no-repeat;
             background-size: cover;
             min-height: 200px;
             width: 100%;

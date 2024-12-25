@@ -5,69 +5,99 @@ import GodOfWar from "/images/screenshots/GodOfWar.webp";
 import Ebooks from "/images/screenshots/Ebooks.webp";
 import MediaTimer from "/images/screenshots/MediaTimer.webp";
 import { ExpoSvg, FigmaSvg, ReduxSvg, ReactNativeSvg, TypeScriptSvg, VueSvg, PiniaSvg, TailwindSvg, htmlSvg, ReactSvg, SassSvg } from "./techs/techsSvgs";
+import translateI18n from "../../utils/translateI18n";
+import enUsLanguageJson from "../../i18n/languages/en-us.json";
+import { JSX, useEffect } from "react";
 
-export const arrayCards = [
-  {
-    id: 'projects/MediaTimer',
-    img: MediaTimer,
-    alt: "Review Media Timer",
-    title: "Media Timer",
-    info: "Aplicativo de temporizador com possibilidade de ouvir sons de seu dispositivo e diversas funcionalidades, com objetivo de solucionar um problema pessoal.",
-    technologies: [
-      ExpoSvg,
-      ReactNativeSvg,
-      TypeScriptSvg,
-      ReduxSvg,
-      FigmaSvg
-    ],
-    googleLink: "https://play.google.com/store/apps/details?id=com.henriqueamascarin.mediatimer",
-    figma: "https://www.figma.com/design/XTRDCbSVe8lHtwkXK1Z5T7/Media-Timer?t=2WIleknFjgiShuOE-1",
-    github: "https://github.com/HenriqueAMascarin/MediaTimer",
-    policy: '/politica-privacidade/media-timer'
-  },
-  {
-    id: 'projects/Ebooks',
-    img: Ebooks,
-    alt: "Review E-books",
-    title: "E-books",
-    info: "Site de pesquisa de livros com uso de API da Google, criado para um processo seletivo na área.",
-    technologies: [
-      VueSvg,
-      PiniaSvg,
-      TailwindSvg,
-      htmlSvg,
-      FigmaSvg
-    ],
-    liveLink: "https://e-books-web.vercel.app",
-    figma: "https://www.figma.com/design/GrGuOJvXLsZbMAGJY7DkIS/e-books?t=2WIleknFjgiShuOE-1",
-    github: "https://github.com/HenriqueAMascarin/E-booksWeb",
-  },
-  {
-    id: 'projects/GodOfWar',
-    img: GodOfWar,
-    alt: "Review God of War E-commerce",
-    title: "God Of War E-commerce",
-    info: "Projeto de e-commerce com a temática do jogo God of War: Ragnarök, com design único.",
-    technologies: [
-      ReactSvg,
-      TypeScriptSvg,
-      SassSvg,
-      htmlSvg,
-      FigmaSvg
-    ],
-    liveLink: "https://godofwar-shop.vercel.app",
-    figma: "https://www.figma.com/design/fFnrpY4zrUWgRxo06TTjs1/god-of-war?t=2WIleknFjgiShuOE-1",
-    github: "https://github.com/HenriqueAMascarin/God-Of-War",
-  },
-];
+export const projectsIds = { MediaTimer: "projects/MediaTimer" }
+
+type ProjectsCardsType = {
+  id: string;
+  img: string;
+  nameInTranslateJson: string,
+  alt: string;
+  title: string;
+  about: string;
+  challenges: null | string[];
+  technologies: (() => JSX.Element)[];
+  googleLink?: string;
+  figma: string;
+  github: string;
+  policy?: string;
+  liveLink?: string;
+}[];
 
 export default function ProjectsSection() {
 
+  let arrayCards: ProjectsCardsType = [
+    {
+      id: projectsIds.MediaTimer,
+      img: MediaTimer,
+      nameInTranslateJson: "MediaTimer",
+      alt: "Review Media Timer",
+      title: "Media Timer",
+      about: translateI18n("mainPage.projectsSection.projects.MediaTimer.about"),
+      challenges: null,
+      technologies: [
+        ExpoSvg,
+        ReactNativeSvg,
+        TypeScriptSvg,
+        ReduxSvg,
+        FigmaSvg
+      ],
+      googleLink: "https://play.google.com/store/apps/details?id=com.henriqueamascarin.mediatimer",
+      figma: "https://www.figma.com/design/XTRDCbSVe8lHtwkXK1Z5T7/Media-Timer?t=2WIleknFjgiShuOE-1",
+      github: "https://github.com/HenriqueAMascarin/MediaTimer",
+      policy: '/privacy-policy/media-timer'
+    },
+    {
+      id: 'projects/Ebooks',
+      img: Ebooks,
+      nameInTranslateJson: "Ebooks",
+      alt: "Review E-books",
+      title: "E-books",
+      about: translateI18n("mainPage.projectsSection.projects.Ebooks.about"),
+      challenges: null,
+      technologies: [
+        VueSvg,
+        PiniaSvg,
+        TailwindSvg,
+        htmlSvg,
+        FigmaSvg
+      ],
+      liveLink: "https://e-books-web.vercel.app",
+      figma: "https://www.figma.com/design/GrGuOJvXLsZbMAGJY7DkIS/e-books?t=2WIleknFjgiShuOE-1",
+      github: "https://github.com/HenriqueAMascarin/E-booksWeb",
+    },
+    {
+      id: 'projects/GodOfWar',
+      img: GodOfWar,
+      nameInTranslateJson: "GodOfWar",
+      alt: "Review God of War E-commerce",
+      title: "God Of War E-commerce",
+      about: translateI18n("mainPage.projectsSection.projects.GodOfWar.about"),
+      challenges: null,
+      technologies: [
+        ReactSvg,
+        TypeScriptSvg,
+        SassSvg,
+        htmlSvg,
+        FigmaSvg
+      ],
+      liveLink: "https://godofwar-shop.vercel.app",
+      figma: "https://www.figma.com/design/fFnrpY4zrUWgRxo06TTjs1/god-of-war?t=2WIleknFjgiShuOE-1",
+      github: "https://github.com/HenriqueAMascarin/God-Of-War",
+    },
+  ];
+
+  arrayCards.forEach(project => project.challenges = Object.keys(enUsLanguageJson.translation.mainPage.projectsSection.projects[project.nameInTranslateJson as keyof typeof enUsLanguageJson.translation.mainPage.projectsSection.projects].challengesList).map(
+    (keyName) => translateI18n(`mainPage.projectsSection.projects.${project.nameInTranslateJson}.challengesList.${keyName}`)
+  ))
 
   return (
-    <Projects id="projetos" className="principalSections">
+    <Projects id="projects" className="principalSections">
       <VerticalPadding>
-        <h2>Projetos</h2>
+        <h2>{translateI18n("mainPage.projectsSection.title")}</h2>
 
         <div className="cards">
           {arrayCards.map((project, key) => {
@@ -78,7 +108,12 @@ export default function ProjectsSection() {
                     <img width="768" height="581" src={project.img} alt={project.alt} className="cardsImg" />
                     <div className="infoCard">
                       <h3>{project.title}</h3>
-                      <p>{project.info}</p>
+                      <p>{project.about}</p>
+
+                      <div className="cardsChallenges">
+                        <h4>{translateI18n('mainPage.projectsSection.challenges')}: </h4>
+                        <ul> {project.challenges?.map((challenge, keyChallenge) => { return (<li key={keyChallenge}>{challenge}</li>) })}</ul>
+                      </div>
 
                       <div className="cardsTech">
                         {project.technologies.map((Icon, keyIcon) => (

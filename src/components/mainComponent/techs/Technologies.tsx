@@ -2,6 +2,7 @@ import { TechSection } from "../../../styles/mainStyles/TechSection.styles";
 import { HorizontalPadding, LinesFlex, VerticalPadding, MaxWidthCapsule } from "../../../styles/GlobalStyle";
 import React from "react";
 import { ExpoSvg, FigmaSvg, ReactNativeSvg, PiniaSvg, QuasarSvg, ReactSvg, ReduxSvg, SassSvg, StyledComponentsSvg, TailwindSvg, TypeScriptSvg, VueSvg } from "./techsSvgs";
+import translateI18n from "../../../utils/translateI18n";
 
 export const arrayTech:  React.FC[] = [
   TypeScriptSvg,
@@ -20,12 +21,12 @@ export const arrayTech:  React.FC[] = [
 
 export default function Technologies() {
   return (
-    <TechSection id="tecnologias" className="principalSections">
+    <TechSection id="technologies" className="principalSections">
       <VerticalPadding>
         <HorizontalPadding>
           <MaxWidthCapsule>
             <LinesFlex>
-              <h2>Tecnologias</h2>
+              <h2>{translateI18n("mainPage.technologiesSection.title")}</h2>
 
               <div className="techIcons">
                 {arrayTech.map((Svg, keyItem) => {

@@ -66,7 +66,7 @@ export default function AchievementsSection() {
         <div className="containerAchievements" ref={achievementsContainerRef}>
           {achievementsData.map((achievement, keyItem) => {
             return (
-              <ArticleAchievement key={keyItem} achievementBG={achievement.img.src} aria-expanded="false" aria-controls={`info-${keyItem}`}>
+              <ArticleAchievement key={keyItem} achievement_bg={achievement.img.src} aria-expanded="false" aria-controls={`info-${keyItem}`}>
                 <div onClick={() => clickAchievement(keyItem)} className="containerDivImg" aria-label="Clique para expandir ou fechar o cartão abaixo">
                   <div className="divImg outlineAchievements" role="img" aria-label={achievement.img.alt}></div>
 

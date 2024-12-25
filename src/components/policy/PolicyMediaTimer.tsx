@@ -19,7 +19,7 @@ export default function PolicyMediaTimer() {
                                     <img src="/images/mediaTimerIcon.svg" alt="Logo Media Timer" />
 
                                     <div>
-                                        <h3>Política de Privacidade</h3>
+                                        <h1>Política de Privacidade</h1>
 
                                         <a href="/#projetos/MediaTimer">Media Timer</a>
                                     </div>
@@ -32,7 +32,7 @@ export default function PolicyMediaTimer() {
                                 </div>
 
                                 <div className="policyData">
-                                    <h4>Dados coletados pelo aplicativo</h4>
+                                    <h2>Dados coletados pelo aplicativo</h2>
 
                                     <p>Nenhum dado é coletado. Tudo fornecido como dados de arquivos, histórico de áudios e configurações de tema são todos mantidos no aplicativo.</p>
 

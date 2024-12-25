@@ -33,50 +33,50 @@ export default function Header() {
             <div className="flexHeader">
               <BackgroundHeader className="zIndexTop" />
 
-              <LogoLink href="#" className="zIndexTop linksScroll">
-                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <title>Henrique logo</title>
-                  <g clipPath="url(#clip0_213_8)">
-                    <circle cx="30" cy="30" r="29" fill="#D53453" />
-                    <path d="M14.1605 49V12.6364H21.8487V27.6399H37.456V12.6364H45.1264V49H37.456V33.9787H21.8487V49H14.1605Z" fill="#F2F2F2" />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_213_8">
-                      <rect width="60" height="60" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
+              <div className="leftMenu">
+                <LogoLink href="#" className="zIndexTop linksScroll">
+                  <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <title>Henrique logo</title>
+                    <g clipPath="url(#clip0_213_8)">
+                      <circle cx="30" cy="30" r="29" fill="#D53453" />
+                      <path d="M14.1605 49V12.6364H21.8487V27.6399H37.456V12.6364H45.1264V49H37.456V33.9787H21.8487V49H14.1605Z" fill="#F2F2F2" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_213_8">
+                        <rect width="60" height="60" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
 
-              </LogoLink>
-              <LanguageChanger />
+                </LogoLink>
 
-
-
+                <LanguageChanger />
+              </div>
 
               <nav className="navHeader" id="navHeaderId" onClick={(element) => onSection(element)}>
                 <ul>
                   <li>
-                    <a href="#sobre" className="linksScroll">{translateI18n("general.header.about")}</a>
+                    <a href="#about" className="linksScroll">{translateI18n("general.header.about")}</a>
                   </li>
                   <li>
-                    <a href="#tecnologias" className="linksScroll">Tecnologias</a>
+                    <a href="#technologies" className="linksScroll">{translateI18n("general.header.technologies")}</a>
                   </li>
                   <li>
-                    <a href="#projetos" className="linksScroll">Projetos</a>
+                    <a href="#projects" className="linksScroll">{translateI18n("general.header.projects")}</a>
                   </li>
                   <li>
-                    <a href="#conquistas" className="linksScroll">Conquistas</a>
+                    <a href="#achievements" className="linksScroll">{translateI18n("general.header.achievements")}</a>
                   </li>
                   <li>
-                    <a href="#experiencias" className="linksScroll">Experiências</a>
+                    <a href="#experiences" className="linksScroll">{translateI18n("general.header.experiences")}</a>
                   </li>
                   <li>
-                    <a href="#contato" className="linksScroll">Contato</a>
+                    <a href="#contact" className="linksScroll">{translateI18n("general.header.contact")}</a>
                   </li>
                 </ul>
               </nav>
 
-              <button className="hamburguerMenu zIndexTop" title="Hamburguer Menu" onClick={() => hamburguerFunction()} aria-expanded="false" aria-label="Botão que expande a barra de navegação no celular">
+              <button className="hamburguerMenu zIndexTop" title="Hamburguer Menu" onClick={() => hamburguerFunction()} aria-expanded="false" aria-label={translateI18n("general.header.hamburguerAlt")}>
                 <span></span>
                 <span></span>
                 <span></span>

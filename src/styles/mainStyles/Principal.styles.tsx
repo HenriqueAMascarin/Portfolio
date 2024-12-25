@@ -52,13 +52,9 @@ export const SectionPrincipal = styled.section`
       }
 
       .titleJob {
-        font-size: clamp(1.7rem, 7vw, 3rem);
+        font-size: clamp(1.7rem, 7vw, 3.4rem);
         padding: 0 10px;
-        color: ${Variables.black};
-
-        span {
-          color: ${Variables.red};
-        }
+        color: ${Variables.red};
       }
     
   }

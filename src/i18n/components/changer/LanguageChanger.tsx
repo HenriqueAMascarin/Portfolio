@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next"
 import { ButtonChangerStyled } from "./stylesChanger";
 
 export default function LanguageChanger() {
-    const { t, i18n } = useTranslation();
+    const { t:translate, i18n } = useTranslation();
 
     const changesLanguage = useMemo(() => { 
         const isPtBR = i18n.language == 'pt-BR';
@@ -11,7 +11,7 @@ export default function LanguageChanger() {
             languageToChange: isPtBR ? "en-US" : "pt-BR",
             flag: {
                 src: isPtBR ? "/images/flags/Brazil_icon.svg" : "/images/flags/UnitedStates_icon.svg",
-                alt: isPtBR ? t("general.flags.brazilFlagAlt") : t("general.flags.UnitedStatesFlagAlt"),
+                alt: isPtBR ? translate("general.flags.brazilFlagAlt") : translate("general.flags.UnitedStatesFlagAlt"),
             },
         }
     }, [i18n.language])
@@ -21,9 +21,7 @@ export default function LanguageChanger() {
         i18n.changeLanguage(changesLanguage.languageToChange)
     }
 
-    console.log(i18n.language);
-
     return (
-        <ButtonChangerStyled onClick={changeLanguage}><img src={changesLanguage.flag.src} alt={changesLanguage.flag.alt} /></ButtonChangerStyled>
+        <ButtonChangerStyled onClick={changeLanguage} aria-label={translate("general.themeChangerBtnAria")}><img src={changesLanguage.flag.src} alt={changesLanguage.flag.alt} /></ButtonChangerStyled>
     )
 }

@@ -42,31 +42,45 @@ export const Projects = styled.section`
       }
 
       .cardsDiv {
-        background-color: ${Variables.white};
         padding: 15px;
         border-radius: 10px;
         font-weight: bold;
         max-width: 400px;
         scroll-margin-top: 100px;
+        position: relative;
 
         .cardsImg {
           width: 100%;
           height: auto;
-          box-shadow: 0 0 8px black;
+          box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
           border-radius: 10px;
+ 
         }
 
         .infoCard {
           width: 100%;
 
-          h3 {
-            color: ${Variables.black};
+          h3{ 
             margin-top: 25px;
           }
 
+          h3, h4 {
+            color: ${Variables.black};
+          }
+
           > p {
-            color: ${Variables.gray};
             margin: 5px 0 20px;
+          }
+
+          > p, .cardsChallenges li {
+            color: ${Variables.gray};
+          }
+
+          .cardsChallenges {
+            margin-bottom: 20px;
+            li {
+            list-style-position: inside;
+          }
           }
 
           .cardsTech {
@@ -74,6 +88,7 @@ export const Projects = styled.section`
             gap: 25px;
             flex-grow: 1;
             overflow-x: auto;
+            margin-bottom: 50px;
 
             div{
               width: 30px;
@@ -155,11 +170,10 @@ export const Projects = styled.section`
         .cardsDiv {
           display: flex;
           flex-direction: row;
-          align-items: center;
+          align-items: start;
           padding: 0;
           max-width: 100%;
-          height: 370px;
-          background-color: transparent;
+          background-color: ${Variables.white};
 
           .cardsImg {
             width: 500px;
@@ -172,7 +186,6 @@ export const Projects = styled.section`
             display: flex;
             flex-direction: column;
             padding: 22px 28px 22px 28px;
-            background-color: ${Variables.white};
             height: 96%;
             border-radius: 0 10px 10px 0;
 

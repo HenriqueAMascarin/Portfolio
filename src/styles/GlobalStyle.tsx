@@ -86,7 +86,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h4{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     p{

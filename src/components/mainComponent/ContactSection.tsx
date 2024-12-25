@@ -18,8 +18,8 @@ export default function ContactSection() {
 
               <div className="contactInfo">
                 <p>Obrigado por visitar meu portfólio!</p>
-                <p>Se sinta à vontade para se conectar e enviar uma mensagem pelo <Link to="/obrigado" className="blueText" target="_blank">LinkedIn</Link>.</p>
-                <Link to={'/obrigado'} className="btnLinkedin">
+                <p>Se sinta à vontade para se conectar e enviar uma mensagem pelo <Link to="/thanks" className="blueText" target="_blank">LinkedIn</Link>.</p>
+                <Link to={'/thanks'} className="btnLinkedin">
                   <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <title>LinkedIn logo</title>
                     <path

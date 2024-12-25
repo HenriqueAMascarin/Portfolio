@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Main from "./components/mainComponent/Main";
 import Thanks from "./components/thanksComponents/Thanks";
 import { Routes, Route, useLocation } from "react-router-dom"
-import { arrayCards } from "./components/mainComponent/ProjectsSection";
+import { projectsIds } from "./components/mainComponent/ProjectsSection";
 import PolicyMediaTimer from "./components/policy/PolicyMediaTimer";
 
 function App() {
@@ -14,12 +14,11 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       const element = document.getElementById(locationId);
-
-      arrayCards.forEach((el) => {
-        if (location.hash.includes(el.id) && element) {
+      for(let [_, value] of Object.entries(projectsIds)){
+        if (location.hash.includes(value) && element) {
           element.scrollIntoView({ behavior: "smooth" });
         }
-      });
+      }
 
     }, 100);
   }, [])
@@ -28,8 +27,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/obrigado" element={<Thanks />} />
-        <Route path="/politica-privacidade/media-timer" element={<PolicyMediaTimer />} />
+        <Route path="/thanks" element={<Thanks />} />
+        <Route path="/privacy-policy/media-timer" element={<PolicyMediaTimer />} />
       </Routes>
     </>
   )
