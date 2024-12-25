@@ -38,11 +38,13 @@
         "title": "Projects",
         "policy": "Privacy policy",
         "completed": "Completed",
-        "inProgress": "In progress",
+        "underDevelopment": "Under development",
         "challenges": "Challenges",
+        "seeTheWebSite": "See the website",
+        "downloadTheApp": "Download the app",
         "projects": {
           "StarTShirts": {
-            "name": "Star T-Shirts",
+            "title": "Star T-Shirts",
             "about": "Fictitious e-commerce application, only for t-shirts.",
             "challengesList": [
               "Unique design in Figma",
@@ -56,7 +58,7 @@
             ]
           },
           "MediaTimer": {
-            "name": "Media Timer",
+            "title": "Media Timer",
             "about": "Timer application, with the objective to solve a personal problem.",
             "challengesList": {
               "development": "Project with more than 1 year of development",
@@ -80,7 +82,7 @@
             }
           },
           "Ebooks": {
-            "name": "E-books",
+            "title": "E-books",
             "about": "Book research website, which was used for the selection process test that made me to being hired at SGBr® Sistemas.",
             "challengesList": [
               "I developed the project in 1 week and a few days",
@@ -98,7 +100,7 @@
             ]
           },
           "Portfolio": {
-            "name": "Portfolio",
+            "title": "Portfolio",
             "about": "My personal page, which is the showcase of my career, was developed and still receives updates to provide security for those who want to hire me.",
             "challengesList": [
               "Unique design in Figma",
@@ -113,7 +115,7 @@
             ]
           },
           "GodOfWar": {
-            "name": "God Of War E-commerce",
+            "title": "God Of War E-commerce",
             "about": "Fictional e-commerce project themed around the game God of War: Ragnarök.",
             "challengesList": [
               "Unique design in Figma",

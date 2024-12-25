@@ -1,6 +1,8 @@
 export const Variables = {
         red: "#D53453",
         black: "#212121",
+        orange: "#FF6B00",
+        green: "#1DBA6B",
         gray: "#3F403F",
         white: "#F2F2F2",
         mediaQueryWidth: {

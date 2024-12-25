@@ -48,13 +48,42 @@ export const Projects = styled.section`
         max-width: 400px;
         scroll-margin-top: 100px;
         position: relative;
+        z-index: 0;
+        background-color: ${Variables.white};
 
-        .cardsImg {
+        .divImg, .cardsImg{
+          border-radius: 10px;
+        }
+
+        .divImg  {
           width: 100%;
           height: auto;
-          box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
-          border-radius: 10px;
- 
+        
+          .statusProject{
+            position: absolute;
+            z-index: 2;
+            top: 10px;
+            left: 10px;
+            padding: 2px 10px;
+            border-radius: 14px;
+            font-size: 16px;
+            background-color: ${Variables.green};
+            color: ${Variables.white};
+
+            &.developmentStatusProject{
+            background-color: ${Variables.orange};
+
+            }
+          }
+
+          .statusProject, .cardsImg{
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+          }
+
+          .cardsImg{
+            width: 100%;
+            height: 100%;
+          }
         }
 
         .infoCard {
@@ -78,14 +107,23 @@ export const Projects = styled.section`
 
           .cardsChallenges {
             margin-bottom: 20px;
-            li {
-            list-style-position: inside;
-          }
+            
+            ul{
+              display: flex;
+              flex-direction: column;
+              gap: 4px;
+
+              li {
+                list-style-position: inside;
+              }
+            }
+
+            
           }
 
           .cardsTech {
             display: flex;
-            gap: 25px;
+            gap: 34px;
             flex-grow: 1;
             overflow-x: auto;
             margin-bottom: 50px;
@@ -129,8 +167,11 @@ export const Projects = styled.section`
               }
             }
 
-            a:nth-of-type(2){
+            .cardsLinksRight{
+              display: flex;
               margin-left: auto;
+              gap: 15px;
+              align-items: center;
             }
 
             .figmaIcon, .githubIcon, .policyIcon{
@@ -171,21 +212,28 @@ export const Projects = styled.section`
           display: flex;
           flex-direction: row;
           align-items: start;
-          padding: 0;
           max-width: 100%;
+          padding: 25px;
           background-color: ${Variables.white};
+          gap: 35px;
 
-          .cardsImg {
-            width: 500px;
-            height: 100%;
-            position: relative;
-            z-index: 1;
-          }
+          .divImg {
+            .statusProject{
+              top: 15px;
+              left: 15px;
+            }
+
+            .cardsImg {
+              width: 500px;
+              height: 100%;
+              position: relative;
+              z-index: 1;
+            }
+        }
 
           .infoCard {
             display: flex;
             flex-direction: column;
-            padding: 22px 28px 22px 28px;
             height: 96%;
             border-radius: 0 10px 10px 0;
 

@@ -38,11 +38,13 @@
         "title": "Projetos",
         "policy": "Política de privacidade",
         "completed": "Concluído",
-        "inProgress": "Em andamento",
+        "underDevelopment": "Em desenvolvimento",
         "challenges": "Desafios",
+        "seeTheWebSite": "Veja o site",
+        "downloadTheApp": "Baixe o aplicativo",
         "projects": {
           "StarTShirts": {
-            "name": "Star T-Shirts",
+            "title": "Star T-Shirts",
             "about": "Aplicativo fictício de e-commerce, somente de camisetas.",
             "challengesList": [
               "Design único no Figma",
@@ -56,7 +58,7 @@
             ]
           },
           "MediaTimer": {
-            "name": "Media Timer",
+            "title": "Media Timer",
             "about": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
             "challengesList": {
               "development": "Projeto com mais de 1 ano de desenvolvimento",
@@ -80,7 +82,7 @@
             }
           },
           "Ebooks": {
-            "name": "E-books",
+            "title": "E-books",
             "about": "Site de pesquisa de livros, que foi para o teste do processo seletivo que acabei sendo contratado na SGBr® Sistemas.",
             "challengesList": [
               "Desenvolvi o projeto em 1 semana e alguns dias",
@@ -98,7 +100,7 @@
             ]
           },
           "Portfolio": {
-            "name": "Portfólio",
+            "title": "Portfólio",
             "about": "Minha página pessoal, onde é a vitrine sobre minha carreira, foi desenvolvida e ainda recebe atualizações para transmitir segurança para quem quer me contratar.",
             "challengesList": [
               "Design único no Figma",
@@ -113,7 +115,7 @@
             ]
           },
           "GodOfWar": {
-            "name": "God Of War E-commerce",
+            "title": "God Of War E-commerce",
             "about": "Projeto fictício de e-commerce com a temática do jogo God of War: Ragnarök.",
             "challengesList": [
               "Design único no Figma",
