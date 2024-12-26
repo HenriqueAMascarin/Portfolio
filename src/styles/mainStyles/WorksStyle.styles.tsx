@@ -128,7 +128,7 @@ export const WorksStyle = styled.section`
         flex-direction: row;
 
         .infoContainer{
-          width: 400px;
+          width: 450px;
           margin-right: 70px;
         }
 

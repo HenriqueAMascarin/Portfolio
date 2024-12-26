@@ -144,7 +144,7 @@
             "about": "Senac's in-person course that helped to improve design concepts, HTML semantics and CSS styling.",
             "imageAlt": "Image of the Senac RSTI front-end trail certificate."
           },
-          "startupWeekend": {
+          "StartupWeekend": {
             "title": "Startup Weekend Smart Cities - Santo Ângelo/RS (2022)",
             "about": "I worked as a designer for the “O Campo” app, winner of this edition.",
             "imageAlt": "Image with the Smart Cities first place trophy."
@@ -155,46 +155,49 @@
             "imageAlt": "Image of the Senac RSTI programming logic trail certificate."
           },
           "UdemyWebDesign": {
-            "title": "Web Design Course",
+            "title": "Udemy Web Design Course",
             "about": "I learned how to develop websites using HTML, CSS, and JavaScript. With a special touch of semantics, accessibility and programming logic.",
             "imageAlt": "Image of the Udemy Web Design course certificate"
           },
           "UdemyProgrammingLogic": {
-            "title": "Algorithms and Programming Logic Course Udemy",
+            "title": "Udemy Algorithms and Programming Logic Course",
             "about": "In this course, has presented exercises and explanations about the programming logic. In the end, that was fundamental for my development",
             "imageAlt": "Image of the Udemy Algorithms and Programming Logic course certificate"
           }
         }
       },
       "experiencesSection": {
-        "HenriqueMascarin": {
-          "position": "Founder and Mobile Developer",
-          "timeCompany": "August/2024 - December/2024",
-          "about": "My company at Google Play, where I am responsible for the application development process and issues regarding my brand.",
-          "challengesList": [
-            "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn ",
-            "Develop from scratch, publish and maintain in production the Media Timer app on Google Play",
-            "I had to learn about AdMob, to place advertisement in apps",
-            "Project licenses, to avoid copies",
-            "Handle privacy policy and other Google issues related to the projects"
-          ]
-        },
-        "SGBrSistemas": {
-          "position": "Front-end Developer",
-          "timeCompany": "July/2023 - Present",
-          "about": "Company where I work in the Front-end team, that we have created the new SG Master Web system.",
-          "challengesList": [
-            "Creation and maintenance of the Web system Landing Page",
-            "Development and maintenance of the new SG Master Web system",
-            "Correction of pages with the undo changes button (this is a button that appears in the action bar that returns the form values ​​to their initial state, whether editing or registration)",
-            "Implementation of the new users permissions. Where I had to develop two form pages, one for profiles and other for users. I also changed all system permissions to the new ones, created and maintained the permissions component, and developed to work with the undo changes button",
-            "Working together with the back-end team, passing on errors and necessary changes of the project",
-            "Implementation of new back-end V2 filters for selects of the old model and new model on the front-end",
-            "Refactoring pages from the old template to the new template",
-            "Development of components and reusable utility files",
-            "Customization of selects, inputs and other Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot",
-            "Implementation of margins and sending of tax documents by email, together with the back-end team. Furthermore, in each module and in the email sending settings, you can change the footer message sent in the email in a WYSIWYG editor"
-          ]
+        "title": "Experiences",
+        "experiencesList": {
+          "HenriqueMascarin": {
+            "position": "Founder and Mobile Developer",
+            "timeCompany": "August/2024 - December/2024",
+            "about": "My company at Google Play, where I am responsible for the application development process and issues regarding my brand.",
+            "challengesList": {
+              "buildBrand": "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn ",
+              "mediaTimer": "Develop from scratch, publish and maintain in production the Media Timer app on Google Play",
+              "adMob": "I had to learn about AdMob, to place advertisement in apps",
+              "licenses": "Project licenses, to avoid copies",
+              "issuesProjects": "Handle privacy policy and other Google issues related to the projects"
+            }
+          },
+          "SGBrSistemas": {
+            "position": "Front-end Developer",
+            "timeCompany": "July/2023 - Present",
+            "about": "Company where I work in the Front-end team, that we have created the new SG Master Web system.",
+            "challengesList": {
+              "landingPage": "Creation and maintenance of the Web system Landing Page",
+              "developmentWebSystem": "Development and maintenance of the new SG Master Web system",
+              "undoChanges": "Correction of pages with the undo changes button (this is a button that appears in the action bar that returns the form values ​​to their initial state, whether editing or registration)",
+              "usersPermissions": "Implementation of the new users permissions. Where I had to develop two form pages, one for profiles and other for users. I also changed all system permissions to the new ones, created and maintained the permissions component, and developed to work with the undo changes button",
+              "togetherBackend": "Working together with the back-end team, passing on errors and necessary changes of the project",
+              "newFilters": "Implementation of new back-end V2 filters for selects of the old model and new model on the front-end",
+              "refactoringPages": "Refactoring pages from the old template to the new template",
+              "components": "Development of components and reusable utility files",
+              "customizationQuasar": "Customization of selects, inputs and other Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot",
+              "taxDocuments": "Implementation of margins and sending of tax documents by email, together with the back-end team. Furthermore, in each module and in the email sending settings, you can change the footer message sent in the email in a WYSIWYG editor"
+            }
+          }
         }
       },
       "contactSection": {

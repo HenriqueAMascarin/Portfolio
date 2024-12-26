@@ -144,7 +144,7 @@
             "about": "Curso presencial do Senac que ajudou a aperfeiçoar os conceitos de design, semântica de HTML e estilização CSS.",
             "imageAlt": "Imagem do certificado da trilha front-end RSTI do Senac."
           },
-          "startupWeekend": {
+          "StartupWeekend": {
             "title": "Startup Weekend Smart Cities - Santo Ângelo/RS (2022)",
             "about": "Atuei como designer do aplicativo “O Campo”, vencedor dessa edição.",
             "imageAlt": "Imagem com o troféu de primeiro lugar do Smart Cities."
@@ -155,7 +155,7 @@
             "imageAlt": "Imagem do certificado da trilha lógica de programação RSTI do Senac"
           },
           "UdemyWebDesign": {
-            "title": "Curso Web Design",
+            "title": "Curso Web Design Udemy",
             "about": "Aprendi a desenvolver sites utilizando HTML, CSS e JavaScript. Com um toque especial de semântica, acessibilidade e lógica de programação.",
             "imageAlt": "Imagem do certificado do curso de Web Design da Udemy"
           },
@@ -167,34 +167,37 @@
         }
       },
       "experiencesSection": {
-        "HenriqueMascarin": {
-          "position": "Fundador e Desenvolvedor Mobile",
-          "timeCompany": "Agosto/2024 - Dezembro/2024",
-          "about": "Minha empresa na Google Play, onde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
-          "challengesList": [
-            "Construir minha marca na Google Play e cuidar do marketing sobre os aplicativos no LinkedIn da empresa",
-            "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play",
-            "Tive que aprender sobre AdMob, para colocar anúncios nos aplicativos",
-            "Licenças de projetos, para não haver cópias",
-            "Cuidar da política de privacidade e outras questões da Google em relação aos projetos"
-          ]
-        },
-        "SGBrSistemas": {
-          "position": "Desenvolvedor Front-end",
-          "timeCompany": "Julho/2023 - Presente",
-          "about": "Empresa onde trabalho no time de front-end e que criamos o novo sistema SG Master Web.",
-          "challengesList": [
-            "Criação e manutenção da Landing Page do sistema Web",
-            "Desenvolvimento e manutenção do novo sistema SG Master Web",
-            "Correção de páginas com o botão de desfazer alterações (sendo ele, um botão que aparece na barra de ações que volta os valores do formulário ao estado inicial, seja edição ou cadastro)",
-            "Implementação das novas permissões do usuário. Onde tive que desenvolver duas páginas de formulário, sendo para perfis e outra para usuários. Também troquei todas as permissões do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao botão de desfazer alterações",
-            "Trabalho conjunto com o time de back-end, repassando erros e mudanças necessárias do projeto",
-            "Implementação dos novos filtros V2 do back-end para selects do modelo antigo e modelo novo no front-end",
-            "Refatoração de páginas do modelo antigo para o modelo novo",
-            "Desenvolvimento de componentes e arquivos de utilidades reutilizáveis",
-            "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools",
-            "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de back-end. Além disso, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
-          ]
+        "title": "Experiências",
+        "experiencesList": {
+          "HenriqueMascarin": {
+            "position": "Fundador e Desenvolvedor Mobile",
+            "timeCompany": "Agosto/2024 - Dezembro/2024",
+            "about": "Minha empresa na Google Play, onde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
+            "challengesList": {
+              "buildBrand": "Construir minha marca na Google Play e cuidar do marketing sobre os aplicativos no LinkedIn da empresa",
+              "mediaTimer": "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play",
+              "adMob": "Tive que aprender sobre AdMob, para colocar anúncios nos aplicativos",
+              "licenses": "Licenças de projetos, para não haver cópias",
+              "issuesProjects": "Cuidar da política de privacidade e outras questões da Google em relação aos projetos"
+            }
+          },
+          "SGBrSistemas": {
+            "position": "Desenvolvedor Front-end",
+            "timeCompany": "Julho/2023 - Presente",
+            "about": "Empresa onde trabalho no time de front-end e que criamos o novo sistema SG Master Web.",
+            "challengesList": {
+              "landingPage": "Criação e manutenção da Landing Page do sistema Web",
+              "developmentWebSystem": "Desenvolvimento e manutenção do novo sistema SG Master Web",
+              "undoChanges": "Correção de páginas com o botão de desfazer alterações (sendo ele, um botão que aparece na barra de ações que volta os valores do formulário ao estado inicial, seja edição ou cadastro)",
+              "usersPermissions": "Implementação das novas permissões do usuário. Onde tive que desenvolver duas páginas de formulário, sendo para perfis e outra para usuários. Também troquei todas as permissões do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao botão de desfazer alterações",
+              "togetherBackend": "Trabalho conjunto com o time de back-end, repassando erros e mudanças necessárias do projeto",
+              "newFilters": "Implementação dos novos filtros V2 do back-end para selects do modelo antigo e modelo novo no front-end",
+              "refactoringPages": "Refatoração de páginas do modelo antigo para o modelo novo",
+              "components": "Desenvolvimento de componentes e arquivos de utilidades reutilizáveis",
+              "customizationQuasar": "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools",
+              "taxDocuments": "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de back-end. Além disso, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG"
+            }
+          }
         }
       },
       "contactSection": {

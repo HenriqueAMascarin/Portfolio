@@ -5,8 +5,8 @@ import PrincipalSection from "./PrincipalSection";
 import ProjectsSection from "./ProjectsSection";
 import Technologies from "./techs/Technologies";
 import ContactSection from "./ContactSection";
-import WorksSection from "./experiences/ExperiencesSection";
-import AchievementsSection from "./achievements/AchievementsSection";
+import WorksSection from "./ExperiencesSection";
+import AchievementsSection from "./AchievementsSection";
 import { useEffect, useRef, useState } from "react";
 import translateI18n from "../../utils/translateI18n";
 
