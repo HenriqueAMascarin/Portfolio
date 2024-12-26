@@ -103,6 +103,7 @@ export const Projects = styled.section`
 
           > p, .cardsChallenges li {
             color: ${Variables.gray};
+            text-align: justify;
           }
 
           .cardsChallenges {
@@ -117,8 +118,6 @@ export const Projects = styled.section`
                 list-style-position: inside;
               }
             }
-
-            
           }
 
           .cardsTech {

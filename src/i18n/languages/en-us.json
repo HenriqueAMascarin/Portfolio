@@ -5,6 +5,7 @@
       "altPhoto": "Henrique's photo",
       "themeChangerBtnAria": "Button to change the portfolio language.",
       "arrowToBeginning": "Arrow to return to the beginning",
+      "challenges": "Challenges",
       "flags": {
         "brazilFlagAlt": "Image of the Brazil flag",
         "UnitedStatesFlagAlt": "Image of the United States flag"
@@ -39,7 +40,6 @@
         "policy": "Privacy policy",
         "completed": "Completed",
         "underDevelopment": "Under development",
-        "challenges": "Challenges",
         "seeTheWebSite": "See the website",
         "downloadTheApp": "Download the app",
         "projects": {
@@ -47,85 +47,85 @@
             "title": "Star T-Shirts",
             "about": "Fictitious e-commerce application, only for t-shirts.",
             "challengesList": [
-              "Unique design in Figma",
-              "First project without Expo, only React Native CLI",
-              "Native module to display the Splash Screen, written with Kotlin",
-              "React Navigation for Routes",
-              "The project structure has created as it was a real product",
-              "Form screens with React Hook Form, and has Zod validations",
-              "Componentization of most used elements",
-              "Situational alerts developed from scratch, generated through global state"
+              "Unique design in Figma.",
+              "First project without Expo, only React Native CLI.",
+              "Native module to display the Splash Screen, written with Kotlin.",
+              "React Navigation for Routes.",
+              "The project structure has created as it was a real product.",
+              "Form screens with React Hook Form, and has Zod validations.",
+              "Componentization of most used elements.",
+              "Situational alerts developed from scratch, generated through global state."
             ]
           },
           "MediaTimer": {
             "title": "Media Timer",
             "about": "Timer application, with the objective to solve a personal problem.",
             "challengesList": {
-              "development": "Project with more than 1 year of development",
-              "publishing": "Publishing to Google Play in production",
-              "licenseAndTerms": "Project License and Privacy Terms",
-              "sounds": "Ability to choose sounds from your phone or app and history of sounds from your phone",
-              "marketing": "Marketing about the project in the company's LinkedIn",
-              "languages": "App in English/US and Portuguese/BR (depends on your device language) with i18next",
-              "themes": "Dark and white theme, I created a React Context to manage this state",
+              "development": "Project with more than 1 year of development.",
+              "publishing": "Publishing to Google Play in production.",
+              "licenseAndTerms": "Project License and Privacy Terms.",
+              "sounds": "Ability to choose sounds from your phone or app and history of sounds from your phone.",
+              "marketing": "Marketing about the project in the company's LinkedIn.",
+              "languages": "App in English/US and Portuguese/BR (depends on your device language) with i18next.",
+              "themes": "Dark and white theme, I created a React Context to manage this state.",
               "notAllowedThemeChanges": "By native code, I have not allowed cell phones (for example Xiaomi) to change the theme colors for others.",
-              "globalState": "Global States by Redux",
-              "background": "Works in the background",
-              "permissions": "Device permissions",
-              "accessibility": "I tested accessibility and made to not being possible to change the size of texts by the user's cell phone",
-              "timerLogic": "The timer logic was complex to develop, since I created it without a library",
-              "notification": "Notification showing the status of the application and a custom icon for it (imported by Android Studio)",
-              "expoVersion": "I have updated the Expo SDK version to a newer one",
-              "designFigma": "Unique design in Figma",
-              "adMob": "AdMob Advertising",
-              "localStorage": "The chosen theme, if the app she can alert at the end of the timer and the history of sounds, are saved in the application cache (local storage)"
+              "globalState": "Global States by Redux.",
+              "background": "Works in the background.",
+              "permissions": "Device permissions.",
+              "accessibility": "I tested accessibility and made to not being possible to change the size of texts by the user's cell phone.",
+              "timerLogic": "The timer logic was complex to develop, since I created it without a library.",
+              "notification": "Notification showing the status of the application and a custom icon for it (imported by Android Studio).",
+              "expoVersion": "I have updated the Expo SDK version to a newer one.",
+              "designFigma": "Unique design in Figma.",
+              "adMob": "AdMob Advertising.",
+              "localStorage": "The chosen theme, if the app she can alert at the end of the timer and the history of sounds, are saved in the application cache (local storage)."
             }
           },
           "Ebooks": {
             "title": "E-books",
             "about": "Book research website, which was used for the selection process test that made me to being hired at SGBr® Sistemas.",
             "challengesList": [
-              "I developed the project in 1 week and a few days",
-              "Had to learn the technologies: Vue, Pinia and Tailwind in the same time",
-              "Used Pinia for global state",
-              "Data treatment and validations when searching for the book in case of error or success",
-              "I used the Google API to search for books",
-              "Accessibility test",
-              "Unique design in Figma",
-              "Favorites by local storage",
-              "Each book can be favorite or removed by the button on the card, both in the favorite tab and on the main page",
-              "Card images can be clicked to display them in a larger size",
-              "Responsive website, can be used on mobile and computer",
-              "Text treatment of the cards of books"
+              "I developed the project in 1 week and a few days.",
+              "Had to learn the technologies: Vue, Pinia and Tailwind in the same time.",
+              "Used Pinia for global state.",
+              "Data treatment and validations when searching for the book in case of error or success.",
+              "I used the Google API to search for books.",
+              "Accessibility test.",
+              "Unique design in Figma.",
+              "Favorites by local storage.",
+              "Each book can be favorite or removed by the button on the card, both in the favorite tab and on the main page.",
+              "Card images can be clicked to display them in a larger size.",
+              "Responsive website, can be used on mobile and computer.",
+              "Text treatment of the cards of books."
             ]
           },
           "Portfolio": {
             "title": "Portfolio",
             "about": "My personal page, which is the showcase of my career, was developed and still receives updates to provide security for those who want to hire me.",
             "challengesList": [
-              "Unique design in Figma",
-              "Responsive website, can be used on mobile and computer",
-              "Accessibility test",
-              "Header links are indicated by a color change, depending on the section you are",
-              "Achievements section functionality, where you click on an achievement, and it opens one way on computer and another on mobile, also allowing you to see the image of the achievement in a larger size and the more details button",
-              "Privacy policy page about the Media Timer app",
+              "Unique design in Figma.",
+              "Responsive website, can be used on mobile and computer.",
+              "Accessibility test.",
+              "Header links are indicated by a color change, depending on the section you are.",
+              "Achievements section functionality, where you click on an achievement, and it opens one way on computer and another on mobile, also allowing you to see the image of the achievement in a larger size and the more details button.",
+              "Privacy policy page about the Media Timer app.",
               "All texts are designed to tell about my experience and provide security to the client or recruiter.",
-              "Website in English/US and Portuguese/BR (depends on your device language) with i18next",
-              "After clicking on the LinkedIn button in the contact section, it ends up taking you to the “Thank You” screen that redirects to LinkedIn"
+              "Website in English/US and Portuguese/BR (depends on your device language) with i18next.",
+              "After clicking on the LinkedIn button in the contact section, it ends up taking you to the “Thank You” screen that redirects to LinkedIn."
             ]
           },
           "GodOfWar": {
             "title": "God Of War E-commerce",
             "about": "Fictional e-commerce project themed around the game God of War: Ragnarök.",
             "challengesList": [
-              "Unique design in Figma",
-              "Carousel of items without a library, developed from scratch and responsive",
-              "Responsive website, can be used on mobile and computer",
-              "Cart and products by local storage",
-              "Accessibility test",
-              "Fictitious cart screen with the products you chose",
-              "Header hides when scrolling down and expands when scrolling up",
-              "Using React's Context for global state"
+              "Unique design in Figma.",
+              "Carousel of items without a library, developed from scratch and responsive.",
+              "Responsive website, can be used on mobile and computer.",
+              "Cart and products by local storage.",
+              "Accessibility test.",
+              "Fictitious cart screen with the products you chose.",
+              "Header hides when scrolling down and expands when scrolling up.",
+              "Using React's Context for global state."
             ]
           }
         }
@@ -169,33 +169,33 @@
       "experiencesSection": {
         "title": "Experiences",
         "experiencesList": {
-          "HenriqueMascarin": {
-            "position": "Founder and Mobile Developer",
-            "timeCompany": "August/2024 - December/2024",
-            "about": "My company at Google Play, where I am responsible for the application development process and issues regarding my brand.",
-            "challengesList": {
-              "buildBrand": "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn ",
-              "mediaTimer": "Develop from scratch, publish and maintain in production the Media Timer app on Google Play",
-              "adMob": "I had to learn about AdMob, to place advertisement in apps",
-              "licenses": "Project licenses, to avoid copies",
-              "issuesProjects": "Handle privacy policy and other Google issues related to the projects"
-            }
-          },
           "SGBrSistemas": {
             "position": "Front-end Developer",
             "timeCompany": "July/2023 - Present",
             "about": "Company where I work in the Front-end team, that we have created the new SG Master Web system.",
             "challengesList": {
-              "landingPage": "Creation and maintenance of the Web system Landing Page",
-              "developmentWebSystem": "Development and maintenance of the new SG Master Web system",
-              "undoChanges": "Correction of pages with the undo changes button (this is a button that appears in the action bar that returns the form values ​​to their initial state, whether editing or registration)",
-              "usersPermissions": "Implementation of the new users permissions. Where I had to develop two form pages, one for profiles and other for users. I also changed all system permissions to the new ones, created and maintained the permissions component, and developed to work with the undo changes button",
-              "togetherBackend": "Working together with the back-end team, passing on errors and necessary changes of the project",
-              "newFilters": "Implementation of new back-end V2 filters for selects of the old model and new model on the front-end",
-              "refactoringPages": "Refactoring pages from the old template to the new template",
-              "components": "Development of components and reusable utility files",
-              "customizationQuasar": "Customization of selects, inputs and other Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot",
-              "taxDocuments": "Implementation of margins and sending of tax documents by email, together with the back-end team. Furthermore, in each module and in the email sending settings, you can change the footer message sent in the email in a WYSIWYG editor"
+              "landingPage": "Creation and maintenance of the Web system Landing Page.",
+              "developmentWebSystem": "Development and maintenance of the new SG Master Web system.",
+              "undoChanges": "Correction of pages with the undo changes button (this is a button that appears in the action bar that returns the form values ​​to their initial state, whether editing or registration).",
+              "usersPermissions": "Implementation of the new users permissions. Where I had to develop two form pages, one for profiles and other for users. I also changed all system permissions to the new ones, created and maintained the permissions component, and developed to work with the undo changes button.",
+              "togetherBackend": "Working together with the back-end team, passing on errors and necessary changes of the project.",
+              "newFilters": "Implementation of new back-end V2 filters for selects of the old model and new model on the front-end.",
+              "refactoringPages": "Refactoring pages from the old template to the new template.",
+              "components": "Development of components and reusable utility files.",
+              "customizationQuasar": "Customization of selects, inputs and other Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot.",
+              "taxDocuments": "Implementation of margins and sending of tax documents by email, together with the back-end team. Furthermore, in each module and in the email sending settings, you can change the footer message sent in the email in a WYSIWYG editor."
+            }
+          },
+          "HenriqueMascarin": {
+            "position": "Founder and Mobile Developer",
+            "timeCompany": "August/2024 - December/2024",
+            "about": "My company at Google Play, where I am responsible for the application development process and issues regarding my brand.",
+            "challengesList": {
+              "buildBrand": "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn.",
+              "mediaTimer": "Develop from scratch, publish and maintain in production the Media Timer app on Google Play.",
+              "adMob": "I had to learn about AdMob, to place advertisement in apps.",
+              "licenses": "Project licenses, to avoid copies.",
+              "issuesProjects": "Handle privacy policy and other Google issues related to the projects."
             }
           }
         }

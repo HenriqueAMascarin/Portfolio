@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "src/styles/mainStyles/WorksStyle.styles.tsx", "Main.tsx"],
+  "include": ["src", "src/styles/mainStyles/Experiences.styles.tsx", "Main.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

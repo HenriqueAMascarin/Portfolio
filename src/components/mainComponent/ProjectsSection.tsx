@@ -150,7 +150,7 @@ export default function ProjectsSection() {
                       <p>{project.about}</p>
 
                       <div className="cardsChallenges">
-                        <h4>{translateI18n('mainPage.projectsSection.challenges')}: </h4>
+                        <h4>{translateI18n('general.challenges')}: </h4>
                         <ul> {project.challenges?.map((challenge, keyChallenge) => { return (<li key={keyChallenge}>{challenge}</li>) })}</ul>
                       </div>
 

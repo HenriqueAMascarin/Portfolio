@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Variables } from "../CustomVariables";
 
-export const WorksStyle = styled.section`
+export const Experiences = styled.section`
   background-color: ${Variables.black};
   color: ${Variables.white}; 
 
@@ -33,12 +33,26 @@ export const WorksStyle = styled.section`
       display: flex;
       flex-direction: column;
     }
-  
+
     .experienceArticle{
       display: flex;
       flex-direction: column;
       margin-bottom: 80px;
       position: relative;
+
+      .infoChallenges {
+        margin-bottom: 20px;
+
+        ul{
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+
+          li {
+            list-style-position: inside;
+          }
+        }
+      }
 
       h3, a{
         display: inline-block;
@@ -49,13 +63,18 @@ export const WorksStyle = styled.section`
       }
 
       .timeCompanyText{
-        font-size: 1.31rem;
+        font-size: 1.28rem;
         margin: 5px 0 10px;
         font-weight: 600;
       }
 
       .aboutText{
         font-weight: 400;
+        margin-bottom: 25px;
+      }
+
+      .aboutText, .infoChallenges li {
+        text-align: justify;
       }
 
       .lineCircleExperience{
