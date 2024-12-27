@@ -18,6 +18,9 @@
         "experiences": "Experiences",
         "contact": "Contact",
         "hamburguerAlt": "Button that expands the navigation bar"
+      },
+      "footer": {
+        "madeBy": "Made by Henrique Albuquerque Mascarin"
       }
     },
     "mainPage": {
@@ -202,10 +205,8 @@
       },
       "contactSection": {
         "title": "Contact",
-        "contactTexts": [
-          "Thank you for visiting my portfolio!",
-          "Be free to connect and send a message via"
-        ]
+        "thanksMessage":  "Thank you for visiting my portfolio!",
+        "connectMessage": "Be free to connect and send a message via"
       }
     },
     "thanksPage": {

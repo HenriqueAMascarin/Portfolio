@@ -1,5 +1,6 @@
 import { FooterStyled } from "../../styles/mainStyles/FooterStyled.style";
 import { HorizontalPadding, MaxWidthCapsule } from "../../styles/GlobalStyle";
+import translateI18n from "../../utils/translateI18n";
 
 export default function Footer() {
   return (
@@ -30,7 +31,7 @@ export default function Footer() {
 
 
             <a href="https://www.linkedin.com/in/henriqueamasc/" target="_blank" className="createBy">
-              Feito por Henrique de Albuquerque Mascarin
+              {translateI18n("general.footer.madeBy")}
             </a>
 
           </div>

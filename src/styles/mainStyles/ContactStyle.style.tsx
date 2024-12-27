@@ -29,11 +29,7 @@ export const ContactStyle = styled.section`
       p{
         color: ${Variables.black};
         font-weight: bold;
-        max-width: 400px;
-      }
-
-      .redText{
-        color: ${Variables.red};
+        max-width: 360px;
       }
 
       .blueText{

@@ -1,24 +1,25 @@
 import { HorizontalPadding, MaxWidthCapsule, VerticalPadding } from "../../styles/GlobalStyle";
 import { ContactStyle } from "../../styles/mainStyles/ContactStyle.style";
+import translateI18n from "../../utils/translateI18n";
 import photo from "/images/photo.webp";
 import { Link } from "react-router-dom";
 
 export default function ContactSection() {
 
   return (
-    <ContactStyle id="contato" className="principalSections">
+    <ContactStyle id="contact" className="principalSections">
       <VerticalPadding>
         <HorizontalPadding>
           <MaxWidthCapsule>
 
             <div className="containerContact">
-              <h2>Contato</h2>
+              <h2>{translateI18n("mainPage.contactSection.title")}</h2>
 
-              <img width="538" height="510" src={photo} alt="Foto do Henrique" />
+              <img width="538" height="510" src={photo} alt={translateI18n("general.altPhoto")} />
 
               <div className="contactInfo">
-                <p>Obrigado por visitar meu portfólio!</p>
-                <p>Se sinta à vontade para se conectar e enviar uma mensagem pelo <Link to="/thanks" className="blueText" target="_blank">LinkedIn</Link>.</p>
+                <p>{translateI18n("mainPage.contactSection.thanksMessage")}</p>
+                <p>{translateI18n("mainPage.contactSection.connectMessage")} <Link to="/thanks" className="blueText" target="_blank">LinkedIn</Link>.</p>
                 <Link to={'/thanks'} className="btnLinkedin">
                   <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <title>LinkedIn logo</title>

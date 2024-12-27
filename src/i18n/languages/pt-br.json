@@ -18,6 +18,9 @@
         "experiences": "Experiências",
         "contact": "Contato",
         "hamburguerAlt": "Botão que expande a barra de navegação"
+      },
+      "footer": {
+        "madeBy": "Feito por Henrique de Albuquerque Mascarin"
       }
     },
     "mainPage": {
@@ -202,10 +205,8 @@
       },
       "contactSection": {
         "title": "Contato",
-        "contactTexts": [
-          "Obrigado por visitar meu portfólio!",
-          "Se sinta à vontade para se conectar e enviar uma mensagem pelo"
-        ]
+        "thanksMessage": "Obrigado por visitar meu portfólio!",
+        "connectMessage": "Se sinta à vontade para se conectar e enviar uma mensagem pelo"
       }
     },
     "thanksPage": {
