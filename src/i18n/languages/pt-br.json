@@ -228,8 +228,8 @@
       },
       "permissionsList": {
         "permission": "Permissão",
+        "necessary": "Porque é necessária",
         "reasons": {
-          "whatReason": "Porque é necessária",
           "adReason": "Utilizados para mostrar o anúncio de baixo na tela principal.",
           "storageReason": "Utilizados para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.",
           "notificationsReason": "Utilizado para mostrar as notificações do aplicativo, quando está executando o temporizador.",

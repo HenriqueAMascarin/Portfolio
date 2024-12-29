@@ -17,6 +17,7 @@ export const CleanHeaderStyle = styled.header`
       align-items: center;
       height: 100%;
       width: 100%;
+      gap: 15px;
 
       ${LogoLink} {
         z-index: 1;

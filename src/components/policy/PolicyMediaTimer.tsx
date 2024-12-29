@@ -2,6 +2,7 @@ import CleanHeader from "../others/CleanHeader";
 import Footer from "../mainComponent/Footer";
 import { HorizontalPadding, MaxWidthCapsule, VerticalPadding } from "../../styles/GlobalStyle";
 import { PolicyStyleMediaTimer } from "../../styles/policy/PolicyStyleMediaTimer";
+import translateI18n from "../../utils/translateI18n";
 
 export default function PolicyMediaTimer() {
 
@@ -19,31 +20,31 @@ export default function PolicyMediaTimer() {
                                     <img src="/images/mediaTimerIcon.svg" alt="Logo Media Timer" />
 
                                     <div>
-                                        <h1>Política de Privacidade</h1>
+                                        <h3>{translateI18n("policyMediaTimer.title")}</h3>
 
-                                        <a href="/#projetos/MediaTimer">Media Timer</a>
+                                        <a href="/#projects/MediaTimer">Media Timer</a>
                                     </div>
                                 </div>
 
                                 <div className="policyWelcome">
-                                    <p>Bem vindo ao Media Timer, aplicativo para android!</p>
+                                    <p>{translateI18n("policyMediaTimer.welcome.title")}</p>
 
-                                    <p>Esse é um aplicativo temporizador desenvolvido por Henrique de Albuquerque Mascarin e visa resolver um problema pessoal.</p>
+                                    <p>{translateI18n("policyMediaTimer.welcome.subtitle")}</p>
                                 </div>
 
                                 <div className="policyData">
-                                    <h2>Dados coletados pelo aplicativo</h2>
+                                    <h4>{translateI18n("policyMediaTimer.dataCollected.title")}</h4>
 
-                                    <p>Nenhum dado é coletado. Tudo fornecido como dados de arquivos, histórico de áudios e configurações de tema são todos mantidos no aplicativo.</p>
+                                    <p>{translateI18n("policyMediaTimer.dataCollected.declaration")}</p>
 
-                                    <p>A lista de permissões listadas a baixo são encontradas aqui no <a href="https://github.com/HenriqueAMascarin/MediaTimer/blob/main/android/app/src/main/AndroidManifest.xml#L2-L7" target="_blank">AndroidManifest.xml</a>.</p>
+                                    <p>{translateI18n("policyMediaTimer.dataCollected.permissionsParagraph")} <a href="https://github.com/HenriqueAMascarin/MediaTimer/blob/main/android/app/src/main/AndroidManifest.xml#L2-L7" target="_blank">AndroidManifest.xml</a>.</p>
                                 </div>
 
                                 <div className="policyTable">
                                     <div className="policyTableHeader">
-                                        <div><p>Permissão</p></div>
+                                        <div><p>{translateI18n("policyMediaTimer.permissionsList.permission")}</p></div>
 
-                                        <div><p>Porque é necessária</p></div>
+                                        <div><p>{translateI18n("policyMediaTimer.permissionsList.necessary")}</p></div>
                                     </div>
 
                                     <div className="policyTableBody">
@@ -53,7 +54,7 @@ export default function PolicyMediaTimer() {
                                                 <p>com.google.android.gms.permission.AD_ID</p>
                                             </div>
 
-                                            <div><p>Utilizados para mostrar o anúncio de baixo na tela principal.</p></div>
+                                            <div><p>{translateI18n("policyMediaTimer.permissionsList.reasons.adReason")}</p></div>
                                         </div>
 
                                         <div>
@@ -63,7 +64,7 @@ export default function PolicyMediaTimer() {
                                                 <p>android.permission.READ_MEDIA_AUDIO</p>
                                             </div>
 
-                                            <div><p>Utilizados para ler áudios que a pessoa seleciona do seu dispositivo ou que estão salvos no histórico.</p></div>
+                                            <div><p>{translateI18n("policyMediaTimer.permissionsList.reasons.storageReason")}</p></div>
 
                                         </div>
 
@@ -71,28 +72,28 @@ export default function PolicyMediaTimer() {
                                         <div>
                                             <div><p>android.permission.SYSTEM_ALERT_WINDOW</p></div>
 
-                                            <div><p>Utilizado para mostrar as notificações do aplicativo, quando está executando o temporizador.</p></div>
+                                            <div><p>{translateI18n("policyMediaTimer.permissionsList.reasons.notificationsReason")}</p></div>
                                         </div>
 
                                         <div>
                                             <div><p>android.permission.DOWNLOAD_WITHOUT_NOTIFICATION</p></div>
 
-                                            <div><p>Utilizado para encontrar o local do arquivo selecionado na aba de histórico.</p></div>
+                                            <div><p>{translateI18n("policyMediaTimer.permissionsList.reasons.historyArchiveReason")}</p></div>
                                         </div>
 
                                         <div>
                                             <div><p>android.permission.MODIFY_AUDIO_SETTINGS</p></div>
 
-                                            <div><p>Utilizado com a tecnologia EXPO AV, para configurar os áudios usados no aplicativo.</p></div>
+                                            <div><p>{translateI18n("policyMediaTimer.permissionsList.reasons.configureAudioReason")}</p></div>
                                         </div>
                                     </div>
 
 
                                 </div>
-                                <p className="policyContact">Caso tenha visto alguma permissão que não esteja listada aqui ou sobre qualquer dúvida de segurança, se sinta livre em mandar uma mensagem ao e-mail: <a href="mailto:henriqueamascarin@gmail.com">henriqueamascarin@gmail.com</a></p>
+                                <p className="policyContact">{translateI18n("policyMediaTimer.permissionsList.contact")} <a href="mailto:henriqueamascarin@gmail.com">henriqueamascarin@gmail.com</a></p>
                             </div>
 
-                            <a href="/" className="goBack">Voltar</a>
+                            <a href="/" className="goBack">{translateI18n("general.goBack")}</a>
                         </PolicyStyleMediaTimer>
                     </MaxWidthCapsule>
                 </HorizontalPadding>

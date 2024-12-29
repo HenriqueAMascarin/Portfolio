@@ -1,3 +1,4 @@
+import LanguageChanger from "../../i18n/components/changer/LanguageChanger";
 import { HorizontalPadding, MaxWidthCapsule } from "../../styles/GlobalStyle";
 import { FixedHeaderDiv, LogoLink, BackgroundHeader } from "../../styles/mainStyles/Header.styles";
 import { CleanHeaderStyle } from "../../styles/others/CleanHeaderStyle";
@@ -24,6 +25,8 @@ export default function CleanHeader() {
                   </defs>
                 </svg>
               </LogoLink>
+
+              <LanguageChanger />
             </div>
           </MaxWidthCapsule>
         </HorizontalPadding>

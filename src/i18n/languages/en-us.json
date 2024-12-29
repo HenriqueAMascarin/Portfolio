@@ -228,8 +228,8 @@
       },
       "permissionsList": {
         "permission": "Permission",
+        "necessary": "Why is it necessary",
         "reasons": {
-          "whatReason": "Why is it necessary",
           "adReason": "Used to display the bottom ad on the main screen.",
           "storageReason": "Used to read audios that the person selects from their device or that are saved in the history.",
           "notificationsReason": "Used to show application notifications when the timer is running.",

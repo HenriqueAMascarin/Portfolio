@@ -28,6 +28,10 @@ export const PolicyStyleMediaTimer = styled.section`
       transition: all .3s ease-in-out;
     }
 
+    h4{
+      text-decoration: none !important;
+    }
+
     a:hover{
       color: #f16682 !important;
     }

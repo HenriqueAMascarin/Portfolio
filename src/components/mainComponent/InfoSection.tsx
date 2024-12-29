@@ -18,10 +18,10 @@ export default function InfoSection() {
 
                 <div className="textInfo">
                   <p>
-                  {translateI18n("mainPage.aboutSection.mobileParagraph")}
+                    {translateI18n("mainPage.aboutSection.mobileParagraph")}
                   </p>
                   <p>
-                  {translateI18n("mainPage.aboutSection.frontEndParagraph")}
+                    {translateI18n("mainPage.aboutSection.frontEndParagraph")}
                   </p>
                   <p>
                     {translateI18n("mainPage.aboutSection.aboutMeParagraph")}
