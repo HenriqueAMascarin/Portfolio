@@ -50,7 +50,7 @@ export default function Main() {
 
     sections.current?.forEach((section) => {
       if (section instanceof HTMLElement) {
-        scrollPosSections.current.push({ scrollPosYTop: section.offsetTop - 300, scrollPosYBottom: section.offsetTop + section.offsetHeight, id: `#${section.id}` })
+        scrollPosSections.current.push({ scrollPosYTop: section.offsetTop - 400, scrollPosYBottom: section.offsetTop + section.offsetHeight, id: `#${section.id}` })
       }
     });
 

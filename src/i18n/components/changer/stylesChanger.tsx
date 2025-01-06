@@ -30,4 +30,12 @@ export const ButtonChangerStyled = styled.button`
     min-width: 100%;
     object-fit: cover;
   }
+
+  svg {
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    height: 24px;
+    filter: drop-shadow(0 0 2px black) drop-shadow(0 0 2px black) drop-shadow(0 0 1px black);
+  }
 `;

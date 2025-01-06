@@ -3,7 +3,10 @@
     "general": {
       "goBack": "Go back",
       "altPhoto": "Henrique's photo",
-      "themeChangerBtnAria": "Button to change the portfolio language.",
+      "themeChanger": {
+        "btnAria": "Button to change the portfolio language.",
+        "fingerPointerTitle": "Clickable finger that changes the language."
+      },
       "arrowToBeginning": "Arrow to return to the beginning",
       "challenges": "Challenges",
       "flags": {
@@ -205,7 +208,7 @@
       },
       "contactSection": {
         "title": "Contact",
-        "thanksMessage":  "Thank you for visiting my portfolio!",
+        "thanksMessage": "Thank you for visiting my portfolio!",
         "connectMessage": "Be free to connect and send a message via"
       }
     },

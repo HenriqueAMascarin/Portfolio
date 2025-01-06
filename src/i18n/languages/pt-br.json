@@ -3,7 +3,10 @@
     "general": {
       "goBack": "Voltar",
       "altPhoto": "Foto do Henrique",
-      "themeChangerBtnAria": "Botão para trocar o idioma do portfólio.",
+      "themeChanger": {
+        "btnAria": "Botão para trocar o idioma do portfólio.",
+        "fingerPointerTitle": "Dedo clicável que troca o idioma."
+      },
       "arrowToBeginning": "Seta para retornar ao início",
       "challenges": "Desafios",
       "flags": {
