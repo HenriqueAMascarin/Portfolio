@@ -51,7 +51,7 @@
         "projects": {
           "StarTShirts": {
             "title": "Star T-Shirts",
-            "about": "Fictitious e-commerce application, only for t-shirts.",
+            "about": "Fictitious e-commerce application, made only for t-shirts.",
             "challengesList": [
               "Unique design in Figma.",
               "First project without Expo, only React Native CLI.",
