@@ -92,7 +92,7 @@
             "about": "Site de pesquisa de livros, que foi para o teste do processo seletivo que acabei sendo contratado na SGBr® Sistemas.",
             "challengesList": [
               "Desenvolvi o projeto em 1 semana e alguns dias.",
-              "Tive que aprender as tecnologias: Vue, Pinia e Tailwind nesse mesmo tempo.",
+              "Aprender as tecnologias: Vue, Pinia e Tailwind nesse mesmo tempo.",
               "Utilizado Pinia para o estado global.",
               "Tratamento de dados e validações quando for pesquisar o livro no caso de erro ou sucesso.",
               "Utilizei a API do Google para a pesquisa dos livros.",
@@ -199,7 +199,7 @@
             "challengesList": {
               "buildBrand": "Construir minha marca na Google Play e cuidar do marketing sobre os aplicativos no LinkedIn da empresa.",
               "mediaTimer": "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play.",
-              "adMob": "Tive que aprender sobre AdMob, para colocar anúncios nos aplicativos.",
+              "adMob": "Aprender sobre AdMob, para colocar anúncios nos aplicativos.",
               "licenses": "Licenças de projetos, para não haver cópias.",
               "issuesProjects": "Cuidar da política de privacidade e outras questões da Google em relação aos projetos."
             }
