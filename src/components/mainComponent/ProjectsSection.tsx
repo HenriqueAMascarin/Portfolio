@@ -13,7 +13,7 @@ import translateI18n from "../../utils/translateI18n";
 import enUsLanguageJson from "../../i18n/languages/en-us.json";
 import { JSX } from "react";
 
-export const projectsIds = { starTShirts: "projects/StarTShirts", mediaTimer: "projects/MediaTimer", ebooks: "projects/Ebooks", portfolio: "projects/Portfolio", godOfWar: "projects/GodOfWar" }
+export const projectsIds = { starTShirts: "projects/startshirts", mediaTimer: "projects/mediatimer", ebooks: "projects/ebooks", portfolio: "projects/portfolio", godOfWar: "projects/godofwar" }
 
 type ProjectsCardsType = {
   underDevelopment: boolean,

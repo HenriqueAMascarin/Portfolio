@@ -33,7 +33,7 @@
       },
       "aboutSection": {
         "title": "About",
-        "mobileParagraph": "Developer for over 2 years. As a mobile developer, I dedicated myself to developing my own company on Google Play from scratch, until the publication of the Media Timer app. Now, I am looking to build other projects to gain more experience, such as the new application under development Star T-Shirts. With the objective to get a new opportunity in the application market using React Native.",
+        "mobileParagraph": "Developer for over 2 years. As a mobile developer, I dedicated myself to developing my own company on Google Play from scratch, until the publication of the Media Timer app. Now, I am looking to build other projects to gain more experience, such as the new application under development Star T-Shirts. With the objective to get a new opportunity in the apps market using React Native.",
         "frontEndParagraph": "As a front-end developer, I currently work on a project with hundreds of clients, the SG Master Web system, where me and my front-end team developed the project from scratch, facing several challenges. I also have personal projects, where I always seek to challenge myself to learn something new.",
         "aboutMeParagraph": "Lastly, I am a determined person, that have the objective to constantly improve. I don't like fights, trying always to be peaceful. I also, try to learn from others and help as much as possible.",
         "curriculum": "Curriculum"
@@ -195,7 +195,7 @@
           "HenriqueMascarin": {
             "position": "Founder and Mobile Developer",
             "timeCompany": "August/2024 - December/2024",
-            "about": "My company at Google Play, where I am responsible for the application development process and issues regarding my brand.",
+            "about": "My company at Google Play, where I am responsible for the apps development process and issues regarding my brand.",
             "challengesList": {
               "buildBrand": "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn.",
               "mediaTimer": "Develop from scratch, publish and maintain in production the Media Timer app on Google Play.",
