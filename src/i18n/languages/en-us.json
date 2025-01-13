@@ -146,7 +146,7 @@
         "moreDetails": "More details",
         "achievements": {
           "RSTIFrontEnd": {
-            "title": "RSTI Frontend Trail",
+            "title": "RSTI Front-end Trail",
             "about": "Senac's in-person course that helped to improve design concepts, HTML semantics and CSS styling.",
             "imageAlt": "Image of the Senac RSTI front-end trail certificate."
           },
@@ -167,7 +167,7 @@
           },
           "UdemyProgrammingLogic": {
             "title": "Udemy Algorithms and Programming Logic Course",
-            "about": "In this course, has presented exercises and explanations about the programming logic. In the end, that was fundamental for my development",
+            "about": "In this course, has presented exercises with different programming languages and explanations about the subject.",
             "imageAlt": "Image of the Udemy Algorithms and Programming Logic course certificate"
           }
         }
