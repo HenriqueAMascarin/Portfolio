@@ -2,7 +2,7 @@ import photo from "/images/photo.webp";
 import { HorizontalPadding, MaxWidthCapsule, VerticalPadding } from "../../styles/GlobalStyle";
 import { Info } from "../../styles/mainStyles/Info.styles";
 import HenriqueCurriculum from "/resumes/HenriqueCurriculum.pdf";
-import CurrículoHenrique from "/resumes/CurrículoHenrique.pdf";
+import CurrículoHenrique from "/resumes/CurriculoHenrique.pdf";
 import translateI18n from "../../utils/translateI18n";
 import { useTranslation } from "react-i18next";
 
