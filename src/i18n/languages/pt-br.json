@@ -63,29 +63,42 @@
               "Alertas situacionais desenvolvidos do zero, gerados por meio de estado global."
             ]
           },
+          "BobsCarDealer": {
+            "title": "BOB’S CAR DEALER",
+            "about": "Site para pesquisa sobre modelos de carros, desenvolvido para o teste técnico de uma vaga.",
+            "challengesList": [
+              "Tive que aprender sobre Next.js em 1 dia.",
+              "A base do projeto foi feita em 1 dia e, nos outros 3 dias, fiz algumas melhorias.",
+              "Aprender sobre rotas dinâmicas do Next.js, só que infelizmente não implementei adequadamente o generateStaticParams.",
+              "Utilizar o arquivo de loading do Next.js, e o React Suspense (que infelizmente não implementei corretamente).",
+              "Aprender sobre .env.local.",
+              "Configurar Prettier e ESLint.",
+              "Design único no Figma."
+            ]
+          },
           "MediaTimer": {
             "title": "Media Timer",
             "about": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
-            "challengesList": {
-              "development": "Projeto com mais de 1 ano de desenvolvimento.",
-              "publishing": "Publicação na Google Play em produção.",
-              "licenseAndTerms": "Licença para o projeto e termos de privacidade.",
-              "sounds": "Poder escolher sons do celular ou do aplicativo e histórico de sons do celular.",
-              "marketing": "Marketing sobre o projeto no LinkedIn da empresa.",
-              "languages": "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next.",
-              "themes": "Tema escuro e branco, criei um Context do React para gerenciar esse estado.",
-              "notAllowedThemeChanges": "Pelo código nativo, não permiti celulares (exemplo Xiaomi) trocarem as cores dos temas por outras.",
-              "globalState": "Estados globais pelo Redux.",
-              "background": "Funciona em segundo plano.",
-              "permissions": "Permissões do dispositivo.",
-              "accessibility": "Testei a acessibilidade e fiz com que não seja possível mudar o tamanho dos textos pelo celular do usuário.",
-              "timerLogic": "A lógica do temporizador foi complexa de desenvolver, já que criei sem biblioteca.",
-              "notification": "Notificação mostrando a situação do aplicativo e ícone personalizado para tal (importado pelo Android Studio).",
-              "expoVersion": "Atualizei a versão do SDK do Expo para mais nova.",
-              "designFigma": "Design único no Figma.",
-              "adMob": "Publicidade do AdMob.",
-              "localStorage": "O tema escolhido, se pode alertar no final do cronômetro e o histórico de sons, são salvos no cache do aplicativo (local storage)."
-            }
+            "challengesList": [
+              "Projeto com mais de 1 ano de desenvolvimento.",
+              "Publicação na Google Play em produção.",
+              "Licença para o projeto e termos de privacidade.",
+              "Poder escolher sons do celular ou do aplicativo e histórico de sons do celular.",
+              "Marketing sobre o projeto no LinkedIn da empresa.",
+              "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next.",
+              "Tema escuro e branco, criei um Context do React para gerenciar esse estado.",
+              "Pelo código nativo, não permiti celulares (exemplo Xiaomi) trocarem as cores dos temas por outras.",
+              "Estados globais pelo Redux.",
+              "Funciona em segundo plano.",
+              "Permissões do dispositivo.",
+              "Testei a acessibilidade e fiz com que não seja possível mudar o tamanho dos textos pelo celular do usuário.",
+              "A lógica do temporizador foi complexa de desenvolver, já que criei sem biblioteca.",
+              "Notificação mostrando a situação do aplicativo e ícone personalizado para tal (importado pelo Android Studio).",
+              "Atualizei a versão do SDK do Expo para mais nova.",
+              "Design único no Figma.",
+              "Publicidade do AdMob.",
+              "O tema escolhido, se pode alertar no final do cronômetro e o histórico de sons, são salvos no cache do aplicativo (local storage)."
+            ]
           },
           "Ebooks": {
             "title": "E-books",

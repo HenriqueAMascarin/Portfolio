@@ -63,29 +63,42 @@
               "Situational alerts developed from scratch, generated through global state."
             ]
           },
+          "BobsCarDealer": {
+            "title": "BOB’S CAR DEALER",
+            "about": "Website for researching car models, developed for a technical test of a vacancy.",
+            "challengesList": [
+              "I had to learn about Next.js in 1 day.",
+              "The base of the project was done in 1 day and, in the other 3 days, I made some improvements.",
+              "I had to learn about dynamic routes of Next.js, but unfortunately, I don't have implemented adequately the generateStaticParams.",
+              "Use the Next.js loading file, and React Suspense (which unfortunately I didn't implement properly).",
+              "Learn about .env.local.",
+              "Configure Prettier and ESLint.",
+              "Unique design in Figma."
+            ]
+          },
           "MediaTimer": {
             "title": "Media Timer",
             "about": "Timer application, with the objective to solve a personal problem.",
-            "challengesList": {
-              "development": "Project with more than 1 year of development.",
-              "publishing": "Publishing to Google Play in production.",
-              "licenseAndTerms": "Project License and Privacy Terms.",
-              "sounds": "Ability to choose sounds from your phone or app and history of sounds from your phone.",
-              "marketing": "Marketing about the project in the company's LinkedIn.",
-              "languages": "App in English/US and Portuguese/BR (depends on your device language) with i18next.",
-              "themes": "Dark and white theme, I created a React Context to manage this state.",
-              "notAllowedThemeChanges": "By native code, I have not allowed cell phones (for example Xiaomi) to change the theme colors for others.",
-              "globalState": "Global States by Redux.",
-              "background": "Works in the background.",
-              "permissions": "Device permissions.",
-              "accessibility": "I tested accessibility and made to not being possible to change the size of texts by the user's cell phone.",
-              "timerLogic": "The timer logic was complex to develop, since I created it without a library.",
-              "notification": "Notification showing the status of the application and a custom icon for it (imported by Android Studio).",
-              "expoVersion": "I have updated the Expo SDK version to a newer one.",
-              "designFigma": "Unique design in Figma.",
-              "adMob": "AdMob Advertising.",
-              "localStorage": "The chosen theme, if the app she can alert at the end of the timer and the history of sounds, are saved in the application cache (local storage)."
-            }
+            "challengesList": [
+              "Project with more than 1 year of development.",
+              "Publishing to Google Play in production.",
+              "Project License and Privacy Terms.",
+              "Ability to choose sounds from your phone or app and history of sounds from your phone.",
+              "Marketing about the project in the company's LinkedIn.",
+              "App in English/US and Portuguese/BR (depends on your device language) with i18next.",
+              "Dark and white theme, I created a React Context to manage this state.",
+              "By native code, I have not allowed cell phones (for example Xiaomi) to change the theme colors for others.",
+              "Global States by Redux.",
+              "Works in the background.",
+              "Device permissions.",
+              "I tested accessibility and made to not being possible to change the size of texts by the user's cell phone.",
+              "The timer logic was complex to develop, since I created it without a library.",
+              "Notification showing the status of the application and a custom icon for it (imported by Android Studio).",
+              "I have updated the Expo SDK version to a newer one.",
+              "Unique design in Figma.",
+              "AdMob Advertising.",
+              "The chosen theme, if the app she can alert at the end of the timer and the history of sounds, are saved in the application cache (local storage)."
+            ]
           },
           "Ebooks": {
             "title": "E-books",

@@ -11,6 +11,7 @@ import figmaLogo from "/images/techIcons/figmaLogo.svg";
 import expoLogo from "/images/techIcons/expoLogo.svg";
 import quasarLogo from "/images/techIcons/quasarLogo.svg";
 import htmlLogo from "/images/techIcons/htmlLogo.svg";
+import nextLogo from "/images/techIcons/nextLogo.svg";
 
 function createSvg(svg: string, title: string) {
     return (
@@ -33,4 +34,5 @@ export const StyledComponentsSvg = () => createSvg(styledComponentsLogo, 'Styled
 export const FigmaSvg = () => createSvg(figmaLogo, 'Figma');
 export const ExpoSvg = () => createSvg(expoLogo, 'Expo');
 export const QuasarSvg = () => createSvg(quasarLogo, 'Quasar');
-export const htmlSvg = () => createSvg(htmlLogo, 'HTML');
+export const HtmlSvg = () => createSvg(htmlLogo, 'HTML');
+export const NextSvg = () => createSvg(nextLogo, 'Next.js');

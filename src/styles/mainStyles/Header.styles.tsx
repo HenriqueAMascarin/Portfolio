@@ -92,7 +92,7 @@ export const HeaderStyle = styled.header`
                 width: 100%;
                 padding: 10px 0;
                 transition: all 0.2s ease-in-out;
-                font-size: 1.31rem;
+                font-size: 1.20rem;
 
                 &:hover, &.active {
                   color: ${Variables.red};
@@ -121,7 +121,7 @@ export const HeaderStyle = styled.header`
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            margin-right: 60px;
+            margin-right: 40px;
             gap: 15px;
           }
 
@@ -211,7 +211,7 @@ export const HeaderStyle = styled.header`
                 }
 
                 a {
-                  padding: 0 20px;
+                  padding: 0 18px;
                 }
               }
             }

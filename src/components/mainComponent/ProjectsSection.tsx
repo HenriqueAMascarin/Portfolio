@@ -6,14 +6,14 @@ import Ebooks from "/images/projects/Ebooks.webp";
 import MediaTimer from "/images/projects/MediaTimer.webp";
 import StarTShirts from "/images/projects/StarTShirts.webp";
 import Portfolio from "/images/projects/Portfolio.webp";
+import Bobs from "/images/projects/Bobs.webp";
 
-
-import { ExpoSvg, FigmaSvg, ReduxSvg, ReactNativeSvg, TypeScriptSvg, VueSvg, PiniaSvg, TailwindSvg, htmlSvg, ReactSvg, SassSvg, StyledComponentsSvg } from "./techs/techsSvgs";
+import { ExpoSvg, FigmaSvg, ReduxSvg, ReactNativeSvg, TypeScriptSvg, VueSvg, PiniaSvg, TailwindSvg, HtmlSvg, NextSvg, ReactSvg, SassSvg, StyledComponentsSvg } from "./techs/techsSvgs";
 import translateI18n from "../../utils/translateI18n";
 import enUsLanguageJson from "../../i18n/languages/en-us.json";
 import { JSX } from "react";
 
-export const projectsIds = { starTShirts: "projects/startshirts", mediaTimer: "projects/mediatimer", ebooks: "projects/ebooks", portfolio: "projects/portfolio", godOfWar: "projects/godofwar" }
+export const projectsIds = { bobsCarDealer: "projects/bobs-car-dealer", starTShirts: "projects/star-t-shirts", mediaTimer: "projects/media-timer", ebooks: "projects/ebooks", portfolio: "projects/portfolio", godOfWar: "projects/god-of-war" };
 
 type ProjectsCardsType = {
   underDevelopment: boolean,
@@ -52,6 +52,23 @@ export default function ProjectsSection() {
     },
     {
       underDevelopment: false,
+      id: projectsIds.bobsCarDealer,
+      img: Bobs,
+      keyNameInTranslateJson: "BobsCarDealer",
+      title: translateI18n("mainPage.projectsSection.projects.BobsCarDealer.title"),
+      about: translateI18n("mainPage.projectsSection.projects.BobsCarDealer.about"),
+      technologies: [
+        NextSvg,
+        TypeScriptSvg,
+        TailwindSvg,
+        FigmaSvg
+      ],
+      liveLink: "https://bob-car-dealer.vercel.app/",
+      figma: "https://www.figma.com/design/kXWxgIgNvyTrPiVUZj0g15/Car-dealer-app?node-id=0-1&t=0mhG1m6I7AekNfjJ-1",
+      github: "https://github.com/HenriqueAMascarin/Bob-car-dealer",
+    },
+    {
+      underDevelopment: false,
       id: projectsIds.mediaTimer,
       img: MediaTimer,
       keyNameInTranslateJson: "MediaTimer",
@@ -80,7 +97,7 @@ export default function ProjectsSection() {
         VueSvg,
         PiniaSvg,
         TailwindSvg,
-        htmlSvg,
+        HtmlSvg,
         FigmaSvg
       ],
       liveLink: "https://e-books-web.vercel.app",
@@ -98,7 +115,7 @@ export default function ProjectsSection() {
         ReactSvg,
         TypeScriptSvg,
         StyledComponentsSvg,
-        htmlSvg,
+        HtmlSvg,
         FigmaSvg
       ],
       liveLink: "https://henriqueamascarin.vercel.app/",
@@ -116,7 +133,7 @@ export default function ProjectsSection() {
         ReactSvg,
         TypeScriptSvg,
         SassSvg,
-        htmlSvg,
+        HtmlSvg,
         FigmaSvg
       ],
       liveLink: "https://godofwar-shop.vercel.app",

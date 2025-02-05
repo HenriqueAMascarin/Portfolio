@@ -129,6 +129,7 @@ export const Projects = styled.section`
 
             div{
               width: 30px;
+              padding: 1px;
 
               img{
                 max-height: 30px;
