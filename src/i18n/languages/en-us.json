@@ -69,7 +69,7 @@
             "challengesList": [
               "I had to learn about Next.js in 1 day.",
               "The base of the project was done in 1 day and, in the other 3 days, I made some improvements.",
-              "I had to learn about dynamic routes of Next.js, but unfortunately, I don't have implemented adequately the generateStaticParams.",
+              "I had to learn about dynamic routes of Next.js, but unfortunately, I don't have implemented adequately the static params.",
               "Use the Next.js loading file, and React Suspense (which unfortunately I didn't implement properly).",
               "Learn about .env.local.",
               "Configure Prettier and ESLint.",
