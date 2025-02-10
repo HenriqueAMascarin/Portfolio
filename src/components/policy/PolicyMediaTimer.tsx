@@ -22,7 +22,7 @@ export default function PolicyMediaTimer() {
                                     <div>
                                         <h3>{translateI18n("policyMediaTimer.title")}</h3>
 
-                                        <a href="/#projects/MediaTimer">Media Timer</a>
+                                        <a href="/#projects/media-timer">Media Timer</a>
                                     </div>
                                 </div>
 
