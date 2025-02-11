@@ -4,6 +4,9 @@ import Thanks from "./components/thanksComponents/Thanks";
 import { Routes, Route, useLocation } from "react-router-dom"
 import { projectsIds } from "./components/mainComponent/ProjectsSection";
 import PolicyMediaTimer from "./components/policy/PolicyMediaTimer";
+import { idsMainPageNavigation } from "./components/mainComponent/Header";
+
+const navigationIds = {...idsMainPageNavigation, ...projectsIds}
 
 function App() {
 
@@ -14,7 +17,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       const element = document.getElementById(locationId);
-      for(let [_, value] of Object.entries(projectsIds)){
+      for(let [_, value] of Object.entries(navigationIds)){
         if (location.hash.includes(value) && element) {
           element.scrollIntoView({ behavior: "smooth" });
         }

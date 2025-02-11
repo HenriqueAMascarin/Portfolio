@@ -4,6 +4,15 @@ import { SyntheticEvent } from "react";
 import translateI18n from "../../utils/translateI18n";
 import LanguageChanger from "../../i18n/components/changer/LanguageChanger";
 
+export const idsMainPageNavigation = {
+  about: "#about",
+  technologies: "#technologies",
+  projects: "#projects",
+  achievements: "#achievements",
+  experiences: "#experiences",
+  contact: "#contact"
+}
+
 export default function Header() {
   function hamburguerFunction() {
     const menu = document.querySelector(".hamburguerMenu");
@@ -56,22 +65,22 @@ export default function Header() {
               <nav className="navHeader" id="navHeaderId" onClick={(element) => onSection(element)}>
                 <ul>
                   <li>
-                    <a href="#about" className="linksScroll">{translateI18n("general.header.about")}</a>
+                    <a href={idsMainPageNavigation.about} className="linksScroll">{translateI18n("general.header.about")}</a>
                   </li>
                   <li>
-                    <a href="#technologies" className="linksScroll">{translateI18n("general.header.technologies")}</a>
+                    <a href={idsMainPageNavigation.technologies} className="linksScroll">{translateI18n("general.header.technologies")}</a>
                   </li>
                   <li>
-                    <a href="#projects" className="linksScroll">{translateI18n("general.header.projects")}</a>
+                    <a href={idsMainPageNavigation.projects} className="linksScroll">{translateI18n("general.header.projects")}</a>
                   </li>
                   <li>
-                    <a href="#achievements" className="linksScroll">{translateI18n("general.header.achievements")}</a>
+                    <a href={idsMainPageNavigation.achievements} className="linksScroll">{translateI18n("general.header.achievements")}</a>
                   </li>
                   <li>
-                    <a href="#experiences" className="linksScroll">{translateI18n("general.header.experiences")}</a>
+                    <a href={idsMainPageNavigation.experiences} className="linksScroll">{translateI18n("general.header.experiences")}</a>
                   </li>
                   <li>
-                    <a href="#contact" className="linksScroll">{translateI18n("general.header.contact")}</a>
+                    <a href={idsMainPageNavigation.contact} className="linksScroll">{translateI18n("general.header.contact")}</a>
                   </li>
                 </ul>
               </nav>
