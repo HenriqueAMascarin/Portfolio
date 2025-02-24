@@ -8,7 +8,7 @@ import StarTShirts from "/images/projects/StarTShirts.webp";
 import Portfolio from "/images/projects/Portfolio.webp";
 import Bobs from "/images/projects/Bobs.webp";
 
-import { ExpoSvg, FigmaSvg, ReduxSvg, ReactNativeSvg, TypeScriptSvg, VueSvg, PiniaSvg, TailwindSvg, HtmlSvg, NextSvg, ReactSvg, SassSvg, StyledComponentsSvg } from "./techs/techsSvgs";
+import { ExpoSvg, FigmaSvg, ReduxSvg, ReactNativeSvg, TypeScriptSvg, VueSvg, PiniaSvg, TailwindSvg, HtmlSvg, NextSvg, ReactSvg, SassSvg, StyledComponentsSvg, JestSvg, reactNativeTestingLibrarySvg } from "./techs/techsSvgs";
 import translateI18n from "../../utils/translateI18n";
 import enUsLanguageJson from "../../i18n/languages/en-us.json";
 import { JSX } from "react";
@@ -45,7 +45,9 @@ export default function ProjectsSection() {
         ReactNativeSvg,
         TypeScriptSvg,
         ReduxSvg,
-        FigmaSvg
+        FigmaSvg,
+        JestSvg, 
+        reactNativeTestingLibrarySvg
       ],
       figma: "https://www.figma.com/design/mLpUBhQRfv9QpXPP34KxPt/star-t-shirts?node-id=0-1&t=HQmLZFHWEwZiQhgX-1",
       github: "https://github.com/HenriqueAMascarin/StarTShirts",

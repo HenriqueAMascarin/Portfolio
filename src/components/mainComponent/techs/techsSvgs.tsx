@@ -12,27 +12,31 @@ import expoLogo from "/images/techIcons/expoLogo.svg";
 import quasarLogo from "/images/techIcons/quasarLogo.svg";
 import htmlLogo from "/images/techIcons/htmlLogo.svg";
 import nextLogo from "/images/techIcons/nextLogo.svg";
+import jestLogo from "/images/techIcons/jestLogo.svg";
+import reactNativeTestingLibraryLogo from "/images/techIcons/reactNativeTestingLibraryLogo.webp";
 
-function createSvg(svg: string, title: string) {
+function createIcon(url: string, title: string) {
     return (
         <div className="svgComponents">
-            <img src={svg} width="120px" height="120px" alt={`${title} logo`} title={title} />
+            <img src={url} width="120px" height="120px" alt={`${title} logo`} title={title} />
             <p>{title}</p>
         </div>
     )
 }
 
-export const TailwindSvg = () => createSvg(tailwindCSSLogo, 'Tailwind CSS');
-export const PiniaSvg = () => createSvg(piniaLogo, 'Pinia');
-export const VueSvg = () => createSvg(vueLogo, 'Vue');
-export const ReduxSvg = () => createSvg(reduxLogo, 'Redux');
-export const ReactNativeSvg = () => createSvg(reactNativeLogo, 'React Native');
-export const ReactSvg = () => createSvg(reactLogo, 'React');
-export const TypeScriptSvg = () => createSvg(typeScriptLogo, 'TypeScript');
-export const SassSvg = () => createSvg(sassLogo, 'Sass');
-export const StyledComponentsSvg = () => createSvg(styledComponentsLogo, 'Styled Components');
-export const FigmaSvg = () => createSvg(figmaLogo, 'Figma');
-export const ExpoSvg = () => createSvg(expoLogo, 'Expo');
-export const QuasarSvg = () => createSvg(quasarLogo, 'Quasar');
-export const HtmlSvg = () => createSvg(htmlLogo, 'HTML');
-export const NextSvg = () => createSvg(nextLogo, 'Next.js');
+export const TailwindSvg = () => createIcon(tailwindCSSLogo, 'Tailwind CSS');
+export const PiniaSvg = () => createIcon(piniaLogo, 'Pinia');
+export const VueSvg = () => createIcon(vueLogo, 'Vue');
+export const ReduxSvg = () => createIcon(reduxLogo, 'Redux');
+export const ReactNativeSvg = () => createIcon(reactNativeLogo, 'React Native');
+export const ReactSvg = () => createIcon(reactLogo, 'React');
+export const TypeScriptSvg = () => createIcon(typeScriptLogo, 'TypeScript');
+export const SassSvg = () => createIcon(sassLogo, 'Sass');
+export const StyledComponentsSvg = () => createIcon(styledComponentsLogo, 'Styled Components');
+export const FigmaSvg = () => createIcon(figmaLogo, 'Figma');
+export const ExpoSvg = () => createIcon(expoLogo, 'Expo');
+export const QuasarSvg = () => createIcon(quasarLogo, 'Quasar');
+export const HtmlSvg = () => createIcon(htmlLogo, 'HTML');
+export const NextSvg = () => createIcon(nextLogo, 'Next.js');
+export const JestSvg = () => createIcon(jestLogo, 'Jest');
+export const reactNativeTestingLibrarySvg = () => createIcon(reactNativeTestingLibraryLogo, 'React Native Testing Library');
