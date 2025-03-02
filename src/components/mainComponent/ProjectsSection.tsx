@@ -46,28 +46,11 @@ export default function ProjectsSection() {
         TypeScriptSvg,
         ReduxSvg,
         FigmaSvg,
-        JestSvg, 
+        JestSvg,
         reactNativeTestingLibrarySvg
       ],
       figma: "https://www.figma.com/design/mLpUBhQRfv9QpXPP34KxPt/star-t-shirts?node-id=0-1&t=HQmLZFHWEwZiQhgX-1",
       github: "https://github.com/HenriqueAMascarin/StarTShirts",
-    },
-    {
-      underDevelopment: false,
-      id: projectsIds.bobsCarDealer,
-      img: Bobs,
-      keyNameInTranslateJson: "BobsCarDealer",
-      title: translateI18n("mainPage.projectsSection.projects.BobsCarDealer.title"),
-      about: translateI18n("mainPage.projectsSection.projects.BobsCarDealer.about"),
-      technologies: [
-        NextSvg,
-        TypeScriptSvg,
-        TailwindSvg,
-        FigmaSvg
-      ],
-      liveLink: "https://bob-car-dealer.vercel.app/",
-      figma: "https://www.figma.com/design/kXWxgIgNvyTrPiVUZj0g15/Car-dealer-app?node-id=0-1&t=0mhG1m6I7AekNfjJ-1",
-      github: "https://github.com/HenriqueAMascarin/Bob-car-dealer",
     },
     {
       underDevelopment: false,
@@ -87,6 +70,23 @@ export default function ProjectsSection() {
       figma: "https://www.figma.com/design/XTRDCbSVe8lHtwkXK1Z5T7/Media-Timer?t=2WIleknFjgiShuOE-1",
       github: "https://github.com/HenriqueAMascarin/MediaTimer",
       policy: '/privacy-policy/media-timer'
+    },
+    {
+      underDevelopment: false,
+      id: projectsIds.bobsCarDealer,
+      img: Bobs,
+      keyNameInTranslateJson: "BobsCarDealer",
+      title: translateI18n("mainPage.projectsSection.projects.BobsCarDealer.title"),
+      about: translateI18n("mainPage.projectsSection.projects.BobsCarDealer.about"),
+      technologies: [
+        NextSvg,
+        TypeScriptSvg,
+        TailwindSvg,
+        FigmaSvg
+      ],
+      liveLink: "https://bob-car-dealer.vercel.app/",
+      figma: "https://www.figma.com/design/kXWxgIgNvyTrPiVUZj0g15/Car-dealer-app?node-id=0-1&t=0mhG1m6I7AekNfjJ-1",
+      github: "https://github.com/HenriqueAMascarin/Bob-car-dealer",
     },
     {
       underDevelopment: false,
