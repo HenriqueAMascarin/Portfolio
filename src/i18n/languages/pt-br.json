@@ -82,7 +82,7 @@
             "challengesList": [
               "Publicação na Google Play em produção.",
               "Licença para o projeto e termos de privacidade.",
-              "Poder escolher sons do celular ou do aplicativo e histórico de sons do celular.",
+              "Puder escolher sons do celular ou do aplicativo e histórico de sons do celular.",
               "Marketing sobre o projeto no LinkedIn da empresa.",
               "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next.",
               "Tema escuro e branco, criei um Context do React para gerenciar esse estado.",
