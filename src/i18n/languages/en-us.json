@@ -57,8 +57,7 @@
               "React Navigation for Routes.",
               "The project structure has created as it was a real product.",
               "Form screens with React Hook Form, and has Zod validations.",
-              "Situational alerts developed from scratch, generated through global state.",
-              "Tests with Jest and React Native Testing Library."
+              "Situational alerts developed from scratch, generated through global state."
             ]
           },
           "BobsCarDealer": {

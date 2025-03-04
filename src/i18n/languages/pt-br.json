@@ -57,8 +57,7 @@
               "React Navigation para rotas.",
               "Estrutura do projeto foi pensada como se fosse um produto real.",
               "Telas de formulário com React Hook Form, com suas validações do Zod.",
-              "Alertas situacionais desenvolvidos do zero, gerados por meio de estado global.",
-              "Testes com Jest e React Native Testing Library."
+              "Alertas situacionais desenvolvidos do zero, gerados por meio de estado global."
             ]
           },
           "BobsCarDealer": {
