@@ -35,24 +35,6 @@ export default function ProjectsSection() {
 
   let arrayCards: ProjectsCardsType = [
     {
-      underDevelopment: true,
-      id: projectsIds.starTShirts,
-      img: StarTShirts,
-      keyNameInTranslateJson: "StarTShirts",
-      title: translateI18n("mainPage.projectsSection.projects.StarTShirts.title"),
-      about: translateI18n("mainPage.projectsSection.projects.StarTShirts.about"),
-      technologies: [
-        ReactNativeSvg,
-        TypeScriptSvg,
-        ReduxSvg,
-        FigmaSvg,
-        JestSvg,
-        reactNativeTestingLibrarySvg
-      ],
-      figma: "https://www.figma.com/design/mLpUBhQRfv9QpXPP34KxPt/star-t-shirts?node-id=0-1&t=HQmLZFHWEwZiQhgX-1",
-      github: "https://github.com/HenriqueAMascarin/StarTShirts",
-    },
-    {
       underDevelopment: false,
       id: projectsIds.mediaTimer,
       img: MediaTimer,
@@ -70,6 +52,24 @@ export default function ProjectsSection() {
       figma: "https://www.figma.com/design/XTRDCbSVe8lHtwkXK1Z5T7/Media-Timer?t=2WIleknFjgiShuOE-1",
       github: "https://github.com/HenriqueAMascarin/MediaTimer",
       policy: '/privacy-policy/media-timer'
+    },
+    {
+      underDevelopment: true,
+      id: projectsIds.starTShirts,
+      img: StarTShirts,
+      keyNameInTranslateJson: "StarTShirts",
+      title: translateI18n("mainPage.projectsSection.projects.StarTShirts.title"),
+      about: translateI18n("mainPage.projectsSection.projects.StarTShirts.about"),
+      technologies: [
+        ReactNativeSvg,
+        TypeScriptSvg,
+        ReduxSvg,
+        FigmaSvg,
+        JestSvg,
+        reactNativeTestingLibrarySvg
+      ],
+      figma: "https://www.figma.com/design/mLpUBhQRfv9QpXPP34KxPt/star-t-shirts?node-id=0-1&t=HQmLZFHWEwZiQhgX-1",
+      github: "https://github.com/HenriqueAMascarin/StarTShirts",
     },
     {
       underDevelopment: false,

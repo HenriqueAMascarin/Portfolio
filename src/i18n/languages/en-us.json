@@ -51,16 +51,14 @@
         "projects": {
           "StarTShirts": {
             "title": "Star T-Shirts",
-            "about": "Fictitious e-commerce application, made only for t-shirts.",
+            "about": "Fictitious e-commerce application, exclusively for t-shirts.",
             "challengesList": [
-              "Unique design in Figma.",
-              "First project without Expo, only React Native CLI.",
               "Native module to display the Splash Screen, written with Kotlin.",
               "React Navigation for Routes.",
               "The project structure has created as it was a real product.",
               "Form screens with React Hook Form, and has Zod validations.",
-              "Componentization of most used elements.",
-              "Situational alerts developed from scratch, generated through global state."
+              "Situational alerts developed from scratch, generated through global state.",
+              "Tests with Jest and React Native Testing Library."
             ]
           },
           "BobsCarDealer": {
@@ -72,31 +70,25 @@
               "I had to learn about dynamic routes of Next.js, but unfortunately, I don't have implemented adequately the static params.",
               "Use the Next.js loading file, and React Suspense (which unfortunately I didn't implement properly).",
               "Learn about .env.local.",
-              "Configure Prettier and ESLint.",
-              "Unique design in Figma."
+              "Configure Prettier and ESLint."
             ]
           },
           "MediaTimer": {
             "title": "Media Timer",
             "about": "Timer application, with the objective to solve a personal problem.",
             "challengesList": [
-              "Publishing to Google Play in production.",
-              "Project License and Privacy Terms.",
-              "Ability to choose sounds from your phone or app and history of sounds from your phone.",
-              "Marketing about the project in the company's LinkedIn.",
+              "Publishing to Google Play in production, with project license and privacy terms.",
+              "Cell phone sounds and history, also has default audios in the app.",
               "App in English/US and Portuguese/BR (depends on your device language) with i18next.",
               "Dark and white theme, I created a React Context to manage this state.",
               "By native code, I have not allowed cell phones (for example Xiaomi) to change the theme colors for others.",
-              "Global States by Redux.",
               "Works in the background.",
               "Device permissions.",
-              "I tested accessibility and made to not being possible to change the size of texts by the user's cell phone.",
-              "The timer logic was complex to develop, since I created it without a library.",
-              "Notification showing the status of the application and a custom icon for it (imported by Android Studio).",
+              "I tested accessibility and removed the possibility of changing the size of texts on the user's cell phone.",
+              "Notifications with Notifee, showing the status of the application.",
               "I have updated the Expo SDK version to a newer one.",
-              "Unique design in Figma.",
               "AdMob Advertising.",
-              "The chosen theme, if the app she can alert at the end of the timer and the history of sounds, are saved in the application cache (local storage)."
+              "The chosen theme, if it can alert and the sound history, are saved in the app's cache (local storage)."
             ]
           },
           "Ebooks": {
@@ -109,7 +101,6 @@
               "Data treatment and validations when searching for the book in case of error or success.",
               "I used the Google API to search for books.",
               "Accessibility test.",
-              "Unique design in Figma.",
               "Favorites by local storage.",
               "Each book can be favorite or removed by the button on the card, both in the favorite tab and on the main page.",
               "Card images can be clicked to display them in a larger size.",
@@ -121,7 +112,6 @@
             "title": "Portfolio",
             "about": "My personal page, which is the showcase of my career, was developed and still receives updates to provide security for those who want to hire me.",
             "challengesList": [
-              "Unique design in Figma.",
               "Responsive website, can be used on mobile and computer.",
               "Accessibility test.",
               "Header links are indicated by a color change, depending on the section you are.",
@@ -136,7 +126,6 @@
             "title": "God Of War E-commerce",
             "about": "Fictional e-commerce project themed around the game God of War: Ragnarök.",
             "challengesList": [
-              "Unique design in Figma.",
               "Carousel of items without a library, developed from scratch and responsive.",
               "Responsive website, can be used on mobile and computer.",
               "Cart and products by local storage.",
@@ -194,14 +183,10 @@
             "challengesList": {
               "landingPage": "Creation and maintenance of the Web system Landing Page.",
               "developmentWebSystem": "Development and maintenance of the new SG Master Web system.",
-              "undoChanges": "Correction of pages with the undo changes button (this is a button that appears in the action bar that returns the form values ​​to their initial state, whether editing or registration).",
-              "usersPermissions": "Implementation of the new users permissions. Where I had to develop two form pages, one for profiles and other for users. I also changed all system permissions to the new ones, created and maintained the permissions component, and developed to work with the undo changes button.",
-              "togetherBackend": "Working together with the back-end team, passing on errors and necessary changes of the project.",
-              "newFilters": "Implementation of new back-end V2 filters for selects of the old model and new model on the front-end.",
-              "refactoringPages": "Refactoring pages from the old template to the new template.",
-              "components": "Development of components and reusable utility files.",
-              "customizationQuasar": "Customization of selects, inputs and other Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot.",
-              "taxDocuments": "Implementation of margins and sending of tax documents by email, together with the back-end team. Furthermore, in each module and in the email sending settings, you can change the footer message sent in the email in a WYSIWYG editor."
+              "usersPermissions": "Implementation of the new permissions. As a highlight, I formatted the back-end response, example: ‘REGISTRATION.GROUP:MENU’, in the structure of menus, submenus, and permissions. Then, this data is sent to the permissions component, offering the user the possibility to choose.",
+              "newFilters": "Implementation of the new V2 filter from the back-end for selects from the old and new models on the front-end.",
+              "customizationQuasar": "Customization of Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot.",
+              "taxDocuments": "Implementation of margins and email sending, related to fiscal documents. Additionally, in the settings of each module, the footer sent in the email can be changed in a WYSIWYG editor."
             }
           },
           "HenriqueMascarin": {
@@ -210,10 +195,10 @@
             "about": "My company at Google Play, where I am responsible for the apps development process and issues regarding my brand.",
             "challengesList": {
               "buildBrand": "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn.",
-              "mediaTimer": "Develop from scratch, publish and maintain in production the Media Timer app on Google Play.",
-              "adMob": "I had to learn about AdMob, to place advertisement in apps.",
+              "mediaTimer": "Develop, publish and maintain in production the Media Timer app on Google Play.",
+              "adMob": "I used AdMob to place ads in apps.",
               "licenses": "Project licenses, to avoid copies.",
-              "issuesProjects": "Handle privacy policy and other Google issues related to the projects."
+              "issuesProjects": "Handle privacy policy and other Google issues related to the apps."
             }
           }
         }

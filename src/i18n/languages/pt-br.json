@@ -33,7 +33,7 @@
       },
       "aboutSection": {
         "title": "Sobre",
-        "mobileParagraph": "Desenvolvedor há mais de 3 anos. Como desenvolvedor mobile, me dediquei a desenvolver minha própria empresa na Google Play do zero até a publicação do aplicativo Media Timer. Agora, busco construir outros projetos para ter mais experiência, como o novo aplicativo em desenvolvimento Star T-Shirts. Assim, visando conseguir uma nova oportunidade no mercado de aplicativos utilizando React Native.",
+        "mobileParagraph": "Desenvolvedor há mais de 3 anos. Como desenvolvedor mobile, me dediquei a desenvolver minha própria empresa na Google Play do zero até a publicação do aplicativo Media Timer. Agora, busco construir outros projetos para ter mais experiência, como o novo aplicativo em desenvolvimento Star T-Shirts. Visando conseguir uma nova oportunidade no mercado de aplicativos utilizando React Native.",
         "frontEndParagraph": "Como desenvolvedor front-end, trabalho atualmente em um projeto com centenas de clientes, o sistema SG Master Web, onde eu e minha equipe de front-end desenvolvemos o projeto do zero. Também possuo projetos pessoais, onde sempre busquei me desafiar para aprender algo novo, com tecnologias como React, Vue e entre outras.",
         "aboutMeParagraph": "Por fim, sou uma pessoa determinada e tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível.",
         "curriculum": "Currículo"
@@ -51,16 +51,14 @@
         "projects": {
           "StarTShirts": {
             "title": "Star T-Shirts",
-            "about": "Aplicativo fictício de e-commerce, somente de camisetas.",
+            "about": "Aplicativo fictício de e-commerce, exclusivo para camisetas.",
             "challengesList": [
-              "Design único no Figma.",
-              "Primeiro projeto sem Expo, somente React Native CLI.",
               "Módulo nativo para mostrar a Splash Screen, escrito com Kotlin.",
               "React Navigation para rotas.",
               "Estrutura do projeto foi pensada como se fosse um produto real.",
               "Telas de formulário com React Hook Form, com suas validações do Zod.",
-              "Componentização de elementos muito utilizados.",
-              "Alertas situacionais desenvolvidos do zero, gerados por meio de estado global."
+              "Alertas situacionais desenvolvidos do zero, gerados por meio de estado global.",
+              "Testes com Jest e React Native Testing Library."
             ]
           },
           "BobsCarDealer": {
@@ -72,31 +70,25 @@
               "Aprender sobre rotas dinâmicas do Next.js, só que infelizmente não implementei adequadamente o static params.",
               "Utilizar o arquivo de loading do Next.js, e o React Suspense (que infelizmente não implementei corretamente).",
               "Aprender sobre .env.local.",
-              "Configurar Prettier e ESLint.",
-              "Design único no Figma."
+              "Configurar Prettier e ESLint."
             ]
           },
           "MediaTimer": {
             "title": "Media Timer",
             "about": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
             "challengesList": [
-              "Publicação na Google Play em produção.",
-              "Licença para o projeto e termos de privacidade.",
-              "Puder escolher sons do celular ou do aplicativo e histórico de sons do celular.",
-              "Marketing sobre o projeto no LinkedIn da empresa.",
+              "Publicação na Google Play em produção, com licença para o projeto e termos de privacidade. ",
+              "Sons do celular e histórico, também possui áudios padrões no aplicativo.",
               "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next.",
               "Tema escuro e branco, criei um Context do React para gerenciar esse estado.",
               "Pelo código nativo, não permiti celulares (exemplo Xiaomi) trocarem as cores dos temas por outras.",
-              "Estados globais pelo Redux.",
               "Funciona em segundo plano.",
               "Permissões do dispositivo.",
-              "Testei a acessibilidade e fiz com que não seja possível mudar o tamanho dos textos pelo celular do usuário.",
-              "A lógica do temporizador foi complexa de desenvolver, já que criei sem biblioteca.",
-              "Notificação mostrando a situação do aplicativo e ícone personalizado para tal (importado pelo Android Studio).",
+              "Testei a acessibilidade e tirei a possibilidade de mudar o tamanho dos textos pelo celular do usuário.",
+              "Notificações com Notifee, mostrando a situação do aplicativo.",
               "Atualizei a versão do SDK do Expo para mais nova.",
-              "Design único no Figma.",
               "Publicidade do AdMob.",
-              "O tema escolhido, se pode alertar no final do cronômetro e o histórico de sons, são salvos no cache do aplicativo (local storage)."
+              "O tema escolhido, se pode alertar e o histórico de sons, são salvos no cache do aplicativo (local storage)."
             ]
           },
           "Ebooks": {
@@ -109,7 +101,6 @@
               "Tratamento de dados e validações quando for pesquisar o livro no caso de erro ou sucesso.",
               "Utilizei a API do Google para a pesquisa dos livros.",
               "Testei acessibilidade.",
-              "Design único no Figma.",
               "Favoritos por local storage.",
               "Cada livro pode ser favorito ou removido pelo botão no cartão, tanto na aba de favorito e página principal.",
               "Imagens dos cartões podem ser clicadas e assim mostrando ela em tamanho maior.",
@@ -121,7 +112,6 @@
             "title": "Portfólio",
             "about": "Minha página pessoal, onde é a vitrine sobre minha carreira, foi desenvolvida e ainda recebe atualizações para transmitir segurança para quem quer me contratar.",
             "challengesList": [
-              "Design único no Figma.",
               "Site responsivo, pode ser usado em dispositivos móveis e computadores.",
               "Testei acessibilidade.",
               "Links do cabeçalho são indicados por uma troca de cor, conforme a seção em que você está situado.",
@@ -136,7 +126,6 @@
             "title": "God Of War E-commerce",
             "about": "Projeto fictício de e-commerce com a temática do jogo God of War: Ragnarök.",
             "challengesList": [
-              "Design único no Figma.",
               "Carrossel de itens sem biblioteca, desenvolvido do zero e responsivo.",
               "Site responsivo, pode ser usado em dispositivos móveis e computadores.",
               "Carrinho e produtos por local storage.",
@@ -194,14 +183,10 @@
             "challengesList": {
               "landingPage": "Criação e manutenção da Landing Page do sistema Web.",
               "developmentWebSystem": "Desenvolvimento e manutenção do novo sistema SG Master Web.",
-              "undoChanges": "Correção de páginas com o botão de desfazer alterações (sendo ele, um botão que aparece na barra de ações que volta os valores do formulário ao estado inicial, seja edição ou cadastro).",
-              "usersPermissions": "Implementação das novas permissões do usuário. Onde tive que desenvolver duas páginas de formulário, sendo para perfis e outra para usuários. Também troquei todas as permissões do sistema para as novas, criei e dei manutenção no componente de permissões e desenvolvi para funcionar junto ao botão de desfazer alterações.",
-              "togetherBackend": "Trabalho conjunto com o time de back-end, repassando erros e mudanças necessárias do projeto.",
-              "newFilters": "Implementação dos novos filtros V2 do back-end para selects do modelo antigo e modelo novo no front-end.",
-              "refactoringPages": "Refatoração de páginas do modelo antigo para o modelo novo.",
-              "components": "Desenvolvimento de componentes e arquivos de utilidades reutilizáveis.",
-              "customizationQuasar": "Customizações de selects, inputs e outros componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools.",
-              "taxDocuments": "Implementação de margens e envio de e-mail de documentos fiscais, junto ao time de back-end. Além disso, em cada módulo e nas configurações do envio de e-mail, pode-se alterar a mensagem do rodapé enviado no e-mail em um editor WYSIWYG."
+              "usersPermissions": "Implementação das novas permissões. Em destaque, formatei a resposta do back-end, exemplo: ‘CADASTRO.GRUPO:MENU’, na estrutura de menus, submenus e permissões. Em seguida, esses dados são enviados ao componente de permissões, oferecendo ao usuário a possibilidade de escolher.",
+              "newFilters": "Implementação do novo filtro V2 do back-end para selects dos modelos antigos e novos no front-end.",
+              "customizationQuasar": "Customizações de componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools.",
+              "taxDocuments": "Implementação de margens e envio de e-mail, referentes a documentos fiscais. Além disso, nas configurações de cada módulo, pode-se alterar o rodapé enviado no e-mail em um editor WYSIWYG."
             }
           },
           "HenriqueMascarin": {
@@ -210,10 +195,10 @@
             "about": "Minha empresa na Google Play, onde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
             "challengesList": {
               "buildBrand": "Construir minha marca na Google Play e cuidar do marketing sobre os aplicativos no LinkedIn da empresa.",
-              "mediaTimer": "Desenvolver do zero, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play.",
-              "adMob": "Tive que aprender sobre AdMob, para colocar anúncios nos aplicativos.",
+              "mediaTimer": "Desenvolver, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play.",
+              "adMob": "Utilizei o AdMob para colocar anúncios em aplicativos.",
               "licenses": "Licenças de projetos, para não haver cópias.",
-              "issuesProjects": "Cuidar da política de privacidade e outras questões da Google em relação aos projetos."
+              "issuesProjects": "Cuidar da política de privacidade e outras questões da Google em relação aos aplicativos."
             }
           }
         }
