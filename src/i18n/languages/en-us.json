@@ -183,7 +183,7 @@
               "landingPage": "Creation and maintenance of the Web system Landing Page.",
               "developmentWebSystem": "Development and maintenance of the new SG Master Web system.",
               "usersPermissions": "Implementation of the new permissions. As a highlight, I formatted the back-end response, example: ‘REGISTRATION.GROUP:MENU’, in the structure of menus, submenus, and permissions. Then, this data is sent to the permissions component, offering the user the possibility to choose.",
-              "newFilters": "Implementation of the new V2 filter from the back-end for selects from the old and new models on the front-end.",
+              "newFilters": "Implementation of the new V2 filter from back-end for selects of the old and new models on the front-end.",
               "customizationQuasar": "Customizations of Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot.",
               "taxDocuments": "Implementation of margins and email sending, related to fiscal documents. Additionally, in the settings of each module, the footer sent in the email can be changed in a WYSIWYG editor."
             }
