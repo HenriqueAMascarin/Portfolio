@@ -1,5 +1,5 @@
 export const Variables = {
-        red: "#D53453",
+        red: "#f93259",
         black: "#212121",
         orange: "#FF6B00",
         green: "#1DBA6B",
