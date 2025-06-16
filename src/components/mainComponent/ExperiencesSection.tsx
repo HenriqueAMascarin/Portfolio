@@ -15,7 +15,7 @@ type ExperiencesArrayType = {
     url: string;
   };
   timeCompany: string;
-  about: string;
+  about?: string;
   challenges?: null | string[];
   technologies: (() => JSX.Element)[];
   logo: string;
@@ -28,7 +28,6 @@ export default function ExperiencesSection() {
       position: translateI18n("mainPage.experiencesSection.experiencesList.SGBrSistemas.position"),
       company: { name: "SGBr® Sistemas", url: "https://sgbr.com.br/" },
       timeCompany: translateI18n("mainPage.experiencesSection.experiencesList.SGBrSistemas.timeCompany"),
-      about: translateI18n("mainPage.experiencesSection.experiencesList.SGBrSistemas.about"),
       technologies: [
         QuasarSvg,
         VueSvg,
@@ -42,7 +41,6 @@ export default function ExperiencesSection() {
       position: translateI18n("mainPage.experiencesSection.experiencesList.HenriqueMascarin.position"),
       company: { name: "Henrique Mascarin", url: "https://play.google.com/store/apps/dev?id=8770400649408057901" },
       timeCompany: translateI18n("mainPage.experiencesSection.experiencesList.HenriqueMascarin.timeCompany"),
-      about: translateI18n("mainPage.experiencesSection.experiencesList.HenriqueMascarin.about"),
       technologies: [
         ReactNativeSvg,
         ExpoSvg,
@@ -56,7 +54,6 @@ export default function ExperiencesSection() {
   experiencesArray.forEach(experience => experience.challenges = Object.keys(enUsLanguageJson.translation.mainPage.experiencesSection.experiencesList[experience.keyNameInTranslateJson as keyof typeof enUsLanguageJson.translation.mainPage.experiencesSection.experiencesList].challengesList).map(
     (keyName) => translateI18n(`mainPage.experiencesSection.experiencesList.${experience.keyNameInTranslateJson}.challengesList.${keyName}`)
   ))
-
 
   return (
     <Experiences id="experiences" className="principalSections">
@@ -78,7 +75,7 @@ export default function ExperiencesSection() {
                         <div className="infoContainer">
                           <h3><a href={experience.company.url} target="_blank" rel="noopener noreferrer"><span>{experience.position}</span> <span>{experience.company.name}</span></a></h3>
                           <p className="timeCompanyText">{experience.timeCompany}</p>
-                          <p className="aboutText">{experience.about}</p>
+                          {experience.about && <p className="aboutText">{experience.about}</p>}
 
                           <div className="infoChallenges">
                             <h4>{translateI18n('general.challenges')}: </h4>

@@ -33,9 +33,8 @@
       },
       "aboutSection": {
         "title": "About",
-        "mobileParagraph": "Developer for over 3 years. As a mobile developer, I dedicated myself to developing my own company on Google Play from scratch, until the publication of the Media Timer app. Now, I am looking to build other projects to gain more experience, such as the new application under development Star T-Shirts. With the objective to get a new opportunity in the apps market using React Native.",
-        "frontEndParagraph": "As a front-end developer, I currently work on a project with hundreds of clients, the SG Master Web system, where me and my front-end team developed the project from scratch. I also have personal projects, where I always seek to challenge myself to learn something new, with technologies such as React, Vue and many others.",
-        "aboutMeParagraph": "Lastly, I am a determined person, that have the objective to constantly improve. I don't like fights, trying always to be peaceful. I also, try to learn from others and help as much as possible.",
+        "mobileParagraph": "Currently, I have over 3 years of experience in programming. Started with Front-end and now focusing on mobile. Along the way, I developed my own company on Google Play from scratch until the publication of the Media Timer app. Now, I’m looking to build other projects to challenge myself, such as the new e commerce app under development called Star T-Shirts.",
+        "frontEndParagraph": "For the mobile area, I bring my experience as a Front-end developer, including good accessibility practices, clean code, semantic HTML, and SEO. As an experience, I currently work on the SG Master Web system with hundreds of clients, where my team and I developed the project from scratch with Vue. I also have a solid base with React.js because it's the main technology I use in most of my websites in my portfolio and others on GitHub. Furthermore, I have experience with CSS derivatives on websites, such as Sass, Styled Components, and Tailwind CSS.",
         "curriculum": "Curriculum"
       },
       "technologiesSection": {
@@ -53,11 +52,13 @@
             "title": "Star T-Shirts",
             "about": "Fictitious e-commerce application, exclusively for t-shirts.",
             "challengesList": [
+              "Fictitious Back-end with local storage.",
               "Native module to display the Splash Screen, written with Kotlin.",
               "React Navigation for Routes.",
               "The project structure has created as it was a real product.",
               "Form screens with React Hook Form, and has Zod validations.",
-              "Situational alerts developed from scratch, generated through global state."
+              "Situational alerts developed from scratch, generated through global state, and used primarily for requests from the fictional backend.",
+              "Integration testing with Jest and React Native Testing Library."
             ]
           },
           "BobsCarDealer": {
@@ -76,18 +77,16 @@
             "title": "Media Timer",
             "about": "Timer application, with the objective to solve a personal problem.",
             "challengesList": [
-              "Publication on Google Play in production, with license for the project and privacy terms",
-              "Cell phone sounds and history, also has default audios in the app.",
+              "Publication on Google Play in production, with license for the project and privacy terms.",
+              "Implementation of selecting sounds from the cell phone. After that, they will be saved in the history that uses the rn-fetch-blob library and device permissions to find the file when you choose it.",
               "App in English/US and Portuguese/BR (depends on your device language) with i18next.",
-              "Dark and white theme, I created a React Context to manage this state.",
-              "By native code, I have not allowed cell phones (for example Xiaomi) to change the theme colors for others.",
-              "Works in the background.",
-              "Device permissions.",
-              "I tested accessibility and removed the possibility of changing the size of texts via the user's cell phone.",
+              "Dark and white theme, I created a React Context API to manage this state and, through native code, I made cell phones (for example, Xiaomi) do not change the theme colors for others.",
+              "The timer runs in the background, and if you remove the notification, it turns off the timer.",
+              "Device permissions to grab the music files that the person selects.",
+              "I improved accessibility with ARIA and removed the possibility of changing the size of texts using the user's cell phone because it was breaking the logic of the timer numbers.",
               "Notifications with Notifee, showing the status of the application.",
-              "I have updated the Expo SDK version to a newer one.",
-              "AdMob Advertising.",
-              "The chosen theme, if it can alert and the sound history, are saved in the app's cache (local storage)."
+              "I updated the Expo SDK version from 48 to 51 and had to make numerous changes to the native code, according to the Expo website. I tested all dependencies to see if there was a problem with the new version.",
+              "AdMob ad banner at the bottom and the Google settings to work in production."
             ]
           },
           "Ebooks": {
@@ -162,12 +161,12 @@
           },
           "UdemyWebDesign": {
             "title": "Udemy Web Design Course",
-            "about": "I learned how to develop websites using HTML, CSS, and JavaScript. With a special touch of semantics, accessibility and programming logic.",
+            "about": "I learned how to develop websites using HTML, CSS3, and JavaScript. With a special touch of semantics, accessibility and programming logic.",
             "imageAlt": "Image of the Udemy Web Design course certificate"
           },
           "UdemyProgrammingLogic": {
             "title": "Udemy Algorithms and Programming Logic Course",
-            "about": "In this course, had exercises with different programming languages and explanations about the subject.",
+            "about": "In this course, has presented the base of programming logic, with exercises about different programming languages and explanations about the subject.",
             "imageAlt": "Image of the Udemy Algorithms and Programming Logic course certificate"
           }
         }
@@ -178,34 +177,33 @@
           "SGBrSistemas": {
             "position": "Front-end Developer",
             "timeCompany": "July/2023 - Present",
-            "about": "I work on the front-end team, and we have developed the new SG Master Web system.",
-            "challengesList": {
-              "landingPage": "Creation and maintenance of the Web system Landing Page.",
-              "developmentWebSystem": "Development and maintenance of the new SG Master Web system.",
-              "usersPermissions": "Implementation of the new permissions. As a highlight, I formatted the back-end response, example: ‘REGISTRATION.GROUP:MENU’, in the structure of menus, submenus, and permissions. Then, this data is sent to the permissions component, offering the user the possibility to choose.",
-              "newFilters": "Implementation of the new V2 filter from back-end for selects of the old and new models on the front-end.",
-              "customizationQuasar": "Customizations of Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot.",
-              "taxDocuments": "Implementation of margins and email sending, related to fiscal documents. Additionally, in the settings of each module, the footer sent in the email can be changed in a WYSIWYG editor."
-            }
+            "challengesList": [
+              "Creation, maintenance of the Landing Page and its screens after login.",
+              "Development of new implementations and maintenance of the new SG Master Web system.",
+              "Review of practical tests about the new talents for the team, code review about pull requests, and I always help or instruct when they need my help to solve a problem.",
+              "Implementation of new user permissions. Highlighted, I formatted the response from the back-end, for example: ‘REGISTRATION.GROUP:MENU’, in the structure of menus, submenus, and permissions. Then, this data is sent to the permissions component, offering the user the possibility to choose and increasing flexibility by 100%.",
+              "Implementation of the new V2 filter of the Back-end, to have greater flexibility in the filtering of APIs on the Front-end, especially in select components of old and new models.",
+              "Customizations of Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot.",
+              "Implementation and alignment with the Back-end team about margins and sending emails for tax documents. Furthermore, in the settings of each module, it is possible to change the footer sent in the email in a WYSIWYG editor."
+            ]
           },
           "HenriqueMascarin": {
             "position": "Founder and Mobile Developer",
             "timeCompany": "August/2024 - December/2024",
-            "about": "My company at Google Play, where I am responsible for the apps development process and issues regarding my brand.",
-            "challengesList": {
-              "buildBrand": "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn.",
-              "mediaTimer": "Develop, publish and maintain in production the Media Timer app on Google Play.",
-              "adMob": "I used AdMob to place ads in apps.",
-              "licenses": "Project licenses, to avoid copies.",
-              "issuesProjects": "Handle privacy policy and other Google issues related to the apps."
-            }
+            "challengesList": [
+              "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn.",
+              "Develop, publish and maintain in production the Media Timer app on Google Play.",
+              "I used AdMob to place ads in apps.",
+              "Project licenses, to avoid copies.",
+              "Handle privacy policy and other Google issues related to the apps."
+            ]
           }
         }
       },
       "contactSection": {
         "title": "Contact",
         "thanksMessage": "Thank you for visiting my portfolio!",
-        "connectMessage": "Be free to connect and send a message via"
+        "connectMessage": "Feel free to connect and send a message via"
       }
     },
     "thanksPage": {

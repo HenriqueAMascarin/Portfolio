@@ -33,9 +33,8 @@
       },
       "aboutSection": {
         "title": "Sobre",
-        "mobileParagraph": "Desenvolvedor há mais de 3 anos. Como desenvolvedor mobile, me dediquei a desenvolver minha própria empresa na Google Play do zero até a publicação do aplicativo Media Timer. Agora, busco construir outros projetos para ter mais experiência, como o novo aplicativo em desenvolvimento Star T-Shirts. Visando conseguir uma nova oportunidade no mercado de aplicativos utilizando React Native.",
-        "frontEndParagraph": "Como desenvolvedor front-end, trabalho atualmente em um projeto com centenas de clientes, o sistema SG Master Web, onde eu e minha equipe de front-end desenvolvemos o projeto do zero. Também possuo projetos pessoais, onde sempre busquei me desafiar para aprender algo novo, com tecnologias como React, Vue e entre outras.",
-        "aboutMeParagraph": "Por fim, sou uma pessoa determinada e tenho como objetivo melhorar constantemente. Não gosto de brigas e tento sempre ser amigável. Procuro, assim, aprender com os outros e auxiliar o possível.",
+        "mobileParagraph": "Atualmente, tenho mais de 3 anos na área da programação, comecei com Front-end e hoje estou focando em mobile. Nesse caminho, desenvolvi minha própria empresa na Google Play do zero até a publicação do aplicativo Media Timer. Agora, busco construir outros projetos para me desafiar, como o novo aplicativo de e-commerce em desenvolvimento Star T-Shirts.",
+        "frontEndParagraph": "Para a área de mobile, trago minha bagagem de desenvolvedor Front-end, contendo boas práticas de acessibilidade, código limpo, HTML semântico e SEO. Como experiência, trabalho atualmente no sistema SG Master Web com centenas de clientes, em que eu e minha equipe desenvolvemos o projeto do zero com Vue. Também, tenho uma base sólida com React.js, por conta de ser a principal tecnologia que uso na maioria dos meus sites no meu portfólio, e outros no GitHub. Por fim, possuo experiência com derivados de CSS em sites, como Sass, Styled Components e Tailwind CSS.",
         "curriculum": "Currículo"
       },
       "technologiesSection": {
@@ -53,11 +52,29 @@
             "title": "Star T-Shirts",
             "about": "Aplicativo fictício de e-commerce, exclusivo para camisetas.",
             "challengesList": [
-              "Módulo nativo para mostrar a Splash Screen, escrito com Kotlin.",
+              "Back-end fictício com local storage.",
+              "Módulo nativo para mostrar a Splash Screen, escrito em Kotlin.",
               "React Navigation para rotas.",
               "Estrutura do projeto foi pensada como se fosse um produto real.",
               "Telas de formulário com React Hook Form, com suas validações do Zod.",
-              "Alertas situacionais desenvolvidos do zero, gerados por meio de estado global."
+              "Alertas situacionais desenvolvidos do zero, gerados por meio de estado global e utilizados principalmente para as requisições do back-end fictício.",
+              "Testes de integração com Jest e React Native Testing Library."
+            ]
+          },
+          "MediaTimer": {
+            "title": "Media Timer",
+            "about": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
+            "challengesList": [
+              "Publicação na Google Play em produção, com licença para o projeto e termos de privacidade.",
+              "Implementação de selecionar sons do celular. Após selecionar, estarão salvos no histórico que utiliza a biblioteca rn-fetch-blob e permissões do dispositivo para achar o arquivo quando o escolhe.",
+              "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next.",
+              "Tema escuro e branco, criei um Context API do React para gerenciar esse estado e, pelo código nativo, fiz com que celulares (por exemplo, Xiaomi) não troquem as cores dos temas por outras.",
+              "O temporizador funciona em segundo plano e, caso remova a notificação, ele desliga o timer.",
+              "Permissões do dispositivo para pegar os arquivos das músicas que a pessoa seleciona.",
+              "Melhorei a acessibilidade com ARIA e retirei a possibilidade de mudar o tamanho dos textos pelo celular do usuário, porque quebrava a lógica dos números do temporizador.",
+              "Notificações com Notifee, mostrando a situação do aplicativo.",
+              "Atualizei a versão do SDK do Expo de 48 para 51 e tive que fazer inúmeras mudanças no código nativo, conforme o site do Expo. Testei todas as dependências para ver se tinha problema com a nova versão.",
+              "Banner de anúncio AdMob na parte inferior e suas configurações do Google para funcionar em produção."
             ]
           },
           "BobsCarDealer": {
@@ -70,24 +87,6 @@
               "Utilizar o arquivo de loading do Next.js, e o React Suspense (que infelizmente não implementei corretamente).",
               "Aprender sobre .env.local.",
               "Configurar Prettier e ESLint."
-            ]
-          },
-          "MediaTimer": {
-            "title": "Media Timer",
-            "about": "Aplicativo de temporizador, teve como objetivo solucionar um problema pessoal.",
-            "challengesList": [
-              "Publicação na Google Play em produção, com licença para o projeto e termos de privacidade. ",
-              "Sons do celular e histórico, também possui áudios padrões no aplicativo.",
-              "Aplicativo em inglês/US e português/BR (depende do idioma do seu dispositivo) com i18next.",
-              "Tema escuro e branco, criei um Context do React para gerenciar esse estado.",
-              "Pelo código nativo, não permiti celulares (exemplo Xiaomi) trocarem as cores dos temas por outras.",
-              "Funciona em segundo plano.",
-              "Permissões do dispositivo.",
-              "Testei a acessibilidade e tirei a possibilidade de mudar o tamanho dos textos pelo celular do usuário.",
-              "Notificações com Notifee, mostrando a situação do aplicativo.",
-              "Atualizei a versão do SDK do Expo para mais nova.",
-              "Publicidade do AdMob.",
-              "O tema escolhido, se pode alertar e o histórico de sons, são salvos no cache do aplicativo (local storage)."
             ]
           },
           "Ebooks": {
@@ -162,12 +161,12 @@
           },
           "UdemyWebDesign": {
             "title": "Curso Web Design Udemy",
-            "about": "Aprendi a desenvolver sites utilizando HTML, CSS e JavaScript. Com um toque especial de semântica, acessibilidade e lógica de programação.",
+            "about": "Aprendi a desenvolver sites utilizando HTML, CSS3 e JavaScript. Com um toque especial de semântica, acessibilidade e lógica de programação.",
             "imageAlt": "Imagem do certificado do curso de Web Design da Udemy"
           },
           "UdemyProgrammingLogic": {
             "title": "Curso Algoritmos e Lógica de Programação Udemy",
-            "about": "Nesse curso, foram apresentados exercícios com diferentes linguagens de programação e explicações sobre o assunto.",
+            "about": "Nesse curso, foi apresentado sobre a base da lógica de programação, tendo exercícios com diferentes linguagens de programação e explicações sobre o assunto.",
             "imageAlt": "Imagem do certificado do curso algoritmos e lógica de programação da Udemy"
           }
         }
@@ -178,27 +177,26 @@
           "SGBrSistemas": {
             "position": "Desenvolvedor Front-end",
             "timeCompany": "Julho/2023 - Presente",
-            "about": "Trabalho no time de front-end e desenvolvemos o novo sistema SG Master Web.",
-            "challengesList": {
-              "landingPage": "Criação e manutenção da Landing Page do sistema Web.",
-              "developmentWebSystem": "Desenvolvimento e manutenção do novo sistema SG Master Web.",
-              "usersPermissions": "Implementação das novas permissões. Em destaque, formatei a resposta do back-end, exemplo: ‘CADASTRO.GRUPO:MENU’, na estrutura de menus, submenus e permissões. Em seguida, esses dados são enviados ao componente de permissões, oferecendo ao usuário a possibilidade de escolher.",
-              "newFilters": "Implementação do novo filtro V2 do back-end para selects dos modelos antigos e novos no front-end.",
-              "customizationQuasar": "Customizações de componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools.",
-              "taxDocuments": "Implementação de margens e envio de e-mail, referentes a documentos fiscais. Além disso, nas configurações de cada módulo, pode-se alterar o rodapé enviado no e-mail em um editor WYSIWYG."
-            }
+            "challengesList": [
+              "Criação, manutenção da Landing Page e suas telas após login.",
+              "Desenvolvimento de novas implementações e manutenção do novo sistema SG Master Web.",
+              "Revisão sobre testes práticos de novos talentos para a equipe, code review sobre pull requests e sempre ajudo ou instruo quando precisam da minha ajuda para resolver um problema.",
+              "Implementação das novas permissões dos usuários. Em destaque, formatei a resposta do back-end, exemplo: ‘CADASTRO.GRUPO:MENU’, na estrutura de menus, submenus e permissões. Em seguida, esses dados são enviados ao componente de permissões, oferecendo ao usuário a possibilidade de escolher e aumentando a flexibilidade em 100%.",
+              "Implementação do novo filtro V2 do Back-end, para ter uma maior flexibilidade em filtragens das APIs no Front-end, principalmente em componentes de selects dos modelos antigos e novos.",
+              "Customizações de componentes do Quasar por arquivo CSS, deixando o design diferente do padrão do framework. Para ser feita essas mudanças, tive que usar bastante o inspecionador do DevTools.",
+              "Implementação e alinhamento com o time de Back-end sobre margens e envio de e-mail, referentes a documentos fiscais. Além disso, nas configurações de cada módulo, pode-se alterar o rodapé enviado no e mail em um editor WYSIWYG."
+            ]
           },
           "HenriqueMascarin": {
             "position": "Fundador e Desenvolvedor Mobile",
             "timeCompany": "Agosto/2024 - Dezembro/2024",
-            "about": "Minha empresa na Google Play, onde sou responsável pelo processo de desenvolvimento de aplicativos e questões sobre a minha marca.",
-            "challengesList": {
-              "buildBrand": "Construir minha marca na Google Play e cuidar do marketing sobre os aplicativos no LinkedIn da empresa.",
-              "mediaTimer": "Desenvolver, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play.",
-              "adMob": "Utilizei o AdMob para colocar anúncios em aplicativos.",
-              "licenses": "Licenças de projetos, para não haver cópias.",
-              "issuesProjects": "Cuidar da política de privacidade e outras questões da Google em relação aos aplicativos."
-            }
+            "challengesList": [
+              "Construir minha marca na Google Play e marketing sobre os aplicativos no LinkedIn da empresa.",
+              "Desenvolver, publicar e dar manutenção em produção sobre o aplicativo Media Timer na Google Play.",
+              "Utilizei o AdMob para colocar anúncios em aplicativos.",
+              "Possui licenças de projetos, para não haver cópias.",
+              "Cuidar da política de privacidade e outras questões da Google em relação aos aplicativos."
+            ]
           }
         }
       },

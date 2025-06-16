@@ -27,9 +27,6 @@ export default function InfoSection() {
                   <p>
                     {translateI18n("mainPage.aboutSection.frontEndParagraph")}
                   </p>
-                  <p>
-                    {translateI18n("mainPage.aboutSection.aboutMeParagraph")}
-                  </p>
                 </div>
 
                 <div className="infoAction">
