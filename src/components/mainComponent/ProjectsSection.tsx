@@ -80,7 +80,7 @@ export default function ProjectsSection() {
         JestSvg,
         reactNativeTestingLibrarySvg,
       ],
-      downloadUrl: "https://drive.usercontent.google.com/download?id=12nIzKjuS6h15XFeZxMPoprDts2TCNAXM&export=download&authuser=1",
+      downloadUrl: "https://drive.google.com/file/d/12nIzKjuS6h15XFeZxMPoprDts2TCNAXM/view",
       figma:
         "https://www.figma.com/design/mLpUBhQRfv9QpXPP34KxPt/star-t-shirts?node-id=0-1&t=HQmLZFHWEwZiQhgX-1",
       github: "https://github.com/HenriqueAMascarin/StarTShirts",
