@@ -51,7 +51,7 @@ type ProjectsCardsType = {
   about: string;
   challenges?: null | string[];
   technologies: (() => JSX.Element)[];
-  downloadLink?: string;
+  downloadUrl?: string;
   googleLink?: string;
   figma: string;
   github: string;
@@ -80,7 +80,7 @@ export default function ProjectsSection() {
         JestSvg,
         reactNativeTestingLibrarySvg,
       ],
-      downloadLink: "/apks/StarTShirts.apk",
+      downloadUrl: "https://drive.usercontent.google.com/download?id=12nIzKjuS6h15XFeZxMPoprDts2TCNAXM&export=download&authuser=1",
       figma:
         "https://www.figma.com/design/mLpUBhQRfv9QpXPP34KxPt/star-t-shirts?node-id=0-1&t=HQmLZFHWEwZiQhgX-1",
       github: "https://github.com/HenriqueAMascarin/StarTShirts",
@@ -243,9 +243,9 @@ export default function ProjectsSection() {
                       </div>
 
                       <div className="cardsLinks">
-                        {(project.liveLink || project.googleLink || project.downloadLink) && (
+                        {(project.liveLink || project.googleLink || project.downloadUrl) && (
                           <a
-                            href={project.liveLink ?? project.googleLink ?? project.downloadLink}
+                            href={project.liveLink ?? project.googleLink ?? project.downloadUrl}
                             target="_blank"
                           >
                             {project.liveLink
