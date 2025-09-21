@@ -55,13 +55,26 @@
             "title": "Star T-Shirts",
             "about": "Fictitious e-commerce application, exclusively for t-shirts.",
             "challengesList": [
-              "Fictitious Back-end with local storage.",
-              "Native module to display the Splash Screen, written with Kotlin.",
-              "React Navigation for Routes.",
-              "The project structure has created as it was a real product.",
-              "Form screens with React Hook Form, and has Zod validations.",
-              "Situational alerts developed from scratch, generated through global state, and used primarily for requests from the fictional backend.",
-              "Integration testing with Jest and React Native Testing Library."
+              "I noticed on the product preview page, with the option to view the shirt in 3D, and, as an added bonus, it changes the color if you have selected another one.",
+              "I didn't depend on third-party libraries, with a native Kotlin module to show the splash screen when it finishes initializing the entire application with its complete data.",
+              "To make it practical to test the registration, login, and password recovery flows, I ended up automating them with integrated automated tests using Jest and React Native Testing Library.",
+              "I've increased user clarity by implementing custom situational alerts that indicate the outcome of requests to the fictional backend.",
+              "I made the application look like a real project by developing a fictitious back end with Async Storage."
+            ]
+          },
+          "MediaTimer": {
+            "title": "Media Timer",
+            "about": "Timer app with sounds from your device, published on Google Play.",
+            "challengesList": [
+              "I solved a user's problem and left him 100% satisfied by implementing infinite scrolling of the numbers in the timer list, being able to scroll up and down infinitely.",
+              "I made pushes to production and build testing 100% faster by implementing CI/CD automations (GitHub Actions and EAS Expo) that trigger when a release or commit is pushed to the main branch.",
+              "I added a differentiator for users by implementing the ability to select sounds from your cell phone and see the most recent ones in a history in the app.",
+              "I increased availability for users in other countries by 100% with the implementation of English/US and Portuguese/BR languages with a Context API that uses i18next.",
+              "I've pleased many users by making it possible to switch themes to dark or white, with a Context API to manage that state.",
+              "I improved the app's versatility, with the timer running in the background, and, if you remove the app's notification, it turns off the timer.",
+              "I resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues.",
+              "I was able to bring more security to users by creating the Media Timer app's privacy policy.",
+              "To prevent copying, I have created a copyright license for the Media Timer app."
             ]
           },
           "BobsCarDealer": {
@@ -74,22 +87,6 @@
               "Use the Next.js loading file, and React Suspense (which unfortunately I didn't implement properly).",
               "Learn about .env.local.",
               "Configure Prettier and ESLint."
-            ]
-          },
-          "MediaTimer": {
-            "title": "Media Timer",
-            "about": "Timer application, with the objective to solve a personal problem.",
-            "challengesList": [
-              "Publication on Google Play in production, with license for the project and privacy terms.",
-              "Implementation of selecting sounds from the cell phone. After that, they will be saved in the history that uses the rn-fetch-blob library and device permissions to find the file when you choose it.",
-              "App in English/US and Portuguese/BR (depends on your device language) with i18next.",
-              "Dark and white theme, I created a React Context API to manage this state and, through native code, I made cell phones (for example, Xiaomi) do not change the theme colors for others.",
-              "The timer runs in the background, and if you remove the notification, it turns off the timer.",
-              "Device permissions to grab the music files that the person selects.",
-              "I improved accessibility with ARIA and removed the possibility of changing the size of texts using the user's cell phone because it was breaking the logic of the timer numbers.",
-              "Notifications with Notifee, showing the status of the application.",
-              "I updated the Expo SDK version from 48 to 51 and had to make numerous changes to the native code, according to the Expo website. I tested all dependencies to see if there was a problem with the new version.",
-              "AdMob ad banner at the bottom and the Google settings to work in production."
             ]
           },
           "Ebooks": {
@@ -180,25 +177,32 @@
           "SGBrSistemas": {
             "position": "Front-end Developer",
             "timeCompany": "July/2023 - Present",
+            "about": "I work on the development of the SG Master Web system, a business management platform with thousands of active clients.",
             "challengesList": [
-              "Creation, maintenance of the Landing Page and its screens after login.",
-              "Development of new implementations and maintenance of the new SG Master Web system.",
-              "Review of practical tests about the new talents for the team, code review about pull requests, and I always help or instruct when they need my help to solve a problem.",
-              "Implementation of new user permissions. Highlighted, I formatted the response from the back-end, for example: ‘REGISTRATION.GROUP:MENU’, in the structure of menus, submenus, and permissions. Then, this data is sent to the permissions component, offering the user the possibility to choose and increasing flexibility by 100%.",
-              "Implementation of the new V2 filter of the Back-end, to have greater flexibility in the filtering of APIs on the Front-end, especially in select components of old and new models.",
-              "Customizations of Quasar components via CSS file, making the design different from the framework's default. To make these changes, I had to use the DevTools inspector a lot.",
-              "Implementation and alignment with the Back-end team about margins and sending emails for tax documents. Furthermore, in the settings of each module, it is possible to change the footer sent in the email in a WYSIWYG editor."
+              "I optimized user management across the SG Master Web system by implementing table-based permission control, enabling specific role assignments, and eliminating the risk of unauthorized access. For example, one user may have permission to register a sale, while another may not.",
+              "I made it 100% easier to set up fees for each acquirer, allowing you to register fees by each acquirer's brand. I then refactored the sales flow to select these acquirers. After paying for the sale, the installments are recorded in the finance department on the card reconciliation page, allowing you to cancel, reconcile, and view the installment.",
+              "I achieved 100% approval from product managers regarding the front-end design of the SG Master Web system. I sought to customize the design of Quasar's pre-built components using CSS and used the DevTools inspector to identify which classes needed to be modified, making the design different from the framework's default.",
+              "I've left my customers satisfied after implementing email sending for invoices. I added a new email sending settings block to each sales module, where you can configure SMTP sending data, automated sending on issue, and the footer from a WYSIWYG editor.",
+              "I saved time and effort on new implementations, being able to streamline many of the new workflows by creating sketches in Figma that aligned the ideas of the people responsible.",
+              "I drew customers' attention to the SG Master Web system by creating a landing page containing all the necessary information, such as plans, services, management, and registration of their companies.",
+              "Reviewing practical tests for new talent, providing code review, and helping others when they need it."
             ]
           },
           "HenriqueMascarin": {
             "position": "Founder and Mobile Developer",
             "timeCompany": "August/2024 - December/2024",
+            "about": "I am the founder and developer of the Media Timer app, a timer with sounds from your device, published on Google Play.",
             "challengesList": [
-              "Build my brand on Google Play and take care of marketing about the apps on company's LinkedIn.",
-              "Develop, publish and maintain in production the Media Timer app on Google Play.",
-              "I used AdMob to place ads in apps.",
-              "Project licenses, to avoid copies.",
-              "Handle privacy policy and other Google issues related to the apps."
+              "I solved a user's problem and left him 100% satisfied by implementing infinite scrolling of the numbers in the timer list, being able to scroll up and down infinitely.",
+              "I made pushes to production and build testing 100% faster by implementing CI/CD automations (GitHub Actions and EAS Expo) that trigger when a release or commit is pushed to the main branch.",
+              "I added a differentiator for users by implementing the ability to select sounds from your cell phone and see the most recent ones in a history in the app.",
+              "I increased availability for users in other countries by 100% with the implementation of English/US and Portuguese/BR languages with a Context API that uses i18next.",
+              "I've pleased many users by making it possible to switch themes to dark or white, with a Context API to manage that state.",
+              "I improved the app's versatility, with the timer running in the background, and, if you remove the app's notification, it turns off the timer.",
+              "I resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues.",
+              "I was able to bring more security to users by creating the Media Timer app's privacy policy.",
+              "To prevent copying, I have created a copyright license for the Media Timer app.",
+              "To attract attention, I marketed the apps on the company's LinkedIn."
             ]
           }
         }

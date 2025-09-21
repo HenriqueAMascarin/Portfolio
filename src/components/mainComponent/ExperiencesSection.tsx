@@ -45,6 +45,9 @@ export default function ExperiencesSection() {
       timeCompany: translateI18n(
         "mainPage.experiencesSection.experiencesList.SGBrSistemas.timeCompany"
       ),
+      about: translateI18n(
+        "mainPage.experiencesSection.experiencesList.SGBrSistemas.about"
+      ),
       technologies: [QuasarSvg, VueSvg, PiniaSvg, TailwindSvg],
       logo: SGBrImg,
     },
@@ -59,6 +62,9 @@ export default function ExperiencesSection() {
       },
       timeCompany: translateI18n(
         "mainPage.experiencesSection.experiencesList.HenriqueMascarin.timeCompany"
+      ),
+      about: translateI18n(
+        "mainPage.experiencesSection.experiencesList.HenriqueMascarin.about"
       ),
       technologies: [ReactNativeSvg, ExpoSvg, TypeScriptSvg, FigmaSvg],
       logo: HenriqueMascarinImg,
