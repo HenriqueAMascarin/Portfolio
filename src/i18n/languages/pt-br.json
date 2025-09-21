@@ -33,8 +33,11 @@
       },
       "aboutSection": {
         "title": "Sobre",
-        "mobileParagraph": "Atualmente, tenho mais de 3 anos na área da programação, comecei com Front-end e hoje estou focando em mobile. Nesse caminho, desenvolvi minha própria empresa na Google Play do zero até a publicação do aplicativo Media Timer. Agora, busco construir outros projetos para me desafiar, como o novo aplicativo de e-commerce em desenvolvimento Star T-Shirts.",
-        "frontEndParagraph": "Para a área de mobile, trago minha bagagem de desenvolvedor Front-end, contendo boas práticas de acessibilidade, código limpo, HTML semântico e SEO. Como experiência, trabalho atualmente no sistema SG Master Web com centenas de clientes, em que eu e minha equipe desenvolvemos o projeto do zero com Vue. Também, tenho uma base sólida com React.js, por conta de ser a principal tecnologia que uso na maioria dos meus sites no meu portfólio, e outros no GitHub. Por fim, possuo experiência com derivados de CSS em sites, como Sass, Styled Components e Tailwind CSS.",
+        "aboutList": [
+          "Desenvolvedor com mais de 3 anos de experiência na programação, tendo sua trajetória iniciada em Front-end e atualmente focada em desenvolvimento mobile com React Native. Sou fundador da minha empresa, publiquei o aplicativo Media Timer na Google Play e estou desenvolvendo o aplicativo fictício de e-commerce Star T-Shirts como projeto de apresentação.",
+          "Minha base sólida em Front-end contribui diretamente para a qualidade dos meus projetos mobile, aplicando boas práticas de acessibilidade, código limpo e design UX/UI. Como destaque, atualmente atuo no sistema SG Master Web, utilizado por milhares de clientes.",
+          "Tenho experiência sólida com React.js, principal tecnologia dos meus sites que seguem boas práticas de HTML semântico. Por fim, possuo conhecimento em Next.js e tecnologias de estilização como Sass, Styled Components e Tailwind CSS."
+        ],
         "curriculum": "Currículo"
       },
       "technologiesSection": {

@@ -33,8 +33,11 @@
       },
       "aboutSection": {
         "title": "About",
-        "mobileParagraph": "Currently, I have over 3 years of experience in programming. Started with Front-end and now focusing on mobile. Along the way, I developed my own company on Google Play from scratch until the publication of the Media Timer app. Now, I’m looking to build other projects to challenge myself, such as the new e commerce app under development called Star T-Shirts.",
-        "frontEndParagraph": "For the mobile area, I bring my experience as a Front-end developer, including good accessibility practices, clean code, semantic HTML, and SEO. As an experience, I currently work on the SG Master Web system with hundreds of clients, where my team and I developed the project from scratch with Vue. I also have a solid base with React.js because it's the main technology I use in most of my websites in my portfolio and others on GitHub. Furthermore, I have experience with CSS derivatives on websites, such as Sass, Styled Components, and Tailwind CSS.",
+        "aboutList": [
+          "A developer with over three years of programming experience, my career began in front-end development and is currently focused on mobile development with React Native. I'm the founder of my own company, published the Media Timer app on Google Play, and am developing the fictional e-commerce app Star T-Shirts as a showcase project.",
+          "My solid foundation in front-end technology directly contributes to the quality of my mobile projects, applying best practices in accessibility, clean code, and UX/UI design. I'm currently working on the SG Master Web system, which is used by thousands of clients.",
+          "I have solid experience with React.js, the core technology behind my websites, which follow semantic HTML best practices. Finally, I have knowledge of Next.js and styling technologies such as Sass, Styled Components, and Tailwind CSS."
+        ],
         "curriculum": "Curriculum"
       },
       "technologiesSection": {
