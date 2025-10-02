@@ -80,7 +80,8 @@ export default function ProjectsSection() {
         JestSvg,
         reactNativeTestingLibrarySvg,
       ],
-      downloadUrl: "https://drive.usercontent.google.com/download?id=12nIzKjuS6h15XFeZxMPoprDts2TCNAXM&export=download&authuser=0",
+      downloadUrl:
+        "https://drive.usercontent.google.com/download?id=12nIzKjuS6h15XFeZxMPoprDts2TCNAXM&export=download&authuser=0",
       figma:
         "https://www.figma.com/design/mLpUBhQRfv9QpXPP34KxPt/star-t-shirts?node-id=0-1&t=HQmLZFHWEwZiQhgX-1",
       github: "https://github.com/HenriqueAMascarin/StarTShirts",
@@ -243,9 +244,15 @@ export default function ProjectsSection() {
                       </div>
 
                       <div className="cardsLinks">
-                        {(project.liveLink || project.googleLink || project.downloadUrl) && (
+                        {(project.liveLink ||
+                          project.googleLink ||
+                          project.downloadUrl) && (
                           <a
-                            href={project.liveLink ?? project.googleLink ?? project.downloadUrl}
+                            href={
+                              project.liveLink ??
+                              project.googleLink ??
+                              project.downloadUrl
+                            }
                             target="_blank"
                           >
                             {project.liveLink

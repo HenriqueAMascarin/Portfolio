@@ -12,7 +12,7 @@ export default function PrincipalSection() {
             <h1>
               Henrique<span>Mascarin</span>
               <span className="titleJob">
-                {translateI18n("mainPage.nameSection.mobileDeveloper")}
+                {translateI18n("mainPage.nameSection.developer")}
               </span>
             </h1>
 

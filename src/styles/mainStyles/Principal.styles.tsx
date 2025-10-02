@@ -33,29 +33,36 @@ export const SectionPrincipal = styled.section`
       }
     }
 
+    .titleJob,
+    h1 {
+      text-shadow: 0px 1.5px 0px #ffffff, 0px -1.5px 0px #ffffff,
+        1.5px 0px 0px #ffffff, -1.5px 0px 0px #ffffff,
+        0px -1.5px 3px rgba(0, 0, 0, 0.4), 0px 3.5px 3px rgba(0, 0, 0, 0.4),
+        -1.5px 0px 3px rgba(0, 0, 0, 0.4), 1.5px 0px 3px rgba(0, 0, 0, 0.4);
+    }
 
+    h1 {
+      color: ${Variables.red};
+      font-size: clamp(3.7rem, 20vw, 8.6rem);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
 
-      .titleJob,
-      h1 {
-        text-shadow: 0px 1.5px 0px #FFFFFF, 0px -1.5px 0px #FFFFFF, 1.5px 0px 0px #FFFFFF, -1.5px 0px 0px #FFFFFF,
-        0px -1.5px 3px rgba(0, 0, 0, 0.4), 0px 3.5px 3px rgba(0, 0, 0, 0.4), -1.5px 0px 3px rgba(0, 0, 0, 0.4), 1.5px 0px 3px rgba(0, 0, 0, 0.4);
+      > span {
+        display: block;
+        color: ${Variables.black};
       }
+    }
 
-      h1 {
-        color: ${Variables.red};
-        font-size: clamp(3.7rem, 20vw, 8.6rem);
+    .titleJob {
+      font-size: clamp(1.7rem, 8vw, 2.5rem);
+      padding: 0 10px;
+      color: ${Variables.red};
 
-        > span {
-          display: block;
-          color: ${Variables.black};
-        }
+      @media screen and (max-width: 736px) {
+        max-width: 460px;
       }
-
-      .titleJob {
-        font-size: clamp(1.7rem, 7vw, 3.4rem);
-        padding: 0 10px;
-        color: ${Variables.red};
-      }
-    
+    }
   }
 `;

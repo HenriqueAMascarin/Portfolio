@@ -15,10 +15,11 @@ export default function Main() {
   let headerLinks = useRef<NodeListOf<Element> | null>(null);
   let sections = useRef<NodeListOf<Element> | null>(null);
 
-  const scrollPosSections = useRef<{ scrollPosYTop: number, scrollPosYBottom: number, id: string }[]>([]);
+  const scrollPosSections = useRef<
+    { scrollPosYTop: number; scrollPosYBottom: number; id: string }[]
+  >([]);
 
   function scrollActiveSection() {
-
     const scrollY = window.scrollY;
 
     // buttonScrollTop
@@ -29,33 +30,38 @@ export default function Main() {
     }
 
     scrollPosSections.current?.forEach((section) => {
-      if (scrollY >= section.scrollPosYTop && scrollY <= section.scrollPosYBottom) {
+      if (
+        scrollY >= section.scrollPosYTop &&
+        scrollY <= section.scrollPosYBottom
+      ) {
         headerLinks.current?.forEach((link) => {
-
-          if (link.getAttribute('href') == section.id) {
-            link.classList.add('active');
+          if (link.getAttribute("href") == section.id) {
+            link.classList.add("active");
           } else {
-            link.classList.remove('active');
+            link.classList.remove("active");
           }
-        })
+        });
       }
-    })
-
+    });
   }
 
   useEffect(() => {
-    headerLinks.current = document.querySelectorAll('.linksScroll');
+    headerLinks.current = document.querySelectorAll(".linksScroll");
 
-    sections.current = document.querySelectorAll('.principalSections');
+    sections.current = document.querySelectorAll(".principalSections");
 
     sections.current?.forEach((section) => {
       if (section instanceof HTMLElement) {
-        scrollPosSections.current.push({ scrollPosYTop: section.offsetTop - 400, scrollPosYBottom: section.offsetTop + section.offsetHeight, id: `#${section.id}` })
+        scrollPosSections.current.push({
+          scrollPosYTop: section.offsetTop - 400,
+          scrollPosYBottom: section.offsetTop + section.offsetHeight,
+          id: `#${section.id}`,
+        });
       }
     });
 
     scrollActiveSection();
-  }, [])
+  }, []);
 
   window.addEventListener("scroll", scrollActiveSection);
 
@@ -66,18 +72,35 @@ export default function Main() {
   return (
     <>
       <Header />
+
       <main>
         <PrincipalSection />
+
         <InfoSection />
+
         <Technologies />
+
         <ProjectsSection />
+
         <AchievementsSection />
+
         <WorksSection />
+
         <ContactSection />
-        <div className={`fixedUpButton${showScrollBtn ? ' fixedUpShow' : ''}`} onClick={() => scrollToTop()}>
-          <img src="/images/arrowUpMini.svg" alt={translateI18n("general.arrowToBeginning")} width="31px" height="20px" />
+
+        <div
+          className={`fixedUpButton${showScrollBtn ? " fixedUpShow" : ""}`}
+          onClick={() => scrollToTop()}
+        >
+          <img
+            src="/images/arrowUpMini.svg"
+            alt={translateI18n("general.arrowToBeginning")}
+            width="31px"
+            height="20px"
+          />
         </div>
       </main>
+
       <Footer />
     </>
   );

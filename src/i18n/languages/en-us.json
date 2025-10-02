@@ -28,7 +28,7 @@
     },
     "mainPage": {
       "nameSection": {
-        "mobileDeveloper": "Mobile Developer",
+        "developer": "Mobile and Front-end Developer",
         "arrowDown": "Arrow to go to the section below"
       },
       "aboutSection": {

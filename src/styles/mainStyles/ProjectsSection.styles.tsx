@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Variables } from "../CustomVariables";
-import { HorizontalPadding } from "../GlobalStyle";
+import { HorizontalPadding, MaxWidthCapsule } from "../GlobalStyle";
 
 export const Projects = styled.section`
   background-color: ${Variables.black};
@@ -25,9 +25,6 @@ export const Projects = styled.section`
 
     ${HorizontalPadding} {
       position: relative;
-      display: flex;
-      justify-content: center;
-      width: 100%;
 
       &:not(:last-child)::after {
         content: "";
@@ -38,7 +35,11 @@ export const Projects = styled.section`
         bottom: calc(0px - (var(--gap) / 2) - 4px);
         width: 100%;
         height: 6px;
-        background: linear-gradient(to right, ${Variables.white}, ${Variables.red});
+        background: linear-gradient(
+          to right,
+          ${Variables.white},
+          ${Variables.red}
+        );
       }
 
       .cardsDiv {
@@ -50,16 +51,18 @@ export const Projects = styled.section`
         position: relative;
         z-index: 0;
         background-color: ${Variables.white};
+        margin: 0 auto;
 
-        .divImg, .cardsImg{
+        .divImg,
+        .cardsImg {
           border-radius: 10px;
         }
 
-        .divImg  {
+        .divImg {
           width: 100%;
           height: auto;
-        
-          .statusProject{
+
+          .statusProject {
             position: absolute;
             z-index: 2;
             top: 10px;
@@ -70,17 +73,17 @@ export const Projects = styled.section`
             background-color: ${Variables.green};
             color: ${Variables.white};
 
-            &.developmentStatusProject{
-            background-color: ${Variables.orange};
-
+            &.developmentStatusProject {
+              background-color: ${Variables.orange};
             }
           }
 
-          .statusProject, .cardsImg{
+          .statusProject,
+          .cardsImg {
             box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
           }
 
-          .cardsImg{
+          .cardsImg {
             width: 100%;
             height: 100%;
           }
@@ -89,11 +92,12 @@ export const Projects = styled.section`
         .infoCard {
           width: 100%;
 
-          h3{ 
+          h3 {
             margin-top: 25px;
           }
 
-          h3, h4 {
+          h3,
+          h4 {
             color: ${Variables.black};
           }
 
@@ -101,15 +105,16 @@ export const Projects = styled.section`
             margin: 5px 0 20px;
           }
 
-          > p, .cardsChallenges li {
+          > p,
+          .cardsChallenges li {
             color: ${Variables.gray};
             text-align: justify;
           }
 
           .cardsChallenges {
             margin-bottom: 20px;
-            
-            ul{
+
+            ul {
               display: flex;
               flex-direction: column;
               gap: 4px;
@@ -122,29 +127,29 @@ export const Projects = styled.section`
 
           .cardsTech {
             display: flex;
-            gap: 34px;
+            gap: 20px 34px;
             flex-grow: 1;
-            overflow-x: auto;
+            flex-wrap: wrap;
             margin-bottom: 50px;
 
-            div{
+            div {
               width: 30px;
               padding: 1px;
 
-              img{
+              img {
                 max-height: 30px;
               }
 
-              p{
+              p {
                 font-size: 0.55rem;
               }
             }
           }
 
           .cardsLinks {
-
-            a, path{
-              transition: all ease-in-out .2s;
+            a,
+            path {
+              transition: all ease-in-out 0.2s;
             }
 
             display: flex;
@@ -167,21 +172,22 @@ export const Projects = styled.section`
               }
             }
 
-            .cardsLinksRight{
+            .cardsLinksRight {
               display: flex;
               margin-left: auto;
               gap: 15px;
               align-items: center;
             }
 
-            .figmaIcon, .githubIcon, .policyIcon{
-
+            .figmaIcon,
+            .githubIcon,
+            .policyIcon {
               path {
                 fill: ${Variables.black};
                 transition: 0.2s ease -in -out;
               }
 
-              svg{
+              svg {
                 height: 38px;
               }
 
@@ -206,7 +212,7 @@ export const Projects = styled.section`
 
     .cards {
       --gap: 120px;
-      
+
       ${HorizontalPadding} {
         .cardsDiv {
           display: flex;
@@ -218,7 +224,7 @@ export const Projects = styled.section`
           gap: 35px;
 
           .divImg {
-            .statusProject{
+            .statusProject {
               top: 15px;
               left: 15px;
             }
@@ -229,7 +235,7 @@ export const Projects = styled.section`
               position: relative;
               z-index: 1;
             }
-        }
+          }
 
           .infoCard {
             display: flex;
@@ -237,7 +243,7 @@ export const Projects = styled.section`
             height: 96%;
             border-radius: 0 10px 10px 0;
 
-            h3{
+            h3 {
               margin: 0;
             }
 

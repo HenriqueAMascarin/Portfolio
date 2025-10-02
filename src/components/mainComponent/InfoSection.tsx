@@ -34,8 +34,8 @@ export default function InfoSection() {
                 <div className="textInfo">
                   {Object.keys(
                     enUsLanguageJson.translation.mainPage.aboutSection.aboutList
-                  ).map((info) => (
-                    <p>
+                  ).map((info, itemKey) => (
+                    <p key={itemKey}>
                       {translateI18n(`mainPage.aboutSection.aboutList.${info}`)}
                     </p>
                   ))}
