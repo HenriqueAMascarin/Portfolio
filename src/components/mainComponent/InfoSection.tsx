@@ -5,8 +5,8 @@ import {
   VerticalPadding,
 } from "../../styles/GlobalStyle";
 import { Info } from "../../styles/mainStyles/Info.styles";
-import HenriqueCurriculum from "/resumes/HenriqueCurriculum.pdf";
-import CurrículoHenrique from "/resumes/CurriculoHenrique.pdf";
+import HenriqueMascarin_ReactNativeDeveloper from "/resumes/HenriqueMascarin_ReactNativeDeveloper.pdf";
+import HenriqueMascarin_DesenvolvedorReactNative from "/resumes/HenriqueMascarin_DesenvolvedorReactNative.pdf";
 import translateI18n from "../../utils/translateI18n";
 import { useTranslation } from "react-i18next";
 import enUsLanguageJson from "../../i18n/languages/en-us.json";
@@ -80,8 +80,8 @@ export default function InfoSection() {
                   <a
                     href={
                       i18n.language == "pt-BR"
-                        ? CurrículoHenrique
-                        : HenriqueCurriculum
+                        ? HenriqueMascarin_DesenvolvedorReactNative
+                        : HenriqueMascarin_ReactNativeDeveloper
                     }
                     download
                     className="infoResume"
