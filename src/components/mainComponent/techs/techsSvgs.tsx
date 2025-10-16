@@ -28,7 +28,7 @@ export const TailwindSvg = () => createIcon(tailwindCSSLogo, 'Tailwind CSS');
 export const PiniaSvg = () => createIcon(piniaLogo, 'Pinia');
 export const VueSvg = () => createIcon(vueLogo, 'Vue');
 export const ReduxSvg = () => createIcon(reduxLogo, 'Redux');
-export const ReactNativeSvg = () => createIcon(reactNativeLogo, 'React Native');
+export const ReactNativeSvg = () => createIcon(reactNativeLogo, 'React Native CLI');
 export const ReactSvg = () => createIcon(reactLogo, 'React');
 export const TypeScriptSvg = () => createIcon(typeScriptLogo, 'TypeScript');
 export const SassSvg = () => createIcon(sassLogo, 'Sass');

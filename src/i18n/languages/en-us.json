@@ -34,9 +34,7 @@
       "aboutSection": {
         "title": "About",
         "aboutList": [
-          "A developer with over three years of programming experience, my career began in front-end development and is currently focused on mobile development with React Native. I'm the founder of my own company, published the Media Timer app on Google Play, and am developing the fictional e-commerce app Star T-Shirts as a showcase project.",
-          "My solid foundation in front-end technology directly contributes to the quality of my mobile projects, applying best practices in accessibility, clean code, and UX/UI design. I'm currently working on the SG Master Web system, which is used by thousands of clients.",
-          "I have solid experience with React.js, the core technology behind my websites, which follow semantic HTML best practices. Finally, I have knowledge of Next.js and styling technologies such as Sass, Styled Components, and Tailwind CSS."
+          "Mid-level Front-end developer, specialized in React.js and Vue.js. I transform forgotten, ugly, or confusing interfaces into striking visual experiences. Increased the flexibility for SG Master Web by 100%, with permissions control and tax configuration of merchant acquirers. Optimized production deployments and build testing by 80% through CI/CD automation for the Media Timer app. With this background, I seek to generate impact in mobile development with React Native."
         ],
         "curriculum": "Curriculum"
       },
@@ -53,7 +51,7 @@
         "projects": {
           "StarTShirts": {
             "title": "Star T-Shirts",
-            "about": "Fictitious e-commerce application, exclusively for t-shirts.",
+            "about": "A fictional e-commerce app, built to showcase expertise in modern mobile technologies.",
             "challengesList": [
               "I noticed on the product preview page, with the option to view the shirt in 3D, and, as an added bonus, it changes the color if you have selected another one.",
               "I didn't depend on third-party libraries, with a native Kotlin module to show the splash screen when it finishes initializing the entire application with its complete data.",
@@ -66,13 +64,13 @@
             "title": "Media Timer",
             "about": "Timer app with sounds from your device, published on Google Play.",
             "challengesList": [
-              "I solved a user's problem and left him 100% satisfied by implementing infinite scrolling of the numbers in the timer list, being able to scroll up and down infinitely.",
-              "I made pushes to production and build testing 100% faster by implementing CI/CD automations (GitHub Actions and EAS Expo) that trigger when a release or commit is pushed to the main branch.",
-              "I added a differentiator for users by implementing the ability to select sounds from your cell phone and see the most recent ones in a history in the app.",
-              "I increased availability for users in other countries by 100% with the implementation of English/US and Portuguese/BR languages with a Context API that uses i18next.",
+              "Solved a user's problem and left him 100% satisfied by implementing infinite scrolling of the numbers in the timer list, being able to scroll up and down infinitely.",
+              "Optimized production deployments and build testing by 80% through CI/CD automation (GitHub Actions and EAS Expo) for the Media Timer app.",
+              "Added a differentiator for users by implementing the ability to select sounds from your cell phone and see the most recent ones in a history in the app.",
+              "Increased availability for users in other countries by 100% with the implementation of English/US and Portuguese/BR languages with a Context API that uses i18next.",
               "I've pleased many users by making it possible to switch themes to dark or white, with a Context API to manage that state.",
-              "I improved the app's versatility, with the timer running in the background, and, if you remove the app's notification, it turns off the timer.",
-              "I resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues.",
+              "Improved the app's versatility, with the timer running in the background, and, if you remove the app's notification, it turns off the timer.",
+              "Resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues.",
               "I was able to bring more security to users by creating the Media Timer app's privacy policy.",
               "To prevent copying, I have created a copyright license for the Media Timer app."
             ]

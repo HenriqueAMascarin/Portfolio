@@ -34,9 +34,7 @@
       "aboutSection": {
         "title": "Sobre",
         "aboutList": [
-          "Desenvolvedor com mais de 3 anos de experiência na programação, tendo sua trajetória iniciada em Front-end e atualmente focada em desenvolvimento mobile com React Native. Sou fundador da minha empresa, publiquei o aplicativo Media Timer na Google Play e estou desenvolvendo o aplicativo fictício de e-commerce Star T-Shirts como projeto de apresentação.",
-          "Minha base sólida em Front-end contribui diretamente para a qualidade dos meus projetos mobile, aplicando boas práticas de acessibilidade, código limpo e design UX/UI. Como destaque, atualmente atuo no sistema SG Master Web, utilizado por milhares de clientes.",
-          "Tenho experiência sólida com React.js, principal tecnologia dos meus sites que seguem boas práticas de HTML semântico. Por fim, possuo conhecimento em Next.js e tecnologias de estilização como Sass, Styled Components e Tailwind CSS."
+          "Desenvolvedor Front-end Pleno, especializado em React.js e Vue.js. Transformo interfaces esquecidas, feias ou confusas em experiências visuais marcantes. Aumentei a flexibilidade do SG Master Web em 100% com o controle das permissões e configuração das taxas por credenciadoras. Otimizei os envios para produção e os testes de compilação em 80%, utilizando automações com CI/CD para o aplicativo Media Timer. Com essa bagagem, busco gerar impacto no desenvolvimento mobile com React Native."
         ],
         "curriculum": "Currículo"
       },
@@ -53,7 +51,7 @@
         "projects": {
           "StarTShirts": {
             "title": "Star T-Shirts",
-            "about": "Aplicativo fictício de e-commerce, exclusivo para camisetas.",
+            "about": "Aplicativo fictício de e-commerce, desenvolvido para demonstrar domínio técnico em tecnologias modernas do mercado mobile.",
             "challengesList": [
               "Chamei atenção na página de visualização de produto, com a opção de visualizar a camiseta em 3D e, como um adicional, ela muda a cor caso você tenha selecionado outra.",
               "Não dependi de bibliotecas terceiras, com um módulo nativo em Kotlin para mostrar a tela inicial quando termina de inicializar todo o aplicativo com seus dados completos.",
@@ -67,7 +65,7 @@
             "about": "Aplicativo temporizador com sons do seu dispositivo, publicado na Google Play.",
             "challengesList": [
               "Resolvi o problema de um usuário e deixei-o satisfeito em 100%, ao implementar a rolagem infinita dos números na lista do temporizador, podendo rolar para cima e para baixo infinitamente.",
-              "Deixei os envios para a produção e testes de build 100% mais rápidos, ao implementar automações com CI/CD (GitHub Actions e EAS Expo) que acionam quando se envia uma release ou commit na branch main.",
+              "Otimizei os envios para produção e os testes de compilação em 80%, utilizando automações com CI/CD (GitHub Actions e EAS Expo) para o aplicativo Media Timer.",
               "Adicionei um diferencial aos usuários, ao implementar a possibilidade de selecionar sons do seu celular e ver os mais recentes em um histórico no aplicativo.",
               "Aumentei a disponibilidade para usuários de outros países em 100%, com a implementação de idiomas em inglês/US e português/BR com Context API que utiliza i18next.",
               "Agradei diferentes usuários ao possibilitar a troca de temas para escuro ou branco, com uma Context API para gerenciar esse estado.",
