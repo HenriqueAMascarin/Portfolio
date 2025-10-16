@@ -192,9 +192,9 @@
             "about": "Atuo como fundador e desenvolvedor do aplicativo Media Timer, temporizador com sons do seu dispositivo, publicado na Google Play.",
             "challengesList": [
               "Resolvi o problema de um usuário e deixei-o satisfeito em 100%, ao implementar a rolagem infinita dos números na lista do temporizador, podendo rolar para cima e para baixo infinitamente.",
-              "Deixei os envios para a produção e testes de build 100% mais rápidos, ao implementar automações com CI/CD (GitHub Actions e EAS Expo) que acionam quando se envia uma release ou commit na branch main.",
+              "Otimizei os envios para produção e os testes de compilação em 80%, utilizando automações com CI/CD (GitHub Actions e EAS Expo) para o aplicativo Media Timer.",
               "Adicionei um diferencial aos usuários, ao implementar a possibilidade de selecionar sons do seu celular e ver os mais recentes em um histórico no aplicativo.",
-              "Aumentei a disponibilidade para usuários de outros países em 100%, com a implementação de idiomas em inglês/US e português/BR com Context API que utiliza i18next.",
+              "Internacionalizei o aplicativo Media Timer, com a implementação de idiomas em inglês/US e português/BR com Context API que utiliza i18next.",
               "Agradei diferentes usuários ao possibilitar a troca de temas para escuro ou branco, com uma Context API para gerenciar esse estado.",
               "Melhorei a versatilidade do aplicativo, com o funcionamento do temporizador em segundo plano e, caso remova a notificação do aplicativo, ele desliga o temporizador.",
               "Resolvi os requisitos da Google Play, ao atualizar a versão do Expo e React Native para a mais nova. Após isso, corrigi problemas de incompatibilidades com bibliotecas.",

@@ -177,12 +177,12 @@
             "timeCompany": "July/2023 - Present",
             "about": "I work on the development of the SG Master Web system, a business management platform with thousands of active clients.",
             "challengesList": [
-              "I optimized user management across the SG Master Web system by implementing table-based permission control, enabling specific role assignments, and eliminating the risk of unauthorized access. For example, one user may have permission to register a sale, while another may not.",
-              "I made it 100% easier to set up fees for each acquirer, allowing you to register fees by each acquirer's brand. I then refactored the sales flow to select these acquirers. After paying for the sale, the installments are recorded in the finance department on the card reconciliation page, allowing you to cancel, reconcile, and view the installment.",
-              "I achieved 100% approval from product managers regarding the front-end design of the SG Master Web system. I sought to customize the design of Quasar's pre-built components using CSS and used the DevTools inspector to identify which classes needed to be modified, making the design different from the framework's default.",
+              "Optimized user management across the SG Master Web system by implementing table-based permission control, enabling specific role assignments, and eliminating the risk of unauthorized access. For example, one user may have permission to register a sale, while another may not.",
+              "Made it 100% easier to set up fees for each acquirer, allowing you to register fees by each acquirer's brand. I then refactored the sales flow to select these acquirers. After paying for the sale, the installments are recorded in the finance department on the card reconciliation page, allowing you to cancel, reconcile, and view the installment.",
+              "Achieved 100% approval from product managers regarding the front-end design of the SG Master Web system. I sought to customize the design of Quasar's pre-built components using CSS and used the DevTools inspector to identify which classes needed to be modified, making the design different from the framework's default.",
               "I've left my customers satisfied after implementing email sending for invoices. I added a new email sending settings block to each sales module, where you can configure SMTP sending data, automated sending on issue, and the footer from a WYSIWYG editor.",
-              "I saved time and effort on new implementations, being able to streamline many of the new workflows by creating sketches in Figma that aligned the ideas of the people responsible.",
-              "I drew customers attention to the SG Master Web system by creating a landing page containing all the necessary information, such as plans, services, management, and registration of their companies.",
+              "Saved time and effort on new implementations, being able to streamline many of the new workflows by creating sketches in Figma that aligned the ideas of the people responsible.",
+              "Drew customers attention to the SG Master Web system by creating a landing page containing all the necessary information, such as plans, services, management, and registration of their companies.",
               "Reviewing practical tests for new talent, providing code review, and helping others when they need it."
             ]
           },
@@ -191,14 +191,14 @@
             "timeCompany": "April/2023 - Present",
             "about": "I am the founder and developer of the Media Timer app, a timer with sounds from your device, published on Google Play.",
             "challengesList": [
-              "I solved a user's problem and left him 100% satisfied by implementing infinite scrolling of the numbers in the timer list, being able to scroll up and down infinitely.",
-              "I made pushes to production and build testing 100% faster by implementing CI/CD automations (GitHub Actions and EAS Expo) that trigger when a release or commit is pushed to the main branch.",
-              "I added a differentiator for users by implementing the ability to select sounds from your cell phone and see the most recent ones in a history in the app.",
-              "I increased availability for users in other countries by 100% with the implementation of English/US and Portuguese/BR languages with a Context API that uses i18next.",
+              "Solved a user's problem and left him 100% satisfied by implementing infinite scrolling of the numbers in the timer list, being able to scroll up and down infinitely.",
+              "Optimized production deployments and build testing by 80% through CI/CD automation (GitHub Actions and EAS Expo) for the Media Timer app.",
+              "Added a differentiator for users by implementing the ability to select sounds from your cell phone and see the most recent ones in a history in the app.",
+              "Internationalized the Media Timer app, implementing English/US and Portuguese/BR languages with a Context API that uses i18next.",
               "I've pleased many users by making it possible to switch themes to dark or white, with a Context API to manage that state.",
-              "I improved the app's versatility, with the timer running in the background, and, if you remove the app's notification, it turns off the timer.",
-              "I resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues.",
-              "I was able to bring more security to users by creating the Media Timer app's privacy policy.",
+              "Improved the app's versatility, with the timer running in the background, and, if you remove the app's notification, it turns off the timer.",
+              "Resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues.",
+              "Was able to bring more security to users by creating the Media Timer app's privacy policy.",
               "To prevent copying, I have created a copyright license for the Media Timer app.",
               "To attract attention, I marketed the apps on the company's LinkedIn."
             ]
