@@ -6,7 +6,7 @@ import {
 } from "../../styles/GlobalStyle";
 import { Info } from "../../styles/mainStyles/Info.styles";
 import HenriqueMascarin_ReactNativeDeveloper from "/resumes/HenriqueMascarin_ReactNativeDeveloper.pdf";
-import HenriqueMascarin_DesenvolvedorReactNative from "/resumes/HenriqueMascarin_DesenvolvedorReactNative.pdf";
+import HenriqueMascarin_DesenvolvedorMobile from "/resumes/HenriqueMascarin_DesenvolvedorMobile.pdf";
 import translateI18n from "../../utils/translateI18n";
 import { useTranslation } from "react-i18next";
 import enUsLanguageJson from "../../i18n/languages/en-us.json";
@@ -80,7 +80,7 @@ export default function InfoSection() {
                   <a
                     href={
                       i18n.language == "pt-BR"
-                        ? HenriqueMascarin_DesenvolvedorReactNative
+                        ? HenriqueMascarin_DesenvolvedorMobile
                         : HenriqueMascarin_ReactNativeDeveloper
                     }
                     download
