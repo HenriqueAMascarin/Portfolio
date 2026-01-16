@@ -53,7 +53,7 @@ export default function PolicyMediaTimer() {
                       "policyMediaTimer.dataCollected.permissionsParagraph"
                     )}{" "}
                     <a
-                      href="https://github.com/HenriqueAMascarin/MediaTimer/blob/main/android/app/src/main/AndroidManifest.xml#L2-L7"
+                      href="https://github.com/HenriqueAMascarin/MediaTimer/blob/main/android/app/src/main/AndroidManifest.xml"
                       target="_blank"
                     >
                       AndroidManifest.xml
