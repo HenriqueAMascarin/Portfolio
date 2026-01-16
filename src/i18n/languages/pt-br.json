@@ -237,8 +237,8 @@
           "notificationsReason": "Utilizado para mostrar as notificações do aplicativo, quando está executando o temporizador.",
           "historyArchiveReason": "Utilizado para encontrar o local do arquivo selecionado na aba de histórico.",
           "configureAudioReason": "Utilizado com a tecnologia EXPO AUDIO, para configurar os áudios usados no aplicativo.",
-          "toBeExcluded": "Serão removidos na próxima atualização.",
-          "backgroundTimer": "Utilizados para executar o temporizador do aplicativo em segundo plano."
+          "backgroundTimer": "Utilizados para executar o temporizador do aplicativo em segundo plano.",
+          "toBeExcluded": "Serão removidos na próxima atualização."
         },
         "contact": "Caso tenha visto alguma permissão que não esteja listada aqui ou sobre qualquer dúvida de segurança, se sinta livre em mandar uma mensagem ao e-mail:"
       }

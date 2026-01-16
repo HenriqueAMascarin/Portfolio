@@ -142,6 +142,21 @@ export default function PolicyMediaTimer() {
 
                     <div>
                       <div>
+                        <p>android.permission.FOREGROUND_SERVICE</p>
+                        <p>android.permission.WAKE_LOCK</p>
+                      </div>
+
+                      <div>
+                        <p>
+                          {translateI18n(
+                            "policyMediaTimer.permissionsList.reasons.backgroundTimer"
+                          )}
+                        </p>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
                         <p>android.permission.INTERNET</p>
                         <p>android.permission.VIBRATE</p>
                         <p>android.permission.RECORD_AUDIO</p>
@@ -151,21 +166,6 @@ export default function PolicyMediaTimer() {
                         <p>
                           {translateI18n(
                             "policyMediaTimer.permissionsList.reasons.toBeExcluded"
-                          )}
-                        </p>
-                      </div>
-                    </div>
-
-                    <div>
-                      <div>
-                        <p>android.permission.FOREGROUND_SERVICE</p>
-                        <p>android.permission.WAKE_LOCK</p>
-                      </div>
-
-                      <div>
-                        <p>
-                          {translateI18n(
-                            "policyMediaTimer.permissionsList.reasons.backgroundTimer"
                           )}
                         </p>
                       </div>

@@ -237,8 +237,8 @@
           "notificationsReason": "Used to show application notifications when the timer is running.",
           "historyArchiveReason": "Used to find the location of the file selected in the tab of history.",
           "configureAudioReason": "Used with EXPO AUDIO technology, to configure the audios used in the app.",
-          "toBeExcluded": "They will be removed in the next update.",
-          "backgroundTimer": "Used to run the app’s timer in the background."
+          "backgroundTimer": "Used to run the app’s timer in the background.",
+          "toBeExcluded": "They will be removed in the next update."
         },
         "contact": "If you see some permissions that are not listed here or have any security questions, feel free to send a message to the email:"
       }
