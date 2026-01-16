@@ -233,11 +233,12 @@
         "permission": "Permission",
         "necessary": "Why is it necessary",
         "reasons": {
-          "adReason": "Used to display the bottom ad on the main screen.",
           "storageReason": "Used to read audios that the person selects from their device or that are saved in the history.",
           "notificationsReason": "Used to show application notifications when the timer is running.",
           "historyArchiveReason": "Used to find the location of the file selected in the tab of history.",
-          "configureAudioReason": "Used with EXPO AV technology, to configure the audios used in the app."
+          "configureAudioReason": "Used with EXPO AUDIO technology, to configure the audios used in the app.",
+          "toBeExcluded": "They will be removed in the next update.",
+          "backgroundTimer": "Used to run the app’s timer in the background."
         },
         "contact": "If you see some permissions that are not listed here or have any security questions, feel free to send a message to the email:"
       }
