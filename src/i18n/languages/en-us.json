@@ -225,7 +225,7 @@
         "subtitle": "This is a timer app developed by the company Henrique Mascarin."
       },
       "dataCollected": {
-        "title": "Data collected by the App",
+        "title": "Data collected by the app",
         "declaration": "No data is collected. Everything provided like file data, audio history, and theme settings are all kept inside the app.",
         "permissionsParagraph": "The list of permissions listed below are found here on the"
       },
