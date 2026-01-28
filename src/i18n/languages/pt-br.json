@@ -34,7 +34,7 @@
       "aboutSection": {
         "title": "Sobre",
         "aboutList": [
-          "Desenvolvedor Front-end Pleno, especializado em React.js e Vue.js. Transformo interfaces esquecidas, feias ou confusas em experiências visuais marcantes. Aumentei a flexibilidade do SG Master Web em 100% com o controle das permissões e configuração das taxas por credenciadoras. Otimizei os envios para produção e os testes de compilação em 80%, utilizando automações com CI/CD para o aplicativo Media Timer. Com essa bagagem, busco gerar impacto no desenvolvimento mobile com React Native."
+          "Desenvolvedor Front-end Pleno, especializado em React Native, React.js e Vue.js. Transformando projetos desafiadores em soluções marcantes orientadas ao cliente, com toque especial de design UX/UI. Aumentei a flexibilidade do SG Master Web em 100% com o controle das permissões e a configuração das taxas por credenciadoras. Melhorei o desempenho do aplicativo Media Timer em 100%, ao recriar toda a lógica engessada das ações do temporizador e com melhorias gerais no aplicativo. Com essa bagagem, busco gerar impacto no desenvolvimento mobile com React Native."
         ],
         "curriculum": "Currículo"
       },
@@ -64,15 +64,14 @@
             "title": "Media Timer",
             "about": "Aplicativo temporizador com sons do seu dispositivo, publicado na Google Play.",
             "challengesList": [
+              "Melhorei o desempenho do aplicativo Media Timer em 100%, ao recriar toda a lógica engessada das ações do temporizador. Também otimizei as listas infinitas de números, além de outros detalhes, utilizando Memo, useMemo e useCallback.",
               "Resolvi o problema de um usuário e deixei-o satisfeito em 100%, ao implementar a rolagem infinita dos números na lista do temporizador, podendo rolar para cima e para baixo infinitamente.",
               "Otimizei os envios para produção e os testes de compilação em 80%, utilizando automações com CI/CD (GitHub Actions e EAS Expo) para o aplicativo Media Timer.",
               "Adicionei um diferencial aos usuários, ao implementar a possibilidade de selecionar sons do seu celular e ver os mais recentes em um histórico no aplicativo.",
-              "Aumentei a disponibilidade para usuários de outros países em 100%, com a implementação de idiomas em inglês/US e português/BR com Context API que utiliza i18next.",
+              "Internacionalizei o aplicativo Media Timer, com a implementação de idiomas em inglês/US e português/BR com Context API que utiliza i18next.",
               "Agradei diferentes usuários ao possibilitar a troca de temas para escuro ou branco, com uma Context API para gerenciar esse estado.",
               "Melhorei a versatilidade do aplicativo, com o funcionamento do temporizador em segundo plano e, caso remova a notificação do aplicativo, ele desliga o temporizador.",
-              "Resolvi os requisitos da Google Play, ao atualizar a versão do Expo e React Native para a mais nova. Após isso, corrigi problemas de incompatibilidades com bibliotecas.",
-              "Consegui trazer mais segurança aos usuários ao criar a política de privacidade do aplicativo Media Timer.",
-              "Para evitar cópias, criei uma licença de copyright para o aplicativo Media Timer."
+              "Resolvi os requisitos da Google Play, ao atualizar a versão do Expo e React Native para a mais nova. Após isso, corrigi problemas de incompatibilidades com bibliotecas."
             ]
           },
           "BobsCarDealer": {
@@ -177,14 +176,14 @@
             "timeCompany": "Julho/2023 - Presente",
             "about": "Atuo no desenvolvimento do sistema SG Master Web, plataforma de gestão empresarial com milhares de clientes ativos.",
             "challengesList": [
-              "Otimizei o gerenciamento de usuários em 100% do sistema SG Master Web, implementando controle de permissões por tabela, o que viabilizou atribuições específicas por função e eliminou riscos de acesso indevido. Exemplo: um usuário pode ter permissão para cadastrar uma venda, enquanto outro não.",
-              "Facilitei a configuração de taxas por credenciadoras em 100%, com a possibilidade de cadastrar as taxas pelas bandeiras das credenciadoras. Em seguida, refatorei o fluxo de vendas para escolher essas credenciadoras e, após pagar a venda, as parcelas são registradas no financeiro na página de conciliação de cartão, sendo assim, podendo cancelar, conciliar e visualizar a parcela.",
-              "Aprovação dos stakeholders sobre o design de front-end do sistema SG Master Web, com customizações significativas em CSS para componentes do Quasar.",
-              "Eliminei gargalos críticos em tabelas grandes (+100 itens) no SG Master Web, com aumento de 100% no desempenho, graças à implementação de scroll virtual.",
-              "Deixei os clientes satisfeitos após implementar o envio de e-mail em relação às notas fiscais. Adicionei um bloco novo de configurações para envio de e-mail em cada módulo de venda, onde podem ser configurados os dados de envio SMTP, a automação de envio ao emitir e o rodapé a partir de um editor WYSIWYG.",
-              "Poupei tempo e esforço nas novas implementações, conseguindo agilizar boa parte dos fluxos novos ao criar esboços no Figma com alinhamentos das ideias do pessoal responsável.",
-              "Chamei a atenção dos clientes para o sistema SG Master Web, com a criação da landing page contendo todas as informações necessárias como planos, serviços, gerenciamento e cadastro das suas empresas.",
-              "Revisão sobre testes práticos de novos talentos, code review e auxílio aos outros quando necessitam."
+              "Otimizei o gerenciamento de usuários em 100% do sistema, implementando controle de permissões por tabela, o que viabilizou atribuições específicas por função e eliminou riscos de acesso indevido. Exemplo: um usuário pode ter permissão para cadastrar uma venda, enquanto outro não.",
+              "Facilitei a configuração das credenciadoras em 100%, com o gerenciamento de taxas nas bandeiras das credenciadoras. Em seguida, refatorei o fluxo de vendas para escolher essas credenciadoras e, após pagar a venda, as parcelas são registradas no financeiro da página de conciliação de cartão, sendo assim, podendo cancelar, conciliar e visualizar a parcela.",
+              "Aprovação dos stakeholders sobre o design de front-end do sistema, com customizações significativas em CSS para componentes do Quasar.",
+              "Eliminei gargalos críticos em tabelas grandes (+100 itens), com aumento de 100% no desempenho, graças à implementação de scroll virtual.",
+              "Deixei os clientes satisfeitos após implementar o envio de e-mail das notas fiscais. Adicionei um bloco novo de configurações para envio de e-mail em cada módulo de venda, onde podem ser configurados os dados de envio SMTP, a automação de envio ao emitir e o rodapé a partir de um editor WYSIWYG.",
+              "Poupei tempo e esforço nas novas implementações, conseguindo agilizar boa parte dos fluxos novos ao criar esboços no Figma com alinhamentos das ideias dos responsáveis.",
+              "Chamei a atenção dos clientes para o sistema, com a criação da landing page contendo todas as informações necessárias como planos, serviços, gerenciamento e cadastro das suas empresas.",
+              "Revisão sobre testes práticos de novos talentos, code review e ajudo outros desenvolvedores."
             ]
           },
           "HenriqueMascarin": {
@@ -192,16 +191,14 @@
             "timeCompany": "Abril/2023 - Presente",
             "about": "Atuo como fundador e desenvolvedor do aplicativo Media Timer, temporizador com sons do seu dispositivo, publicado na Google Play.",
             "challengesList": [
+              "Melhorei o desempenho do aplicativo Media Timer em 100%, ao recriar toda a lógica engessada das ações do temporizador. Também otimizei as listas infinitas de números, além de outros detalhes, utilizando Memo, useMemo e useCallback.",
               "Resolvi o problema de um usuário e deixei-o satisfeito em 100%, ao implementar a rolagem infinita dos números na lista do temporizador, podendo rolar para cima e para baixo infinitamente.",
               "Otimizei os envios para produção e os testes de compilação em 80%, utilizando automações com CI/CD (GitHub Actions e EAS Expo) para o aplicativo Media Timer.",
               "Adicionei um diferencial aos usuários, ao implementar a possibilidade de selecionar sons do seu celular e ver os mais recentes em um histórico no aplicativo.",
               "Internacionalizei o aplicativo Media Timer, com a implementação de idiomas em inglês/US e português/BR com Context API que utiliza i18next.",
               "Agradei diferentes usuários ao possibilitar a troca de temas para escuro ou branco, com uma Context API para gerenciar esse estado.",
               "Melhorei a versatilidade do aplicativo, com o funcionamento do temporizador em segundo plano e, caso remova a notificação do aplicativo, ele desliga o temporizador.",
-              "Resolvi os requisitos da Google Play, ao atualizar a versão do Expo e React Native para a mais nova. Após isso, corrigi problemas de incompatibilidades com bibliotecas.",
-              "Consegui trazer mais segurança aos usuários ao criar a política de privacidade do aplicativo Media Timer.",
-              "Para evitar cópias, criei uma licença de copyright para o aplicativo Media Timer.",
-              "Visando chamar a atenção, fiz o marketing sobre os aplicativos no LinkedIn da empresa."
+              "Resolvi os requisitos da Google Play, ao atualizar a versão do Expo e React Native para a mais nova. Após isso, corrigi problemas de incompatibilidades com bibliotecas."
             ]
           }
         }

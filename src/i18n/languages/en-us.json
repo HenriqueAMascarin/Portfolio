@@ -34,7 +34,7 @@
       "aboutSection": {
         "title": "About",
         "aboutList": [
-          "Mid-level Front-end developer, specialized in React.js and Vue.js. I transform forgotten, ugly, or confusing interfaces into striking visual experiences. Increased the flexibility for SG Master Web by 100%, with permissions control and tax configuration of merchant acquirers. Optimized production deployments and build testing by 80% through CI/CD automation for the Media Timer app. With this background, I seek to generate impact in mobile development with React Native."
+          "Mid-level Front-end developer, specialized in React Native, React.js, and Vue.js. Transforming challenging projects into striking customer-oriented solutions, with a special touch of UX/UI design. Increased the flexibility for SG Master Web by 100%, with permissions control and tax configuration of merchant acquirers. Improved the performance of the Media Timer app by 100% after rebuilding the rigid logic of the timer actions and with general improvements in the mobile app. With this background, I seek to generate impact in mobile development with React Native."
         ],
         "curriculum": "Curriculum"
       },
@@ -64,15 +64,14 @@
             "title": "Media Timer",
             "about": "Timer app with sounds from your device, published on Google Play.",
             "challengesList": [
+              "Improved the performance of the Media Timer app by 100% after rebuilding the rigid logic of the timer actions. I also optimized the infinite number lists, as well as other details, using Memo, useMemo, and useCallback.",
               "Solved a user's problem and left him 100% satisfied by implementing infinite scrolling of the numbers in the timer list, being able to scroll up and down infinitely.",
               "Optimized production deployments and build testing by 80% through CI/CD automation (GitHub Actions and EAS Expo) for the Media Timer app.",
               "Added a differentiator for users by implementing the ability to select sounds from your cell phone and see the most recent ones in a history in the app.",
               "Increased availability for users in other countries by 100% with the implementation of English/US and Portuguese/BR languages with a Context API that uses i18next.",
               "I've pleased many users by making it possible to switch themes to dark or white, with a Context API to manage that state.",
               "Improved the app's versatility, with the timer running in the background, and, if you remove the app's notification, it turns off the timer.",
-              "Resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues.",
-              "I was able to bring more security to users by creating the Media Timer app's privacy policy.",
-              "To prevent copying, I have created a copyright license for the Media Timer app."
+              "Resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues."
             ]
           },
           "BobsCarDealer": {
@@ -192,16 +191,14 @@
             "timeCompany": "April/2023 - Present",
             "about": "I am the founder and developer of the Media Timer app, a timer with sounds from your device, published on Google Play.",
             "challengesList": [
+              "Improved the performance of the Media Timer app by 100% after rebuilding the rigid logic of the timer actions. I also optimized the infinite number lists, as well as other details, using Memo, useMemo, and useCallback.",
               "Solved a user's problem and left him 100% satisfied by implementing infinite scrolling of the numbers in the timer list, being able to scroll up and down infinitely.",
               "Optimized production deployments and build testing by 80% through CI/CD automation (GitHub Actions and EAS Expo) for the Media Timer app.",
               "Added a differentiator for users by implementing the ability to select sounds from your cell phone and see the most recent ones in a history in the app.",
               "Internationalized the Media Timer app, implementing English/US and Portuguese/BR languages with a Context API that uses i18next.",
               "I've pleased many users by making it possible to switch themes to dark or white, with a Context API to manage that state.",
               "Improved the app's versatility, with the timer running in the background, and, if you remove the app's notification, it turns off the timer.",
-              "Resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues.",
-              "Was able to bring more security to users by creating the Media Timer app's privacy policy.",
-              "To prevent copying, I have created a copyright license for the Media Timer app.",
-              "To attract attention, I marketed the apps on the company's LinkedIn."
+              "Resolved the Google Play requirements by updating the Expo and React Native versions to the latest. After this, I fixed library incompatibility issues."
             ]
           }
         }
