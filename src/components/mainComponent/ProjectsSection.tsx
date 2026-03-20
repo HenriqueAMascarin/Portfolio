@@ -67,10 +67,10 @@ export default function ProjectsSection() {
       img: StarTShirts,
       keyNameInTranslateJson: "StarTShirts",
       title: translateI18n(
-        "mainPage.projectsSection.projects.StarTShirts.title"
+        "mainPage.projectsSection.projects.StarTShirts.title",
       ),
       about: translateI18n(
-        "mainPage.projectsSection.projects.StarTShirts.about"
+        "mainPage.projectsSection.projects.StarTShirts.about",
       ),
       technologies: [
         ReactNativeSvg,
@@ -81,7 +81,7 @@ export default function ProjectsSection() {
         reactNativeTestingLibrarySvg,
       ],
       downloadUrl:
-        "https://drive.usercontent.google.com/download?id=12nIzKjuS6h15XFeZxMPoprDts2TCNAXM&export=download&authuser=0",
+        "https://drive.usercontent.google.com/download?id=1zfcCutB2Xs8n9jsuXgZw_VLeiRT3qqN4&export=download&authuser=0",
       figma:
         "https://www.figma.com/design/mLpUBhQRfv9QpXPP34KxPt/star-t-shirts?node-id=0-1&t=HQmLZFHWEwZiQhgX-1",
       github: "https://github.com/HenriqueAMascarin/StarTShirts",
@@ -92,10 +92,10 @@ export default function ProjectsSection() {
       img: MediaTimer,
       keyNameInTranslateJson: "MediaTimer",
       title: translateI18n(
-        "mainPage.projectsSection.projects.MediaTimer.title"
+        "mainPage.projectsSection.projects.MediaTimer.title",
       ),
       about: translateI18n(
-        "mainPage.projectsSection.projects.MediaTimer.about"
+        "mainPage.projectsSection.projects.MediaTimer.about",
       ),
       technologies: [
         ExpoSvg,
@@ -117,10 +117,10 @@ export default function ProjectsSection() {
       img: Bobs,
       keyNameInTranslateJson: "BobsCarDealer",
       title: translateI18n(
-        "mainPage.projectsSection.projects.BobsCarDealer.title"
+        "mainPage.projectsSection.projects.BobsCarDealer.title",
       ),
       about: translateI18n(
-        "mainPage.projectsSection.projects.BobsCarDealer.about"
+        "mainPage.projectsSection.projects.BobsCarDealer.about",
       ),
       technologies: [NextSvg, TypeScriptSvg, TailwindSvg, FigmaSvg],
       liveLink: "https://bob-car-dealer.vercel.app/",
@@ -180,12 +180,12 @@ export default function ProjectsSection() {
       (project.challenges = Object.keys(
         enUsLanguageJson.translation.mainPage.projectsSection.projects[
           project.keyNameInTranslateJson as keyof typeof enUsLanguageJson.translation.mainPage.projectsSection.projects
-        ].challengesList
+        ].challengesList,
       ).map((keyName) =>
         translateI18n(
-          `mainPage.projectsSection.projects.${project.keyNameInTranslateJson}.challengesList.${keyName}`
-        )
-      ))
+          `mainPage.projectsSection.projects.${project.keyNameInTranslateJson}.challengesList.${keyName}`,
+        ),
+      )),
   );
 
   return (
@@ -210,7 +210,7 @@ export default function ProjectsSection() {
                             project.underDevelopment
                               ? "underDevelopment"
                               : "completed"
-                          }`
+                          }`,
                         )}
                       </p>
                       <img
@@ -232,7 +232,7 @@ export default function ProjectsSection() {
                           {project.challenges?.map(
                             (challenge, keyChallenge) => {
                               return <li key={keyChallenge}>{challenge}</li>;
-                            }
+                            },
                           )}
                         </ul>
                       </div>
@@ -257,10 +257,10 @@ export default function ProjectsSection() {
                           >
                             {project.liveLink
                               ? translateI18n(
-                                  "mainPage.projectsSection.seeTheWebSite"
+                                  "mainPage.projectsSection.seeTheWebSite",
                                 )
                               : translateI18n(
-                                  "mainPage.projectsSection.downloadTheApp"
+                                  "mainPage.projectsSection.downloadTheApp",
                                 )}
                           </a>
                         )}
@@ -280,7 +280,7 @@ export default function ProjectsSection() {
                                 xmlns="http://www.w3.org/2000/svg"
                               >
                                 <title>{`${translateI18n(
-                                  "mainPage.projectsSection.policy"
+                                  "mainPage.projectsSection.policy",
                                 )} ${project.title}`}</title>
                                 <path
                                   d="M13.125 28.5H16.875V17.1H13.125V28.5ZM15 13.3C15.5312 13.3 15.9766 13.1179 16.3359 12.7538C16.6953 12.3896 16.875 11.9383 16.875 11.4C16.875 10.8617 16.6953 10.4104 16.3359 10.0462C15.9766 9.68208 15.5312 9.5 15 9.5C14.4688 9.5 14.0234 9.68208 13.6641 10.0462C13.3047 10.4104 13.125 10.8617 13.125 11.4C13.125 11.9383 13.3047 12.3896 13.6641 12.7538C14.0234 13.1179 14.4688 13.3 15 13.3ZM15 38C10.6563 36.8917 7.07031 34.3663 4.24219 30.4238C1.41406 26.4813 0 22.1033 0 17.29V5.7L15 0L30 5.7V17.29C30 22.1033 28.5859 26.4813 25.7578 30.4238C22.9297 34.3663 19.3437 36.8917 15 38Z"
