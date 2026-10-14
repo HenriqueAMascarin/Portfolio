@@ -15,7 +15,7 @@ Portfólio que conta sobre mim, com design único e tecnologias conhecidas!
 
 ### Screenshot
 
-![](/images/screenshot.jpg)
+![](public/images/screenshot.jpg)
 
 ### O que aprendi?
 
