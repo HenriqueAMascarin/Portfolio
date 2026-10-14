@@ -28,13 +28,13 @@
     },
     "mainPage": {
       "nameSection": {
-        "developer": "Mobile and Front-end Developer",
+        "developer": "Mid-Level Mobile and Front-end Developer",
         "arrowDown": "Arrow to go to the section below"
       },
       "aboutSection": {
         "title": "About",
         "aboutList": [
-          "Mid-level Front-end developer, specialized in React Native, React.js, and Vue.js. Transforming challenging projects into striking customer-oriented solutions, with a special touch of UX/UI design. Increased the flexibility for SG Master Web by 100%, with permissions control and tax configuration of merchant acquirers. Improved the performance of the Media Timer app by 100% after rebuilding the rigid logic of the timer actions and with general improvements in the mobile app. With this background, I seek to generate impact in mobile development with React Native."
+          "Mid-level Mobile developer and Front-end developer, specialized in React Native, Expo, React.js, TypeScript and Figma. Transforming challenging projects into striking customer-oriented solutions, with a special touch of UX/UI design. Increased the flexibility for SG Master Web by 100%, with permissions control and tax configuration of merchant acquirers. Improved the performance of the Media Timer app by 100% after rebuilding the rigid logic of the timer actions and with general improvements in the mobile app. With this background, I seek to generate impact in mobile development with React Native."
         ],
         "curriculum": "Curriculum"
       },
@@ -141,6 +141,11 @@
         "fingerToZoom": "Clickable finger that opens the image in full screen",
         "moreDetails": "More details",
         "achievements": {
+          "English": {
+            "title": "EF SET English Certificate",
+            "about": "English certificate, for which I had to take several tests to achieve the result.",
+            "imageAlt": "Image of the EF SET English certificate."
+          },
           "RSTIFrontEnd": {
             "title": "RSTI Front-end Trail",
             "about": "Senac's in-person course that helped to improve design concepts, HTML semantics and CSS styling.",
@@ -172,9 +177,9 @@
         "title": "Experiences",
         "experiencesList": {
           "SGBrSistemas": {
-            "position": "Front-end Developer",
-            "timeCompany": "July/2023 - Present",
-            "about": "I work on the development of the SG Master Web system, a business management platform with thousands of active clients.",
+            "position": "Mid-Level Front-end Developer",
+            "timeCompany": "July/2023 - September/2026",
+            "about": "I worked on the development of the SG Master Web system, a business management platform with thousands of active clients.",
             "challengesList": [
               "Optimized user management across the SG Master Web system by implementing table-based permission control, enabling specific role assignments, and eliminating the risk of unauthorized access. For example, one user may have permission to register a sale, while another may not.",
               "Made it 100% easier to set up fees for each acquirer, allowing you to register fees by each acquirer's brand. I then refactored the sales flow to select these acquirers. After paying for the sale, the installments are recorded in the finance department on the card reconciliation page, allowing you to cancel, reconcile, and view the installment.",
@@ -187,7 +192,7 @@
             ]
           },
           "HenriqueMascarin": {
-            "position": "Founder and Mobile Developer",
+            "position": "Founder and Mid-Level Mobile Developer",
             "timeCompany": "April/2023 - Present",
             "about": "I am the founder and developer of the Media Timer app, a timer with sounds from your device, published on Google Play.",
             "challengesList": [

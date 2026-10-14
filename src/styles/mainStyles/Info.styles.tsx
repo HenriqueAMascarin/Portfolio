@@ -36,7 +36,7 @@ export const Info = styled.section`
     }
 
     p {
-      max-width: 500px;
+      max-width: 510px;
       text-align: justify;
     }
 

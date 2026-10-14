@@ -215,7 +215,7 @@ export const AchievementsStyle = styled.section`
     
     .containerModal{
       position: relative;
-      max-height: 500px;
+      max-height: 600px;
       max-width: 100%;
       height: 100%;
 
@@ -247,10 +247,10 @@ export const AchievementsStyle = styled.section`
         outline-offset: -1px;
 
         .imageInfo{
-          max-width: 1000px;
+          max-width: 1200px;
           min-width: fit-content;
-          height: 500px;
-          max-height: 500px;
+          height: 600px;
+          max-height: 600px;
         }
       }
     }

@@ -14,6 +14,7 @@ import htmlLogo from "/images/techIcons/htmlLogo.svg";
 import nextLogo from "/images/techIcons/nextLogo.svg";
 import jestLogo from "/images/techIcons/jestLogo.svg";
 import reactNativeTestingLibraryLogo from "/images/techIcons/reactNativeTestingLibraryLogo.webp";
+import detoxLogo from "/images/techIcons/detoxLogo.svg";
 
 function createIcon(url: string, title: string) {
     return (
@@ -39,4 +40,5 @@ export const QuasarSvg = () => createIcon(quasarLogo, 'Quasar');
 export const HtmlSvg = () => createIcon(htmlLogo, 'HTML');
 export const NextSvg = () => createIcon(nextLogo, 'Next.js');
 export const JestSvg = () => createIcon(jestLogo, 'Jest');
-export const reactNativeTestingLibrarySvg = () => createIcon(reactNativeTestingLibraryLogo, 'React Native Testing Library');
+export const ReactNativeTestingLibrarySvg = () => createIcon(reactNativeTestingLibraryLogo, 'React Native Testing Library');
+export const DetoxSvg = () => createIcon(detoxLogo, 'Detox');

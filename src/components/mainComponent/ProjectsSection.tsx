@@ -27,7 +27,8 @@ import {
   SassSvg,
   StyledComponentsSvg,
   JestSvg,
-  reactNativeTestingLibrarySvg,
+  ReactNativeTestingLibrarySvg,
+  DetoxSvg,
 } from "./techs/techsSvgs";
 import translateI18n from "../../utils/translateI18n";
 import enUsLanguageJson from "../../i18n/languages/en-us.json";
@@ -78,7 +79,8 @@ export default function ProjectsSection() {
         ReduxSvg,
         FigmaSvg,
         JestSvg,
-        reactNativeTestingLibrarySvg,
+        ReactNativeTestingLibrarySvg,
+        DetoxSvg
       ],
       downloadUrl:
         "https://drive.usercontent.google.com/download?id=1zfcCutB2Xs8n9jsuXgZw_VLeiRT3qqN4&export=download&authuser=0",

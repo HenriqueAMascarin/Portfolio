@@ -37,37 +37,37 @@ type ExperiencesArrayType = {
 export default function ExperiencesSection() {
   const experiencesArray: ExperiencesArrayType = [
     {
-      keyNameInTranslateJson: "SGBrSistemas",
-      position: translateI18n(
-        "mainPage.experiencesSection.experiencesList.SGBrSistemas.position"
-      ),
-      company: { name: "SGBr® Sistemas", url: "https://sgbr.com.br/" },
-      timeCompany: translateI18n(
-        "mainPage.experiencesSection.experiencesList.SGBrSistemas.timeCompany"
-      ),
-      about: translateI18n(
-        "mainPage.experiencesSection.experiencesList.SGBrSistemas.about"
-      ),
-      technologies: [QuasarSvg, VueSvg, PiniaSvg, TailwindSvg],
-      logo: SGBrImg,
-    },
-    {
       keyNameInTranslateJson: "HenriqueMascarin",
       position: translateI18n(
-        "mainPage.experiencesSection.experiencesList.HenriqueMascarin.position"
+        "mainPage.experiencesSection.experiencesList.HenriqueMascarin.position",
       ),
       company: {
         name: "Henrique Mascarin",
         url: "https://play.google.com/store/apps/dev?id=8770400649408057901",
       },
       timeCompany: translateI18n(
-        "mainPage.experiencesSection.experiencesList.HenriqueMascarin.timeCompany"
+        "mainPage.experiencesSection.experiencesList.HenriqueMascarin.timeCompany",
       ),
       about: translateI18n(
-        "mainPage.experiencesSection.experiencesList.HenriqueMascarin.about"
+        "mainPage.experiencesSection.experiencesList.HenriqueMascarin.about",
       ),
       technologies: [ReactNativeSvg, ExpoSvg, TypeScriptSvg, FigmaSvg],
       logo: HenriqueMascarinImg,
+    },
+    {
+      keyNameInTranslateJson: "SGBrSistemas",
+      position: translateI18n(
+        "mainPage.experiencesSection.experiencesList.SGBrSistemas.position",
+      ),
+      company: { name: "SGBr® Sistemas", url: "https://sgbr.com.br/" },
+      timeCompany: translateI18n(
+        "mainPage.experiencesSection.experiencesList.SGBrSistemas.timeCompany",
+      ),
+      about: translateI18n(
+        "mainPage.experiencesSection.experiencesList.SGBrSistemas.about",
+      ),
+      technologies: [QuasarSvg, VueSvg, PiniaSvg, TailwindSvg],
+      logo: SGBrImg,
     },
   ];
 
@@ -77,12 +77,12 @@ export default function ExperiencesSection() {
         enUsLanguageJson.translation.mainPage.experiencesSection
           .experiencesList[
           experience.keyNameInTranslateJson as keyof typeof enUsLanguageJson.translation.mainPage.experiencesSection.experiencesList
-        ].challengesList
+        ].challengesList,
       ).map((keyName) =>
         translateI18n(
-          `mainPage.experiencesSection.experiencesList.${experience.keyNameInTranslateJson}.challengesList.${keyName}`
-        )
-      ))
+          `mainPage.experiencesSection.experiencesList.${experience.keyNameInTranslateJson}.challengesList.${keyName}`,
+        ),
+      )),
   );
 
   return (
@@ -129,7 +129,7 @@ export default function ExperiencesSection() {
                                   return (
                                     <li key={keyChallenge}>{challenge}</li>
                                   );
-                                }
+                                },
                               )}
                             </ul>
                           </div>

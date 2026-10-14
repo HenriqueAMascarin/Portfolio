@@ -28,13 +28,13 @@
     },
     "mainPage": {
       "nameSection": {
-        "developer": "Desenvolvedor Mobile e Front-end",
+        "developer": "Desenvolvedor Mobile Pleno e Front-end",
         "arrowDown": "Seta para ir na seção abaixo"
       },
       "aboutSection": {
         "title": "Sobre",
         "aboutList": [
-          "Desenvolvedor Front-end Pleno, especializado em React Native, React.js e Vue.js. Transformando projetos desafiadores em soluções marcantes orientadas ao cliente, com toque especial de design UX/UI. Aumentei a flexibilidade do SG Master Web em 100% com o controle das permissões e a configuração das taxas por credenciadoras. Melhorei o desempenho do aplicativo Media Timer em 100%, ao recriar toda a lógica engessada das ações do temporizador e com melhorias gerais no aplicativo. Com essa bagagem, busco gerar impacto no desenvolvimento mobile com React Native."
+          "Desenvolvedor Mobile Pleno e Front-end, especializado em React Native, Expo, React.js, TypeScript e Figma. Transformando projetos desafiadores em soluções marcantes orientadas ao cliente, com toque especial de design UX/UI. Aumentei a flexibilidade do SG Master Web em 100% com o controle das permissões e a configuração das taxas por credenciadoras. Melhorei o desempenho do aplicativo Media Timer em 100%, ao recriar toda a lógica engessada das ações do temporizador e com melhorias gerais no aplicativo. Com essa bagagem, busco gerar impacto no desenvolvimento mobile com React Native."
         ],
         "curriculum": "Currículo"
       },
@@ -141,6 +141,11 @@
         "fingerToZoom": "Dedo clicável que abre a imagem em tela cheia",
         "moreDetails": "Mais detalhes",
         "achievements": {
+          "English": {
+            "title": "Certificado de Inglês EF SET",
+            "about": "Certificado de inglês, no qual tive que fazer diversos testes para chegar ao resultado.",
+            "imageAlt": "Imagem do certificado de inglês EF SET."
+          },
           "RSTIFrontEnd": {
             "title": "Trilha Front-end RSTI",
             "about": "Curso presencial do Senac que ajudou a aperfeiçoar os conceitos de design, semântica de HTML e estilização CSS.",
@@ -172,9 +177,9 @@
         "title": "Experiências",
         "experiencesList": {
           "SGBrSistemas": {
-            "position": "Desenvolvedor Front-end",
-            "timeCompany": "Julho/2023 - Presente",
-            "about": "Atuo no desenvolvimento do sistema SG Master Web, plataforma de gestão empresarial com milhares de clientes ativos.",
+            "position": "Desenvolvedor Front-end Pleno",
+            "timeCompany": "Julho/2023 - Setembro/2026",
+            "about": "Atuei no desenvolvimento do sistema SG Master Web, plataforma de gestão empresarial com milhares de clientes ativos.",
             "challengesList": [
               "Otimizei o gerenciamento de usuários em 100% do sistema, implementando controle de permissões por tabela, o que viabilizou atribuições específicas por função e eliminou riscos de acesso indevido. Exemplo: um usuário pode ter permissão para cadastrar uma venda, enquanto outro não.",
               "Facilitei a configuração das credenciadoras em 100%, com o gerenciamento de taxas nas bandeiras das credenciadoras. Em seguida, refatorei o fluxo de vendas para escolher essas credenciadoras e, após pagar a venda, as parcelas são registradas no financeiro da página de conciliação de cartão, sendo assim, podendo cancelar, conciliar e visualizar a parcela.",
@@ -187,7 +192,7 @@
             ]
           },
           "HenriqueMascarin": {
-            "position": "Fundador e Desenvolvedor Mobile",
+            "position": "Fundador e Desenvolvedor Mobile Pleno",
             "timeCompany": "Abril/2023 - Presente",
             "about": "Atuo como fundador e desenvolvedor do aplicativo Media Timer, temporizador com sons do seu dispositivo, publicado na Google Play.",
             "challengesList": [

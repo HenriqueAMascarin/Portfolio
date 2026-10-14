@@ -1,7 +1,7 @@
 import { TechSection } from "../../../styles/mainStyles/TechSection.styles";
 import { HorizontalPadding, LinesFlex, VerticalPadding, MaxWidthCapsule } from "../../../styles/GlobalStyle";
 import React from "react";
-import { reactNativeTestingLibrarySvg, ExpoSvg, FigmaSvg, ReactNativeSvg, PiniaSvg, QuasarSvg, ReactSvg, ReduxSvg, SassSvg, StyledComponentsSvg, TailwindSvg, TypeScriptSvg, VueSvg, NextSvg, JestSvg } from "./techsSvgs";
+import { ReactNativeTestingLibrarySvg, ExpoSvg, FigmaSvg, ReactNativeSvg, PiniaSvg, QuasarSvg, ReactSvg, ReduxSvg, SassSvg, StyledComponentsSvg, TailwindSvg, TypeScriptSvg, VueSvg, NextSvg, JestSvg, DetoxSvg } from "./techsSvgs";
 import translateI18n from "../../../utils/translateI18n";
 
 export const arrayTech: React.FC[] = [
@@ -19,7 +19,8 @@ export const arrayTech: React.FC[] = [
   StyledComponentsSvg,
   SassSvg,
   JestSvg,
-  reactNativeTestingLibrarySvg
+  ReactNativeTestingLibrarySvg,
+  DetoxSvg
 ];
 
 export default function Technologies() {
