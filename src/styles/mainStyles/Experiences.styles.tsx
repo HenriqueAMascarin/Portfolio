@@ -19,7 +19,7 @@ export const Experiences = styled.section`
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 520px;
 
     .lineExperience{
       min-width: 3px;
