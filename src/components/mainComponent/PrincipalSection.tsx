@@ -16,7 +16,7 @@ export default function PrincipalSection() {
               </span>
             </h1>
 
-            <a href="#sobre">
+            <a href="#about">
               <svg width="82" height="53" viewBox="0 0 82 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <title>{translateI18n("mainPage.nameSection.arrowDown")}</title>
                 <g filter="url(#filter0_d_213_27)">
