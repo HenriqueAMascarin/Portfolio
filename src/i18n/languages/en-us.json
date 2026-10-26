@@ -192,9 +192,9 @@
             ]
           },
           "HenriqueMascarin": {
-            "position": "Founder and Mid-Level Mobile Developer",
+            "position": "Mid-Level Mobile Developer and Founder",
             "timeCompany": "April/2023 - Present",
-            "about": "I am the founder and developer of the Media Timer app, a timer with sounds from your device, published on Google Play.",
+            "about": "I am the Mid-Level Mobile developer and founder of the Media Timer app, a timer with sounds from your device, published on Google Play.",
             "challengesList": [
               "Improved the performance of the Media Timer app by 100% after rebuilding the rigid logic of the timer actions. I also optimized the infinite number lists, as well as other details, using Memo, useMemo, and useCallback.",
               "Solved a user's problem and left him 100% satisfied by implementing infinite scrolling of the numbers in the timer list, being able to scroll up and down infinitely.",
