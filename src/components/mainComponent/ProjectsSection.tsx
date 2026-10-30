@@ -80,7 +80,7 @@ export default function ProjectsSection() {
         FigmaSvg,
         JestSvg,
         ReactNativeTestingLibrarySvg,
-        DetoxSvg
+        DetoxSvg,
       ],
       downloadUrl:
         "https://drive.usercontent.google.com/download?id=1zfcCutB2Xs8n9jsuXgZw_VLeiRT3qqN4&export=download&authuser=0",
@@ -137,7 +137,14 @@ export default function ProjectsSection() {
       keyNameInTranslateJson: "Ebooks",
       title: translateI18n("mainPage.projectsSection.projects.Ebooks.title"),
       about: translateI18n("mainPage.projectsSection.projects.Ebooks.about"),
-      technologies: [VueSvg, PiniaSvg, TailwindSvg, HtmlSvg, FigmaSvg],
+      technologies: [
+        VueSvg,
+        TypeScriptSvg,
+        PiniaSvg,
+        TailwindSvg,
+        HtmlSvg,
+        FigmaSvg,
+      ],
       liveLink: "https://e-books-web.vercel.app",
       figma:
         "https://www.figma.com/design/GrGuOJvXLsZbMAGJY7DkIS/e-books?t=2WIleknFjgiShuOE-1",
